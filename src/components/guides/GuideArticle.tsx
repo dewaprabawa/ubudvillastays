@@ -48,12 +48,49 @@ export function GuideArticle({ guide }: { guide: Guide }) {
           </ol>
         </nav>
 
+        {guide.gallery?.length ? (
+          <div className={styles.gallery} aria-label="Experience photos">
+            {guide.gallery.map((figure) => (
+              <figure key={figure.src} className={styles.galleryItem}>
+                <div className={styles.galleryMedia}>
+                  <Image
+                    src={figure.src}
+                    alt={figure.alt}
+                    fill
+                    sizes="(max-width: 800px) 100vw, 33vw"
+                    style={{ objectFit: "cover" }}
+                  />
+                </div>
+                {figure.caption ? (
+                  <figcaption>{figure.caption}</figcaption>
+                ) : null}
+              </figure>
+            ))}
+          </div>
+        ) : null}
+
         {guide.sections.map((section) => (
           <section key={section.heading} className={styles.section}>
             <h2>{section.heading}</h2>
             {section.paragraphs.map((paragraph) => (
               <p key={paragraph.slice(0, 48)}>{paragraph}</p>
             ))}
+            {section.image ? (
+              <figure className={styles.inlineFigure}>
+                <div className={styles.inlineMedia}>
+                  <Image
+                    src={section.image.src}
+                    alt={section.image.alt}
+                    fill
+                    sizes="(max-width: 800px) 100vw, 760px"
+                    style={{ objectFit: "cover" }}
+                  />
+                </div>
+                {section.image.caption ? (
+                  <figcaption>{section.image.caption}</figcaption>
+                ) : null}
+              </figure>
+            ) : null}
             {section.bullets ? (
               <ul>
                 {section.bullets.map((item) => (

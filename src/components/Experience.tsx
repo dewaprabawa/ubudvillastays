@@ -6,6 +6,7 @@ import styles from "./Experience.module.css";
 
 export function Experience() {
   const { experience, location } = siteConfig;
+  const [market, kecak, forest] = experience.gallery;
 
   return (
     <section
@@ -54,20 +55,41 @@ export function Experience() {
           </p>
         </div>
 
-        <figure className={styles.media}>
-          <Image
-            src="/images/marketing/kecak-dance-ubud.jpg"
-            alt="Kecak dance performance at a temple near Ubud, Bali"
-            width={1800}
-            height={1570}
-            sizes="(max-width: 900px) 100vw, 48vw"
-            className={styles.image}
-            priority={false}
-          />
-          <figcaption>
-            Kecak at a temple near Ubud — culture within reach of Tirta Tawar.
-          </figcaption>
-        </figure>
+        <div className={styles.gallery} aria-label="Ubud experiences nearby">
+          <figure className={`${styles.shot} ${styles.feature}`}>
+            <Image
+              src={kecak.src}
+              alt={kecak.alt}
+              width={kecak.width}
+              height={kecak.height}
+              sizes="(max-width: 900px) 100vw, 48vw"
+              className={styles.image}
+            />
+            <figcaption>{kecak.caption}</figcaption>
+          </figure>
+          <figure className={styles.shot}>
+            <Image
+              src={market.src}
+              alt={market.alt}
+              width={market.width}
+              height={market.height}
+              sizes="(max-width: 900px) 100vw, 24vw"
+              className={styles.image}
+            />
+            <figcaption>{market.caption}</figcaption>
+          </figure>
+          <figure className={styles.shot}>
+            <Image
+              src={forest.src}
+              alt={forest.alt}
+              width={forest.width}
+              height={forest.height}
+              sizes="(max-width: 900px) 100vw, 24vw"
+              className={styles.image}
+            />
+            <figcaption>{forest.caption}</figcaption>
+          </figure>
+        </div>
       </Reveal>
     </section>
   );

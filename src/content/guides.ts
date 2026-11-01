@@ -1,7 +1,14 @@
+export type GuideFigure = {
+  src: string;
+  alt: string;
+  caption?: string;
+};
+
 export type GuideSection = {
   heading: string;
   paragraphs: string[];
   bullets?: string[];
+  image?: GuideFigure;
 };
 
 export type Guide = {
@@ -16,6 +23,7 @@ export type Guide = {
   secondaryKeywords: string[];
   heroImage: string;
   relatedVillaSlugs: string[];
+  gallery?: GuideFigure[];
   faqs?: { question: string; answer: string }[];
   sections: GuideSection[];
 };
@@ -40,6 +48,23 @@ export const guides: Guide[] = [
     ],
     heroImage: "/images/marketing/kecak-dance-ubud.jpg",
     relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
+    gallery: [
+      {
+        src: "/images/marketing/ubud-art-market.jpg",
+        alt: "Ubud traditional art market stalls under colorful umbrellas",
+        caption: "Traditional / art market under colorful umbrellas — about five minutes on foot from Tirta Tawar.",
+      },
+      {
+        src: "/images/marketing/kecak-dance-ubud.jpg",
+        alt: "Kecak dance performance at a temple near Ubud, Bali",
+        caption: "Kecak dance at a nearby temple — culture within a short ride of the villas.",
+      },
+      {
+        src: "/images/marketing/monkey-forest-ubud.jpg",
+        alt: "Macaques at Ubud Monkey Forest",
+        caption: "Macaques at Ubud Monkey Forest — an easy outing from Jl. Tirta Tawar.",
+      },
+    ],
     faqs: [
       {
         question: "How far is the local market from Tirta Tawar villas?",
@@ -71,6 +96,11 @@ export const guides: Guide[] = [
           "From our Tirta Tawar villas, the local traditional market is roughly a five-minute walk. You can buy fruit, flowers for offerings, and everyday supplies the way locals do—without fighting central-Ubud parking or tourist markups on every aisle.",
           "For couples in The Hideaway or groups at Sawah Retreat, that short walk turns breakfast into a small ritual and keeps the kitchen useful instead of decorative.",
         ],
+        image: {
+          src: "/images/marketing/ubud-art-market.jpg",
+          alt: "Ubud traditional art market stalls under colorful umbrellas",
+          caption: "Ubud market mornings under colorful umbrellas — a short walk from the villas.",
+        },
       },
       {
         heading: "Kecak dance at the nearest temple",
@@ -78,6 +108,11 @@ export const guides: Guide[] = [
           "Ubud’s Kecak performances are one of Bali’s most searched cultural experiences—the chanting circle, firelight, and Ramayana story told through movement. Staying near Tirta Tawar puts you close to temple schedules in the Peliatan and central Ubud orbit, so an evening show is a short ride or stroll, not a logistics project.",
           "Come home to a private pool afterward. That contrast—public ceremony, private courtyard—is why villa living fits cultural Ubud better than a corridor hotel room.",
         ],
+        image: {
+          src: "/images/marketing/kecak-dance-ubud.jpg",
+          alt: "Kecak dance performance at a temple near Ubud, Bali",
+          caption: "Evening Kecak near Ubud — culture close to Tirta Tawar.",
+        },
       },
       {
         heading: "Monkey Forest, walks, and waterfalls nearby",
@@ -85,6 +120,11 @@ export const guides: Guide[] = [
           "Ubud Monkey Forest sits within easy reach of Tirta Tawar, along with Campuhan-style ridge and riverside walks. North of town, waterfalls make classic half-day trips when you want jungle air and a cool plunge.",
           "Because the villas sit between residential quiet and town access, you can stack a forest morning and a café afternoon without relocating hotels. Central Ubud is typically about 5–8 minutes by car, or a longer pleasant walk.",
         ],
+        image: {
+          src: "/images/marketing/monkey-forest-ubud.jpg",
+          alt: "Macaques at Ubud Monkey Forest",
+          caption: "Monkey Forest macaques — nature without giving up town access.",
+        },
         bullets: [
           "Local traditional market ~5 minutes on foot",
           "Temple Kecak and ceremonies nearby",

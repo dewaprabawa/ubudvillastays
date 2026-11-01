@@ -73,6 +73,29 @@ export const siteConfig = {
   experience: {
     title: "More than a bed in Ubud.",
     lede: "From Jl. Tirta Tawar you wake to a private pool — then step into markets, temple dance, forest paths, and waterfalls. Holiday stays and longer investment-friendly accommodation, with many free extras included.",
+    gallery: [
+      {
+        src: "/images/marketing/ubud-art-market.jpg",
+        alt: "Ubud traditional art market stalls under colorful umbrellas",
+        caption: "Local market — about a five-minute walk",
+        width: 1800,
+        height: 1200,
+      },
+      {
+        src: "/images/marketing/kecak-dance-ubud.jpg",
+        alt: "Kecak dance performance at a temple near Ubud, Bali",
+        caption: "Kecak at a nearby temple",
+        width: 1800,
+        height: 1570,
+      },
+      {
+        src: "/images/marketing/monkey-forest-ubud.jpg",
+        alt: "Macaques at Ubud Monkey Forest",
+        caption: "Monkey Forest within easy reach",
+        width: 1800,
+        height: 1200,
+      },
+    ],
     points: [
       {
         title: "Traditional market nearby",

@@ -10,29 +10,8 @@
   width: 2.25rem;
   height: 2.25rem;
   flex-shrink: 0;
-}
-
-.markBg {
-  fill: var(--canopy);
-}
-
-.leaf {
-  fill: var(--sage);
-}
-
-.pool {
-  fill: var(--lagoon);
-  opacity: 0.9;
-}
-
-.poolShine {
-  fill: var(--mist);
-  opacity: 0.55;
-}
-
-.stem {
-  stroke: var(--teak);
-  fill: none;
+  border-radius: 999px;
+  object-fit: cover;
 }
 
 .wordmark {
@@ -59,26 +38,6 @@
 
 .lg .wordmark {
   font-size: clamp(1.35rem, 3.2vw, 1.85rem);
-}
-
-.light .markBg {
-  fill: rgba(245, 247, 244, 0.14);
-}
-
-.light .leaf {
-  fill: #cfe0d6;
-}
-
-.light .pool {
-  fill: #7eb4bf;
-}
-
-.light .poolShine {
-  fill: #fff;
-}
-
-.light .stem {
-  stroke: #e2c09a;
 }
 
 .light .wordmark {

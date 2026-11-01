@@ -27,4 +27,4 @@ Open [http://localhost:3000](http://localhost:3000).
 
 - Palette: canopy green `#1A3329`, mist `#E4EBE6`, limestone `#F5F7F4`, lagoon `#3A7A86`, teak `#A67C52`
 - Type: Fraunces (display) + Plus Jakarta Sans (UI)
-- Logo: `public/brand/logo.svg`
+- Logo: official circular mark in `public/brand/logo-mark.png` (source `ubud-villa-stays-logo.jpg`)

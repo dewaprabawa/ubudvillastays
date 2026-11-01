@@ -19,7 +19,8 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Booking
 
-- Primary CTA: WhatsApp inquiry — number is a **TODO** placeholder in `src/lib/site.ts`
+- Primary CTA: WhatsApp `+6281775723663` (`src/lib/site.ts`)
+- Email: `sekarprivatebaliactivity@gmail.com`
 - Secondary: Airbnb listing link in the same config
 
 ## Brand

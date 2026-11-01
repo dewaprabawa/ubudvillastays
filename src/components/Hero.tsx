@@ -35,9 +35,6 @@ export function Hero() {
         <div className={styles.actions}>
           <a className={styles.primary} href={whatsappHref()}>
             Inquire on WhatsApp
-            {siteConfig.whatsappTodo ? (
-              <span className={styles.todoBadge}>Number TODO</span>
-            ) : null}
           </a>
           <a
             className={styles.secondary}

@@ -18,9 +18,6 @@ export function Header() {
         </nav>
         <a className={styles.cta} href={whatsappHref()}>
           Inquire
-          {siteConfig.whatsappTodo ? (
-            <span className={styles.todo}>TODO WhatsApp</span>
-          ) : null}
         </a>
       </div>
     </header>

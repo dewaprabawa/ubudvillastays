@@ -42,6 +42,12 @@
   color: var(--ink-soft);
 }
 
+.lede a {
+  color: var(--canopy);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
 .actions {
   display: flex;
   flex-wrap: wrap;
@@ -85,18 +91,4 @@
 .secondary:hover {
   transform: translateY(-1px);
   border-color: rgba(20, 38, 31, 0.45);
-}
-
-.todo {
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  opacity: 0.8;
-}
-
-.note {
-  margin: 1.25rem 0 0;
-  font-size: 0.85rem;
-  color: rgba(15, 26, 22, 0.62);
 }

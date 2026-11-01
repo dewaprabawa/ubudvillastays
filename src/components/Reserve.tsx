@@ -12,14 +12,12 @@ export function Reserve() {
         </h2>
         <p className={styles.lede}>
           Message us on WhatsApp with your travel window and guest count, or
-          continue to Airbnb to check live availability.
+          continue to Airbnb to check live availability. You can also email{" "}
+          <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>.
         </p>
         <div className={styles.actions}>
           <a className={styles.primary} href={whatsappHref()}>
             WhatsApp inquiry
-            {siteConfig.whatsappTodo ? (
-              <span className={styles.todo}>Replace +62XXXXXXXXXXX</span>
-            ) : null}
           </a>
           <a
             className={styles.secondary}
@@ -30,12 +28,6 @@ export function Reserve() {
             Book via Airbnb
           </a>
         </div>
-        {siteConfig.whatsappTodo ? (
-          <p className={styles.note} role="note">
-            WhatsApp number is a placeholder (TODO) until the host confirms the
-            live contact.
-          </p>
-        ) : null}
       </Reveal>
     </section>
   );

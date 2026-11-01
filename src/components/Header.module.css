@@ -39,9 +39,7 @@
 
 .cta {
   display: inline-flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 0.15rem;
+  align-items: center;
   padding: 0.65rem 1rem;
   border-radius: 999px;
   background: rgba(245, 247, 244, 0.12);
@@ -57,14 +55,6 @@
 .cta:hover {
   background: rgba(245, 247, 244, 0.2);
   border-color: rgba(245, 247, 244, 0.5);
-}
-
-.todo {
-  font-size: 0.65rem;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  opacity: 0.75;
 }
 
 @media (min-width: 860px) {

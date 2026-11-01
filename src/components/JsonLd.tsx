@@ -8,7 +8,8 @@ export function JsonLd() {
     description: siteConfig.description,
     url: siteConfig.url,
     image: [`${siteConfig.url}/images/villa/og.jpg`],
-    telephone: siteConfig.whatsappTodo ? undefined : siteConfig.whatsappNumber,
+    telephone: siteConfig.whatsappNumber,
+    email: siteConfig.email,
     address: {
       "@type": "PostalAddress",
       addressLocality: siteConfig.location.city,

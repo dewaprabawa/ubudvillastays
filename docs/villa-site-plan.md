@@ -24,7 +24,7 @@ Airbnb listing [1429000075230755234](https://www.airbnb.co.id/rooms/142900007523
 4. **Amenities** — scannable list (not card grid clutter)
 5. **Location** — Ubud / Bali GEO keywords + nearby cues
 6. **Reviews snapshot** — rating signals without inventing quotes
-7. **Reserve CTA** — WhatsApp primary (TODO number), Airbnb secondary
+7. **Reserve CTA** — WhatsApp primary (+62 817 7572 3663), email, Airbnb secondary
 8. **Footer** — contact, links, legal stubs
 
 ## Stack
@@ -40,11 +40,11 @@ Next.js App Router + TypeScript + CSS Modules (or global CSS variables). `next/i
 - Optimized local images (WebP-friendly via next/image)
 
 ## Booking
-- Primary: WhatsApp inquiry (placeholder `+62XXXXXXXXXXX` marked TODO)
+- Primary: WhatsApp inquiry (`+6281775723663` → `https://wa.me/6281775723663`)
+- Email: `sekarprivatebaliactivity@gmail.com`
 - Secondary: Airbnb listing URL
 
 ## Open questions
-- Exact WhatsApp number for host/ops
-- Custom domain
+- Custom domain (live: `ubudvillastays.vercel.app`)
 - Confirm villa display name vs. legal/business name
 - Whether breakfast / scooter / airport transfer should be promoted as paid extras

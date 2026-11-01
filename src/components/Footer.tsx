@@ -13,6 +13,11 @@ export function Footer() {
             {siteConfig.villaName} · private pool villa in{" "}
             {siteConfig.location.city}, {siteConfig.location.region}.
           </p>
+          <p className={styles.contact}>
+            <a href={whatsappHref()}>WhatsApp +62 817 7572 3663</a>
+            <span aria-hidden="true"> · </span>
+            <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
+          </p>
         </div>
         <nav className={styles.links} aria-label="Footer">
           <a href="#story">Story</a>
@@ -21,6 +26,7 @@ export function Footer() {
           <a href="#location">Location</a>
           <a href="#reserve">Reserve</a>
           <a href={whatsappHref()}>WhatsApp</a>
+          <a href={`mailto:${siteConfig.email}`}>Email</a>
           <a
             href={siteConfig.airbnbUrl}
             target="_blank"
@@ -35,10 +41,7 @@ export function Footer() {
           © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
         </p>
         <p>
-          <Link href="/">ubudvillastays.com</Link>
-          {siteConfig.whatsappTodo
-            ? " · WhatsApp number pending (TODO)"
-            : null}
+          <Link href="/">{siteConfig.url.replace(/^https?:\/\//, "")}</Link>
         </p>
       </div>
     </footer>

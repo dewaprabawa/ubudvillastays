@@ -4,14 +4,12 @@ export const siteConfig = {
   tagline: "A private 2-bedroom pool villa steps from the heart of Ubud.",
   description:
     "Book The Hideaway — a calm 2-bedroom villa with private pool in Tirta Tawar, Ubud, Bali. Walk to cafés, galleries, and temples. Inquire on WhatsApp or reserve on Airbnb.",
-  url: "https://ubudvillastays.com",
+  url: "https://ubudvillastays.vercel.app",
   locale: "en_US",
   airbnbUrl:
     "https://www.airbnb.com/rooms/1429000075230755234",
-  // TODO: replace with the real host WhatsApp number (digits only after country code)
-  whatsappNumber: "+62XXXXXXXXXXX",
-  whatsappTodo: true,
-  email: "hello@ubudvillastays.com",
+  whatsappNumber: "+6281775723663",
+  email: "sekarprivatebaliactivity@gmail.com",
   location: {
     area: "Tirta Tawar",
     city: "Ubud",

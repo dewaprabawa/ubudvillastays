@@ -1,16 +1,122 @@
 import { type Guide } from "@/content/guides";
-import { siteConfig, villas } from "@/lib/site";
+import {
+  bookingFaq,
+  bookingUrl,
+  siteConfig,
+  villas,
+} from "@/lib/site";
 
 export function GuideJsonLd({ guide }: { guide: Guide }) {
   const url = `${siteConfig.url}/guides/${guide.slug}`;
   const hero = `${siteConfig.url}${guide.heroImage}`;
-  const bookingUrl = `${siteConfig.url}/#booking`;
+  const orgId = `${siteConfig.url}/#organization`;
+  const websiteId = `${siteConfig.url}/#website`;
+  const bookingId = `${siteConfig.url}/#booking`;
+
   const relatedVillas = guide.relatedVillaSlugs
     .map((slug) => villas.find((villa) => villa.slug === slug))
     .filter(Boolean);
 
+  const faqs = [...(guide.faqs ?? [])];
+  if (!faqs.some((item) => /book/i.test(item.question))) {
+    faqs.push(bookingFaq);
+  }
+
+  const organization = {
+    "@type": "Organization",
+    "@id": orgId,
+    name: siteConfig.name,
+    url: siteConfig.url,
+    email: siteConfig.email,
+    telephone: siteConfig.whatsappNumber,
+    logo: {
+      "@type": "ImageObject",
+      url: `${siteConfig.url}/brand/logo-mark.png`,
+    },
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: siteConfig.location.streetAddress,
+      addressLocality: siteConfig.location.city,
+      addressRegion: siteConfig.location.region,
+      addressCountry: "ID",
+    },
+    sameAs: [siteConfig.location.mapsUrl],
+  };
+
+  const website = {
+    "@type": "WebSite",
+    "@id": websiteId,
+    url: siteConfig.url,
+    name: siteConfig.name,
+    description: siteConfig.description,
+    publisher: { "@id": orgId },
+    inLanguage: "en-US",
+    potentialAction: {
+      "@type": "ReserveAction",
+      name: "Book villa dates",
+      target: bookingUrl,
+    },
+  };
+
+  const bookingPage = {
+    "@type": "WebPage",
+    "@id": bookingId,
+    url: bookingUrl,
+    name: "Villa booking form — check availability",
+    description:
+      "Select villa, date range, number of persons, and details, then continue on WhatsApp to confirm availability.",
+    isPartOf: { "@id": websiteId },
+    about: relatedVillas.map((villa) => ({
+      "@type": "LodgingBusiness",
+      name: villa!.name,
+      url: `${siteConfig.url}/villas/${villa!.slug}`,
+    })),
+  };
+
+  const villaOffers = {
+    "@type": "ItemList",
+    "@id": `${url}#villas`,
+    name: "Tirta Tawar villas to book",
+    itemListElement: villas.map((villa, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: `${siteConfig.url}/villas/${villa.slug}`,
+      name: villa.name,
+      item: {
+        "@type": ["LodgingBusiness", "VacationRental"],
+        name: villa.name,
+        url: `${siteConfig.url}/villas/${villa.slug}`,
+        telephone: siteConfig.whatsappNumber,
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: siteConfig.location.streetAddress,
+          addressLocality: siteConfig.location.city,
+          addressRegion: siteConfig.location.region,
+          addressCountry: "ID",
+        },
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: siteConfig.location.latitude,
+          longitude: siteConfig.location.longitude,
+        },
+        ...(villa.offer
+          ? {
+              offers: {
+                "@type": "Offer",
+                url: `${siteConfig.url}/villas/${villa.slug}#offer`,
+                price: villa.offer.priceAmount,
+                priceCurrency: villa.offer.currency,
+                availability: "https://schema.org/InStock",
+                category: "VacationRental",
+              },
+            }
+          : {}),
+      },
+    })),
+  };
+
   const article = {
-    "@type": "Article",
+    "@type": ["Article", "BlogPosting"],
     "@id": `${url}#article`,
     headline: guide.title,
     name: guide.title,
@@ -19,40 +125,16 @@ export function GuideJsonLd({ guide }: { guide: Guide }) {
     dateModified: guide.dateModified,
     inLanguage: "en-US",
     isAccessibleForFree: true,
-    author: {
-      "@type": "Organization",
-      "@id": `${siteConfig.url}/#organization`,
-      name: siteConfig.name,
-      url: siteConfig.url,
-      email: siteConfig.email,
-      telephone: siteConfig.whatsappNumber,
-    },
-    publisher: {
-      "@type": "Organization",
-      "@id": `${siteConfig.url}/#organization`,
-      name: siteConfig.name,
-      url: siteConfig.url,
-      logo: {
-        "@type": "ImageObject",
-        url: `${siteConfig.url}/brand/logo-mark.png`,
-      },
-    },
+    author: { "@id": orgId },
+    publisher: { "@id": orgId },
     image: {
       "@type": "ImageObject",
       url: hero,
       caption: guide.title,
     },
     thumbnailUrl: hero,
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": url,
-    },
-    isPartOf: {
-      "@type": "WebSite",
-      "@id": `${siteConfig.url}/#website`,
-      name: siteConfig.name,
-      url: siteConfig.url,
-    },
+    mainEntityOfPage: { "@id": url },
+    isPartOf: { "@id": websiteId },
     keywords: [guide.primaryKeyword, ...guide.secondaryKeywords].join(", "),
     articleSection: guide.eyebrow,
     about: [
@@ -86,15 +168,23 @@ export function GuideJsonLd({ guide }: { guide: Guide }) {
         hasMap: siteConfig.location.mapsUrl,
       },
     ],
-    mentions: relatedVillas.map((villa) => ({
-      "@type": "LodgingBusiness",
-      name: villa!.name,
-      url: `${siteConfig.url}/villas/${villa!.slug}`,
-      telephone: siteConfig.whatsappNumber,
-    })),
+    mentions: [
+      ...relatedVillas.map((villa) => ({
+        "@type": "LodgingBusiness",
+        name: villa!.name,
+        url: `${siteConfig.url}/villas/${villa!.slug}`,
+        telephone: siteConfig.whatsappNumber,
+      })),
+      {
+        "@type": "WebPage",
+        "@id": bookingId,
+        name: "Villa booking checkout",
+        url: bookingUrl,
+      },
+    ],
     speakable: {
       "@type": "SpeakableSpecification",
-      cssSelector: [".takeaways", "h1", "h2"],
+      cssSelector: [".takeaways", "h1", "h2", ".ctaBand"],
     },
     potentialAction: {
       "@type": "ReserveAction",
@@ -113,9 +203,7 @@ export function GuideJsonLd({ guide }: { guide: Guide }) {
       },
     },
     ...(guide.keyTakeaways?.length
-      ? {
-          abstract: guide.keyTakeaways.join(" "),
-        }
+      ? { abstract: guide.keyTakeaways.join(" ") }
       : {}),
   };
 
@@ -125,21 +213,30 @@ export function GuideJsonLd({ guide }: { guide: Guide }) {
     url,
     name: guide.title,
     description: guide.description,
-    isPartOf: { "@id": `${siteConfig.url}/#website` },
+    isPartOf: { "@id": websiteId },
     primaryImageOfPage: { "@type": "ImageObject", url: hero },
     datePublished: guide.datePublished,
     dateModified: guide.dateModified,
     inLanguage: "en-US",
-    about: { "@id": `${url}#article` },
+    mainEntity: { "@id": `${url}#article` },
     significantLink: [
       bookingUrl,
       `${siteConfig.url}/villas/the-hideaway#offer`,
       `${siteConfig.url}/villas/sawah-retreat#offer`,
+      `${siteConfig.url}/guides`,
     ],
-    potentialAction: {
-      "@type": "ReadAction",
-      target: url,
-    },
+    relatedLink: [bookingUrl],
+    potentialAction: [
+      {
+        "@type": "ReadAction",
+        target: url,
+      },
+      {
+        "@type": "ReserveAction",
+        name: "Go to villa booking form",
+        target: bookingUrl,
+      },
+    ],
   };
 
   const breadcrumb = {
@@ -164,14 +261,20 @@ export function GuideJsonLd({ guide }: { guide: Guide }) {
         name: guide.title,
         item: url,
       },
+      {
+        "@type": "ListItem",
+        position: 4,
+        name: "Book villa dates",
+        item: bookingUrl,
+      },
     ],
   };
 
-  const faq = guide.faqs?.length
+  const faq = faqs.length
     ? {
         "@type": "FAQPage",
         "@id": `${url}#faq`,
-        mainEntity: guide.faqs.map((item) => ({
+        mainEntity: faqs.map((item) => ({
           "@type": "Question",
           name: item.question,
           acceptedAnswer: {
@@ -202,8 +305,12 @@ export function GuideJsonLd({ guide }: { guide: Guide }) {
   const graph = {
     "@context": "https://schema.org",
     "@graph": [
+      organization,
+      website,
+      bookingPage,
       webpage,
       article,
+      villaOffers,
       breadcrumb,
       ...(faq ? [faq] : []),
       ...(howTo ? [howTo] : []),

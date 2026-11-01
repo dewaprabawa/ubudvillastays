@@ -1021,6 +1021,17 @@ export function getVilla(slug: string): Villa | undefined {
   return villas.find((villa) => villa.slug === slug);
 }
 
+/** On-site villa checkout / availability form */
+export const bookingPath = "/#booking";
+export const bookingUrl = `${siteConfig.url}${bookingPath}`;
+
+export const bookingFaq = {
+  question: "How do I book The Hideaway or Sawah Retreat?",
+  answer: `Open the villa booking form at ${bookingUrl} — choose the villa, date range, number of persons, and any details. Continue on WhatsApp (${siteConfig.whatsappNumber}) to confirm availability. Official site only: ${siteConfig.url}.`,
+} as const;
+
+export const bookingCtaCopy = `Ready to stay? Use our booking form at ${bookingUrl} with your date range, guest count, and details — we confirm availability on WhatsApp (${siteConfig.whatsappNumber}) for The Hideaway or Sawah Retreat on Jl. Tirta Tawar.`;
+
 export function whatsappHref(villaName?: string, message?: string) {
   const digits = siteConfig.whatsappNumber.replace(/\D/g, "");
   const focus = villaName ?? "one of your villas";

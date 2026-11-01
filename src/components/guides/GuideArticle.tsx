@@ -2,13 +2,28 @@ import Image from "next/image";
 import Link from "next/link";
 import { type Guide } from "@/content/guides";
 import { BookButton } from "@/components/BookButton";
-import { getVilla, siteConfig } from "@/lib/site";
+import {
+  bookingCtaCopy,
+  bookingFaq,
+  bookingPath,
+  bookingUrl,
+  getVilla,
+  siteConfig,
+} from "@/lib/site";
 import styles from "./GuideArticle.module.css";
 
 export function GuideArticle({ guide }: { guide: Guide }) {
   const related = guide.relatedVillaSlugs
     .map((slug) => getVilla(slug))
     .filter(Boolean);
+
+  const faqs = [...(guide.faqs ?? [])];
+  if (!faqs.some((item) => /book/i.test(item.question))) {
+    faqs.push({
+      question: bookingFaq.question,
+      answer: bookingFaq.answer,
+    });
+  }
 
   return (
     <article className={styles.article}>
@@ -46,6 +61,10 @@ export function GuideArticle({ guide }: { guide: Guide }) {
             </li>
             <li aria-hidden="true">/</li>
             <li aria-current="page">{guide.title}</li>
+            <li aria-hidden="true">/</li>
+            <li>
+              <Link href={bookingPath}>Book</Link>
+            </li>
           </ol>
         </nav>
 
@@ -77,9 +96,23 @@ export function GuideArticle({ guide }: { guide: Guide }) {
               {guide.keyTakeaways.map((item) => (
                 <li key={item}>{item}</li>
               ))}
+              <li>
+                Book dates on our villa checkout form:{" "}
+                <Link href={bookingPath}>{bookingUrl}</Link>
+              </li>
             </ul>
           </section>
-        ) : null}
+        ) : (
+          <section className={styles.takeaways} aria-labelledby="takeaways-title">
+            <h2 id="takeaways-title">Key takeaways</h2>
+            <ul>
+              <li>
+                Book The Hideaway or Sawah Retreat via{" "}
+                <Link href={bookingPath}>{bookingUrl}</Link>
+              </li>
+            </ul>
+          </section>
+        )}
 
         {guide.sections.map((section) => (
           <section key={section.heading} className={styles.section}>
@@ -127,10 +160,10 @@ export function GuideArticle({ guide }: { guide: Guide }) {
           </section>
         ) : null}
 
-        {guide.faqs?.length ? (
+        {faqs.length ? (
           <section className={styles.faq} aria-labelledby="faq-title">
             <h2 id="faq-title">FAQ</h2>
-            {guide.faqs.map((faq) => (
+            {faqs.map((faq) => (
               <details key={faq.question}>
                 <summary>{faq.question}</summary>
                 <p>{faq.answer}</p>
@@ -140,21 +173,19 @@ export function GuideArticle({ guide }: { guide: Guide }) {
         ) : null}
 
         <section className={styles.ctaBand} aria-labelledby="guide-cta">
-          <h2 id="guide-cta">Book your Ubud villa stay</h2>
+          <h2 id="guide-cta">Villa checkout — book your dates</h2>
+          <p>{bookingCtaCopy}</p>
           <p>
-            Ready to visit? Open our booking form with your date range, guest
-            count, and details — we continue on WhatsApp to confirm availability
-            for The Hideaway (from Rp 4.9 juta / night) or Sawah Retreat (from
-            Rp 7 juta / night). Both include one free activity during the stay
-            on Jl. Tirta Tawar.
+            Booking page:{" "}
+            <Link href={bookingPath}>{bookingUrl}</Link>
           </p>
           <div className={styles.actions}>
             <BookButton
               className={styles.primary}
               label="Check availability"
             />
-            <Link className={styles.secondary} href="/#booking">
-              Booking form
+            <Link className={styles.secondary} href={bookingPath}>
+              Open booking form
             </Link>
             <Link className={styles.secondary} href="/villas/the-hideaway#offer">
               Hideaway offer
@@ -172,26 +203,31 @@ export function GuideArticle({ guide }: { guide: Guide }) {
           <div className={styles.relatedGrid}>
             {related.map((villa) =>
               villa ? (
-                <Link
-                  key={villa.slug}
-                  href={`/villas/${villa.slug}`}
-                  className={styles.relatedCard}
-                >
-                  <div className={styles.relatedMedia}>
-                    <Image
-                      src={villa.heroImage}
-                      alt={villa.name}
-                      fill
-                      sizes="(max-width: 800px) 100vw, 50vw"
-                      style={{ objectFit: "cover" }}
-                    />
-                  </div>
-                  <h3>{villa.name}</h3>
-                  <p>{villa.tagline}</p>
-                </Link>
+                <div key={villa.slug} className={styles.relatedCard}>
+                  <Link href={`/villas/${villa.slug}`}>
+                    <div className={styles.relatedMedia}>
+                      <Image
+                        src={villa.heroImage}
+                        alt={villa.name}
+                        fill
+                        sizes="(max-width: 800px) 100vw, 50vw"
+                        style={{ objectFit: "cover" }}
+                      />
+                    </div>
+                    <h3>{villa.name}</h3>
+                    <p>{villa.tagline}</p>
+                  </Link>
+                  <p>
+                    <Link href={bookingPath}>Book dates → checkout form</Link>
+                  </p>
+                </div>
               ) : null,
             )}
           </div>
+          <p>
+            Or go straight to{" "}
+            <Link href={bookingPath}>{bookingUrl}</Link>
+          </p>
         </section>
       ) : null}
     </article>

@@ -122,7 +122,21 @@ function lodgingSchema(villa?: Villa) {
             })),
           }
         : {}),
+      potentialAction: {
+        "@type": "ReserveAction",
+        name: `Check availability for ${villa.name}`,
+        target: `${siteConfig.url}/#booking`,
+        result: {
+          "@type": "LodgingReservation",
+          name: `${villa.name} stay inquiry`,
+        },
+      },
       subjectOf: [
+        {
+          "@type": "WebPage",
+          name: "Villa booking form",
+          url: `${siteConfig.url}/#booking`,
+        },
         {
           "@type": "WebPage",
           name: "Ubud experiences from Tirta Tawar",

@@ -150,7 +150,7 @@ export const guides: Guide[] = [
         paragraphs: [
           "Whether you book a short holiday or a longer investment-friendly stay, both villas are set up for living: private pools, kitchens, fast Wi‑Fi, parking, and many free extras that boutique hotels often meter. Daily housekeeping, optional breakfast, scooters, transfers, and tours can be layered on when you want them.",
           "The Hideaway currently offers from Rp 4.9 juta per night, and Sawah Retreat from Rp 7 juta per night for groups — both with your pick of one free activity (Ubud rice field cycling with lunch or a Balinese cooking class) during the stay on Jl. Tirta Tawar.",
-          "Use the links at the end of this guide for either villa offer — or message WhatsApp and we will match the home to your group.",
+          "Use the villa checkout booking form at https://www.ubudvillastays.com/#booking with your dates and guest count — we confirm availability on WhatsApp for either villa offer.",
         ],
       },
     ],
@@ -225,7 +225,7 @@ export const guides: Guide[] = [
         heading: "Why a private pool villa fits Ubud",
         paragraphs: [
           "Hotels are convenient; a private pool villa in Ubud gives you a courtyard or garden to return to, flexible meal times, and space for family or friends. On Tirta Tawar, you sit minutes from central Ubud while keeping quieter nights—ideal for couples in a 2-bedroom hideaway or groups in a 6-bedroom rice-field villa.",
-          "Ready to plan dates? Explore our villas or message us on WhatsApp—we will help match the right home to your group size. For a map-first answer, read where is Ubud; for day ideas, read what people do in Ubud.",
+          "Ready to plan dates? Open https://www.ubudvillastays.com/#booking with your date range and guest count — we confirm on WhatsApp. For a map-first answer, read where is Ubud; for day ideas, read what people do in Ubud.",
         ],
       },
     ],
@@ -582,7 +582,7 @@ export const guides: Guide[] = [
       {
         heading: "Still unsure?",
         paragraphs: [
-          "Send dates, guest count, and trip purpose on WhatsApp. We will recommend the villa that fits—and point you to live Airbnb availability when you are ready to reserve.",
+          "Send dates, guest count, and trip purpose through https://www.ubudvillastays.com/#booking — we confirm availability on WhatsApp and recommend The Hideaway or Sawah Retreat.",
         ],
       },
     ],
@@ -686,7 +686,7 @@ export const guides: Guide[] = [
         heading: "Stay on the corridor",
         paragraphs: [
           "Book Sawah Retreat when you want six en-suite bedrooms and rice-field outlooks for up to 12 guests. Book The Hideaway when two bedrooms and a private courtyard pool are enough. Both sit on Jl. Tirta Tawar with promo rates and one free activity you can choose during the stay.",
-          "Read next: our Ubud experiences guide from Tirta Tawar, or compare 2BR vs 6BR villas if you are still sizing the group.",
+          "Checkout path: https://www.ubudvillastays.com/#booking — then read experiences from Tirta Tawar or compare 2BR vs 6BR if you are still sizing the group.",
         ],
       },
     ],
@@ -784,7 +784,7 @@ export const guides: Guide[] = [
         heading: "Stay, then wander",
         paragraphs: [
           "Promo stays at The Hideaway (from Rp 4.9 juta / night) and Sawah Retreat (from Rp 7 juta / night) include one free activity you can pick during the stay—rice-field cycling or a cooking class—so shopping does not have to be the only outing.",
-          "Continue with our Tirta Tawar rice-field walk guide for the green lanes outside the gate, or the full experiences guide for market, Kecak, Monkey Forest, and waterfalls.",
+          "Checkout: https://www.ubudvillastays.com/#booking — then continue with the Tirta Tawar rice-field walk or experiences guide for market, Kecak, Monkey Forest, and waterfalls.",
         ],
       },
     ],

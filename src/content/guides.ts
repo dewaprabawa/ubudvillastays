@@ -22,6 +22,86 @@ export type Guide = {
 
 export const guides: Guide[] = [
   {
+    slug: "ubud-experiences-from-tirta-tawar",
+    title: "Ubud Experiences from Tirta Tawar: Market, Kecak, Forest & Falls",
+    description:
+      "Why a Tirta Tawar villa stay is more than a bed—five-minute walk to the local market, Kecak at nearby temples, Monkey Forest and waterfalls close by, plus holiday or longer stays with free extras.",
+    eyebrow: "Experience guide",
+    datePublished: "2026-11-01",
+    dateModified: "2026-11-01",
+    readingMinutes: 7,
+    primaryKeyword: "things to do near tirta tawar ubud",
+    secondaryKeywords: [
+      "kecak dance ubud",
+      "ubud traditional market",
+      "monkey forest ubud villa",
+      "waterfall near ubud",
+      "ubud vacation rental experience",
+    ],
+    heroImage: "/images/marketing/kecak-dance-ubud.jpg",
+    relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
+    faqs: [
+      {
+        question: "How far is the local market from Tirta Tawar villas?",
+        answer:
+          "The local traditional market is about a five-minute walk from our Jl. Tirta Tawar villas—easy for morning produce runs without a scooter.",
+      },
+      {
+        question: "Can I see a Kecak dance while staying in Tirta Tawar?",
+        answer:
+          "Yes. Kecak and temple performances are held at nearby temples, so culture is part of the neighborhood rhythm rather than a long day trip.",
+      },
+      {
+        question: "Are Monkey Forest and waterfalls close to Tirta Tawar?",
+        answer:
+          "Ubud Monkey Forest and popular north-of-Ubud waterfalls are an easy base from Tirta Tawar—close enough for half-day outings while keeping quiet villa nights.",
+      },
+    ],
+    sections: [
+      {
+        heading: "A villa stay should unlock the place",
+        paragraphs: [
+          "Many travelers book Ubud for temples, rice landscapes, and slower mornings—then end up in a room that could be anywhere. A private pool villa on Jl. Tirta Tawar is meant to reverse that: you sleep somewhere calm, then step into market life, temple dance, forest paths, and waterfall days without long transfers every morning.",
+          "That is the commercial promise in plain language: more experience, not just a bed. Holiday guests and longer stays both benefit when the neighborhood does half the work.",
+        ],
+      },
+      {
+        heading: "Five minutes to the local traditional market",
+        paragraphs: [
+          "From our Tirta Tawar villas, the local traditional market is roughly a five-minute walk. You can buy fruit, flowers for offerings, and everyday supplies the way locals do—without fighting central-Ubud parking or tourist markups on every aisle.",
+          "For couples in The Hideaway or groups at Sawah Retreat, that short walk turns breakfast into a small ritual and keeps the kitchen useful instead of decorative.",
+        ],
+      },
+      {
+        heading: "Kecak dance at the nearest temple",
+        paragraphs: [
+          "Ubud’s Kecak performances are one of Bali’s most searched cultural experiences—the chanting circle, firelight, and Ramayana story told through movement. Staying near Tirta Tawar puts you close to temple schedules in the Peliatan and central Ubud orbit, so an evening show is a short ride or stroll, not a logistics project.",
+          "Come home to a private pool afterward. That contrast—public ceremony, private courtyard—is why villa living fits cultural Ubud better than a corridor hotel room.",
+        ],
+      },
+      {
+        heading: "Monkey Forest, walks, and waterfalls nearby",
+        paragraphs: [
+          "Ubud Monkey Forest sits within easy reach of Tirta Tawar, along with Campuhan-style ridge and riverside walks. North of town, waterfalls make classic half-day trips when you want jungle air and a cool plunge.",
+          "Because the villas sit between residential quiet and town access, you can stack a forest morning and a café afternoon without relocating hotels. Central Ubud is typically about 5–8 minutes by car, or a longer pleasant walk.",
+        ],
+        bullets: [
+          "Local traditional market ~5 minutes on foot",
+          "Temple Kecak and ceremonies nearby",
+          "Monkey Forest and ridge walks for green days",
+          "Waterfalls north of Ubud for easy outings",
+        ],
+      },
+      {
+        heading: "Holiday stays, longer stays, and free extras",
+        paragraphs: [
+          "Whether you book a short holiday or a longer investment-friendly stay, both villas are set up for living: private pools, kitchens, fast Wi‑Fi, parking, and many free extras that boutique hotels often meter. Daily housekeeping, optional breakfast, scooters, transfers, and tours can be layered on when you want them.",
+          "Choose The Hideaway for a 2-bedroom courtyard escape, or Sawah Retreat for up to 12 guests with rice-field views. Message us on WhatsApp with dates—we will match the villa and confirm availability.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "why-ubud-is-a-top-bali-destination",
     title: "Why Ubud Is a Top Bali Destination (And Worth the Stay)",
     description:
@@ -78,7 +158,7 @@ export const guides: Guide[] = [
       {
         heading: "Temples, art, and living culture",
         paragraphs: [
-          "Ubud Palace, nightly dance performances, museums, and artisan villages keep Balinese arts visible in daily life. Sacred sites like Tirta Empul and Goa Gajah sit within easy day-trip range. Neka Art Gallery and the Peliatan temple area are especially convenient if you stay on Tirta Tawar street—close enough to explore without living on the busiest tourist lanes.",
+          "Ubud Palace, Kecak dance at nearby temples, museums, and artisan villages keep Balinese arts visible in daily life. Sacred sites like Tirta Empul and Goa Gajah sit within easy day-trip range. Neka Art Gallery and the Peliatan temple area are especially convenient if you stay on Jl. Tirta Tawar—close enough to explore without living on the busiest tourist lanes. A five-minute walk to the local traditional market makes everyday culture part of the stay, not a separate tour.",
         ],
       },
       {

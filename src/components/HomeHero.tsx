@@ -25,11 +25,11 @@ export function HomeHero() {
         <div className={styles.brandBlock}>
           <Logo variant="light" size="lg" />
         </div>
-        <p className={styles.eyebrow}>Tirta Tawar · Ubud · Bali</p>
+        <p className={styles.eyebrow}>Jl. Tirta Tawar · Ubud · Bali</p>
         <h1 className={styles.headline}>
-          Two private villas.
+          Private villas.
           <br />
-          One calm corner of Ubud.
+          Real Ubud days.
         </h1>
         <p className={styles.support}>{siteConfig.tagline}</p>
         <div className={styles.actions}>

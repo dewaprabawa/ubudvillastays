@@ -1,5 +1,6 @@
+import Link from "next/link";
 import { Reveal } from "./Reveal";
-import { siteConfig } from "@/lib/site";
+import { siteConfig, whatsappHref } from "@/lib/site";
 import styles from "./Location.module.css";
 
 export function Location() {
@@ -12,19 +13,21 @@ export function Location() {
       aria-labelledby="location-title"
     >
       <Reveal className={styles.inner}>
-        <p className={styles.kicker}>Location</p>
+        <p className={styles.kicker}>Location · Tirta Tawar</p>
         <h2 id="location-title" className={styles.title}>
-          Tirta Tawar, Ubud — close to culture, open to quiet.
+          Jl. Tirta Tawar, Ubud — culture close, nights quiet.
         </h2>
         <p className={styles.lede}>
-          Our villas are on {location.streetAddress} in {location.city},{" "}
-          {location.region}. Central Ubud is {location.driveToCenter}, or{" "}
-          {location.walkToCenter} when you prefer to wander.
+          Our private pool villas sit on {location.streetAddress} in{" "}
+          {location.city}, {location.region}. The local traditional market is{" "}
+          {location.walkToMarket}. Central Ubud is {location.driveToCenter}, or{" "}
+          {location.walkToCenter} when you prefer to wander. Kecak performances,
+          Monkey Forest, and north-of-Ubud waterfalls stay within easy reach.
         </p>
 
         <div className={styles.panels}>
           <div className={styles.panel}>
-            <h3>Nearby</h3>
+            <h3>Nearby from the villas</h3>
             <ul>
               {location.nearby.map((place) => (
                 <li key={place}>{place}</li>
@@ -34,9 +37,16 @@ export function Location() {
           <div className={styles.panel}>
             <h3>Why this corner of Bali</h3>
             <p>
-              Ubud is Bali&apos;s cultural center—rice terraces, temples, art
-              galleries, yoga, and long café afternoons. Our villas keep you near
-              that rhythm without sitting on the busiest streets.
+              Ubud is Bali&apos;s cultural center—rice terraces, temples, art,
+              yoga, and long café afternoons. Tirta Tawar keeps you in that
+              rhythm without sitting on the busiest streets: market mornings,
+              temple evenings, forest and waterfall days, then a private pool
+              to come home to.
+            </p>
+            <p>
+              Whether you book a holiday escape or a longer stay, both villas
+              are built for living well—with kitchens, Wi‑Fi, parking, and many
+              free extras that make the stay feel complete.
             </p>
             <p className={styles.mapLink}>
               <a
@@ -50,6 +60,11 @@ export function Location() {
                 {" "}
                 · {location.latitude}, {location.longitude}
               </span>
+            </p>
+            <p className={styles.mapLink}>
+              <Link href="/#experience">See the Ubud experience</Link>
+              {" · "}
+              <a href={whatsappHref()}>WhatsApp availability</a>
             </p>
           </div>
         </div>

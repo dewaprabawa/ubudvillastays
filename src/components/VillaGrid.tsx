@@ -10,11 +10,12 @@ export function VillaGrid() {
       <Reveal className={styles.intro}>
         <p className={styles.kicker}>The villas</p>
         <h2 id="villas-title" className={styles.title}>
-          Choose your scale of quiet.
+          Choose your scale of stay.
         </h2>
         <p className={styles.lede}>
-          Same Tirta Tawar neighborhood—two private pool homes for different
-          kinds of stays.
+          Same Jl. Tirta Tawar base—two private pool villas for holidays,
+          gatherings, and longer Ubud stays. Market, temples, Monkey Forest,
+          and waterfalls nearby.
         </p>
       </Reveal>
 
@@ -35,6 +36,10 @@ export function VillaGrid() {
                 <p className={styles.meta}>{villa.eyebrow}</p>
                 <h3>{villa.name}</h3>
                 <p>{villa.tagline}</p>
+                <p className={styles.facts}>
+                  Up to {villa.facts.guests} guests · {villa.facts.bedrooms} BR ·{" "}
+                  {villa.facts.rating}★ ({villa.facts.reviews})
+                </p>
                 <span className={styles.cta}>View villa</span>
               </div>
             </Link>

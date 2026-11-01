@@ -15,7 +15,7 @@ export function GuideArticle({ guide }: { guide: Guide }) {
         <div className={styles.media}>
           <Image
             src={guide.heroImage}
-            alt=""
+            alt={guide.title}
             fill
             priority
             sizes="100vw"

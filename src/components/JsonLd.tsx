@@ -61,6 +61,7 @@ function lodgingSchema(villa?: Villa) {
     location: {
       "@type": "Place",
       name: siteConfig.location.placeName,
+      description: `Private pool villa rentals on Jl. Tirta Tawar, Ubud, Bali — near the local traditional market, temple Kecak performances, Monkey Forest, and waterfalls.`,
       address: postalAddress,
       geo,
       hasMap: siteConfig.location.mapsUrl,
@@ -71,6 +72,7 @@ function lodgingSchema(villa?: Villa) {
         "@type": ["LodgingBusiness", "VacationRental"],
         name: item.name,
         url: `${siteConfig.url}/villas/${item.slug}`,
+        description: item.description,
       },
     })),
   };

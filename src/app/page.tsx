@@ -1,3 +1,4 @@
+import { Experience } from "@/components/Experience";
 import { Footer } from "@/components/Footer";
 import { GuidesTeaser } from "@/components/GuidesTeaser";
 import { Header } from "@/components/Header";
@@ -13,6 +14,7 @@ export default function HomePage() {
       <main id="main">
         <HomeHero />
         <VillaGrid />
+        <Experience />
         <GuidesTeaser />
         <Location />
         <Reserve />

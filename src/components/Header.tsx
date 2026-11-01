@@ -5,9 +5,10 @@ import styles from "./Header.module.css";
 
 type HeaderProps = {
   tone?: "light" | "dark";
+  inquireVillaName?: string;
 };
 
-export function Header({ tone = "light" }: HeaderProps) {
+export function Header({ tone = "light", inquireVillaName }: HeaderProps) {
   return (
     <header className={`${styles.header} ${styles[tone]}`}>
       <div className={styles.inner}>
@@ -16,12 +17,13 @@ export function Header({ tone = "light" }: HeaderProps) {
         </Link>
         <nav className={styles.nav} aria-label="Primary">
           <Link href="/#villas">Villas</Link>
+          <Link href="/#experience">Experience</Link>
           <Link href="/guides">Guides</Link>
           <Link href="/villas/the-hideaway">Hideaway</Link>
           <Link href="/villas/sawah-retreat">Sawah</Link>
           <Link href="/#location">Location</Link>
         </nav>
-        <a className={styles.cta} href={whatsappHref()}>
+        <a className={styles.cta} href={whatsappHref(inquireVillaName)}>
           Inquire
         </a>
       </div>

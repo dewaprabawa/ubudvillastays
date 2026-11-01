@@ -87,11 +87,17 @@
   color: var(--ink);
 }
 
-.copy p:last-of-type {
+.copy > p {
   margin: 0.55rem 0 0;
   max-width: 36rem;
   line-height: 1.6;
   color: var(--ink-soft);
+}
+
+.facts {
+  margin: 0.45rem 0 0 !important;
+  font-size: 0.9rem;
+  color: var(--canopy) !important;
 }
 
 .cta {

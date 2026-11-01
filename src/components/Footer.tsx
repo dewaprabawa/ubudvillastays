@@ -21,6 +21,7 @@ export function Footer() {
         </div>
         <nav className={styles.links} aria-label="Footer">
           <Link href="/#villas">Villas</Link>
+          <Link href="/#experience">Experience</Link>
           <Link href="/guides">Guides</Link>
           {villas.map((villa) => (
             <Link key={villa.slug} href={`/villas/${villa.slug}`}>

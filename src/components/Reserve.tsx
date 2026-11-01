@@ -10,20 +10,20 @@ type ReserveProps = {
 export function Reserve({ villa }: ReserveProps) {
   const title = villa
     ? `Reserve ${villa.name}`
-    : "Tell us your dates. We'll take it from there.";
+    : "Tell us your dates. We’ll match the villa.";
   const airbnb = villa?.airbnbUrl;
 
   return (
     <section id="reserve" className={styles.section} aria-labelledby="reserve-title">
       <Reveal className={styles.inner}>
-        <p className={styles.kicker}>Reserve</p>
+        <p className={styles.kicker}>Reserve · Tirta Tawar, Ubud</p>
         <h2 id="reserve-title" className={styles.title}>
           {title}
         </h2>
         <p className={styles.lede}>
           Message us on WhatsApp with your travel window and guest count
-          {villa ? ` for ${villa.name}` : ", and which villa you prefer"}. You
-          can also email{" "}
+          {villa ? ` for ${villa.name}` : ", and which villa you prefer"}—
+          holiday nights or a longer stay. You can also email{" "}
           <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
           {airbnb ? " or continue to Airbnb for live availability" : ""}.
         </p>

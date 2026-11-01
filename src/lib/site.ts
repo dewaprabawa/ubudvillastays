@@ -38,9 +38,10 @@ export type Villa = {
 
 export const siteConfig = {
   name: "Ubud Villa Stays",
-  tagline: "Private pool villas in Tirta Tawar, Ubud — for quiet escapes and gatherings alike.",
+  tagline:
+    "Private pool villas on Jl. Tirta Tawar, Ubud — stay for the experience, not just the bed.",
   description:
-    "Ubud Villa Stays offers private pool villas on Tirta Tawar street in Ubud, Bali — The Hideaway (2BR) and Sawah Retreat (6BR). Inquire on WhatsApp or reserve on Airbnb.",
+    "Book private pool villas in Tirta Tawar, Ubud, Bali — The Hideaway (2BR) and Sawah Retreat (6BR). Walk to the local market, Kecak at nearby temples, Monkey Forest and waterfalls close by. Holiday or investment stays with generous free extras. Inquire on WhatsApp.",
   url: "https://www.ubudvillastays.com",
   locale: "en_US",
   whatsappNumber: "+6281775723663",
@@ -59,12 +60,36 @@ export const siteConfig = {
     mapsUrl: "https://maps.app.goo.gl/5TpevFsUJeezD1gD8",
     walkToCenter: "15–20 minutes on foot",
     driveToCenter: "about 5–8 minutes by car",
+    walkToMarket: "about 5 minutes on foot",
     nearby: [
-      "Central Ubud markets & cafés",
-      "Neka Art Gallery",
-      "Pura Dalem Puri Peliatan",
-      "Yoga studios & spas",
-      "Local restaurants & supermarket",
+      "Local traditional market — ~5-minute walk",
+      "Kecak dance at the nearest temple",
+      "Ubud Monkey Forest",
+      "Waterfalls north of Ubud",
+      "Neka Art Gallery & Peliatan temples",
+      "Central Ubud cafés, yoga & spas",
+    ],
+  },
+  experience: {
+    title: "More than a bed in Ubud.",
+    lede: "From Jl. Tirta Tawar you wake to a private pool — then step into markets, temple dance, forest paths, and waterfalls. Holiday stays and longer investment-friendly accommodation, with many free extras included.",
+    points: [
+      {
+        title: "Traditional market nearby",
+        copy: "Reach the local traditional market in about five minutes on foot — fresh produce, daily Bali rhythm, no tourist scramble required.",
+      },
+      {
+        title: "Kecak at the nearest temple",
+        copy: "Evening Kecak and temple ceremonies sit close to home. Culture is part of the neighborhood, not a long transfer away.",
+      },
+      {
+        title: "Monkey Forest & waterfalls",
+        copy: "Ubud Monkey Forest, Campuhan walks, and north-of-Ubud waterfalls are an easy base from Tirta Tawar — nature without giving up town access.",
+      },
+      {
+        title: "Holiday or investment stay",
+        copy: "Book a short escape or a longer stay. Both villas are built for comfortable living — private pools, kitchens, Wi‑Fi — with many free extras that hotels charge for.",
+      },
     ],
   },
 } as const;
@@ -75,16 +100,17 @@ export const villas: Villa[] = [
     name: "The Hideaway",
     shortName: "Hideaway",
     eyebrow: "2 bedrooms · private courtyard",
-    tagline: "A private 2-bedroom pool villa steps from the heart of Ubud.",
+    tagline:
+      "2BR private pool villa on Jl. Tirta Tawar — market, temples, and Monkey Forest nearby.",
     description:
-      "Book The Hideaway — a calm 2-bedroom villa with private pool in Tirta Tawar, Ubud, Bali. Walk to cafés, galleries, and temples. Inquire on WhatsApp or reserve on Airbnb.",
-    headline: "Quiet mornings by the pool.\nUbud just beyond the gate.",
+      "Book The Hideaway — a 2-bedroom private pool villa on Jl. Tirta Tawar, Ubud, Bali. Five-minute walk to the local market, Kecak at nearby temples, Monkey Forest and waterfalls close by. Holiday stay with free extras. Inquire on WhatsApp.",
+    headline: "Quiet mornings by the pool.\nUbud’s culture just beyond the gate.",
     support:
-      "A modern-Bali 2-bedroom hideaway with a private pool, tropical garden, and an easy stroll to cafés, galleries, and temples.",
-    storyTitle: "A private courtyard retreat in the cultural heart of Bali.",
+      "A modern-Bali 2-bedroom hideaway with a private pool, tropical garden, and a five-minute walk to the local market — temples, Monkey Forest, and waterfalls within easy reach.",
+    storyTitle: "A private courtyard base for real Ubud days.",
     story: [
-      "The Hideaway blends contemporary comfort with Balinese craft—stone walls, warm timber, and a still private pool framed by tropical planting. It is designed for unhurried mornings and easy evenings after exploring Ubud.",
-      "You are close enough to walk to galleries, temples, and café streets, yet tucked away for real quiet. Daily housekeeping keeps the villa fresh; breakfast, scooters, transfers, and tours can be arranged when you want them.",
+      "The Hideaway blends contemporary comfort with Balinese craft—stone walls, warm timber, and a still private pool framed by tropical planting. Stay for the experience: market mornings, temple evenings, forest walks — then return to your own courtyard.",
+      "You are close enough to walk to galleries, temples, and café streets, yet tucked away for real quiet. Daily housekeeping and many free extras keep the villa easy; breakfast, scooters, transfers, and tours can be arranged when you want them.",
     ],
     airbnbUrl: "https://www.airbnb.com/rooms/1429000075230755234",
     heroImage: "/images/villas/the-hideaway/hero.jpg",
@@ -154,16 +180,17 @@ export const villas: Villa[] = [
     name: "Sawah Retreat",
     shortName: "Sawah",
     eyebrow: "6 bedrooms · rice field views",
-    tagline: "An exclusive 6-bedroom villa with private pool and rice field views for families and retreats.",
+    tagline:
+      "6BR rice-field villa on Jl. Tirta Tawar — groups, retreats, and longer Ubud stays.",
     description:
-      "Book Sawah Retreat — a private 6-bedroom villa with pool and rice field views in Tirta Tawar, Ubud, Bali. Ideal for large families, groups, and yoga retreats. Inquire on WhatsApp or reserve on Airbnb.",
+      "Book Sawah Retreat — a 6-bedroom private pool villa with rice field views on Jl. Tirta Tawar, Ubud, Bali. Near the local market, temple Kecak, Monkey Forest, and waterfalls. Ideal for families, groups, yoga retreats, and investment-friendly longer stays. Inquire on WhatsApp.",
     headline: "Rice fields at the edge of the pool.\nRoom for everyone to gather.",
     support:
-      "A full-villa stay for up to 12 guests—six en-suite bedrooms, a private pool, open kitchen, and serene sawah views minutes from central Ubud.",
-    storyTitle: "Space to gather, green to quiet the mind.",
+      "A full-villa stay for up to 12 guests—six en-suite bedrooms, a private pool, open kitchen, and serene sawah views minutes from central Ubud’s markets, temples, and forest walks.",
+    storyTitle: "Space to gather — culture and green outside the gate.",
     story: [
-      "Sawah Retreat is the larger sibling on Tirta Tawar: an entire villa held just for your group, with rice field views and a private pool at the center of daily life. It suits multi-generation families, friend getaways, and yoga or meditation retreats that need privacy and room to breathe.",
-      "Each bedroom has its own bathroom and air conditioning. The open kitchen invites shared meals, staff can help with luggage along the quiet lane, and extras—airport pickup, in-house massage, scooters, and breakfast—are easy to arrange.",
+      "Sawah Retreat is the larger sibling on Tirta Tawar: an entire villa held just for your group, with rice field views and a private pool at the center of daily life. It suits multi-generation families, friend getaways, yoga retreats, and longer holiday or investment-friendly stays that need privacy and room to breathe.",
+      "Each bedroom has its own bathroom and air conditioning. The open kitchen invites shared meals; many free extras and staff help keep logistics light. Airport pickup, in-house massage, scooters, and breakfast are easy to arrange when you want them.",
     ],
     airbnbUrl: "https://www.airbnb.com/rooms/23112175",
     heroImage: "/images/villas/sawah-retreat/hero.jpg",

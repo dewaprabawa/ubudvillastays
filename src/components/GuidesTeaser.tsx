@@ -10,10 +10,10 @@ export function GuidesTeaser() {
     <section id="guides" className={styles.section} aria-labelledby="guides-title">
       <Reveal className={styles.inner}>
         <p className={styles.kicker}>Guides</p>
-        <h2 id="guides-title">Why travelers choose Ubud</h2>
+        <h2 id="guides-title">Plan the stay — and the days around it</h2>
         <p className={styles.lede}>
-          Destination and villa guides for planning a stay in Tirta Tawar and
-          beyond—written to help you book with clarity.
+          Experience, neighborhood, and villa guides for Tirta Tawar and
+          Ubud—market walks, Kecak, forest days, and how to book the right home.
         </p>
         <ul className={styles.list}>
           {featured.map((guide) => (

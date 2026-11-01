@@ -51,11 +51,18 @@ export function VillaGrid() {
                 </p>
                 {villa.offer ? (
                   <p className={styles.offer}>
-                    <span className={styles.offerBadge}>{villa.offer.badge}</span>
-                    {" "}
-                    <s className={styles.was}>{villa.offer.priceWasLabel}</s>{" "}
-                    {villa.offer.priceLabel} {villa.offer.pricePer} ·{" "}
-                    {villa.offer.savingsLabel}
+                    {villa.offer.badge ? (
+                      <span className={styles.offerBadge}>
+                        {villa.offer.badge}
+                      </span>
+                    ) : null}{" "}
+                    {villa.offer.priceWasLabel ? (
+                      <s className={styles.was}>{villa.offer.priceWasLabel}</s>
+                    ) : null}{" "}
+                    {villa.offer.priceLabel} {villa.offer.pricePer}
+                    {villa.offer.savingsLabel
+                      ? ` · ${villa.offer.savingsLabel}`
+                      : " · free activity"}
                   </p>
                 ) : villa.pitch ? (
                   <p className={styles.offer}>

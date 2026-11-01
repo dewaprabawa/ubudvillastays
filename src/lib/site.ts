@@ -18,11 +18,11 @@ export type VillaOffer = {
   priceLabel: string;
   pricePer: string;
   priceAmount: number;
-  priceWasLabel: string;
-  priceWasAmount: number;
-  savingsPercent: number;
-  savingsLabel: string;
-  badge: string;
+  priceWasLabel?: string;
+  priceWasAmount?: number;
+  savingsPercent?: number;
+  savingsLabel?: string;
+  badge?: string;
   currency: "IDR";
   eyebrow: string;
   headline: string;
@@ -37,6 +37,25 @@ export type VillaOffer = {
   };
   ctaNote: string;
 };
+
+const freeStayActivities: VillaOfferActivity[] = [
+  {
+    title: "Ubud rice field cycling + lunch",
+    copy: "A guided bike ride through quiet rice-field paths around Ubud, with lunch included. Easy pace — good for couples and small families who want green views without a long day trip.",
+    url: "https://www.sekarbaliactivity.com/tours/ubud-ricefield-cycling-tour",
+    image: "/images/marketing/ubud-ricefield-cycling.jpg",
+    imageAlt:
+      "Guests cycling through green Ubud rice fields on a guided tour",
+    mostPicked: true,
+  },
+  {
+    title: "Balinese cooking class (rice terrace)",
+    copy: "Learn to cook Balinese dishes with a local host overlooking rice terraces — market-style ingredients, hands-on steps, and a shared meal at the end.",
+    url: "https://www.sekarbaliactivity.com/tours/balinese-cooking-class",
+    image: "/images/marketing/cooking-class-ricefield.jpg",
+    imageAlt: "Balinese cooking class set against rice terraces near Ubud",
+  },
+];
 
 export type VillaPitch = {
   eyebrow: string;
@@ -200,25 +219,7 @@ export const villas: Villa[] = [
       activityIntro: "Free activity choice — pick one for your party:",
       activityTiming:
         "You can choose during your stay period — tell us at booking or once you arrive, as long as we confirm the activity date while you are here.",
-      activities: [
-        {
-          title: "Ubud rice field cycling + lunch",
-          copy: "A guided bike ride through quiet rice-field paths around Ubud, with lunch included. Easy pace — good for couples and small families who want green views without a long day trip.",
-          url: "https://www.sekarbaliactivity.com/tours/ubud-ricefield-cycling-tour",
-          image: "/images/marketing/ubud-ricefield-cycling.jpg",
-          imageAlt:
-            "Guests cycling through green Ubud rice fields on a guided tour",
-          mostPicked: true,
-        },
-        {
-          title: "Balinese cooking class (rice terrace)",
-          copy: "Learn to cook Balinese dishes with a local host overlooking rice terraces — market-style ingredients, hands-on steps, and a shared meal at the end.",
-          url: "https://www.sekarbaliactivity.com/tours/balinese-cooking-class",
-          image: "/images/marketing/cooking-class-ricefield.jpg",
-          imageAlt:
-            "Balinese cooking class set against rice terraces near Ubud",
-        },
-      ],
+      activities: freeStayActivities,
       accent: {
         src: "/images/marketing/canang-sari-ricefield.jpg",
         alt: "Canang sari offering placed beside an Ubud rice field",
@@ -297,28 +298,30 @@ export const villas: Villa[] = [
     shortName: "Sawah",
     eyebrow: "6 bedrooms · rice field views",
     tagline:
-      "6BR private villa on Jl. Tirta Tawar — rice-field calm for groups, retreats, and longer Ubud stays.",
+      "From Rp 7 juta / night on Jl. Tirta Tawar — groups, retreats, plus free activity choice.",
     description:
-      "Book Sawah Retreat — a 6-bedroom private pool villa with rice field views on Jl. Tirta Tawar, Ubud, Bali. Entire home for up to 12 guests near the local market, temple Kecak, Monkey Forest, and waterfalls. Ideal for families, friend groups, yoga retreats, and investment-friendly longer stays. Inquire on WhatsApp for current rates.",
+      "Book Sawah Retreat from Rp 7 juta per night — a 6-bedroom private pool villa with rice field views on Jl. Tirta Tawar, Ubud, Bali. Entire home for up to 12 guests, with your pick of one free activity (rice field cycling + lunch or Balinese cooking class) during the stay. Inquire on WhatsApp.",
     headline: "Rice fields at the edge of the pool.\nRoom for everyone to gather.",
     support:
-      "Entire-villa privacy for up to 12 guests on Jl. Tirta Tawar—six en-suite bedrooms, private pool, open kitchen, and sawah views with markets, temples, and forest walks nearby. Message WhatsApp for current rates.",
+      "From Rp 7 juta per night — entire-villa privacy for up to 12 guests on Jl. Tirta Tawar, with rice-field views and one free activity you can choose during your stay.",
     storyTitle: "Space to gather — culture and green outside the gate.",
     story: [
       "Sawah Retreat is the larger sibling on Tirta Tawar: an entire villa held just for your group, with rice field views and a private pool at the center of daily life. It suits multi-generation families, friend getaways, yoga retreats, and longer holiday or investment-friendly stays that need privacy and room to breathe.",
-      "Each bedroom has its own bathroom and air conditioning. The open kitchen invites shared meals; many free extras and staff help keep logistics light. Airport pickup, in-house massage, scooters, and breakfast are easy to arrange when you want them. Ask on WhatsApp for current rates and group dates.",
+      "Each bedroom has its own bathroom and air conditioning. The open kitchen invites shared meals; many free extras and staff help keep logistics light. Airport pickup, in-house massage, scooters, and breakfast are easy to arrange when you want them.",
     ],
-    pitch: {
-      eyebrow: "Group stay · Tirta Tawar, Ubud",
-      headline: "A rice-field base for gatherings—not just bedrooms.",
-      lede: "Sawah Retreat keeps your whole party under one roof on Jl. Tirta Tawar: private pool mornings, shared meals, and easy reach of Ubud’s market, temple Kecak, Monkey Forest, and waterfalls. Built for holiday groups, yoga retreats, and longer investment-friendly stays.",
-      bullets: [
-        "Entire 6-bedroom villa for your group only (up to 12 guests)",
-        "Rice-field and garden outlooks with a private pool at the center",
-        "~5-minute walk to the local traditional market; temples and forest days nearby",
-        "Open kitchen, fast Wi‑Fi, luggage help, and extras on request",
-        "Rates available on inquiry — message WhatsApp with dates and guest count",
-      ],
+    offer: {
+      priceLabel: "Rp 7 juta",
+      pricePer: "per night",
+      priceAmount: 7000000,
+      badge: "Group stay",
+      currency: "IDR",
+      eyebrow: "Commercial stay · Tirta Tawar, Ubud",
+      headline: "Group villa nights + one free Ubud activity.",
+      lede: "Private 6BR pool villa on Jl. Tirta Tawar from Rp 7 juta / night — for families, friend groups, and retreats. Choose one complimentary Sekar Bali Activity during your stay.",
+      activityIntro: "Free activity choice — pick one for your party:",
+      activityTiming:
+        "You can choose during your stay period — tell us at booking or once you arrive, as long as we confirm the activity date while you are here.",
+      activities: freeStayActivities,
       accent: {
         src: "/images/marketing/canang-sari-ricefield.jpg",
         alt: "Canang sari offering placed beside an Ubud rice field",
@@ -326,7 +329,7 @@ export const villas: Villa[] = [
           "Sawah mornings near Tirta Tawar — green calm with culture close by.",
       },
       ctaNote:
-        "Tell us your travel window and party size on WhatsApp. We will confirm availability and current rates for Sawah Retreat.",
+        "WhatsApp your dates and guest count — pick cycling or cooking now, or during your stay. We confirm the activity slot while you are here.",
     },
     airbnbUrl: "https://www.airbnb.com/rooms/23112175",
     heroImage: "/images/villas/sawah-retreat/hero.jpg",
@@ -412,9 +415,15 @@ export function whatsappHref(villaName?: string, message?: string) {
 }
 
 export function villaOfferWhatsApp(villa: Villa) {
-  if (!villa.offer) return whatsappHref(villa.name);
+  const offer = villa.offer;
+  if (!offer) return whatsappHref(villa.name);
+  const savings =
+    offer.savingsPercent && offer.priceWasLabel
+      ? ` (${offer.savingsPercent}% off ${offer.priceWasLabel})`
+      : "";
+  const badge = offer.badge ? `${offer.badge} ` : "";
   return whatsappHref(
     villa.name,
-    `Hi! I'm interested in The Hideaway Most picked offer — Rp 4.9 juta per night (15% off Rp 5.765.000) on Jl. Tirta Tawar, Ubud — including one free activity I can pick during my stay (rice field cycling + lunch OR Balinese cooking class). My dates are:`,
+    `Hi! I'm interested in ${villa.name} ${badge}offer — ${offer.priceLabel} ${offer.pricePer}${savings} on Jl. Tirta Tawar, Ubud — including one free activity I can pick during my stay (rice field cycling + lunch OR Balinese cooking class). My dates are:`,
   );
 }

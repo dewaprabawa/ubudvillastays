@@ -17,9 +17,13 @@ export function GuidesTeaser() {
         </p>
         <p className={styles.deal}>
           <Link href="/villas/the-hideaway#offer">
-            The Hideaway · Most picked · Save 15% — was Rp 5.765.000, now Rp
-            4.9 juta / night
+            Hideaway from Rp 4.9 juta / night
           </Link>
+          {" · "}
+          <Link href="/villas/sawah-retreat#offer">
+            Sawah from Rp 7 juta / night
+          </Link>
+          {" — free activity with either stay"}
         </p>
         <ul className={styles.list}>
           {featured.map((guide) => (

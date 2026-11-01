@@ -1,12 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Reveal } from "./Reveal";
-import { type Villa, villaOfferWhatsApp } from "@/lib/site";
+import { type Villa, villaOfferWhatsApp, villas } from "@/lib/site";
 import styles from "./VillaOffer.module.css";
 
 export function VillaOffer({ villa }: { villa: Villa }) {
   const offer = villa.offer;
   if (!offer) return null;
+
+  const other = villas.find((item) => item.slug !== villa.slug);
+  const hasSavings = Boolean(
+    offer.priceWasLabel && offer.savingsPercent && offer.savingsLabel,
+  );
 
   return (
     <section
@@ -16,23 +21,33 @@ export function VillaOffer({ villa }: { villa: Villa }) {
     >
       <Reveal className={styles.inner}>
         <div className={styles.compact}>
-          <div className={styles.badges}>
-            <span className={styles.badgePopular}>{offer.badge}</span>
-            <span className={styles.badgeSave}>{offer.savingsLabel}</span>
-          </div>
+          {(offer.badge || offer.savingsLabel) && (
+            <div className={styles.badges}>
+              {offer.badge ? (
+                <span className={styles.badgePopular}>{offer.badge}</span>
+              ) : null}
+              {offer.savingsLabel ? (
+                <span className={styles.badgeSave}>{offer.savingsLabel}</span>
+              ) : null}
+            </div>
+          )}
           <p className={styles.kicker}>{offer.eyebrow}</p>
           <div className={styles.priceBlock}>
-            <p className={styles.was}>
-              <span className={styles.wasLabel}>Was</span>
-              <s>{offer.priceWasLabel}</s>
-              <span className={styles.wasPer}>/ night</span>
-            </p>
+            {hasSavings ? (
+              <p className={styles.was}>
+                <span className={styles.wasLabel}>Was</span>
+                <s>{offer.priceWasLabel}</s>
+                <span className={styles.wasPer}>/ night</span>
+              </p>
+            ) : null}
             <p className={styles.price}>
               <span className={styles.amount}>{offer.priceLabel}</span>
               <span className={styles.per}>{offer.pricePer}</span>
             </p>
             <p className={styles.savingsNote}>
-              {offer.savingsPercent}% off · free activity included
+              {hasSavings
+                ? `${offer.savingsPercent}% off · free activity included`
+                : "Free activity choice included"}
             </p>
           </div>
           <h2 id="offer-title" className={styles.title}>
@@ -117,8 +132,23 @@ export function VillaOffer({ villa }: { villa: Villa }) {
           <Link href="/guides/ubud-experiences-from-tirta-tawar">
             Tirta Tawar experience guide
           </Link>
-          {" · "}
-          <Link href="/villas/sawah-retreat">Sawah Retreat for groups</Link>
+          {other ? (
+            <>
+              {" · "}
+              <Link
+                href={
+                  other.offer
+                    ? `/villas/${other.slug}#offer`
+                    : `/villas/${other.slug}`
+                }
+              >
+                {other.name}
+                {other.offer
+                  ? ` · ${other.offer.priceLabel} ${other.offer.pricePer}`
+                  : ""}
+              </Link>
+            </>
+          ) : null}
         </p>
       </Reveal>
     </section>

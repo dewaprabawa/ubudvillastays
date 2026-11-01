@@ -6,6 +6,7 @@ import styles from "./HomeHero.module.css";
 
 export function HomeHero() {
   const featured = villas[0];
+  const sawah = villas[1];
   const offer = featured.offer;
 
   return (
@@ -33,8 +34,8 @@ export function HomeHero() {
           Real Ubud days.
         </h1>
         <p className={styles.support}>
-          {offer
-            ? `${featured.name}: ${offer.badge} · ${offer.savingsLabel} — was ${offer.priceWasLabel}, now ${offer.priceLabel} ${offer.pricePer} with one free Ubud activity. Or gather at Sawah Retreat on the same Tirta Tawar lane.`
+          {offer && sawah?.offer
+            ? `${featured.shortName} from ${offer.priceLabel} / night · ${sawah.shortName} from ${sawah.offer.priceLabel} / night — both with a free activity you can pick during the stay.`
             : siteConfig.tagline}
         </p>
         <div className={styles.actions}>
@@ -48,9 +49,9 @@ export function HomeHero() {
               </a>
               <Link
                 className={styles.secondary}
-                href="/villas/the-hideaway#offer"
+                href="/villas/sawah-retreat#offer"
               >
-                See Hideaway deal
+                Sawah from Rp 7 juta
               </Link>
             </>
           ) : (

@@ -116,17 +116,17 @@ export function GuideArticle({ guide }: { guide: Guide }) {
         <section className={styles.ctaBand} aria-labelledby="guide-cta">
           <h2 id="guide-cta">Stay in Tirta Tawar, Ubud</h2>
           <p>
-            The Hideaway Most picked offer: Save 15% — was Rp 5.765.000, now Rp
-            4.9 juta per night with one free Ubud activity (rice-field cycling
-            or cooking class). Or Sawah Retreat for groups of up to 12—both on
-            Jl. Tirta Tawar.
+            The Hideaway from Rp 4.9 juta / night (Save 15%) or Sawah Retreat
+            from Rp 7 juta / night for groups — both include one free activity
+            (rice-field cycling or cooking class) you can pick during the stay
+            on Jl. Tirta Tawar.
           </p>
           <div className={styles.actions}>
             <Link className={styles.primary} href="/villas/the-hideaway#offer">
               Hideaway offer
             </Link>
-            <Link className={styles.secondary} href="/villas/sawah-retreat">
-              Sawah Retreat
+            <Link className={styles.secondary} href="/villas/sawah-retreat#offer">
+              Sawah from Rp 7 juta
             </Link>
             <a className={styles.secondary} href={whatsappHref()}>
               WhatsApp inquiry

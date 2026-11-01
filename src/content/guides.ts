@@ -136,8 +136,8 @@ export const guides: Guide[] = [
         heading: "Holiday stays, longer stays, and free extras",
         paragraphs: [
           "Whether you book a short holiday or a longer investment-friendly stay, both villas are set up for living: private pools, kitchens, fast Wi‑Fi, parking, and many free extras that boutique hotels often meter. Daily housekeeping, optional breakfast, scooters, transfers, and tours can be layered on when you want them.",
-          "The Hideaway currently offers from Rp 4.9 juta per night with your pick of one free activity—Ubud rice field cycling with lunch or a Balinese cooking class via Sekar Bali Activity. Sawah Retreat is the group-scale option on the same Tirta Tawar lane; inquire on WhatsApp for current rates and dates.",
-          "Use the links at the end of this guide for The Hideaway offer, Sawah Retreat, and the activity pages—or message WhatsApp and we will match the villa to your group.",
+          "The Hideaway currently offers from Rp 4.9 juta per night, and Sawah Retreat from Rp 7 juta per night for groups — both with your pick of one free activity (Ubud rice field cycling with lunch or a Balinese cooking class) during the stay on Jl. Tirta Tawar.",
+          "Use the links at the end of this guide for either villa offer — or message WhatsApp and we will match the home to your group.",
         ],
       },
     ],

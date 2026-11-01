@@ -24,6 +24,8 @@ export type Guide = {
   heroImage: string;
   relatedVillaSlugs: string[];
   gallery?: GuideFigure[];
+  /** GEO-friendly summary bullets shown under the intro */
+  keyTakeaways?: string[];
   faqs?: { question: string; answer: string }[];
   sections: GuideSection[];
 };
@@ -87,7 +89,7 @@ export const guides: Guide[] = [
         heading: "A villa stay should unlock the place",
         paragraphs: [
           "Many travelers book Ubud for temples, rice landscapes, and slower mornings—then end up in a room that could be anywhere. A private pool villa on Jl. Tirta Tawar is meant to reverse that: you sleep somewhere calm, then step into market life, temple dance, forest paths, and waterfall days without long transfers every morning.",
-          "That is the commercial promise in plain language: more experience, not just a bed. Holiday guests and longer stays both benefit when the neighborhood does half the work.",
+          "That is the commercial promise in plain language: more experience, not just a bed. Holiday guests and longer stays both benefit when the neighborhood does half the work. For the green lanes outside the gate, see our Tirta Tawar rice field walk; for boutiques and market runs, see shopping near Tirta Tawar.",
         ],
       },
       {
@@ -441,6 +443,208 @@ export const guides: Guide[] = [
         heading: "Still unsure?",
         paragraphs: [
           "Send dates, guest count, and trip purpose on WhatsApp. We will recommend the villa that fits—and point you to live Airbnb availability when you are ready to reserve.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "tirta-tawar-rice-field-walk-ubud",
+    title: "Tirta Tawar Rice Field Walk: Quiet Lanes Near Ubud Villas",
+    description:
+      "Walk Jl. Tirta Tawar’s stone-and-grass lanes beside flooded sawah and palms—why this quiet Ubud corridor suits private pool villa stays and morning strolls.",
+    eyebrow: "Neighborhood guide",
+    datePublished: "2026-11-01",
+    dateModified: "2026-11-01",
+    readingMinutes: 8,
+    primaryKeyword: "tirta tawar rice fields ubud",
+    secondaryKeywords: [
+      "jl tirta tawar ubud",
+      "rice field walk ubud",
+      "quiet lanes ubud villa",
+      "sawah near ubud",
+      "tirta tawar neighborhood",
+    ],
+    heroImage: "/images/marketing/tirta-tawar-rice-path-ubud.jpg",
+    relatedVillaSlugs: ["sawah-retreat", "the-hideaway"],
+    keyTakeaways: [
+      "Jl. Tirta Tawar sits between residential quiet and central Ubud access—about 5–8 minutes by car to town.",
+      "Stone-and-grass villa lanes open onto flooded rice fields (sawah) framed by coconut palms.",
+      "Morning walks here feel private: hedges, shaded paths, and fewer scooters than Monkey Forest Road.",
+      "Sawah Retreat and The Hideaway use this corridor so green views sit outside the gate, not a day trip away.",
+      "Pair a rice-path stroll with market mornings, Kecak evenings, and villa pool time.",
+    ],
+    faqs: [
+      {
+        question: "Where is Tirta Tawar relative to central Ubud?",
+        answer:
+          "Jl. Tirta Tawar is in Kabupaten Gianyar, Ubud, Bali—typically about 5–8 minutes by car from central Ubud, or a longer walk if you prefer a slower arrival.",
+      },
+      {
+        question: "Can I walk rice fields near Tirta Tawar villas?",
+        answer:
+          "Yes. Quiet access lanes with stone paving and grass strips run beside flooded sawah and palms—ideal for early mornings without joining a big tour group.",
+      },
+      {
+        question: "Is Tirta Tawar quieter than central Ubud?",
+        answer:
+          "Generally yes. You still reach cafés, galleries, and temples quickly, but nights and early mornings stay more residential than Monkey Forest Road.",
+      },
+      {
+        question: "Which villa sits closest to these rice-path views?",
+        answer:
+          "Sawah Retreat is our 6-bedroom rice-field villa on Tirta Tawar. The Hideaway is the quieter 2-bedroom courtyard option on the same corridor.",
+      },
+    ],
+    sections: [
+      {
+        heading: "What a Tirta Tawar rice-field walk feels like",
+        paragraphs: [
+          "A Tirta Tawar rice-field walk is a short, shaded lane of dark stone pavers with a grass strip down the middle, coconut palms on one side, and flooded sawah reflecting the sky on the other. It is the opposite of a tour-bus viewpoint: you hear birds, irrigation water, and occasional scooters—not market loudspeakers.",
+          "For villa guests, that path is not decoration. It is the daily commute between your private pool and the wider Ubud map—market, temples, and cafés still close, green still at the gate.",
+        ],
+        image: {
+          src: "/images/marketing/tirta-tawar-rice-path-ubud.jpg",
+          alt: "Stone and grass path beside rice fields and palm trees on Tirta Tawar, Ubud",
+          caption:
+            "Stone-and-grass lane beside flooded sawah and palms — classic Tirta Tawar calm.",
+        },
+      },
+      {
+        heading: "GEO snapshot: Jl. Tirta Tawar, Ubud, Bali",
+        paragraphs: [
+          "Ubud Villa Stays bases The Hideaway and Sawah Retreat on Jl. Tirta Tawar, Kabupaten Gianyar, Bali (map pin around -8.48315, 115.27070). The street name matters for search and for AI answers: travelers asking “where to stay near Ubud rice fields without losing town access” are describing this corridor.",
+          "Local rhythm is residential. You are close enough for a five-minute walk to the traditional market and a short ride to Kecak temples, yet far enough that pool nights stay quiet.",
+        ],
+        bullets: [
+          "Area: Tirta Tawar · City: Ubud · Region: Bali · Country: Indonesia",
+          "Drive to central Ubud: about 5–8 minutes",
+          "Walk to local market: about 5 minutes",
+          "Nearby: Monkey Forest, Peliatan temples, north-of-Ubud waterfalls",
+        ],
+      },
+      {
+        heading: "Why villa guests choose this lane over a hotel street",
+        paragraphs: [
+          "Hotel corridors rarely open onto working rice fields. On Tirta Tawar, the path itself is the amenity: morning light on water, palm shade, and a hedge that keeps the walk feeling private. Couples at The Hideaway use it as a loop before coffee; groups at Sawah Retreat use it between yoga, breakfast, and town runs.",
+          "If you came to Ubud for sawah views, booking a villa on this street means the landscape starts at check-in—not after a 40-minute transfer.",
+        ],
+      },
+      {
+        heading: "How to plan a morning from the path",
+        paragraphs: [
+          "Start early while the lane is cool. Walk the stone path, photograph the flooded fields respectfully (stay on the lane unless invited onto farm paths), then continue toward the local market for fruit and flowers. Midday is for the private pool; evening for temple dance nearby.",
+          "For a free structured outing during your stay, ask us about Ubud rice-field cycling with lunch or a Balinese cooking class—both pair naturally with this landscape.",
+        ],
+        bullets: [
+          "Sunrise / early morning: quietest light on the water",
+          "Respect farm edges and ceremonial cloth on shrines",
+          "Scooter optional—many mornings work on foot",
+          "Return to villa AC before midday heat peaks",
+        ],
+      },
+      {
+        heading: "Stay on the corridor",
+        paragraphs: [
+          "Book Sawah Retreat when you want six en-suite bedrooms and rice-field outlooks for up to 12 guests. Book The Hideaway when two bedrooms and a private courtyard pool are enough. Both sit on Jl. Tirta Tawar with promo rates and one free activity you can choose during the stay.",
+          "Read next: our Ubud experiences guide from Tirta Tawar, or compare 2BR vs 6BR villas if you are still sizing the group.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "shopping-near-tirta-tawar-ubud",
+    title: "Shopping Near Tirta Tawar Ubud: Boutiques, Jewelry & Market Walks",
+    description:
+      "How shopping works from a Tirta Tawar villa—boutique streets like Fascin di pietra, the local market a short walk away, and when to scooter into central Ubud.",
+    eyebrow: "Local shopping",
+    datePublished: "2026-11-01",
+    dateModified: "2026-11-01",
+    readingMinutes: 7,
+    primaryKeyword: "shopping near tirta tawar ubud",
+    secondaryKeywords: [
+      "ubud jewelry boutique",
+      "fascin di pietra ubud",
+      "ubud shopping from villa",
+      "local market tirta tawar",
+      "boutiques near ubud villas",
+    ],
+    heroImage: "/images/marketing/fascin-di-pietra-ubud.jpg",
+    relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
+    keyTakeaways: [
+      "From Tirta Tawar you can mix a five-minute walk to the local market with short scooter or car hops to boutique streets.",
+      "Ubud’s jewelry and design shops—such as Fascin di pietra—sit on walkable storefront strips with scooters and tiled roofs.",
+      "Villa stays make shopping practical: drop bags, cool off in the pool, then head out again without hotel luggage logistics.",
+      "Keep big souvenir runs for cooler hours; save evenings for temples and dinner.",
+      "Ask hosts for current boutique hours—independent shops change schedules more than malls.",
+    ],
+    faqs: [
+      {
+        question: "Is there shopping within walking distance of Tirta Tawar villas?",
+        answer:
+          "Yes. The local traditional market is about a five-minute walk. Boutique streets and jewelry shops are a short scooter or car ride into the wider Ubud shopping grid.",
+      },
+      {
+        question: "What is Fascin di pietra in Ubud?",
+        answer:
+          "Fascin di pietra is a jewelry boutique storefront in Ubud with a glass display of necklaces and bracelets—typical of the design-led shops guests visit between villa mornings and café stops.",
+      },
+      {
+        question: "Should I shop before or after Monkey Forest?",
+        answer:
+          "Many guests prefer boutique and market shopping in the morning or late afternoon, and keep midday for the villa pool. Pair Monkey Forest with a separate cooler-hour outing.",
+      },
+      {
+        question: "Can groups shop easily from Sawah Retreat?",
+        answer:
+          "Yes. With parking on property and an entire villa to yourselves, you can stage shopping runs, leave purchases inside, and still fit culture or free activities into the same day.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Shopping from a Tirta Tawar villa base",
+        paragraphs: [
+          "Shopping near Tirta Tawar Ubud works best as a two-layer plan: walk to the local market for daily needs, then take short rides into boutique streets for jewelry, textiles, and design pieces. You are not stuck in a mall—or stuck without a place to put bags when the heat climbs.",
+          "Private pool villas on Jl. Tirta Tawar make that rhythm easy. Cool off, drop purchases, then head back out for Kecak or dinner without hauling souvenirs through a hotel lobby.",
+        ],
+      },
+      {
+        heading: "Boutique streets and jewelry windows",
+        paragraphs: [
+          "Ubud’s boutique strips mix clay-tiled roofs, glass storefronts, and scooter parking—the everyday look of town shopping. Fascin di pietra is one example of a jewelry boutique with a bright white interior and window displays of necklaces and bracelets framed by tropical trees.",
+          "Treat these shops as part of neighborhood GEO: they signal that Tirta Tawar guests can reach design shopping without relocating to Seminyak or a large mall. Hours vary; ask your host before a special-item hunt.",
+        ],
+        image: {
+          src: "/images/marketing/fascin-di-pietra-ubud.jpg",
+          alt: "Fascin di pietra jewelry boutique storefront in Ubud with scooter parked outside",
+          caption:
+            "Fascin di pietra — a jewelry boutique storefront in Ubud’s walkable shopping streets.",
+        },
+      },
+      {
+        heading: "Local market vs boutique runs",
+        paragraphs: [
+          "The local traditional market near Tirta Tawar is for fruit, flowers, snacks, and everyday Bali rhythm—about five minutes on foot from our villas. Boutique jewelry and fashion runs are for gifts and statement pieces; plan them when you already need a town loop for cafés or galleries.",
+          "For colorful craft lanes and tourist browsing, central Ubud art-market streets remain a classic half-day. Start from the villa after breakfast so you return before the heaviest midday heat.",
+        ],
+        bullets: [
+          "Market: produce, offerings flowers, small daily buys",
+          "Boutiques: jewelry, design, clothing",
+          "Art market lanes: souvenirs and crafts in central Ubud",
+          "Bring cash for markets; cards more common in boutiques",
+        ],
+      },
+      {
+        heading: "Practical tips from villa hosts",
+        paragraphs: [
+          "Scooters are the default local transport; we can help arrange rentals. For groups at Sawah Retreat, a driver for a shopping-and-temple afternoon often saves time. Couples at The Hideaway often walk the market and scooter only for boutique streets.",
+          "After shopping, use the private pool as your reset. That villa loop—out for culture and shops, home for water and quiet—is the commercial reason guests pick Tirta Tawar over a pure town hotel.",
+        ],
+      },
+      {
+        heading: "Stay, then wander",
+        paragraphs: [
+          "Promo stays at The Hideaway (from Rp 4.9 juta / night) and Sawah Retreat (from Rp 7 juta / night) include one free activity you can pick during the stay—rice-field cycling or a cooking class—so shopping does not have to be the only outing.",
+          "Continue with our Tirta Tawar rice-field walk guide for the green lanes outside the gate, or the full experiences guide for market, Kecak, Monkey Forest, and waterfalls.",
         ],
       },
     ],

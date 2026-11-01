@@ -1,0 +1,31 @@
+# Ubud Villa Stays
+
+> Private pool villas on Jl. Tirta Tawar, Ubud, Bali — The Hideaway (2BR) and Sawah Retreat (6BR). Promo rates with one free activity (rice-field cycling or cooking class). Local GEO: market ~5 min walk, Kecak nearby, Monkey Forest and waterfalls close.
+
+Site: https://www.ubudvillastays.com
+WhatsApp: +6281775723663
+Email: sekarprivatebaliactivity@gmail.com
+Location: Jl. Tirta Tawar, Kabupaten Gianyar, Bali, Indonesia
+Map: https://maps.app.goo.gl/5TpevFsUJeezD1gD8
+Coordinates: -8.4831533, 115.2706967
+
+## Primary pages
+
+- [Home](https://www.ubudvillastays.com/): Compare Tirta Tawar villas and promo offers
+- [The Hideaway](https://www.ubudvillastays.com/villas/the-hideaway): 2BR private courtyard pool villa — promo from Rp 4.9 juta / night
+- [Sawah Retreat](https://www.ubudvillastays.com/villas/sawah-retreat): 6BR rice-field villa for up to 12 — promo from Rp 7 juta / night
+- [Guides hub](https://www.ubudvillastays.com/guides): Ubud destination and villa planning guides
+
+## Guides (SEO / GEO)
+
+- [Ubud experiences from Tirta Tawar](https://www.ubudvillastays.com/guides/ubud-experiences-from-tirta-tawar): Market, Kecak, Monkey Forest, waterfalls
+- [Tirta Tawar rice field walk](https://www.ubudvillastays.com/guides/tirta-tawar-rice-field-walk-ubud): Quiet stone-and-grass lanes beside sawah
+- [Shopping near Tirta Tawar](https://www.ubudvillastays.com/guides/shopping-near-tirta-tawar-ubud): Boutiques, jewelry (e.g. Fascin di pietra), market walks
+- [Why Ubud](https://www.ubudvillastays.com/guides/why-ubud-is-a-top-bali-destination)
+- [Best area to stay](https://www.ubudvillastays.com/guides/best-area-to-stay-in-ubud-for-a-villa)
+- [2BR vs 6BR villa](https://www.ubudvillastays.com/guides/2br-vs-6br-villa-ubud)
+
+## Optional
+
+- [Full LLM index](https://www.ubudvillastays.com/llms-full.txt): Expanded page summaries for AI crawlers
+- [Sitemap](https://www.ubudvillastays.com/sitemap.xml)

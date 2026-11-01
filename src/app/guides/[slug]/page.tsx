@@ -39,6 +39,8 @@ export async function generateMetadata({
       images: [
         {
           url: guide.heroImage,
+          width: 1200,
+          height: 1600,
           alt: guide.title,
         },
       ],
@@ -48,6 +50,10 @@ export async function generateMetadata({
       title: guide.title,
       description: guide.description,
       images: [guide.heroImage],
+    },
+    robots: {
+      index: true,
+      follow: true,
     },
   };
 }

@@ -69,6 +69,17 @@ export function GuideArticle({ guide }: { guide: Guide }) {
           </div>
         ) : null}
 
+        {guide.keyTakeaways?.length ? (
+          <section className={styles.takeaways} aria-labelledby="takeaways-title">
+            <h2 id="takeaways-title">Key takeaways</h2>
+            <ul>
+              {guide.keyTakeaways.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </section>
+        ) : null}
+
         {guide.sections.map((section) => (
           <section key={section.heading} className={styles.section}>
             <h2>{section.heading}</h2>

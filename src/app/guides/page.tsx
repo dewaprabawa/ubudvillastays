@@ -11,7 +11,7 @@ import styles from "./page.module.css";
 export const metadata: Metadata = {
   title: "Ubud Travel & Villa Guides",
   description:
-    "Editorial guides to Ubud, Bali—why visit, where to stay, villa vs hotel, and yoga retreat planning—with private pool villa recommendations in Tirta Tawar.",
+    "Editorial guides to Ubud, Bali—Tirta Tawar rice-field walks, shopping and boutiques, experiences, where to stay, and villa planning—with private pool villa recommendations on Jl. Tirta Tawar.",
   alternates: { canonical: "/guides" },
   openGraph: {
     title: `Ubud Guides · ${siteConfig.name}`,

@@ -11,6 +11,7 @@ export function GuideJsonLd({ guide }: { guide: Guide }) {
     description: guide.description,
     datePublished: guide.datePublished,
     dateModified: guide.dateModified,
+    inLanguage: "en-US",
     author: {
       "@type": "Organization",
       name: siteConfig.name,
@@ -26,8 +27,12 @@ export function GuideJsonLd({ guide }: { guide: Guide }) {
       },
     },
     image: [`${siteConfig.url}${guide.heroImage}`],
-    mainEntityOfPage: url,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": url,
+    },
     keywords: [guide.primaryKeyword, ...guide.secondaryKeywords].join(", "),
+    articleSection: guide.eyebrow,
     about: {
       "@type": "Place",
       name: siteConfig.location.placeName,
@@ -45,6 +50,11 @@ export function GuideJsonLd({ guide }: { guide: Guide }) {
       },
       hasMap: siteConfig.location.mapsUrl,
     },
+    ...(guide.keyTakeaways?.length
+      ? {
+          abstract: guide.keyTakeaways.join(" "),
+        }
+      : {}),
   };
 
   const breadcrumb = {

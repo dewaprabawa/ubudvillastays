@@ -4,7 +4,14 @@ import { guides } from "@/content/guides";
 import styles from "./GuidesTeaser.module.css";
 
 export function GuidesTeaser() {
-  const featured = guides.slice(0, 3);
+  const featuredSlugs = [
+    "ubud-experiences-from-tirta-tawar",
+    "tirta-tawar-rice-field-walk-ubud",
+    "shopping-near-tirta-tawar-ubud",
+  ];
+  const featured = featuredSlugs
+    .map((slug) => guides.find((guide) => guide.slug === slug))
+    .filter(Boolean) as typeof guides;
 
   return (
     <section id="guides" className={styles.section} aria-labelledby="guides-title">

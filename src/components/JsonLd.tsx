@@ -1,5 +1,19 @@
 import { type Villa, siteConfig, villas } from "@/lib/site";
 
+const postalAddress = {
+  "@type": "PostalAddress" as const,
+  streetAddress: siteConfig.location.streetAddress,
+  addressLocality: siteConfig.location.city,
+  addressRegion: siteConfig.location.region,
+  addressCountry: "ID",
+};
+
+const geo = {
+  "@type": "GeoCoordinates" as const,
+  latitude: siteConfig.location.latitude,
+  longitude: siteConfig.location.longitude,
+};
+
 function lodgingSchema(villa?: Villa) {
   if (villa) {
     return {
@@ -11,18 +25,9 @@ function lodgingSchema(villa?: Villa) {
       image: [`${siteConfig.url}${villa.ogImage}`],
       telephone: siteConfig.whatsappNumber,
       email: siteConfig.email,
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: siteConfig.location.city,
-        addressRegion: siteConfig.location.region,
-        addressCountry: "ID",
-        streetAddress: siteConfig.location.addressHint,
-      },
-      geo: {
-        "@type": "GeoCoordinates",
-        latitude: -8.5069,
-        longitude: 115.2625,
-      },
+      address: postalAddress,
+      geo,
+      hasMap: siteConfig.location.mapsUrl,
       numberOfRooms: villa.facts.bedrooms,
       occupancy: {
         "@type": "QuantitativeValue",
@@ -39,7 +44,7 @@ function lodgingSchema(villa?: Villa) {
         reviewCount: villa.facts.reviews,
         bestRating: 5,
       },
-      sameAs: [villa.airbnbUrl],
+      sameAs: [villa.airbnbUrl, siteConfig.location.mapsUrl],
       priceRange: "$$",
     };
   }
@@ -52,12 +57,13 @@ function lodgingSchema(villa?: Villa) {
     email: siteConfig.email,
     telephone: siteConfig.whatsappNumber,
     description: siteConfig.description,
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: siteConfig.location.city,
-      addressRegion: siteConfig.location.region,
-      addressCountry: "ID",
-      streetAddress: siteConfig.location.addressHint,
+    address: postalAddress,
+    location: {
+      "@type": "Place",
+      name: siteConfig.location.placeName,
+      address: postalAddress,
+      geo,
+      hasMap: siteConfig.location.mapsUrl,
     },
     makesOffer: villas.map((item) => ({
       "@type": "Offer",
@@ -75,23 +81,14 @@ export function JsonLd({ villa }: { villa?: Villa }) {
     "@context": "https://schema.org",
     "@type": "Place",
     name: villa
-      ? `${villa.name}, ${siteConfig.location.city}`
-      : `${siteConfig.name}, ${siteConfig.location.city}`,
+      ? `${villa.name}, ${siteConfig.location.placeName}`
+      : siteConfig.location.placeName,
     description: villa
       ? villa.description
       : `Private pool villa vacation rentals in ${siteConfig.location.area}, ${siteConfig.location.city}, ${siteConfig.location.region}, Indonesia.`,
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: siteConfig.location.city,
-      addressRegion: siteConfig.location.region,
-      addressCountry: "ID",
-      streetAddress: siteConfig.location.addressHint,
-    },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: -8.5069,
-      longitude: 115.2625,
-    },
+    address: postalAddress,
+    geo,
+    hasMap: siteConfig.location.mapsUrl,
   };
 
   const breadcrumb = villa

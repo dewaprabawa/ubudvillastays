@@ -17,9 +17,9 @@ export function Location() {
           Tirta Tawar, Ubud — close to culture, open to quiet.
         </h2>
         <p className={styles.lede}>
-          Nestled in {location.area}, {location.city}, {location.region}. Central
-          Ubud is {location.driveToCenter}, or {location.walkToCenter} when you
-          prefer to wander.
+          Our villas are on {location.streetAddress} in {location.city},{" "}
+          {location.region}. Central Ubud is {location.driveToCenter}, or{" "}
+          {location.walkToCenter} when you prefer to wander.
         </p>
 
         <div className={styles.panels}>
@@ -38,12 +38,25 @@ export function Location() {
               galleries, yoga, and long café afternoons. Our villas keep you near
               that rhythm without sitting on the busiest streets.
             </p>
+            <p className={styles.mapLink}>
+              <a
+                href={location.mapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open in Google Maps
+              </a>
+              <span>
+                {" "}
+                · {location.latitude}, {location.longitude}
+              </span>
+            </p>
           </div>
         </div>
 
         <p className={styles.geo}>
-          Vacation rental villas in {location.city}, {location.region},{" "}
-          {location.country} · {location.addressHint}
+          Vacation rental villas at {location.placeName} · {location.city},{" "}
+          {location.region}, {location.country}
         </p>
       </Reveal>
     </section>

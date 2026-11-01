@@ -50,7 +50,13 @@ export const siteConfig = {
     city: "Ubud",
     region: "Bali",
     country: "Indonesia",
-    addressHint: "Tirta Tawar, Kutuh Kaja, Ubud, Gianyar, Bali",
+    addressHint: "Jl. Tirta Tawar, Kabupaten Gianyar, Bali",
+    streetAddress: "Jl. Tirta Tawar",
+    placeName: "Jl. Tirta Tawar, Kabupaten Gianyar, Bali",
+    // Exact marker from Google Maps share link https://maps.app.goo.gl/5TpevFsUJeezD1gD8
+    latitude: -8.4831533,
+    longitude: 115.2706967,
+    mapsUrl: "https://maps.app.goo.gl/5TpevFsUJeezD1gD8",
     walkToCenter: "15–20 minutes on foot",
     driveToCenter: "about 5–8 minutes by car",
     nearby: [

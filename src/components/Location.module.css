@@ -76,6 +76,19 @@
   color: var(--ink-soft);
 }
 
+.mapLink {
+  margin: 1rem 0 0;
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+}
+
+.mapLink a {
+  color: var(--canopy);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
 .geo {
   margin: 2rem 0 0;
   font-size: 0.85rem;

@@ -30,13 +30,20 @@ export function GuideJsonLd({ guide }: { guide: Guide }) {
     keywords: [guide.primaryKeyword, ...guide.secondaryKeywords].join(", "),
     about: {
       "@type": "Place",
-      name: `${siteConfig.location.city}, ${siteConfig.location.region}`,
+      name: siteConfig.location.placeName,
       address: {
         "@type": "PostalAddress",
+        streetAddress: siteConfig.location.streetAddress,
         addressLocality: siteConfig.location.city,
         addressRegion: siteConfig.location.region,
         addressCountry: "ID",
       },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: siteConfig.location.latitude,
+        longitude: siteConfig.location.longitude,
+      },
+      hasMap: siteConfig.location.mapsUrl,
     },
   };
 

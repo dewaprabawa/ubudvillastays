@@ -31,6 +31,10 @@ export type VillaOffer = {
   priceWasAmount?: number;
   savingsPercent?: number;
   savingsLabel?: string;
+  /** Short label on the current rate, e.g. "Promo" */
+  promoLabel?: string;
+  /** Urgency line under the price, e.g. before rates rise */
+  priceRiseNote?: string;
   badge?: string;
   currency: "IDR";
   eyebrow: string;
@@ -201,12 +205,12 @@ export const villas: Villa[] = [
     shortName: "Hideaway",
     eyebrow: "2 bedrooms · private courtyard",
     tagline:
-      "From Rp 4.9 juta / night on Jl. Tirta Tawar — plus one free Ubud activity.",
+      "Promo from Rp 4.9 juta / night on Jl. Tirta Tawar — plus one free Ubud activity.",
     description:
-      "Book The Hideaway from Rp 4.9 juta per night — a 2-bedroom private pool villa on Jl. Tirta Tawar, Ubud, Bali. Stay includes your pick of one free activity: Ubud rice field cycling with lunch or a Balinese cooking class. Market, Kecak, Monkey Forest nearby. Inquire on WhatsApp.",
+      "Book The Hideaway at the promo rate from Rp 4.9 juta per night (15% off regular Rp 5.765.000) — a 2-bedroom private pool villa on Jl. Tirta Tawar, Ubud, Bali. Stay includes your pick of one free activity: Ubud rice field cycling with lunch or a Balinese cooking class. Market, Kecak, Monkey Forest nearby. Inquire on WhatsApp.",
     headline: "Quiet mornings by the pool.\nUbud’s culture just beyond the gate.",
     support:
-      "From Rp 4.9 juta per night — a modern-Bali 2-bedroom hideaway with private pool, plus your choice of one free activity: rice field cycling with lunch or a Balinese cooking class.",
+      "Promo from Rp 4.9 juta per night — a modern-Bali 2-bedroom hideaway with private pool, plus your choice of one free activity: rice field cycling with lunch or a Balinese cooking class.",
     storyTitle: "A private courtyard base for real Ubud days.",
     story: [
       "The Hideaway blends contemporary comfort with Balinese craft—stone walls, warm timber, and a still private pool framed by tropical planting. Stay for the experience: market mornings, temple evenings, forest walks — then return to your own courtyard.",
@@ -216,16 +220,18 @@ export const villas: Villa[] = [
       priceLabel: "Rp 4.9 juta",
       pricePer: "per night",
       priceAmount: 4900000,
-      // 15% off: Rp 5.765.000 → Rp 4.900.000
+      // Promo vs regular: Rp 5.765.000 → Rp 4.900.000 (15% off)
       priceWasLabel: "Rp 5.765.000",
       priceWasAmount: 5765000,
       savingsPercent: 15,
       savingsLabel: "Save 15%",
+      promoLabel: "Promo",
+      priceRiseNote: "Promo rate now — book before the regular rate rises.",
       badge: "Most picked",
       currency: "IDR",
-      eyebrow: "Commercial stay · Tirta Tawar, Ubud",
+      eyebrow: "Promo stay · Tirta Tawar, Ubud",
       headline: "Villa nights + one free Ubud activity.",
-      lede: "Private pool stay on Jl. Tirta Tawar at Rp 4.9 juta / night (15% off). Choose one complimentary Sekar Bali Activity during your stay.",
+      lede: "Promo rate Rp 4.9 juta / night on Jl. Tirta Tawar (15% off the regular Rp 5.765.000). Choose one complimentary Sekar Bali Activity during your stay.",
       activityIntro: "Free activity choice — pick one for your party:",
       activityTiming:
         "You can choose during your stay period — tell us at booking or once you arrive, as long as we confirm the activity date while you are here.",
@@ -308,12 +314,12 @@ export const villas: Villa[] = [
     shortName: "Sawah",
     eyebrow: "6 bedrooms · rice field views",
     tagline:
-      "From Rp 7 juta / night on Jl. Tirta Tawar — groups, retreats, plus free activity choice.",
+      "Promo from Rp 7 juta / night on Jl. Tirta Tawar — groups, retreats, plus free activity choice.",
     description:
-      "Book Sawah Retreat from Rp 7 juta per night — a 6-bedroom private pool villa with rice field views on Jl. Tirta Tawar, Ubud, Bali. Entire home for up to 12 guests, with your pick of one free activity (rice field cycling + lunch or Balinese cooking class) during the stay. Inquire on WhatsApp.",
+      "Book Sawah Retreat at the promo rate from Rp 7 juta per night (15% off regular Rp 8.235.000) — a 6-bedroom private pool villa with rice field views on Jl. Tirta Tawar, Ubud, Bali. Entire home for up to 12 guests, with your pick of one free activity (rice field cycling + lunch or Balinese cooking class) during the stay. Inquire on WhatsApp.",
     headline: "Rice fields at the edge of the pool.\nRoom for everyone to gather.",
     support:
-      "From Rp 7 juta per night — entire-villa privacy for up to 12 guests on Jl. Tirta Tawar, with rice-field views and one free activity you can choose during your stay.",
+      "Promo from Rp 7 juta per night — entire-villa privacy for up to 12 guests on Jl. Tirta Tawar, with rice-field views and one free activity you can choose during your stay.",
     storyTitle: "Space to gather — culture and green outside the gate.",
     story: [
       "Sawah Retreat is the larger sibling on Tirta Tawar: an entire villa held just for your group, with rice field views and a private pool at the center of daily life. It suits multi-generation families, friend getaways, yoga retreats, and longer holiday or investment-friendly stays that need privacy and room to breathe.",
@@ -323,11 +329,18 @@ export const villas: Villa[] = [
       priceLabel: "Rp 7 juta",
       pricePer: "per night",
       priceAmount: 7000000,
+      // Promo vs regular: Rp 8.235.000 → Rp 7.000.000 (15% off)
+      priceWasLabel: "Rp 8.235.000",
+      priceWasAmount: 8235000,
+      savingsPercent: 15,
+      savingsLabel: "Save 15%",
+      promoLabel: "Promo",
+      priceRiseNote: "Promo rate now — book before the regular rate rises.",
       badge: "Group stay",
       currency: "IDR",
-      eyebrow: "Commercial stay · Tirta Tawar, Ubud",
+      eyebrow: "Promo stay · Tirta Tawar, Ubud",
       headline: "Group villa nights + one free Ubud activity.",
-      lede: "Private 6BR pool villa on Jl. Tirta Tawar from Rp 7 juta / night — for families, friend groups, and retreats. Choose one complimentary Sekar Bali Activity during your stay.",
+      lede: "Promo rate Rp 7 juta / night on Jl. Tirta Tawar (15% off the regular Rp 8.235.000) — for families, friend groups, and retreats. Choose one complimentary Sekar Bali Activity during your stay.",
       activityIntro: "Free activity choice — pick one for your party:",
       activityTiming:
         "You can choose during your stay period — tell us at booking or once you arrive, as long as we confirm the activity date while you are here.",
@@ -726,11 +739,12 @@ export function villaOfferWhatsApp(villa: Villa) {
   if (!offer) return whatsappHref(villa.name);
   const savings =
     offer.savingsPercent && offer.priceWasLabel
-      ? ` (${offer.savingsPercent}% off ${offer.priceWasLabel})`
+      ? ` (${offer.savingsPercent}% off regular ${offer.priceWasLabel})`
       : "";
   const badge = offer.badge ? `${offer.badge} ` : "";
+  const promo = offer.promoLabel ? `${offer.promoLabel} ` : "";
   return whatsappHref(
     villa.name,
-    `Hi! I'm interested in ${villa.name} ${badge}offer — ${offer.priceLabel} ${offer.pricePer}${savings} on Jl. Tirta Tawar, Ubud — including one free activity I can pick during my stay (rice field cycling + lunch OR Balinese cooking class). My dates are:`,
+    `Hi! I'm interested in ${villa.name} ${badge}${promo}rate — ${offer.priceLabel} ${offer.pricePer}${savings} on Jl. Tirta Tawar, Ubud — including one free activity I can pick during my stay (rice field cycling + lunch OR Balinese cooking class). My dates are:`,
   );
 }

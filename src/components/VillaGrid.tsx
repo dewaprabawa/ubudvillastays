@@ -56,6 +56,11 @@ export function VillaGrid() {
                         {villa.offer.badge}
                       </span>
                     ) : null}{" "}
+                    {villa.offer.promoLabel ? (
+                      <span className={styles.offerBadge}>
+                        {villa.offer.promoLabel}
+                      </span>
+                    ) : null}{" "}
                     {villa.offer.priceWasLabel ? (
                       <s className={styles.was}>{villa.offer.priceWasLabel}</s>
                     ) : null}{" "}

@@ -28,7 +28,8 @@
 .badgePopular,
 .badgeSave,
 .activityBadge,
-.choiceTag {
+.choiceTag,
+.promoChip {
   display: inline-flex;
   align-items: center;
   padding: 0.28rem 0.55rem;
@@ -36,6 +37,13 @@
   font-weight: 700;
   letter-spacing: 0.07em;
   text-transform: uppercase;
+}
+
+.promoChip {
+  align-self: center;
+  padding: 0.22rem 0.45rem;
+  background: var(--lagoon);
+  color: var(--limestone);
 }
 
 .badgePopular {
@@ -125,6 +133,13 @@
   line-height: 1.4;
   color: var(--canopy);
   font-weight: 600;
+}
+
+.riseNote {
+  margin: 0.35rem 0 0;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: rgba(15, 26, 22, 0.62);
 }
 
 .title {

@@ -94,6 +94,33 @@ export function JsonLd({ villa }: { villa?: Villa }) {
     },
   };
 
+  const breadcrumb = villa
+    ? {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: siteConfig.url,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Villas",
+            item: `${siteConfig.url}/#villas`,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: villa.name,
+            item: `${siteConfig.url}/villas/${villa.slug}`,
+          },
+        ],
+      }
+    : null;
+
   return (
     <>
       <script
@@ -104,6 +131,12 @@ export function JsonLd({ villa }: { villa?: Villa }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(place) }}
       />
+      {breadcrumb ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
+        />
+      ) : null}
     </>
   );
 }

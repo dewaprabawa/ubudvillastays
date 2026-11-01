@@ -32,6 +32,13 @@ export async function generateMetadata({
   return {
     title: `${villa.name} | ${villa.facts.bedrooms}BR Pool Villa in Ubud`,
     description: villa.description,
+    keywords: [
+      `${villa.facts.bedrooms} bedroom villa ubud`,
+      "private pool villa ubud",
+      "ubud villa rental",
+      "tirta tawar ubud",
+      villa.name.toLowerCase(),
+    ],
     alternates: { canonical: `/villas/${villa.slug}` },
     openGraph: {
       title: `${villa.name} · ${siteConfig.name}`,

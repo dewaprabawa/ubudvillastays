@@ -16,6 +16,7 @@ export function Header({ tone = "light" }: HeaderProps) {
         </Link>
         <nav className={styles.nav} aria-label="Primary">
           <Link href="/#villas">Villas</Link>
+          <Link href="/guides">Guides</Link>
           <Link href="/villas/the-hideaway">Hideaway</Link>
           <Link href="/villas/sawah-retreat">Sawah</Link>
           <Link href="/#location">Location</Link>

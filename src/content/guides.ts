@@ -793,7 +793,7 @@ export const guides: Guide[] = [
         heading: "Stay in Ubud once you know the map",
         paragraphs: [
           "Knowing where Ubud is only helps if your base matches the trip: inland culture, green mornings, and a private pool to return to. Book The Hideaway for a 2-bedroom courtyard stay (promo from Rp 4.9 juta / night) or Sawah Retreat for up to 12 guests with rice-field outlooks (promo from Rp 7 juta / night)—both with one free activity you can pick during the stay.",
-          "Next reads: what people do in Ubud, our Tirta Tawar rice-field walk, and Ubud experiences from Tirta Tawar.",
+          "Next: open the booking form with your dates, then read visiting Ubud for travelers, what people do in Ubud, and the Tirta Tawar rice-field walk.",
         ],
       },
     ],

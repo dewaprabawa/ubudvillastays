@@ -1,11 +1,7 @@
 import Link from "next/link";
+import { BookingForm } from "./BookingForm";
 import { Reveal } from "./Reveal";
-import {
-  type Villa,
-  siteConfig,
-  villaOfferWhatsApp,
-  whatsappHref,
-} from "@/lib/site";
+import { type Villa, siteConfig } from "@/lib/site";
 import styles from "./Reserve.module.css";
 
 type ReserveProps = {
@@ -17,7 +13,6 @@ export function Reserve({ villa }: ReserveProps) {
     ? `Reserve ${villa.name}`
     : "Tell us your dates. We’ll match the villa.";
   const airbnb = villa?.airbnbUrl;
-  const wa = villa?.offer ? villaOfferWhatsApp(villa) : whatsappHref(villa?.name);
   const offerLine = villa?.offer
     ? ` From ${villa.offer.priceLabel} ${villa.offer.pricePer}, with one free activity included.`
     : "";
@@ -30,16 +25,17 @@ export function Reserve({ villa }: ReserveProps) {
           {title}
         </h2>
         <p className={styles.lede}>
-          Message us on WhatsApp with your travel window and guest count
+          Fill in your dates and guest count
           {villa ? ` for ${villa.name}` : ", and which villa you prefer"}—
-          holiday nights or a longer stay.{offerLine} You can also email{" "}
+          then continue on WhatsApp so we can check availability.
+          {offerLine} You can also email{" "}
           <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
-          {airbnb ? " or continue to Airbnb for live availability" : ""}.
+          {airbnb ? " or continue to Airbnb for live calendar holds" : ""}.
         </p>
+
+        <BookingForm villa={villa} variant="inline" />
+
         <div className={styles.actions}>
-          <a className={styles.primary} href={wa}>
-            {villa?.offer ? "WhatsApp this offer" : "WhatsApp inquiry"}
-          </a>
           {airbnb ? (
             <a
               className={styles.secondary}

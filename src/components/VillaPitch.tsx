@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import { BookButton } from "./BookButton";
 import { Reveal } from "./Reveal";
-import { type Villa, whatsappHref } from "@/lib/site";
+import { type Villa } from "@/lib/site";
 import styles from "./VillaPitch.module.css";
 
 export function VillaPitch({ villa }: { villa: Villa }) {
@@ -28,9 +29,11 @@ export function VillaPitch({ villa }: { villa: Villa }) {
           </ul>
           <p className={styles.note}>{pitch.ctaNote}</p>
           <div className={styles.actions}>
-            <a className={styles.primary} href={whatsappHref(villa.name)}>
-              WhatsApp for rates
-            </a>
+            <BookButton
+              villa={villa}
+              className={styles.primary}
+              label="Check availability"
+            />
             <Link
               className={styles.secondary}
               href="/guides/ubud-experiences-from-tirta-tawar"

@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import { BookButton } from "./BookButton";
 import { Reveal } from "./Reveal";
-import { type Villa, villaOfferWhatsApp, villas } from "@/lib/site";
+import { type Villa, villas } from "@/lib/site";
 import styles from "./VillaOffer.module.css";
 
 export function VillaOffer({ villa }: { villa: Villa }) {
@@ -113,9 +114,11 @@ export function VillaOffer({ villa }: { villa: Villa }) {
 
         <p className={styles.note}>{offer.ctaNote}</p>
         <div className={styles.actions}>
-          <a className={styles.primary} href={villaOfferWhatsApp(villa)}>
-            WhatsApp this offer
-          </a>
+          <BookButton
+            villa={villa}
+            className={styles.primary}
+            label="Check availability"
+          />
           <a className={styles.secondary} href="#reserve">
             More booking options
           </a>

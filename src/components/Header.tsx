@@ -1,19 +1,15 @@
 import Link from "next/link";
+import { BookButton } from "./BookButton";
 import { Logo } from "./Logo";
-import { siteConfig, whatsappHref } from "@/lib/site";
+import { siteConfig, type Villa } from "@/lib/site";
 import styles from "./Header.module.css";
 
 type HeaderProps = {
   tone?: "light" | "dark";
-  inquireVillaName?: string;
-  inquireHref?: string;
+  villa?: Villa;
 };
 
-export function Header({
-  tone = "light",
-  inquireVillaName,
-  inquireHref,
-}: HeaderProps) {
+export function Header({ tone = "light", villa }: HeaderProps) {
   return (
     <header className={`${styles.header} ${styles[tone]}`}>
       <div className={styles.inner}>
@@ -28,12 +24,7 @@ export function Header({
           <Link href="/villas/sawah-retreat">Sawah</Link>
           <Link href="/#location">Location</Link>
         </nav>
-        <a
-          className={styles.cta}
-          href={inquireHref ?? whatsappHref(inquireVillaName)}
-        >
-          Inquire
-        </a>
+        <BookButton villa={villa} className={styles.cta} label="Book" />
       </div>
     </header>
   );

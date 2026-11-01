@@ -1044,3 +1044,59 @@ export function villaOfferWhatsApp(villa: Villa) {
     `Hi! I'm interested in ${villa.name} ${badge}${promo}rate — ${offer.priceLabel} ${offer.pricePer}${savings} on Jl. Tirta Tawar, Ubud — including one free activity I can pick during my stay (rice field cycling + lunch OR Balinese cooking class). My dates are:`,
   );
 }
+
+export type BookingInquiry = {
+  villaSlug: string;
+  checkIn: string;
+  checkOut: string;
+  guests: number;
+  name?: string;
+  notes?: string;
+};
+
+/** Format an HTML date input value (YYYY-MM-DD) for WhatsApp. */
+export function formatBookingDate(isoDate: string) {
+  if (!isoDate) return "";
+  const [year, month, day] = isoDate.split("-").map(Number);
+  if (!year || !month || !day) return isoDate;
+  const date = new Date(Date.UTC(year, month - 1, day));
+  return date.toLocaleDateString("en-GB", {
+    weekday: "short",
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+    timeZone: "UTC",
+  });
+}
+
+/** Build a WhatsApp link that asks to check availability with form details. */
+export function bookingWhatsApp(inquiry: BookingInquiry) {
+  const villa = getVilla(inquiry.villaSlug);
+  const villaName = villa?.name ?? "one of your villas";
+  const offer = villa?.offer;
+  const rateLine = offer
+    ? `Looking at your ${offer.promoLabel ? `${offer.promoLabel.toLowerCase()} ` : ""}rate ${offer.priceLabel} ${offer.pricePer}.`
+    : null;
+
+  const lines = [
+    `Hi! I'd like to check availability at ${villaName} (${siteConfig.name}) on Jl. Tirta Tawar, Ubud.`,
+    "",
+    `Check-in: ${formatBookingDate(inquiry.checkIn)}`,
+    `Check-out: ${formatBookingDate(inquiry.checkOut)}`,
+    `Guests: ${inquiry.guests}`,
+  ];
+
+  if (inquiry.name?.trim()) {
+    lines.push(`Name: ${inquiry.name.trim()}`);
+  }
+  if (rateLine) {
+    lines.push(rateLine);
+  }
+  if (inquiry.notes?.trim()) {
+    lines.push(`Notes: ${inquiry.notes.trim()}`);
+  }
+
+  lines.push("", "Please let me know if these dates are free. Thank you!");
+
+  return whatsappHref(villaName, lines.join("\n"));
+}

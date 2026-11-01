@@ -1,11 +1,7 @@
 import Image from "next/image";
+import { BookButton } from "./BookButton";
 import { Logo } from "./Logo";
-import {
-  type Villa,
-  siteConfig,
-  villaOfferWhatsApp,
-  whatsappHref,
-} from "@/lib/site";
+import { type Villa, siteConfig } from "@/lib/site";
 import styles from "./Hero.module.css";
 
 type HeroProps = {
@@ -15,9 +11,6 @@ type HeroProps = {
 
 export function Hero({ villa, showBrand = true }: HeroProps) {
   const lines = villa.headline.split("\n");
-  const inquireHref = villa.offer
-    ? villaOfferWhatsApp(villa)
-    : whatsappHref(villa.name);
   const collage = villa.heroCollage;
   const [feature, ...thumbs] = collage ?? [];
 
@@ -81,9 +74,11 @@ export function Hero({ villa, showBrand = true }: HeroProps) {
         </h1>
         <p className={styles.support}>{villa.support}</p>
         <div className={styles.actions}>
-          <a className={styles.primary} href={inquireHref}>
-            {villa.offer ? "WhatsApp this offer" : "Inquire on WhatsApp"}
-          </a>
+          <BookButton
+            villa={villa}
+            className={styles.primary}
+            label="Check availability"
+          />
           {villa.offer ? (
             <a className={styles.secondary} href="#offer">
               See price & free activity

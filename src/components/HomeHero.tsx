@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import { BookButton } from "./BookButton";
 import { Logo } from "./Logo";
-import { siteConfig, villaOfferWhatsApp, villas } from "@/lib/site";
+import { siteConfig, villas } from "@/lib/site";
 import styles from "./HomeHero.module.css";
 
 export function HomeHero() {
@@ -39,31 +40,17 @@ export function HomeHero() {
             : siteConfig.tagline}
         </p>
         <div className={styles.actions}>
-          {offer ? (
-            <>
-              <a
-                className={styles.primary}
-                href={villaOfferWhatsApp(featured)}
-              >
-                WhatsApp Hideaway offer
-              </a>
-              <Link
-                className={styles.secondary}
-                href="/villas/sawah-retreat#offer"
-              >
-                Sawah from Rp 7 juta
-              </Link>
-            </>
-          ) : (
-            <>
-              <Link className={styles.primary} href="/#villas">
-                Explore the villas
-              </Link>
-              <Link className={styles.secondary} href="/#experience">
-                Ubud experience
-              </Link>
-            </>
-          )}
+          <BookButton
+            defaultVillaSlug={featured.slug}
+            className={styles.primary}
+            label="Check availability"
+          />
+          <Link
+            className={styles.secondary}
+            href={sawah?.offer ? "/villas/sawah-retreat#offer" : "/#villas"}
+          >
+            {sawah?.offer ? "Sawah from Rp 7 juta" : "Explore the villas"}
+          </Link>
         </div>
       </div>
     </section>

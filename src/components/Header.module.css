@@ -68,8 +68,10 @@
   border: 1px solid rgba(245, 247, 244, 0.28);
   color: var(--limestone);
   text-decoration: none;
+  font: inherit;
   font-size: 0.88rem;
   font-weight: 600;
+  cursor: pointer;
   backdrop-filter: blur(8px);
   transition: background 180ms ease, border-color 180ms ease;
 }

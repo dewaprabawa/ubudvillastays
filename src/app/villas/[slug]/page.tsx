@@ -16,7 +16,7 @@ import { ThingsToKnow } from "@/components/ThingsToKnow";
 import { VillaGallery } from "@/components/VillaGallery";
 import { VillaOffer } from "@/components/VillaOffer";
 import { VillaPitch } from "@/components/VillaPitch";
-import { getVilla, siteConfig, villaOfferWhatsApp, villas } from "@/lib/site";
+import { getVilla, siteConfig, villas } from "@/lib/site";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -104,12 +104,7 @@ export default async function VillaPage({ params }: PageProps) {
   return (
     <>
       <JsonLd villa={villa} />
-      <Header
-        inquireVillaName={villa.name}
-        inquireHref={
-          villa.offer ? villaOfferWhatsApp(villa) : undefined
-        }
-      />
+      <Header villa={villa} />
       <main id="main">
         <Hero villa={villa} showBrand={false} />
         <VillaOffer villa={villa} />

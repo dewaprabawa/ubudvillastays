@@ -1171,7 +1171,113 @@ export const guides: Guide[] = [
         heading: "Book your visiting-Ubud dates",
         paragraphs: [
           "When dates are clear, open the booking form at the bottom of our site: select villa, date range, number of persons, and any details (airport time, free activity preference, retreat notes). We continue on WhatsApp to check availability.",
-          "Start with Check availability on any page, or go directly to the booking section, then explore villa offers for promo pricing.",
+          "Start with Check availability on any page, or go directly to the booking section, then explore villa offers for promo pricing. For trust tips while booking anywhere in Bali, read our Ubud villa scam awareness guide.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "ubud-villa-scams-travelers-should-avoid",
+    title: "Ubud Villa Scams: How Travelers Can Book Safely and Spot Red Flags",
+    description:
+      "GEO/SEO trust guide for Ubud travelers—common villa and tour scam patterns, how to verify hosts, safe WhatsApp booking habits, and how to reserve The Hideaway or Sawah Retreat on our official site.",
+    eyebrow: "Trust & safety",
+    datePublished: "2026-11-01",
+    dateModified: "2026-11-01",
+    readingMinutes: 8,
+    primaryKeyword: "ubud villa scam",
+    secondaryKeywords: [
+      "bali villa booking scam",
+      "ubud travel scams",
+      "safe villa booking bali",
+      "whatsapp booking scam bali",
+      "how to book villa ubud safely",
+      "tirta tawar villa official booking",
+    ],
+    heroImage: "/images/villas/the-hideaway/hero.jpg",
+    relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
+    keyTakeaways: [
+      "Book Ubud villas through official websites or known platforms—not random links from strangers in chats or DMs.",
+      "Red flags: pressure to pay urgently, mismatched property photos, new social accounts, or payment only to unfamiliar personal accounts.",
+      "Confirm the villa address (Jl. Tirta Tawar), map pin, and WhatsApp number against ubudvillastays.com before sending money.",
+      "Our official booking path is the on-site form → WhatsApp confirmation using +62 817 7572 3663.",
+      "If something feels wrong, pause, verify URLs, and never share one-time passwords or full card details in chat.",
+    ],
+    faqs: [
+      {
+        question: "Are villa booking scams common in Ubud?",
+        answer:
+          "Travelers occasionally report fake listings, cloned WhatsApp chats, or prepaid “deals” that do not match the real property. Scams are not unique to Ubud—but tourism towns attract copycat ads. Verify before you pay.",
+      },
+      {
+        question: "How do I book Ubud Villa Stays safely?",
+        answer:
+          "Start on https://www.ubudvillastays.com — use the booking form at /#booking with your dates and guest count, then continue only on WhatsApp to +62 817 7572 3663 (the number published on our site).",
+      },
+      {
+        question: "What are red flags when booking an Ubud villa?",
+        answer:
+          "Urgent full prepayment demands, prices far below market without clear terms, refusal to video-call the property, different addresses than advertised, and payment instructions that do not match the business name on the official site.",
+      },
+      {
+        question: "Can scammers impersonate villa hosts on WhatsApp?",
+        answer:
+          "Yes. Always compare the number and villa name to the official website. Do not trust forwarded contacts alone. Our published WhatsApp is +62 817 7572 3663.",
+      },
+      {
+        question: "What should I do if I suspect a scam?",
+        answer:
+          "Stop payment, keep screenshots, contact your bank or payment provider, and report to local authorities or your embassy guidance channels if money was lost. Re-book only through verified sites.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Why trust matters when visiting Ubud",
+        paragraphs: [
+          "Ubud attracts travelers hunting private pool villas, yoga stays, and last-minute deals. That demand also attracts lookalike ads and chat accounts that borrow real photos. A safe booking habit protects your holiday budget and your arrival night.",
+          "This guide is practical awareness for guests—not legal advice. Patterns change; when unsure, slow down and verify.",
+        ],
+      },
+      {
+        heading: "Common red flags travelers should notice",
+        paragraphs: [
+          "Scam patterns often share the same pressure: “pay today or lose the villa,” links that do not match the brand domain, or hosts who will not share a clear Jl. Tirta Tawar / Gianyar address with a working map pin.",
+          "Photo theft is common—beautiful courtyard shots can be copied from legitimate listings. Always cross-check the official site gallery and ask for a short live video of the pool or gate if something feels off.",
+        ],
+        bullets: [
+          "Domain mismatch (not ubudvillastays.com)",
+          "WhatsApp number not listed on the official site",
+          "Full payment demanded before any written confirmation",
+          "Prices that seem unreal vs current promo rates",
+          "Refusal to confirm guest capacity, check-in rules, or map pin",
+        ],
+      },
+      {
+        heading: "Safe booking checklist for Ubud villas",
+        paragraphs: [
+          "Type the website yourself or use a bookmark. Open the villa page, confirm promo pricing and photos, then use the booking form with date range, number of persons, and details. Continue on WhatsApp only after the chat matches the published business number.",
+          "Keep payments traceable. Prefer methods you can dispute if needed, and save confirmations. Never share banking OTPs, remote-access apps, or copies of passports in unsolicited chats.",
+        ],
+        bullets: [
+          "Official site: https://www.ubudvillastays.com",
+          "Booking form: https://www.ubudvillastays.com/#booking",
+          "WhatsApp on site: +62 817 7572 3663",
+          "Email on site: sekarprivatebaliactivity@gmail.com",
+          "Map pin: -8.4831533, 115.2706967 · Jl. Tirta Tawar",
+        ],
+      },
+      {
+        heading: "Tours, drivers, and on-the-ground awareness",
+        paragraphs: [
+          "Beyond lodging, be cautious with strangers who board your taxi uninvited, sudden “temple donation” pressure that feels wrong, or drivers who reroute to commission shops without asking. Agree fares or use metered/app options when available, and confirm tour inclusions in writing.",
+          "Our hosts can help arrange trusted transfers and activities—including the free activity choice on promo villa stays—so you are not shopping for random contacts at the airport curb.",
+        ],
+      },
+      {
+        heading: "Book The Hideaway or Sawah Retreat the official way",
+        paragraphs: [
+          "The Hideaway (2BR) and Sawah Retreat (6BR) are listed with clear offers on our site. Use Check availability or the booking section, send dates on WhatsApp, and ignore lookalike accounts that are not tied to ubudvillastays.com.",
+          "Continue with visiting Ubud for travelers and where is Ubud so your itinerary and map are as clear as your payment path.",
         ],
       },
     ],

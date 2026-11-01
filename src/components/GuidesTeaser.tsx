@@ -7,7 +7,7 @@ export function GuidesTeaser() {
   const featuredSlugs = [
     "visiting-ubud-for-travelers",
     "bali-belly-ubud-travelers",
-    "yoga-retreat-villa-stay-in-ubud",
+    "ubud-villa-scams-travelers-should-avoid",
   ];
   const featured = featuredSlugs
     .map((slug) => guides.find((guide) => guide.slug === slug))

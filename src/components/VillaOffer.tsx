@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Reveal } from "./Reveal";
 import { type Villa, villaOfferWhatsApp } from "@/lib/site";
 import styles from "./VillaOffer.module.css";
@@ -77,6 +78,29 @@ export function VillaOffer({ villa }: { villa: Villa }) {
             More booking options
           </a>
         </div>
+        <p className={styles.crossLinks}>
+          <Link href="/guides/ubud-experiences-from-tirta-tawar">
+            Tirta Tawar experience guide
+          </Link>
+          {" · "}
+          <Link href="/villas/sawah-retreat">Sawah Retreat for groups</Link>
+          {" · "}
+          <a
+            href="https://www.sekarbaliactivity.com/tours/ubud-ricefield-cycling-tour"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cycling tour
+          </a>
+          {" · "}
+          <a
+            href="https://www.sekarbaliactivity.com/tours/balinese-cooking-class"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cooking class
+          </a>
+        </p>
       </Reveal>
     </section>
   );

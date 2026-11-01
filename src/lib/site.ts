@@ -31,6 +31,19 @@ export type VillaOffer = {
   ctaNote: string;
 };
 
+export type VillaPitch = {
+  eyebrow: string;
+  headline: string;
+  lede: string;
+  bullets: string[];
+  accent: {
+    src: string;
+    alt: string;
+    caption: string;
+  };
+  ctaNote: string;
+};
+
 export type Villa = {
   slug: string;
   name: string;
@@ -61,6 +74,7 @@ export type Villa = {
   spaces: VillaSpace[];
   idealFor: string;
   offer?: VillaOffer;
+  pitch?: VillaPitch;
 };
 
 export const siteConfig = {
@@ -268,17 +282,37 @@ export const villas: Villa[] = [
     shortName: "Sawah",
     eyebrow: "6 bedrooms · rice field views",
     tagline:
-      "6BR rice-field villa on Jl. Tirta Tawar — groups, retreats, and longer Ubud stays.",
+      "6BR private villa on Jl. Tirta Tawar — rice-field calm for groups, retreats, and longer Ubud stays.",
     description:
-      "Book Sawah Retreat — a 6-bedroom private pool villa with rice field views on Jl. Tirta Tawar, Ubud, Bali. Near the local market, temple Kecak, Monkey Forest, and waterfalls. Ideal for families, groups, yoga retreats, and investment-friendly longer stays. Inquire on WhatsApp.",
+      "Book Sawah Retreat — a 6-bedroom private pool villa with rice field views on Jl. Tirta Tawar, Ubud, Bali. Entire home for up to 12 guests near the local market, temple Kecak, Monkey Forest, and waterfalls. Ideal for families, friend groups, yoga retreats, and investment-friendly longer stays. Inquire on WhatsApp for current rates.",
     headline: "Rice fields at the edge of the pool.\nRoom for everyone to gather.",
     support:
-      "A full-villa stay for up to 12 guests—six en-suite bedrooms, a private pool, open kitchen, and serene sawah views minutes from central Ubud’s markets, temples, and forest walks.",
+      "Entire-villa privacy for up to 12 guests on Jl. Tirta Tawar—six en-suite bedrooms, private pool, open kitchen, and sawah views with markets, temples, and forest walks nearby. Message WhatsApp for current rates.",
     storyTitle: "Space to gather — culture and green outside the gate.",
     story: [
       "Sawah Retreat is the larger sibling on Tirta Tawar: an entire villa held just for your group, with rice field views and a private pool at the center of daily life. It suits multi-generation families, friend getaways, yoga retreats, and longer holiday or investment-friendly stays that need privacy and room to breathe.",
-      "Each bedroom has its own bathroom and air conditioning. The open kitchen invites shared meals; many free extras and staff help keep logistics light. Airport pickup, in-house massage, scooters, and breakfast are easy to arrange when you want them.",
+      "Each bedroom has its own bathroom and air conditioning. The open kitchen invites shared meals; many free extras and staff help keep logistics light. Airport pickup, in-house massage, scooters, and breakfast are easy to arrange when you want them. Ask on WhatsApp for current rates and group dates.",
     ],
+    pitch: {
+      eyebrow: "Group stay · Tirta Tawar, Ubud",
+      headline: "A rice-field base for gatherings—not just bedrooms.",
+      lede: "Sawah Retreat keeps your whole party under one roof on Jl. Tirta Tawar: private pool mornings, shared meals, and easy reach of Ubud’s market, temple Kecak, Monkey Forest, and waterfalls. Built for holiday groups, yoga retreats, and longer investment-friendly stays.",
+      bullets: [
+        "Entire 6-bedroom villa for your group only (up to 12 guests)",
+        "Rice-field and garden outlooks with a private pool at the center",
+        "~5-minute walk to the local traditional market; temples and forest days nearby",
+        "Open kitchen, fast Wi‑Fi, luggage help, and extras on request",
+        "Rates available on inquiry — message WhatsApp with dates and guest count",
+      ],
+      accent: {
+        src: "/images/marketing/canang-sari-ricefield.jpg",
+        alt: "Canang sari offering placed beside an Ubud rice field",
+        caption:
+          "Sawah mornings near Tirta Tawar — green calm with culture close by.",
+      },
+      ctaNote:
+        "Tell us your travel window and party size on WhatsApp. We will confirm availability and current rates for Sawah Retreat.",
+    },
     airbnbUrl: "https://www.airbnb.com/rooms/23112175",
     heroImage: "/images/villas/sawah-retreat/hero.jpg",
     ogImage: "/images/villas/sawah-retreat/og.jpg",

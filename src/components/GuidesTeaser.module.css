@@ -33,6 +33,18 @@
   color: var(--ink-soft);
 }
 
+.deal {
+  margin: 1.15rem 0 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.deal a {
+  color: var(--canopy);
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+}
+
 .list {
   list-style: none;
   margin: 1.75rem 0 0;

@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Logo } from "./Logo";
-import { siteConfig, villas, whatsappHref } from "@/lib/site";
+import { siteConfig, villaOfferWhatsApp, villas } from "@/lib/site";
 import styles from "./HomeHero.module.css";
 
 export function HomeHero() {
   const featured = villas[0];
+  const offer = featured.offer;
 
   return (
     <section className={styles.hero} aria-label="Welcome">
@@ -31,14 +32,37 @@ export function HomeHero() {
           <br />
           Real Ubud days.
         </h1>
-        <p className={styles.support}>{siteConfig.tagline}</p>
+        <p className={styles.support}>
+          {offer
+            ? `${featured.name} from ${offer.priceLabel} ${offer.pricePer}, with one free Ubud activity — or gather at Sawah Retreat on the same Tirta Tawar lane.`
+            : siteConfig.tagline}
+        </p>
         <div className={styles.actions}>
-          <a className={styles.primary} href={whatsappHref()}>
-            Inquire on WhatsApp
-          </a>
-          <Link className={styles.secondary} href="/#villas">
-            Explore the villas
-          </Link>
+          {offer ? (
+            <>
+              <a
+                className={styles.primary}
+                href={villaOfferWhatsApp(featured)}
+              >
+                WhatsApp Hideaway offer
+              </a>
+              <Link
+                className={styles.secondary}
+                href="/villas/the-hideaway#offer"
+              >
+                See Hideaway deal
+              </Link>
+            </>
+          ) : (
+            <>
+              <Link className={styles.primary} href="/#villas">
+                Explore the villas
+              </Link>
+              <Link className={styles.secondary} href="/#experience">
+                Ubud experience
+              </Link>
+            </>
+          )}
         </div>
       </div>
     </section>

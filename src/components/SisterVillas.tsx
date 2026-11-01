@@ -21,7 +21,11 @@ export function SisterVillas({ current }: { current: Villa }) {
           {others.map((villa) => (
             <Link
               key={villa.slug}
-              href={`/villas/${villa.slug}`}
+              href={
+                villa.offer
+                  ? `/villas/${villa.slug}#offer`
+                  : `/villas/${villa.slug}`
+              }
               className={styles.card}
             >
               <div className={styles.media}>
@@ -36,7 +40,11 @@ export function SisterVillas({ current }: { current: Villa }) {
               <p className={styles.meta}>{villa.eyebrow}</p>
               <h3>{villa.name}</h3>
               <p>{villa.tagline}</p>
-              <span className={styles.cta}>View {villa.shortName}</span>
+              <span className={styles.cta}>
+                {villa.offer
+                  ? `View ${villa.shortName} offer`
+                  : `View ${villa.shortName}`}
+              </span>
             </Link>
           ))}
           <Link href="/guides/ubud-experiences-from-tirta-tawar" className={styles.guides}>

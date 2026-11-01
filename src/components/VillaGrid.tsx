@@ -22,7 +22,16 @@ export function VillaGrid() {
       <div className={styles.grid}>
         {villas.map((villa) => (
           <Reveal key={villa.slug} className={styles.card} as="article">
-            <Link href={`/villas/${villa.slug}`} className={styles.link}>
+            <Link
+              href={
+                villa.offer
+                  ? `/villas/${villa.slug}#offer`
+                  : villa.pitch
+                    ? `/villas/${villa.slug}#stay`
+                    : `/villas/${villa.slug}`
+              }
+              className={styles.link}
+            >
               <div className={styles.media}>
                 <Image
                   src={villa.heroImage}
@@ -45,9 +54,17 @@ export function VillaGrid() {
                     From {villa.offer.priceLabel} {villa.offer.pricePer} · free
                     activity included
                   </p>
+                ) : villa.pitch ? (
+                  <p className={styles.offer}>
+                    Group / retreat villa · inquire for rates
+                  </p>
                 ) : null}
                 <span className={styles.cta}>
-                  {villa.offer ? "View offer & villa" : "View villa"}
+                  {villa.offer
+                    ? "View offer & villa"
+                    : villa.pitch
+                      ? "View group villa"
+                      : "View villa"}
                 </span>
               </div>
             </Link>

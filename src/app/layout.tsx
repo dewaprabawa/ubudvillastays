@@ -50,21 +50,23 @@ export const metadata: Metadata = {
     locale: siteConfig.locale,
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: `${siteConfig.name} · Private pool villas in Ubud, Bali`,
-    description: siteConfig.tagline,
+    title: `${siteConfig.name} · Private pool villas in Tirta Tawar, Ubud`,
+    description:
+      "The Hideaway from Rp 4.9 juta per night with a free Ubud activity, plus Sawah Retreat for groups — private pool villas on Jl. Tirta Tawar, Ubud, Bali.",
     images: [
       {
         url: "/images/villas/the-hideaway/og.jpg",
         width: 1200,
         height: 800,
-        alt: "Private pool villa courtyard in Ubud",
+        alt: "The Hideaway private pool villa courtyard in Tirta Tawar, Ubud",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.name} · Ubud Bali villas`,
-    description: siteConfig.tagline,
+    title: `${siteConfig.name} · Tirta Tawar Ubud villas`,
+    description:
+      "Hideaway from Rp 4.9 juta / night with free activity · Sawah Retreat for groups on Jl. Tirta Tawar.",
     images: ["/images/villas/the-hideaway/og.jpg"],
   },
   robots: {

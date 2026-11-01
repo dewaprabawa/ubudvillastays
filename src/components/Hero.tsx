@@ -57,6 +57,10 @@ export function Hero({ villa, showBrand = true }: HeroProps) {
             <a className={styles.secondary} href="#offer">
               See price & free activity
             </a>
+          ) : villa.pitch ? (
+            <a className={styles.secondary} href="#stay">
+              Why stay at {villa.shortName}
+            </a>
           ) : (
             <a
               className={styles.secondary}

@@ -15,6 +15,11 @@ export function GuidesTeaser() {
           Experience, neighborhood, and villa guides for Tirta Tawar and
           Ubud—market walks, Kecak, forest days, and how to book the right home.
         </p>
+        <p className={styles.deal}>
+          <Link href="/villas/the-hideaway#offer">
+            The Hideaway from Rp 4.9 juta / night · free activity included
+          </Link>
+        </p>
         <ul className={styles.list}>
           {featured.map((guide) => (
             <li key={guide.slug}>

@@ -92,8 +92,24 @@ function lodgingSchema(villa?: Villa) {
       sameAs: [villa.airbnbUrl, siteConfig.location.mapsUrl],
       priceRange: villa.offer
         ? `${villa.offer.priceLabel} ${villa.offer.pricePer}`
-        : "$$",
+        : "IDR · inquire for rates",
       ...(offer ? { makesOffer: offer, offers: offer } : {}),
+      ...(villa.pitch
+        ? {
+            additionalProperty: villa.pitch.bullets.map((value) => ({
+              "@type": "PropertyValue",
+              name: "Stay highlight",
+              value,
+            })),
+          }
+        : {}),
+      subjectOf: [
+        {
+          "@type": "WebPage",
+          name: "Ubud experiences from Tirta Tawar",
+          url: `${siteConfig.url}/guides/ubud-experiences-from-tirta-tawar`,
+        },
+      ],
     };
   }
 

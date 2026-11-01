@@ -14,11 +14,14 @@ export function Amenities({ villa }: { villa: Villa }) {
         <Reveal className={styles.copy}>
           <p className={styles.kicker}>Amenities</p>
           <h2 id="amenities-title" className={styles.title}>
-            Everything you need for an easy Ubud stay.
+            {villa.slug === "sawah-retreat"
+              ? "Full-villa comforts for groups in Tirta Tawar."
+              : "Everything you need for an easy Ubud stay."}
           </h2>
           <p className={styles.lede}>
-            Comforts for daily life—and extras on request when the trip asks for
-            more.
+            {villa.slug === "sawah-retreat"
+              ? "Kitchen, outdoor dining, garden views, and bedroom essentials for up to 12 guests—plus extras on request."
+              : "Comforts for daily life—and extras on request when the trip asks for more."}
           </p>
           <ul className={styles.list}>
             {villa.amenities.map((item) => (

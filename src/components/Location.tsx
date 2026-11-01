@@ -35,14 +35,14 @@ export function Location() {
             <h3>Why this corner of Bali</h3>
             <p>
               Ubud is Bali&apos;s cultural center—rice terraces, temples, art
-              galleries, yoga, and long café afternoons. {siteConfig.villaName}{" "}
-              keeps you near that rhythm without sitting on the busiest streets.
+              galleries, yoga, and long café afternoons. Our villas keep you near
+              that rhythm without sitting on the busiest streets.
             </p>
           </div>
         </div>
 
         <p className={styles.geo}>
-          Vacation rental villa in {location.city}, {location.region},{" "}
+          Vacation rental villas in {location.city}, {location.region},{" "}
           {location.country} · {location.addressHint}
         </p>
       </Reveal>

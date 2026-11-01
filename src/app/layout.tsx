@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Fraunces, Plus_Jakarta_Sans } from "next/font/google";
+import Script from "next/script";
 import { JsonLd } from "@/components/JsonLd";
 import { siteConfig } from "@/lib/site";
 import "./globals.css";
@@ -19,7 +20,7 @@ const sans = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} | ${siteConfig.villaName} — Ubud Bali Villa Rental`,
+    default: `${siteConfig.name} | Private Pool Villas in Ubud, Bali`,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
@@ -29,8 +30,10 @@ export const metadata: Metadata = {
     "Bali private pool villa",
     "Tirta Tawar Ubud",
     "2 bedroom villa Ubud",
+    "6 bedroom villa Ubud",
+    "yoga retreat villa Ubud",
+    "rice field villa Bali",
     "vacation rental Bali",
-    "Ubud Hideaway villa",
     siteConfig.name,
   ],
   authors: [{ name: siteConfig.name }],
@@ -43,22 +46,22 @@ export const metadata: Metadata = {
     locale: siteConfig.locale,
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: `${siteConfig.villaName} · Private pool villa in Ubud, Bali`,
+    title: `${siteConfig.name} · Private pool villas in Ubud, Bali`,
     description: siteConfig.tagline,
     images: [
       {
-        url: "/images/villa/og.jpg",
+        url: "/images/villas/the-hideaway/og.jpg",
         width: 1200,
         height: 800,
-        alt: `${siteConfig.villaName} private pool courtyard in Ubud`,
+        alt: "Private pool villa courtyard in Ubud",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.villaName} · Ubud Villa Stays`,
+    title: `${siteConfig.name} · Ubud Bali villas`,
     description: siteConfig.tagline,
-    images: ["/images/villa/og.jpg"],
+    images: ["/images/villas/the-hideaway/og.jpg"],
   },
   robots: {
     index: true,
@@ -91,6 +94,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${display.variable} ${sans.variable}`}>
+        <Script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="1f4bNPYEdgRWvVOiD9QLBQ"
+          strategy="afterInteractive"
+        />
         <JsonLd />
         {children}
       </body>

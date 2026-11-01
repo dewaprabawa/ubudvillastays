@@ -1,24 +1,18 @@
-import { Amenities } from "@/components/Amenities";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
-import { Hero } from "@/components/Hero";
+import { HomeHero } from "@/components/HomeHero";
 import { Location } from "@/components/Location";
 import { Reserve } from "@/components/Reserve";
-import { Reviews } from "@/components/Reviews";
-import { Spaces } from "@/components/Spaces";
-import { Story } from "@/components/Story";
+import { VillaGrid } from "@/components/VillaGrid";
 
 export default function HomePage() {
   return (
     <>
       <Header />
       <main id="main">
-        <Hero />
-        <Story />
-        <Spaces />
-        <Amenities />
+        <HomeHero />
+        <VillaGrid />
         <Location />
-        <Reviews />
         <Reserve />
       </main>
       <Footer />

@@ -1,0 +1,46 @@
+import Image from "next/image";
+import Link from "next/link";
+import { Reveal } from "./Reveal";
+import { villas } from "@/lib/site";
+import styles from "./VillaGrid.module.css";
+
+export function VillaGrid() {
+  return (
+    <section id="villas" className={styles.section} aria-labelledby="villas-title">
+      <Reveal className={styles.intro}>
+        <p className={styles.kicker}>The villas</p>
+        <h2 id="villas-title" className={styles.title}>
+          Choose your scale of quiet.
+        </h2>
+        <p className={styles.lede}>
+          Same Tirta Tawar neighborhood—two private pool homes for different
+          kinds of stays.
+        </p>
+      </Reveal>
+
+      <div className={styles.grid}>
+        {villas.map((villa) => (
+          <Reveal key={villa.slug} className={styles.card} as="article">
+            <Link href={`/villas/${villa.slug}`} className={styles.link}>
+              <div className={styles.media}>
+                <Image
+                  src={villa.heroImage}
+                  alt={`${villa.name} — ${villa.eyebrow}`}
+                  fill
+                  sizes="(max-width: 800px) 100vw, 50vw"
+                  className={styles.image}
+                />
+              </div>
+              <div className={styles.copy}>
+                <p className={styles.meta}>{villa.eyebrow}</p>
+                <h3>{villa.name}</h3>
+                <p>{villa.tagline}</p>
+                <span className={styles.cta}>View villa</span>
+              </div>
+            </Link>
+          </Reveal>
+        ))}
+      </div>
+    </section>
+  );
+}

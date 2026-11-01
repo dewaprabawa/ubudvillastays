@@ -1,15 +1,22 @@
 import Image from "next/image";
 import { Logo } from "./Logo";
-import { siteConfig, whatsappHref } from "@/lib/site";
+import { type Villa, siteConfig, whatsappHref } from "@/lib/site";
 import styles from "./Hero.module.css";
 
-export function Hero() {
+type HeroProps = {
+  villa: Villa;
+  showBrand?: boolean;
+};
+
+export function Hero({ villa, showBrand = true }: HeroProps) {
+  const lines = villa.headline.split("\n");
+
   return (
-    <section className={styles.hero} aria-label="Welcome">
+    <section className={styles.hero} aria-label={`${villa.name} welcome`}>
       <div className={styles.media}>
         <Image
-          src="/images/villa/hero.jpg"
-          alt="Private pool courtyard at The Hideaway villa in Ubud at dusk"
+          src={villa.heroImage}
+          alt={`${villa.name} in ${siteConfig.location.city}`}
           fill
           priority
           sizes="100vw"
@@ -19,26 +26,28 @@ export function Hero() {
       </div>
 
       <div className={styles.content}>
-        <div className={styles.brandBlock}>
-          <Logo variant="light" size="lg" />
-        </div>
-        <p className={styles.villa}>{siteConfig.villaName}</p>
+        {showBrand ? (
+          <div className={styles.brandBlock}>
+            <Logo variant="light" size="lg" />
+          </div>
+        ) : null}
+        <p className={styles.villa}>{villa.name}</p>
         <h1 className={styles.headline}>
-          Quiet mornings by the pool.
-          <br />
-          Ubud just beyond the gate.
+          {lines.map((line, index) => (
+            <span key={line}>
+              {index > 0 ? <br /> : null}
+              {line}
+            </span>
+          ))}
         </h1>
-        <p className={styles.support}>
-          A modern-Bali 2-bedroom hideaway with a private pool, tropical garden,
-          and an easy stroll to cafés, galleries, and temples.
-        </p>
+        <p className={styles.support}>{villa.support}</p>
         <div className={styles.actions}>
-          <a className={styles.primary} href={whatsappHref()}>
+          <a className={styles.primary} href={whatsappHref(villa.name)}>
             Inquire on WhatsApp
           </a>
           <a
             className={styles.secondary}
-            href={siteConfig.airbnbUrl}
+            href={villa.airbnbUrl}
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { Reveal } from "./Reveal";
-import { siteConfig } from "@/lib/site";
+import type { Villa } from "@/lib/site";
 import styles from "./Amenities.module.css";
 
-export function Amenities() {
+export function Amenities({ villa }: { villa: Villa }) {
   return (
     <section
       id="amenities"
@@ -17,24 +17,24 @@ export function Amenities() {
             Everything you need for an easy Ubud stay.
           </h2>
           <p className={styles.lede}>
-            Cook at home, cool off in the pool, and stay connected—then add
-            breakfast or a scooter when the day asks for it.
+            Comforts for daily life—and extras on request when the trip asks for
+            more.
           </p>
           <ul className={styles.list}>
-            {siteConfig.amenities.map((item) => (
+            {villa.amenities.map((item) => (
               <li key={item}>{item}</li>
             ))}
           </ul>
           <p className={styles.extras}>
-            Available on request: {siteConfig.extras.join(" · ")}.
+            Available on request: {villa.extras.join(" · ")}.
           </p>
         </Reveal>
 
         <Reveal className={styles.aside}>
           <div className={styles.photo}>
             <Image
-              src="/images/villa/space-05.jpg"
-              alt="Fresh tropical breakfast bowl with garden leaves behind"
+              src={villa.amenityImage}
+              alt={`${villa.name} amenity detail`}
               fill
               sizes="(max-width: 900px) 100vw, 40vw"
               className={styles.image}
@@ -42,8 +42,8 @@ export function Amenities() {
           </div>
           <div className={styles.photoSecondary}>
             <Image
-              src="/images/villa/space-08.jpg"
-              alt="Bedroom with canopy bed opening to an outdoor garden bath"
+              src={villa.amenityImageSecondary}
+              alt={`${villa.name} interior or garden detail`}
               fill
               sizes="(max-width: 900px) 100vw, 40vw"
               className={styles.image}

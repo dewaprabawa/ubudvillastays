@@ -1,15 +1,85 @@
-import { siteConfig } from "@/lib/site";
+import { type Villa, siteConfig, villas } from "@/lib/site";
 
-export function JsonLd() {
-  const lodging = {
+function lodgingSchema(villa?: Villa) {
+  if (villa) {
+    return {
+      "@context": "https://schema.org",
+      "@type": ["LodgingBusiness", "VacationRental"],
+      name: `${villa.name} — ${siteConfig.name}`,
+      description: villa.description,
+      url: `${siteConfig.url}/villas/${villa.slug}`,
+      image: [`${siteConfig.url}${villa.ogImage}`],
+      telephone: siteConfig.whatsappNumber,
+      email: siteConfig.email,
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: siteConfig.location.city,
+        addressRegion: siteConfig.location.region,
+        addressCountry: "ID",
+        streetAddress: siteConfig.location.addressHint,
+      },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: -8.5069,
+        longitude: 115.2625,
+      },
+      numberOfRooms: villa.facts.bedrooms,
+      occupancy: {
+        "@type": "QuantitativeValue",
+        maxValue: villa.facts.guests,
+      },
+      amenityFeature: villa.amenities.map((name) => ({
+        "@type": "LocationFeatureSpecification",
+        name,
+        value: true,
+      })),
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: villa.facts.rating,
+        reviewCount: villa.facts.reviews,
+        bestRating: 5,
+      },
+      sameAs: [villa.airbnbUrl],
+      priceRange: "$$",
+    };
+  }
+
+  return {
     "@context": "https://schema.org",
-    "@type": ["LodgingBusiness", "VacationRental"],
-    name: `${siteConfig.name} — ${siteConfig.villaName}`,
-    description: siteConfig.description,
+    "@type": "Organization",
+    name: siteConfig.name,
     url: siteConfig.url,
-    image: [`${siteConfig.url}/images/villa/og.jpg`],
-    telephone: siteConfig.whatsappNumber,
     email: siteConfig.email,
+    telephone: siteConfig.whatsappNumber,
+    description: siteConfig.description,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: siteConfig.location.city,
+      addressRegion: siteConfig.location.region,
+      addressCountry: "ID",
+      streetAddress: siteConfig.location.addressHint,
+    },
+    makesOffer: villas.map((item) => ({
+      "@type": "Offer",
+      itemOffered: {
+        "@type": ["LodgingBusiness", "VacationRental"],
+        name: item.name,
+        url: `${siteConfig.url}/villas/${item.slug}`,
+      },
+    })),
+  };
+}
+
+export function JsonLd({ villa }: { villa?: Villa }) {
+  const place = {
+    "@context": "https://schema.org",
+    "@type": "Place",
+    name: villa
+      ? `${villa.name}, ${siteConfig.location.city}`
+      : `${siteConfig.name}, ${siteConfig.location.city}`,
+    description: villa
+      ? villa.description
+      : `Private pool villa vacation rentals in ${siteConfig.location.area}, ${siteConfig.location.city}, ${siteConfig.location.region}, Indonesia.`,
     address: {
       "@type": "PostalAddress",
       addressLocality: siteConfig.location.city,
@@ -19,44 +89,16 @@ export function JsonLd() {
     },
     geo: {
       "@type": "GeoCoordinates",
-      // Approximate Ubud / Tirta Tawar area — refine when exact coords confirmed
       latitude: -8.5069,
       longitude: 115.2625,
     },
-    numberOfRooms: siteConfig.facts.bedrooms,
-    occupancy: {
-      "@type": "QuantitativeValue",
-      maxValue: siteConfig.facts.guests,
-    },
-    amenityFeature: siteConfig.amenities.map((name) => ({
-      "@type": "LocationFeatureSpecification",
-      name,
-      value: true,
-    })),
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: siteConfig.facts.rating,
-      reviewCount: siteConfig.facts.reviews,
-      bestRating: 5,
-    },
-    sameAs: [siteConfig.airbnbUrl],
-    priceRange: "$$",
-  };
-
-  const place = {
-    "@context": "https://schema.org",
-    "@type": "Place",
-    name: `${siteConfig.villaName}, ${siteConfig.location.city}`,
-    description: `Private pool villa vacation rental in ${siteConfig.location.area}, ${siteConfig.location.city}, ${siteConfig.location.region}, Indonesia.`,
-    address: lodging.address,
-    geo: lodging.geo,
   };
 
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(lodging) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(lodgingSchema(villa)) }}
       />
       <script
         type="application/ld+json"

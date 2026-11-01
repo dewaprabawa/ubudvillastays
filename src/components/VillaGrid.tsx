@@ -51,8 +51,11 @@ export function VillaGrid() {
                 </p>
                 {villa.offer ? (
                   <p className={styles.offer}>
-                    From {villa.offer.priceLabel} {villa.offer.pricePer} · free
-                    activity included
+                    <span className={styles.offerBadge}>{villa.offer.badge}</span>
+                    {" "}
+                    <s className={styles.was}>{villa.offer.priceWasLabel}</s>{" "}
+                    {villa.offer.priceLabel} {villa.offer.pricePer} ·{" "}
+                    {villa.offer.savingsLabel}
                   </p>
                 ) : villa.pitch ? (
                   <p className={styles.offer}>

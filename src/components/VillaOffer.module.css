@@ -15,7 +15,37 @@
 }
 
 .intro {
-  max-width: 40rem;
+  max-width: 42rem;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0 0 1rem;
+}
+
+.badgePopular,
+.badgeSave,
+.activityBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.7rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.badgePopular {
+  background: var(--ink);
+  color: var(--limestone);
+}
+
+.badgeSave {
+  background: rgba(58, 122, 134, 0.16);
+  color: var(--canopy);
+  border: 1px solid rgba(58, 122, 134, 0.28);
 }
 
 .kicker {
@@ -27,17 +57,55 @@
   color: var(--lagoon);
 }
 
+.priceBlock {
+  margin: 0 0 1.15rem;
+  padding: 1.15rem 1.2rem 1.2rem;
+  border: 1px solid rgba(20, 38, 31, 0.12);
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.72),
+      rgba(245, 247, 244, 0.4)
+    );
+}
+
+.was {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 0.55rem;
+  margin: 0;
+  font-size: 1rem;
+  color: rgba(15, 26, 22, 0.55);
+}
+
+.wasLabel {
+  font-size: 0.78rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.was s {
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: rgba(15, 26, 22, 0.45);
+}
+
+.wasPer {
+  font-size: 0.85rem;
+}
+
 .price {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
   gap: 0.55rem 0.85rem;
-  margin: 0 0 0.85rem;
+  margin: 0.45rem 0 0;
 }
 
 .amount {
   font-family: var(--font-display);
-  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  font-size: clamp(2.35rem, 5.2vw, 3.35rem);
   font-weight: 500;
   letter-spacing: -0.02em;
   color: var(--ink);
@@ -48,6 +116,14 @@
   font-size: 1rem;
   font-weight: 600;
   color: var(--canopy);
+}
+
+.savingsNote {
+  margin: 0.7rem 0 0;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: var(--canopy);
+  font-weight: 600;
 }
 
 .title {
@@ -79,10 +155,27 @@
 }
 
 .activity {
+  position: relative;
   display: grid;
   gap: 1rem;
   padding-top: 1.25rem;
   border-top: 1px solid rgba(20, 38, 31, 0.12);
+}
+
+.activityFeatured {
+  padding: 1.15rem 1rem 1rem;
+  border: 1px solid rgba(20, 38, 31, 0.16);
+  border-top: 1px solid rgba(20, 38, 31, 0.16);
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.activityBadge {
+  position: absolute;
+  top: 0.85rem;
+  left: 0.85rem;
+  z-index: 2;
+  background: var(--ink);
+  color: var(--limestone);
 }
 
 .media {
@@ -207,11 +300,16 @@
   .activities {
     grid-template-columns: 1fr 1fr;
     gap: 1.75rem;
+    align-items: stretch;
   }
 
   .activity {
     border-top: none;
     padding-top: 0;
+  }
+
+  .activityFeatured {
+    padding: 1.15rem;
   }
 
   .media {

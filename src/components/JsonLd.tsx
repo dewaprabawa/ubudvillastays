@@ -24,19 +24,30 @@ function lodgingSchema(villa?: Villa) {
           url: `${siteConfig.url}/villas/${villa.slug}#offer`,
           price: villa.offer.priceAmount,
           priceCurrency: villa.offer.currency,
-          priceSpecification: {
-            "@type": "UnitPriceSpecification",
-            price: villa.offer.priceAmount,
-            priceCurrency: villa.offer.currency,
-            unitText: "NIGHT",
-            referenceQuantity: {
-              "@type": "QuantitativeValue",
-              value: 1,
-              unitCode: "DAY",
+          priceSpecification: [
+            {
+              "@type": "UnitPriceSpecification",
+              priceType: "https://schema.org/ListPrice",
+              price: villa.offer.priceWasAmount,
+              priceCurrency: villa.offer.currency,
+              unitText: "NIGHT",
             },
-          },
+            {
+              "@type": "UnitPriceSpecification",
+              priceType: "https://schema.org/SalePrice",
+              price: villa.offer.priceAmount,
+              priceCurrency: villa.offer.currency,
+              unitText: "NIGHT",
+              referenceQuantity: {
+                "@type": "QuantitativeValue",
+                value: 1,
+                unitCode: "DAY",
+              },
+            },
+          ],
           availability: "https://schema.org/InStock",
           category: "VacationRental",
+          discount: `${villa.offer.savingsPercent}%`,
           eligibleRegion: {
             "@type": "Place",
             name: `${siteConfig.location.area}, ${siteConfig.location.city}, ${siteConfig.location.region}`,

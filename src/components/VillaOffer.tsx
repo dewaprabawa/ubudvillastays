@@ -16,11 +16,26 @@ export function VillaOffer({ villa }: { villa: Villa }) {
     >
       <Reveal className={styles.inner}>
         <div className={styles.intro}>
+          <div className={styles.badges}>
+            <span className={styles.badgePopular}>{offer.badge}</span>
+            <span className={styles.badgeSave}>{offer.savingsLabel}</span>
+          </div>
           <p className={styles.kicker}>{offer.eyebrow}</p>
-          <p className={styles.price}>
-            <span className={styles.amount}>{offer.priceLabel}</span>
-            <span className={styles.per}>{offer.pricePer}</span>
-          </p>
+          <div className={styles.priceBlock}>
+            <p className={styles.was}>
+              <span className={styles.wasLabel}>Was</span>
+              <s>{offer.priceWasLabel}</s>
+              <span className={styles.wasPer}>/ night</span>
+            </p>
+            <p className={styles.price}>
+              <span className={styles.amount}>{offer.priceLabel}</span>
+              <span className={styles.per}>{offer.pricePer}</span>
+            </p>
+            <p className={styles.savingsNote}>
+              {offer.savingsPercent}% off the regular nightly rate — free
+              activity still included.
+            </p>
+          </div>
           <h2 id="offer-title" className={styles.title}>
             {offer.headline}
           </h2>
@@ -31,7 +46,15 @@ export function VillaOffer({ villa }: { villa: Villa }) {
 
         <div className={styles.activities}>
           {offer.activities.map((activity) => (
-            <article key={activity.title} className={styles.activity}>
+            <article
+              key={activity.title}
+              className={`${styles.activity} ${
+                activity.mostPicked ? styles.activityFeatured : ""
+              }`}
+            >
+              {activity.mostPicked ? (
+                <span className={styles.activityBadge}>Most picked</span>
+              ) : null}
               <div className={styles.media}>
                 <Image
                   src={activity.image}

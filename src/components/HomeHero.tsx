@@ -34,7 +34,7 @@ export function HomeHero() {
         </h1>
         <p className={styles.support}>
           {offer
-            ? `${featured.name} from ${offer.priceLabel} ${offer.pricePer}, with one free Ubud activity — or gather at Sawah Retreat on the same Tirta Tawar lane.`
+            ? `${featured.name}: ${offer.badge} · ${offer.savingsLabel} — was ${offer.priceWasLabel}, now ${offer.priceLabel} ${offer.pricePer} with one free Ubud activity. Or gather at Sawah Retreat on the same Tirta Tawar lane.`
             : siteConfig.tagline}
         </p>
         <div className={styles.actions}>

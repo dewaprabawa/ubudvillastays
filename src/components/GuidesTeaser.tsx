@@ -17,7 +17,8 @@ export function GuidesTeaser() {
         </p>
         <p className={styles.deal}>
           <Link href="/villas/the-hideaway#offer">
-            The Hideaway from Rp 4.9 juta / night · free activity included
+            The Hideaway · Most picked · Save 15% — was Rp 5.765.000, now Rp
+            4.9 juta / night
           </Link>
         </p>
         <ul className={styles.list}>

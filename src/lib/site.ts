@@ -11,12 +11,18 @@ export type VillaOfferActivity = {
   url: string;
   image: string;
   imageAlt: string;
+  mostPicked?: boolean;
 };
 
 export type VillaOffer = {
   priceLabel: string;
   pricePer: string;
   priceAmount: number;
+  priceWasLabel: string;
+  priceWasAmount: number;
+  savingsPercent: number;
+  savingsLabel: string;
+  badge: string;
   currency: "IDR";
   eyebrow: string;
   headline: string;
@@ -180,10 +186,16 @@ export const villas: Villa[] = [
       priceLabel: "Rp 4.9 juta",
       pricePer: "per night",
       priceAmount: 4900000,
+      // 15% off: Rp 5.765.000 → Rp 4.900.000
+      priceWasLabel: "Rp 5.765.000",
+      priceWasAmount: 5765000,
+      savingsPercent: 15,
+      savingsLabel: "Save 15%",
+      badge: "Most picked",
       currency: "IDR",
       eyebrow: "Commercial stay · Tirta Tawar, Ubud",
       headline: "Villa nights with a free Ubud experience included.",
-      lede: "Book The Hideaway from Rp 4.9 juta per night on Jl. Tirta Tawar — a holiday or longer investment-friendly stay with a private pool, and pick one complimentary activity from Sekar Bali Activity.",
+      lede: "Book The Hideaway at Rp 4.9 juta per night (15% off Rp 5.765.000) on Jl. Tirta Tawar — a holiday or longer investment-friendly stay with a private pool, and pick one complimentary activity from Sekar Bali Activity.",
       activityIntro:
         "Your stay includes one free activity (choose one for your party):",
       activities: [
@@ -194,6 +206,7 @@ export const villas: Villa[] = [
           image: "/images/marketing/ubud-ricefield-cycling.jpg",
           imageAlt:
             "Guests cycling through green Ubud rice fields on a guided tour",
+          mostPicked: true,
         },
         {
           title: "Balinese cooking class (rice terrace)",
@@ -400,6 +413,6 @@ export function villaOfferWhatsApp(villa: Villa) {
   if (!villa.offer) return whatsappHref(villa.name);
   return whatsappHref(
     villa.name,
-    `Hi! I'm interested in The Hideaway at Rp 4.9 juta per night on Jl. Tirta Tawar, Ubud — including one free activity (rice field cycling + lunch OR Balinese cooking class). My dates are:`,
+    `Hi! I'm interested in The Hideaway Most picked offer — Rp 4.9 juta per night (15% off Rp 5.765.000) on Jl. Tirta Tawar, Ubud — including one free activity (rice field cycling + lunch OR Balinese cooking class). My dates are:`,
   );
 }

@@ -1,0 +1,102 @@
+.section {
+  padding: clamp(4rem, 9vw, 6.5rem) clamp(1.25rem, 4vw, 3rem);
+  background:
+    radial-gradient(circle at 85% 15%, rgba(58, 122, 134, 0.12), transparent 40%),
+    linear-gradient(160deg, #1a3329 0%, #0f1a16 100%);
+  color: var(--limestone);
+}
+
+.layout {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: clamp(2rem, 5vw, 4rem);
+}
+
+.kicker {
+  margin: 0 0 0.85rem;
+  font-size: 0.78rem;
+  font-weight: 650;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--sage);
+}
+
+.title {
+  margin: 0;
+  max-width: 16ch;
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4.2vw, 3rem);
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+}
+
+.lede {
+  margin: 1rem 0 0;
+  max-width: 34rem;
+  line-height: 1.6;
+  color: rgba(245, 247, 244, 0.82);
+}
+
+.list {
+  list-style: none;
+  margin: 2rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 0;
+  border-top: 1px solid rgba(245, 247, 244, 0.16);
+}
+
+.list li {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid rgba(245, 247, 244, 0.16);
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+}
+
+.extras {
+  margin: 1.25rem 0 0;
+  font-size: 0.92rem;
+  color: rgba(245, 247, 244, 0.68);
+}
+
+.aside {
+  display: grid;
+  gap: 1rem;
+}
+
+.photo,
+.photoSecondary {
+  position: relative;
+  overflow: hidden;
+  background: rgba(245, 247, 244, 0.06);
+}
+
+.photo {
+  aspect-ratio: 4 / 5;
+}
+
+.photoSecondary {
+  aspect-ratio: 16 / 10;
+}
+
+.image {
+  object-fit: cover;
+}
+
+@media (min-width: 900px) {
+  .layout {
+    grid-template-columns: 1.05fr 0.95fr;
+    align-items: start;
+  }
+
+  .list {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.5rem;
+  }
+
+  .list li:nth-child(odd) {
+    padding-right: 0.75rem;
+  }
+}

@@ -1,0 +1,126 @@
+.section {
+  padding: clamp(3.5rem, 8vw, 6rem) 0;
+  background: var(--limestone);
+}
+
+.intro {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 clamp(1.25rem, 4vw, 3rem) clamp(2rem, 5vw, 3rem);
+}
+
+.kicker {
+  margin: 0 0 0.85rem;
+  font-size: 0.78rem;
+  font-weight: 650;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--lagoon);
+}
+
+.title {
+  margin: 0;
+  max-width: 14ch;
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4.4vw, 3.1rem);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+.lede {
+  margin: 1rem 0 0;
+  max-width: 34rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+.list {
+  display: grid;
+  gap: clamp(2.5rem, 6vw, 4rem);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 clamp(1.25rem, 4vw, 3rem);
+}
+
+.item {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.media {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: var(--mist);
+}
+
+.mediaTall {
+  aspect-ratio: 3 / 4;
+}
+
+.image {
+  object-fit: cover;
+  transition: transform 900ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.item:hover .image {
+  transform: scale(1.03);
+}
+
+.copy h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.45rem, 2.4vw, 1.85rem);
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.copy p {
+  margin: 0.55rem 0 0;
+  max-width: 34rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+@media (min-width: 860px) {
+  .item {
+    grid-template-columns: 1.15fr 0.85fr;
+    align-items: center;
+    gap: clamp(1.5rem, 4vw, 3rem);
+  }
+
+  .item:nth-child(even) {
+    grid-template-columns: 0.85fr 1.15fr;
+  }
+
+  .item:nth-child(even) .media {
+    order: 2;
+  }
+
+  .item:nth-child(even) .copy {
+    order: 1;
+    justify-self: end;
+    text-align: right;
+  }
+
+  .item:nth-child(even) .copy p {
+    margin-left: auto;
+  }
+
+  .mediaTall {
+    aspect-ratio: 4 / 5;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .image {
+    transition: none;
+  }
+
+  .item:hover .image {
+    transform: none;
+  }
+}

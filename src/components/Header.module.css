@@ -1,0 +1,74 @@
+.header {
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 20;
+  padding: 1.25rem clamp(1.25rem, 4vw, 3rem) 0;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.brand {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav {
+  display: none;
+  gap: 1.5rem;
+}
+
+.nav a {
+  color: rgba(245, 247, 244, 0.88);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition: color 160ms ease;
+}
+
+.nav a:hover {
+  color: #fff;
+}
+
+.cta {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.15rem;
+  padding: 0.65rem 1rem;
+  border-radius: 999px;
+  background: rgba(245, 247, 244, 0.12);
+  border: 1px solid rgba(245, 247, 244, 0.28);
+  color: var(--limestone);
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 600;
+  backdrop-filter: blur(8px);
+  transition: background 180ms ease, border-color 180ms ease;
+}
+
+.cta:hover {
+  background: rgba(245, 247, 244, 0.2);
+  border-color: rgba(245, 247, 244, 0.5);
+}
+
+.todo {
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+@media (min-width: 860px) {
+  .nav {
+    display: flex;
+  }
+}

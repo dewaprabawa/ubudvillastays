@@ -1,0 +1,66 @@
+.footer {
+  padding: 3rem clamp(1.25rem, 4vw, 3rem) 2rem;
+  background: var(--ink);
+  color: rgba(245, 247, 244, 0.82);
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1.75rem;
+}
+
+.brand p {
+  margin: 1rem 0 0;
+  max-width: 28rem;
+  line-height: 1.55;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem 1.25rem;
+}
+
+.links a {
+  color: rgba(245, 247, 244, 0.78);
+  text-decoration: none;
+  font-size: 0.92rem;
+}
+
+.links a:hover {
+  color: #fff;
+}
+
+.meta {
+  max-width: 1200px;
+  margin: 2rem auto 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(245, 247, 244, 0.12);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  color: rgba(245, 247, 244, 0.55);
+}
+
+.meta p {
+  margin: 0;
+}
+
+.meta a {
+  color: inherit;
+}
+
+@media (min-width: 800px) {
+  .inner {
+    grid-template-columns: 1.2fr 1fr;
+    align-items: end;
+  }
+
+  .links {
+    justify-content: flex-end;
+  }
+}

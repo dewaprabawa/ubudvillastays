@@ -1,0 +1,91 @@
+.section {
+  padding: clamp(4rem, 9vw, 6.5rem) clamp(1.25rem, 4vw, 3rem);
+  background:
+    linear-gradient(
+      180deg,
+      #dfe8e2 0%,
+      var(--mist) 45%,
+      #edf2ee 100%
+    );
+}
+
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.kicker {
+  margin: 0 0 0.85rem;
+  font-size: 0.78rem;
+  font-weight: 650;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--lagoon);
+}
+
+.title {
+  margin: 0;
+  max-width: 18ch;
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4.3vw, 3.1rem);
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+.lede {
+  margin: 1.1rem 0 0;
+  max-width: 40rem;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
+
+.panels {
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 2.25rem;
+}
+
+.panel {
+  padding: 1.5rem 0 0;
+  border-top: 1px solid rgba(20, 38, 31, 0.14);
+}
+
+.panel h3 {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 500;
+  color: var(--canopy);
+}
+
+.panel ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.panel li,
+.panel p {
+  margin: 0;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+.geo {
+  margin: 2rem 0 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  color: rgba(15, 26, 22, 0.62);
+}
+
+@media (min-width: 800px) {
+  .panels {
+    grid-template-columns: 1fr 1.2fr;
+    gap: 2.5rem;
+  }
+}

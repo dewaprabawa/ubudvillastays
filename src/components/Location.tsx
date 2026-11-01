@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Reveal } from "./Reveal";
-import { siteConfig, whatsappHref } from "@/lib/site";
+import { siteConfig } from "@/lib/site";
 import styles from "./Location.module.css";
 
 export function Location() {
@@ -64,7 +64,7 @@ export function Location() {
             <p className={styles.mapLink}>
               <Link href="/#experience">See the Ubud experience</Link>
               {" · "}
-              <a href={whatsappHref()}>WhatsApp availability</a>
+              <Link href="/#booking">Check availability</Link>
             </p>
           </div>
         </div>

@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { type Guide } from "@/content/guides";
-import { getVilla, siteConfig, whatsappHref } from "@/lib/site";
+import { BookButton } from "@/components/BookButton";
+import { getVilla, siteConfig } from "@/lib/site";
 import styles from "./GuideArticle.module.css";
 
 export function GuideArticle({ guide }: { guide: Guide }) {
@@ -133,15 +134,16 @@ export function GuideArticle({ guide }: { guide: Guide }) {
             on Jl. Tirta Tawar.
           </p>
           <div className={styles.actions}>
-            <Link className={styles.primary} href="/villas/the-hideaway#offer">
+            <BookButton
+              className={styles.primary}
+              label="Check availability"
+            />
+            <Link className={styles.secondary} href="/villas/the-hideaway#offer">
               Hideaway offer
             </Link>
             <Link className={styles.secondary} href="/villas/sawah-retreat#offer">
               Sawah from Rp 7 juta
             </Link>
-            <a className={styles.secondary} href={whatsappHref()}>
-              WhatsApp inquiry
-            </a>
           </div>
         </section>
       </div>

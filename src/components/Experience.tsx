@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import { BookButton } from "./BookButton";
 import { Reveal } from "./Reveal";
-import { siteConfig, villas, whatsappHref } from "@/lib/site";
+import { siteConfig, villas } from "@/lib/site";
 import styles from "./Experience.module.css";
 
 export function Experience() {
@@ -34,11 +35,12 @@ export function Experience() {
             {location.region} — holiday and longer stays with room to live.
           </p>
           <div className={styles.actions}>
-            <a className={styles.primary} href={whatsappHref()}>
-              Inquire on WhatsApp
-            </a>
-            <Link className={styles.secondary} href="/#villas">
-              Compare villas
+            <BookButton
+              className={styles.primary}
+              label="Check availability"
+            />
+            <Link className={styles.secondary} href="/#booking">
+              Booking form
             </Link>
           </div>
           <p className={styles.villaLinks}>

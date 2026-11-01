@@ -256,6 +256,9 @@
 }
 
 .primary {
+  border: 0;
+  cursor: pointer;
+  font: inherit;
   background: var(--canopy);
   color: var(--limestone);
 }

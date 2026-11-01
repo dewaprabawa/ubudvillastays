@@ -8,10 +8,12 @@ Email: sekarprivatebaliactivity@gmail.com
 Location: Jl. Tirta Tawar, Kabupaten Gianyar, Bali, Indonesia
 Map: https://maps.app.goo.gl/5TpevFsUJeezD1gD8
 Coordinates: -8.4831533, 115.2706967
+Booking: https://www.ubudvillastays.com/#booking
 
 ## Primary pages
 
 - [Home](https://www.ubudvillastays.com/): Compare Tirta Tawar villas and promo offers
+- [Booking form](https://www.ubudvillastays.com/#booking): Date range · guests · details → WhatsApp availability
 - [The Hideaway](https://www.ubudvillastays.com/villas/the-hideaway): 2BR private courtyard pool villa — promo from Rp 4.9 juta / night
 - [Sawah Retreat](https://www.ubudvillastays.com/villas/sawah-retreat): 6BR rice-field villa for up to 12 — promo from Rp 7 juta / night
 - [Guides hub](https://www.ubudvillastays.com/guides): Ubud destination and villa planning guides
@@ -19,15 +21,18 @@ Coordinates: -8.4831533, 115.2706967
 
 ## Guides (SEO / GEO)
 
-- [Where is Ubud?](https://www.ubudvillastays.com/guides/where-is-ubud): Location in Gianyar, inland central Bali; airport & beach drive times; Tirta Tawar map pin
-- [What people do in Ubud](https://www.ubudvillastays.com/guides/what-people-do-in-ubud): Temples, jungle walkways, rice fields, Monkey Forest, markets, Kecak, villa days
-- [Ubud experiences from Tirta Tawar](https://www.ubudvillastays.com/guides/ubud-experiences-from-tirta-tawar): Market, Kecak, Monkey Forest, waterfalls
-- [Tirta Tawar rice field walk](https://www.ubudvillastays.com/guides/tirta-tawar-rice-field-walk-ubud): Quiet stone-and-grass lanes beside sawah
-- [Shopping near Tirta Tawar](https://www.ubudvillastays.com/guides/shopping-near-tirta-tawar-ubud): Boutiques, jewelry (e.g. Fascin di pietra), market walks
+- [Visiting Ubud for travelers](https://www.ubudvillastays.com/guides/visiting-ubud-for-travelers): First-stay planning, nights, packing, Tirta Tawar base
+- [Bali belly for Ubud travelers](https://www.ubudvillastays.com/guides/bali-belly-ubud-travelers): Prevention habits & villa recovery tips (not medical advice)
+- [Yoga retreat in Ubud](https://www.ubudvillastays.com/guides/yoga-retreat-villa-stay-in-ubud): Villa-based wellness / group retreat planning
+- [Where is Ubud?](https://www.ubudvillastays.com/guides/where-is-ubud): Gianyar location, airport times, Tirta Tawar map pin
+- [What people do in Ubud](https://www.ubudvillastays.com/guides/what-people-do-in-ubud): Temples, jungle walks, markets, Kecak, villa days
+- [Ubud experiences from Tirta Tawar](https://www.ubudvillastays.com/guides/ubud-experiences-from-tirta-tawar)
+- [Tirta Tawar rice field walk](https://www.ubudvillastays.com/guides/tirta-tawar-rice-field-walk-ubud)
+- [Shopping near Tirta Tawar](https://www.ubudvillastays.com/guides/shopping-near-tirta-tawar-ubud)
 - [Why Ubud](https://www.ubudvillastays.com/guides/why-ubud-is-a-top-bali-destination)
 - [Best area to stay](https://www.ubudvillastays.com/guides/best-area-to-stay-in-ubud-for-a-villa)
 - [2BR vs 6BR villa](https://www.ubudvillastays.com/guides/2br-vs-6br-villa-ubud)
 
 ## Optional
 
-- [Full LLM index](https://www.ubudvillastays.com/llms-full.txt): Expanded page summaries for AI crawlers
+- [Full LLM index](https://www.ubudvillastays.com/llms-full.txt)

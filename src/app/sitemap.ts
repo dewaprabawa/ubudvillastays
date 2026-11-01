@@ -28,10 +28,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${siteConfig.url}/guides/${guide.slug}`,
       lastModified: new Date(guide.dateModified),
       changeFrequency: "monthly" as const,
-      priority:
-        guide.slug === "where-is-ubud" || guide.slug === "what-people-do-in-ubud"
-          ? 0.85
-          : 0.75,
+      priority: [
+        "where-is-ubud",
+        "what-people-do-in-ubud",
+        "visiting-ubud-for-travelers",
+        "bali-belly-ubud-travelers",
+        "yoga-retreat-villa-stay-in-ubud",
+      ].includes(guide.slug)
+        ? 0.85
+        : 0.75,
       images: [guide.heroImage.startsWith("http")
         ? guide.heroImage
         : `${siteConfig.url}${guide.heroImage}`],

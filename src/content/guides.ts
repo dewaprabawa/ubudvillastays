@@ -340,40 +340,66 @@ export const guides: Guide[] = [
       {
         heading: "Book the villa that matches your group",
         paragraphs: [
-          "If you want a private pool villa in Ubud, start with guest count and mood: intimate courtyard (The Hideaway) or rice-field gathering house (Sawah Retreat). Message us on WhatsApp with dates and we will confirm availability paths via Airbnb or direct inquiry.",
+          "If you want a private pool villa in Ubud, start with guest count and mood: intimate courtyard (The Hideaway) or rice-field gathering house (Sawah Retreat). Open the booking form with your dates and guest count — we confirm availability on WhatsApp.",
         ],
       },
     ],
   },
   {
     slug: "yoga-retreat-villa-stay-in-ubud",
-    title: "Planning a Yoga Retreat Villa Stay in Ubud",
+    title: "Yoga Retreat in Ubud: Villa Stay, Schedule & Tirta Tawar Base",
     description:
-      "How to plan a yoga or wellness retreat in an Ubud villa—space needs, rice-field calm, group logistics, and why a 6-bedroom private villa works.",
+      "Plan a yoga retreat in Ubud with a private villa base—why Gianyar’s highlands work for wellness, what space you need, Sawah Retreat for groups up to 12, and how to book dates on Jl. Tirta Tawar.",
     eyebrow: "Wellness & retreats",
     datePublished: "2026-11-01",
     dateModified: "2026-11-01",
-    readingMinutes: 7,
-    primaryKeyword: "yoga retreat villa ubud",
+    readingMinutes: 9,
+    primaryKeyword: "yoga retreat ubud",
     secondaryKeywords: [
+      "yoga retreat villa ubud",
       "ubud yoga retreat accommodation",
       "wellness villa ubud",
       "group villa ubud",
+      "yoga retreat bali ubud",
+      "tirta tawar yoga villa",
     ],
     heroImage: "/images/villas/sawah-retreat/space-05.jpg",
-    relatedVillaSlugs: ["sawah-retreat"],
+    relatedVillaSlugs: ["sawah-retreat", "the-hideaway"],
+    keyTakeaways: [
+      "Ubud is Bali’s primary yoga and wellness hub—highland air, temples, organic food, and studios support multi-day retreats.",
+      "A private villa keeps practice, meals, and rest under one roof without hotel corridor noise.",
+      "Sawah Retreat (6BR, up to 12) on Jl. Tirta Tawar suits group retreats; The Hideaway (2BR) fits couples or small teacher stays.",
+      "Build days around morning practice, midday pool recovery, and optional temple or market outings.",
+      "Book via our booking form with dates and guest count — we confirm availability on WhatsApp.",
+    ],
     faqs: [
       {
         question: "Can I host a yoga retreat in a private Ubud villa?",
         answer:
-          "Yes—many groups prefer an entire villa for privacy, shared meals, and flexible schedule. Confirm guest count, quiet hours, and any extra services (massage, airport transfer) with the host in advance.",
+          "Yes. Many facilitators prefer an entire villa for privacy, shared meals, and flexible schedules. Confirm guest count, quiet hours (typically 23:00–07:00 at Sawah Retreat), and extras like massage or airport transfer when you book.",
+      },
+      {
+        question: "Why is Ubud good for a yoga retreat?",
+        answer:
+          "Ubud sits in Gianyar’s cultural highlands with cooler air than beach towns, rice-field calm, temple culture, yoga studios, spas, and organic cafés—ideal for multi-day wellness programs.",
+      },
+      {
+        question: "Which villa works for a group yoga retreat?",
+        answer:
+          "Sawah Retreat offers six en-suite bedrooms for up to 12 guests, a private pool, open kitchen, and rice-field outlooks on Jl. Tirta Tawar—about 5–8 minutes from central Ubud.",
+      },
+      {
+        question: "How do I book a yoga retreat villa stay?",
+        answer:
+          "Use the booking form at ubudvillastays.com/#booking with your date range, number of persons, and retreat details. We continue on WhatsApp to confirm availability for Sawah Retreat or The Hideaway.",
       },
     ],
     sections: [
       {
-        heading: "Why Ubud for yoga and wellness",
+        heading: "Yoga retreat in Ubud — why this destination",
         paragraphs: [
-          "Ubud’s wellness ecosystem—yoga shalas, healers, organic food, spas—grew because the landscape invites inward attention. Cooler air, green views, and temple culture create a backdrop that beach destinations rarely match. A villa stay lets your group hold that atmosphere privately between classes and excursions.",
+          "A yoga retreat in Ubud works because the town already runs on wellness rhythm: morning classes, temple quiet, organic menus, and green views. Unlike beach-party belts, Gianyar’s inland highlands reward inward schedules—practice, rest, simple food, optional culture.",
+          "Choosing a private pool villa on Jl. Tirta Tawar keeps that rhythm intact after class. You are close to studios and cafés, yet nights stay residential.",
         ],
       },
       {
@@ -389,16 +415,24 @@ export const guides: Guide[] = [
         ],
       },
       {
-        heading: "Sawah Retreat as a group base",
+        heading: "Sawah Retreat as a group yoga base",
         paragraphs: [
           "Sawah Retreat is our 6-bedroom private villa on Tirta Tawar with capacity for up to 12 guests, a private pool, open kitchen, and rice-field outlooks. Booking the entire property means no shared facilities with other travelers—useful for retreat schedules and group cohesion.",
-          "Staff can assist with luggage on the quiet access lane; airport pickup and in-house massage can be arranged. Pair villa mornings with studio classes in town, or keep practice on-site if your facilitator prefers.",
+          "Airport pickup and in-house massage can be arranged. Pair villa mornings with studio classes in town, or keep practice on-site if your facilitator prefers. Promo stays can include one free activity (rice-field cycling or cooking class) during the dates.",
         ],
       },
       {
-        heading: "Practical planning tips",
+        heading: "Sample retreat day from Tirta Tawar",
         paragraphs: [
-          "Share your guest list early, clarify quiet hours with neighbors in mind, and plan transfers for airport days. Peak months (July–August and year-end) book out for large villas—reserve ahead. For smaller teacher trainings or couple wellness escapes, The Hideaway’s 2-bedroom courtyard can be the quieter alternative.",
+          "Sunrise movement or meditation by the pool or sawah edge. Mid-morning deep practice or workshop block. Midday recovery and vegetarian-friendly lunch. Optional afternoon spa, market walk, or temple visit. Evening yin or circle, then quiet hours.",
+          "Couples or duo facilitators can scale the same plan at The Hideaway’s 2-bedroom courtyard when the group is small.",
+        ],
+      },
+      {
+        heading: "Book your yoga retreat villa dates",
+        paragraphs: [
+          "Peak months (July–August and year-end) fill large villas early—share your guest list and schedule outline when you inquire. Open the booking form with date range, number of persons, and retreat notes, then continue on WhatsApp so we can confirm Sawah Retreat or The Hideaway.",
+          "Also read: visiting Ubud for first-timers, where is Ubud, and what people do in Ubud for cultural balance around practice days.",
         ],
       },
     ],
@@ -899,7 +933,245 @@ export const guides: Guide[] = [
         heading: "Book the villa that fits how you use Ubud",
         paragraphs: [
           "If your Ubud days are temple-jungle walks and market mornings, stay where the map works: Jl. Tirta Tawar. Promo rates start from Rp 4.9 juta / night at The Hideaway and Rp 7 juta / night at Sawah Retreat, each with one free activity included.",
-          "Also read: where is Ubud (location & map), shopping near Tirta Tawar, and the full experiences guide.",
+          "Ready to lock dates? Use the booking form (date range, guests, details) then continue on WhatsApp. Also read: where is Ubud, visiting Ubud for travelers, and Bali belly tips before you fly.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "bali-belly-ubud-travelers",
+    title: "Bali Belly in Ubud: What Travelers Should Know Before They Visit",
+    description:
+      "Practical Bali belly guidance for Ubud travelers—what it usually means, prevention habits, when to seek care, and how a private villa kitchen helps. Not medical advice.",
+    eyebrow: "Travel health tips",
+    datePublished: "2026-11-01",
+    dateModified: "2026-11-01",
+    readingMinutes: 8,
+    primaryKeyword: "bali belly",
+    secondaryKeywords: [
+      "bali belly ubud",
+      "bali stomach bug",
+      "travelers diarrhea bali",
+      "ubud food safety tips",
+      "avoid bali belly",
+      "ubud travel health",
+    ],
+    heroImage: "/images/marketing/cooking-class-ricefield.jpg",
+    relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
+    keyTakeaways: [
+      "“Bali belly” is the traveler nickname for stomach upset that can happen on any tropical trip—not only in Ubud.",
+      "This guide is general travel information, not medical advice—see a clinician for diagnosis or treatment.",
+      "Prevention habits: hand hygiene, cautious water and ice choices, careful street-food timing, and rest when needed.",
+      "A private villa kitchen on Jl. Tirta Tawar lets you control some meals while still enjoying Ubud cafés and markets.",
+      "Book villa dates via our booking form; pack a simple personal kit after talking with your doctor at home.",
+    ],
+    faqs: [
+      {
+        question: "What is Bali belly?",
+        answer:
+          "Bali belly is the informal name travelers use for digestive upset (often travelers’ diarrhea or stomach discomfort) that can occur when food, water, or routine changes overseas. It is not unique to Bali or Ubud.",
+      },
+      {
+        question: "Is Bali belly common in Ubud?",
+        answer:
+          "Any busy food destination can challenge new digestive systems. Ubud’s cafés and markets are part of the experience—sensible hygiene and pacing reduce risk, but no destination is risk-free.",
+      },
+      {
+        question: "How can I reduce the chance of Bali belly?",
+        answer:
+          "Wash hands often, be thoughtful about tap water and ice if you are sensitive, choose busy reputable eateries, ease into spicy or very rich foods, and rest if you feel off. Ask your doctor about personal travel precautions before you fly.",
+      },
+      {
+        question: "When should I see a doctor for Bali belly?",
+        answer:
+          "Seek professional care for high fever, blood in stool, severe dehydration, symptoms lasting more than a couple of days, or if you have other medical conditions. This page cannot diagnose or treat illness.",
+      },
+      {
+        question: "Does staying in a villa help?",
+        answer:
+          "A private villa with a kitchen—such as The Hideaway or Sawah Retreat on Tirta Tawar—gives you control over some meals, clean rest space, and a quiet recovery base between Ubud outings.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Bali belly explained (plain language)",
+        paragraphs: [
+          "Bali belly is traveler slang for stomach upset while visiting Bali—cramps, loose stools, nausea, or a day of feeling wiped out. Medically, similar symptoms often fall under travelers’ diarrhea or dietary adjustment; causes vary (new spices, richer meals, hygiene slips, or viruses).",
+          "Important: Ubud Villa Stays is a lodging host, not a clinic. Nothing here is medical advice, diagnosis, or a treatment plan. For personal recommendations—including medications—talk to a qualified clinician before and during travel.",
+        ],
+      },
+      {
+        heading: "Prevention habits that help in Ubud",
+        paragraphs: [
+          "Most travelers enjoy Ubud’s food scene without drama by stacking simple habits: wash or sanitize hands before eating, be cautious with tap water if you are sensitive, notice how ice is handled, and give your stomach a day to adapt before the spiciest tasting menus.",
+          "Busy kitchens with high turnover are often a safer bet than empty stalls. Hotel- and villa-prepared meals, sealed drinks, and peeled fruit you prepare yourself are common traveler strategies—still not guarantees.",
+        ],
+        bullets: [
+          "Hand hygiene before meals and after markets",
+          "Discuss travel health plans with your doctor at home",
+          "Pace spicy, oily, or unfamiliar dishes on day one",
+          "Stay hydrated with sealed water if you feel unwell",
+          "Rest at the villa instead of forcing a full temple day",
+        ],
+        image: {
+          src: "/images/marketing/cooking-class-ricefield.jpg",
+          alt: "Balinese cooking class set against rice terraces near Ubud",
+          caption:
+            "Cooking class and villa kitchens — useful when you want more control over ingredients.",
+        },
+      },
+      {
+        heading: "Eating well without fear",
+        paragraphs: [
+          "Ubud’s warungs, juice bars, and farm-to-table cafés are a reason people visit. Fear should not erase the trip. Start with cooked dishes, reputable spots recommended by hosts, and the local market for fruit you wash or peel yourself at the villa.",
+          "Promo villa stays can include a Balinese cooking class during your dates—handy if your group wants shared meals with known ingredients while still learning local flavors.",
+        ],
+      },
+      {
+        heading: "If you feel unwell during the stay",
+        paragraphs: [
+          "Pause sightseeing, sip fluids, and use your villa as a recovery base. Contact local medical help or your travel insurer’s assistance line if symptoms are severe or persistent. Pharmacies in Ubud can be useful for clinician-directed items—but self-medicating without advice can be risky.",
+          "Tell your host if you need quiet, late checkout flexibility discussion, or help locating care. We prioritize guest comfort; we do not replace doctors.",
+        ],
+      },
+      {
+        heading: "Book a calm Ubud base, then travel smart",
+        paragraphs: [
+          "A private pool villa on Jl. Tirta Tawar—The Hideaway for couples or Sawah Retreat for groups—gives you kitchen control, AC rest, and quiet nights after market and temple days. Open the booking form with your date range and guest count; we confirm availability on WhatsApp.",
+          "Pair this guide with visiting Ubud for travelers and what people do in Ubud so health pacing sits inside a realistic itinerary.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "visiting-ubud-for-travelers",
+    title: "Visiting Ubud: Traveler Guide to Plan Your First Stay",
+    description:
+      "SEO/GEO traveler guide to visiting Ubud—when to go, how many nights, what to pack, where to stay on Tirta Tawar, and how to book a private pool villa.",
+    eyebrow: "Traveler planning",
+    datePublished: "2026-11-01",
+    dateModified: "2026-11-01",
+    readingMinutes: 10,
+    primaryKeyword: "visiting ubud",
+    secondaryKeywords: [
+      "visit ubud bali",
+      "ubud travel guide",
+      "first time ubud",
+      "plan trip to ubud",
+      "ubud itinerary tips",
+      "where to stay when visiting ubud",
+    ],
+    heroImage: "/images/marketing/ubud-jungle-temple-walkway.jpg",
+    relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
+    gallery: [
+      {
+        src: "/images/marketing/ubud-jungle-temple-walkway.jpg",
+        alt: "Travelers on a jungle temple walkway in Ubud",
+        caption: "Temple and jungle paths — core visiting-Ubud time.",
+      },
+      {
+        src: "/images/marketing/tirta-tawar-rice-path-ubud.jpg",
+        alt: "Rice field path on Tirta Tawar, Ubud",
+        caption: "Quiet Tirta Tawar lanes near our villas.",
+      },
+      {
+        src: "/images/marketing/ubud-art-market.jpg",
+        alt: "Ubud market umbrellas",
+        caption: "Market mornings within a short walk of Tirta Tawar.",
+      },
+    ],
+    keyTakeaways: [
+      "Ubud is inland Gianyar—culture, rice fields, and jungle—not a beach town.",
+      "Plan 3–5 nights for a first visit; longer if you add a yoga retreat or day trips.",
+      "Stay on Jl. Tirta Tawar for quiet villa nights about 5–8 minutes from central Ubud.",
+      "Build days: morning outing, midday pool, evening culture—then book via our booking form.",
+      "Read Bali belly tips before you fly; pack light layers for highland evenings.",
+    ],
+    faqs: [
+      {
+        question: "How many days do you need when visiting Ubud?",
+        answer:
+          "Most first-time travelers are happiest with 3–5 nights: temples, rice walks, Monkey Forest, market time, and one evening Kecak without rushing.",
+      },
+      {
+        question: "When is the best time to visit Ubud?",
+        answer:
+          "Dry season (roughly April–October) is popular for outdoor walks. Green season brings lush rice fields and fewer crowds, with afternoon showers common. Book villas early for July–August and year-end.",
+      },
+      {
+        question: "Where should travelers stay in Ubud?",
+        answer:
+          "Choose a private pool villa if you want space and quiet. Our Tirta Tawar villas—The Hideaway (2BR) and Sawah Retreat (6BR)—sit near town without Monkey Forest Road noise.",
+      },
+      {
+        question: "How do I get to Ubud?",
+        answer:
+          "Fly into Ngurah Rai (DPS) and take a private car—typically about 1–1.5 hours to Ubud. Share flight details when you book so we can help arrange a transfer.",
+      },
+      {
+        question: "How do I book The Hideaway or Sawah Retreat?",
+        answer:
+          "Use https://www.ubudvillastays.com/#booking — enter date range, number of persons, and details, then continue on WhatsApp to confirm availability.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Visiting Ubud: who this trip is for",
+        paragraphs: [
+          "Visiting Ubud suits travelers who want Bali’s cultural highland—not only beach clubs. Expect temples, jungle walkways, rice fields, yoga and spa culture, markets, and café days. Couples, families, wellness groups, and friends sharing a villa all fit the map if you pace the heat.",
+          "If you need ocean time, combine Ubud nights with a southern beach leg. If you want green mornings and private evenings, start planning the villa base first.",
+        ],
+        image: {
+          src: "/images/marketing/ubud-jungle-temple-walkway.jpg",
+          alt: "Visitors walking through temple grounds and jungle canopy in Ubud",
+          caption:
+            "Jungle-temple walkways are a signature part of visiting Ubud.",
+        },
+      },
+      {
+        heading: "Before you fly: map, nights, and season",
+        paragraphs: [
+          "Ubud is in Gianyar Regency, inland central Bali. Airport transfers from DPS usually take about 1–1.5 hours. First visits work well with 3–5 nights; yoga retreats or slow digital-nomad stretches often run longer.",
+          "Dry-season months are busiest. Green season is beautiful and quieter—pack a light rain layer. Read where is Ubud for coordinates and Tirta Tawar context before you choose a street.",
+        ],
+        bullets: [
+          "Nights: 3–5 for first timers · longer for retreats",
+          "Transfer: private car from DPS",
+          "Base: quiet villa corridor vs busy café street",
+          "Health: skim Bali belly tips and talk to your doctor",
+        ],
+      },
+      {
+        heading: "What to do once you arrive",
+        paragraphs: [
+          "Anchor the trip with one temple or jungle walk, one rice-field or Tirta Tawar lane stroll, Monkey Forest or a waterfall half-day, market morning, and one Kecak evening. Leave blank space for spa, café, and pool time—Ubud rewards under-scheduling.",
+          "Full activity detail lives in what people do in Ubud and experiences from Tirta Tawar. Shopping near Tirta Tawar covers boutique and market logistics.",
+        ],
+      },
+      {
+        heading: "Where to stay: Tirta Tawar villas",
+        paragraphs: [
+          "Jl. Tirta Tawar gives you residential calm, a five-minute walk to the local market, and a short ride to central Ubud. The Hideaway is the 2-bedroom courtyard pool option; Sawah Retreat is the 6-bedroom rice-field house for up to 12 guests.",
+          "Promo stays include one free activity during the visit—rice-field cycling with lunch or a Balinese cooking class—confirm the slot while you are here.",
+        ],
+        image: {
+          src: "/images/marketing/tirta-tawar-rice-path-ubud.jpg",
+          alt: "Stone and grass rice field path on Tirta Tawar, Ubud",
+          caption: "Tirta Tawar rice-path mornings outside the villa gate.",
+        },
+      },
+      {
+        heading: "Packing and pacing tips for Ubud",
+        paragraphs: [
+          "Pack breathable clothes, a light layer for evenings, respectable temple cover (sarong often provided at sites), mosquito awareness, reusable water bottle, and sandals you can walk in. Midday heat is real—plan AC or pool breaks.",
+          "Scooters are common; groups at Sawah Retreat often prefer a driver for temple days. Couples at The Hideaway can walk the market and scooter selectively.",
+        ],
+      },
+      {
+        heading: "Book your visiting-Ubud dates",
+        paragraphs: [
+          "When dates are clear, open the booking form at the bottom of our site: select villa, date range, number of persons, and any details (airport time, free activity preference, retreat notes). We continue on WhatsApp to check availability.",
+          "Start with Check availability on any page, or go directly to the booking section, then explore villa offers for promo pricing.",
         ],
       },
     ],

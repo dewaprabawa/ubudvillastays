@@ -126,11 +126,12 @@ export function GuideArticle({ guide }: { guide: Guide }) {
         ) : null}
 
         <section className={styles.ctaBand} aria-labelledby="guide-cta">
-          <h2 id="guide-cta">Stay in Tirta Tawar, Ubud</h2>
+          <h2 id="guide-cta">Book your Ubud villa stay</h2>
           <p>
-            The Hideaway from Rp 4.9 juta / night (Save 15%) or Sawah Retreat
-            from Rp 7 juta / night for groups — both include one free activity
-            (rice-field cycling or cooking class) you can pick during the stay
+            Ready to visit? Open our booking form with your date range, guest
+            count, and details — we continue on WhatsApp to confirm availability
+            for The Hideaway (from Rp 4.9 juta / night) or Sawah Retreat (from
+            Rp 7 juta / night). Both include one free activity during the stay
             on Jl. Tirta Tawar.
           </p>
           <div className={styles.actions}>
@@ -138,6 +139,9 @@ export function GuideArticle({ guide }: { guide: Guide }) {
               className={styles.primary}
               label="Check availability"
             />
+            <Link className={styles.secondary} href="/#booking">
+              Booking form
+            </Link>
             <Link className={styles.secondary} href="/villas/the-hideaway#offer">
               Hideaway offer
             </Link>

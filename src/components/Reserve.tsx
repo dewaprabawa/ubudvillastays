@@ -12,7 +12,6 @@ export function Reserve({ villa }: ReserveProps) {
   const title = villa
     ? `Book ${villa.name}`
     : "Book your Ubud villa stay";
-  const airbnb = villa?.airbnbUrl;
   const offerLine = villa?.offer
     ? ` Promo from ${villa.offer.priceLabel} ${villa.offer.pricePer}, with one free activity included.`
     : "";
@@ -35,8 +34,7 @@ export function Reserve({ villa }: ReserveProps) {
           {villa ? ` for ${villa.name}` : " — then choose which villa"}. We
           continue on WhatsApp to check availability.
           {offerLine} Prefer email? Write{" "}
-          <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
-          {airbnb ? ", or hold dates on Airbnb" : ""}.
+          <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>.
         </p>
 
         <div className={styles.steps} aria-hidden="true">
@@ -48,22 +46,13 @@ export function Reserve({ villa }: ReserveProps) {
 
         <BookingForm villa={villa} variant="inline" />
 
-        <div className={styles.actions}>
-          {airbnb ? (
-            <a
-              className={styles.secondary}
-              href={airbnb}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Or book via Airbnb
-            </a>
-          ) : (
+        {!villa ? (
+          <div className={styles.actions}>
             <Link className={styles.secondary} href="/#villas">
               Compare villas
             </Link>
-          )}
-        </div>
+          </div>
+        ) : null}
       </Reveal>
     </section>
   );

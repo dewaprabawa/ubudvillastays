@@ -697,7 +697,7 @@ export const villas: Villa[] = [
             { label: "Cancellation details depend on your travel dates" },
             {
               label:
-                "Ask on WhatsApp or check Airbnb once you share dates",
+                "Ask on WhatsApp once you share dates",
             },
           ],
         },

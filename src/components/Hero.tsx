@@ -88,13 +88,8 @@ export function Hero({ villa, showBrand = true }: HeroProps) {
               Why stay at {villa.shortName}
             </a>
           ) : (
-            <a
-              className={styles.secondary}
-              href={villa.airbnbUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View on Airbnb
+            <a className={styles.secondary} href="#booking">
+              Booking form
             </a>
           )}
         </div>

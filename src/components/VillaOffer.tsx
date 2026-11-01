@@ -81,13 +81,6 @@ export function VillaOffer({ villa }: { villa: Villa }) {
                   <p className={styles.pickWhen}>
                     Pick anytime during your stay period
                   </p>
-                  <a
-                    href={activity.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    View activity details
-                  </a>
                 </div>
               </article>
             ))}
@@ -126,22 +119,6 @@ export function VillaOffer({ villa }: { villa: Villa }) {
           </Link>
           {" · "}
           <Link href="/villas/sawah-retreat">Sawah Retreat for groups</Link>
-          {" · "}
-          <a
-            href="https://www.sekarbaliactivity.com/tours/ubud-ricefield-cycling-tour"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Cycling tour
-          </a>
-          {" · "}
-          <a
-            href="https://www.sekarbaliactivity.com/tours/balinese-cooking-class"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Cooking class
-          </a>
         </p>
       </Reveal>
     </section>

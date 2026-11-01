@@ -203,7 +203,7 @@ export const villas: Villa[] = [
       activities: [
         {
           title: "Ubud rice field cycling + lunch",
-          copy: "Quiet sawah paths, then lunch — classic Ubud outdoors.",
+          copy: "A guided bike ride through quiet rice-field paths around Ubud, with lunch included. Easy pace — good for couples and small families who want green views without a long day trip.",
           url: "https://www.sekarbaliactivity.com/tours/ubud-ricefield-cycling-tour",
           image: "/images/marketing/ubud-ricefield-cycling.jpg",
           imageAlt:
@@ -212,7 +212,7 @@ export const villas: Villa[] = [
         },
         {
           title: "Balinese cooking class (rice terrace)",
-          copy: "Hands-on local dishes with a rice-terrace backdrop.",
+          copy: "Learn to cook Balinese dishes with a local host overlooking rice terraces — market-style ingredients, hands-on steps, and a shared meal at the end.",
           url: "https://www.sekarbaliactivity.com/tours/balinese-cooking-class",
           image: "/images/marketing/cooking-class-ricefield.jpg",
           imageAlt:

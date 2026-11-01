@@ -250,16 +250,6 @@
   color: var(--ink) !important;
 }
 
-.activityCopy a {
-  display: inline-block;
-  margin-top: 0.55rem;
-  font-size: 0.88rem;
-  font-weight: 600;
-  color: var(--canopy);
-  text-decoration: underline;
-  text-underline-offset: 0.16em;
-}
-
 .orNote {
   margin: 1rem 0 0;
   text-align: center;

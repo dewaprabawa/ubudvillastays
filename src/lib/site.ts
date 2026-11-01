@@ -43,11 +43,6 @@ export type VillaOffer = {
   activityIntro: string;
   activityTiming: string;
   activities: VillaOfferActivity[];
-  accent: {
-    src: string;
-    alt: string;
-    caption: string;
-  };
   ctaNote: string;
 };
 
@@ -257,12 +252,6 @@ export const villas: Villa[] = [
       activityTiming:
         "You can choose during your stay period — tell us at booking or once you arrive, as long as we confirm the activity date while you are here.",
       activities: freeStayActivities,
-      accent: {
-        src: "/images/marketing/canang-sari-ricefield.jpg",
-        alt: "Canang sari offering placed beside an Ubud rice field",
-        caption:
-          "Rice-field mornings near Tirta Tawar — culture close to home.",
-      },
       ctaNote:
         "WhatsApp your dates — pick cycling or cooking now, or during your stay. We confirm the activity slot while you are here.",
     },
@@ -581,12 +570,6 @@ export const villas: Villa[] = [
       activityTiming:
         "You can choose during your stay period — tell us at booking or once you arrive, as long as we confirm the activity date while you are here.",
       activities: freeStayActivities,
-      accent: {
-        src: "/images/marketing/canang-sari-ricefield.jpg",
-        alt: "Canang sari offering placed beside an Ubud rice field",
-        caption:
-          "Sawah mornings near Tirta Tawar — green calm with culture close by.",
-      },
       ctaNote:
         "WhatsApp your dates and guest count — pick cycling or cooking now, or during your stay. We confirm the activity slot while you are here.",
     },

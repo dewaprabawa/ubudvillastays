@@ -111,19 +111,6 @@ export function VillaOffer({ villa }: { villa: Villa }) {
           </p>
         </div>
 
-        <figure className={styles.accent}>
-          <div className={styles.accentMedia}>
-            <Image
-              src={offer.accent.src}
-              alt={offer.accent.alt}
-              fill
-              sizes="(max-width: 800px) 100vw, 280px"
-              className={styles.image}
-            />
-          </div>
-          <figcaption>{offer.accent.caption}</figcaption>
-        </figure>
-
         <p className={styles.note}>{offer.ctaNote}</p>
         <div className={styles.actions}>
           <a className={styles.primary} href={villaOfferWhatsApp(villa)}>

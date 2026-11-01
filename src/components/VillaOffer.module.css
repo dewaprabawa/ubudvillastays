@@ -1,9 +1,9 @@
 .section {
-  padding: clamp(4rem, 9vw, 6.5rem) clamp(1.25rem, 4vw, 3rem);
+  padding: clamp(2.75rem, 6vw, 4.5rem) clamp(1.25rem, 4vw, 3rem);
   background:
     linear-gradient(
       160deg,
-      rgba(58, 122, 134, 0.12) 0%,
+      rgba(58, 122, 134, 0.1) 0%,
       transparent 45%
     ),
     linear-gradient(180deg, #edf3ef 0%, var(--mist) 55%, #f5f7f4 100%);
@@ -14,26 +14,27 @@
   margin: 0 auto;
 }
 
-.intro {
-  max-width: 42rem;
+.compact {
+  max-width: 34rem;
 }
 
 .badges {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.55rem;
-  margin: 0 0 1rem;
+  gap: 0.45rem;
+  margin: 0 0 0.65rem;
 }
 
 .badgePopular,
 .badgeSave,
-.activityBadge {
+.activityBadge,
+.choiceTag {
   display: inline-flex;
   align-items: center;
-  padding: 0.35rem 0.7rem;
-  font-size: 0.72rem;
+  padding: 0.28rem 0.55rem;
+  font-size: 0.68rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
 }
 
@@ -49,17 +50,17 @@
 }
 
 .kicker {
-  margin: 0 0 0.85rem;
-  font-size: 0.78rem;
+  margin: 0 0 0.55rem;
+  font-size: 0.68rem;
   font-weight: 650;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--lagoon);
 }
 
 .priceBlock {
-  margin: 0 0 1.15rem;
-  padding: 1.15rem 1.2rem 1.2rem;
+  margin: 0 0 0.75rem;
+  padding: 0.75rem 0.9rem 0.85rem;
   border: 1px solid rgba(20, 38, 31, 0.12);
   background:
     linear-gradient(
@@ -73,14 +74,14 @@
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  gap: 0.4rem 0.55rem;
+  gap: 0.3rem 0.45rem;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.88rem;
   color: rgba(15, 26, 22, 0.55);
 }
 
 .wasLabel {
-  font-size: 0.78rem;
+  font-size: 0.68rem;
   font-weight: 650;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -92,20 +93,20 @@
 }
 
 .wasPer {
-  font-size: 0.85rem;
+  font-size: 0.78rem;
 }
 
 .price {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  gap: 0.55rem 0.85rem;
-  margin: 0.45rem 0 0;
+  gap: 0.4rem 0.65rem;
+  margin: 0.3rem 0 0;
 }
 
 .amount {
   font-family: var(--font-display);
-  font-size: clamp(2.35rem, 5.2vw, 3.35rem);
+  font-size: clamp(1.55rem, 3.2vw, 2rem);
   font-weight: 500;
   letter-spacing: -0.02em;
   color: var(--ink);
@@ -113,67 +114,105 @@
 }
 
 .per {
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-weight: 600;
   color: var(--canopy);
 }
 
 .savingsNote {
-  margin: 0.7rem 0 0;
-  font-size: 0.92rem;
-  line-height: 1.45;
+  margin: 0.45rem 0 0;
+  font-size: 0.8rem;
+  line-height: 1.4;
   color: var(--canopy);
   font-weight: 600;
 }
 
 .title {
   margin: 0;
-  max-width: 18ch;
+  max-width: 22ch;
   font-family: var(--font-display);
-  font-size: clamp(1.85rem, 4vw, 2.7rem);
+  font-size: clamp(1.25rem, 2.6vw, 1.55rem);
   font-weight: 500;
-  line-height: 1.12;
-  letter-spacing: -0.02em;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
   color: var(--ink);
 }
 
 .lede {
-  margin: 1rem 0 0;
-  line-height: 1.65;
+  margin: 0.55rem 0 0;
+  font-size: 0.92rem;
+  line-height: 1.55;
   color: var(--ink-soft);
 }
 
-.activityIntro {
-  margin: 2rem 0 1rem;
-  font-weight: 600;
+.choicePanel {
+  margin-top: 1.75rem;
+  padding: 1.25rem 1rem 1.35rem;
+  border: 1px solid rgba(20, 38, 31, 0.14);
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.choiceHeader {
+  max-width: 40rem;
+  margin-bottom: 1.15rem;
+}
+
+.choiceKicker {
+  margin: 0 0 0.4rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--canopy);
+}
+
+.choiceTitle {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.2rem, 2.5vw, 1.55rem);
+  font-weight: 500;
   color: var(--ink);
+}
+
+.timing {
+  margin: 0.55rem 0 0;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
 }
 
 .activities {
   display: grid;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .activity {
   position: relative;
   display: grid;
-  gap: 1rem;
-  padding-top: 1.25rem;
-  border-top: 1px solid rgba(20, 38, 31, 0.12);
+  gap: 0.75rem;
+  padding: 0.85rem;
+  border: 1px solid rgba(20, 38, 31, 0.12);
+  background: rgba(245, 247, 244, 0.65);
 }
 
 .activityFeatured {
-  padding: 1.15rem 1rem 1rem;
-  border: 1px solid rgba(20, 38, 31, 0.16);
-  border-top: 1px solid rgba(20, 38, 31, 0.16);
-  background: rgba(255, 255, 255, 0.45);
+  border-color: rgba(20, 38, 31, 0.28);
+  background: #fff;
+  box-shadow: 0 10px 28px rgba(15, 26, 22, 0.06);
+}
+
+.choiceMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.choiceTag {
+  background: rgba(58, 122, 134, 0.14);
+  color: var(--canopy);
 }
 
 .activityBadge {
-  position: absolute;
-  top: 0.85rem;
-  left: 0.85rem;
-  z-index: 2;
   background: var(--ink);
   color: var(--limestone);
 }
@@ -192,31 +231,50 @@
 .activityCopy h3 {
   margin: 0;
   font-family: var(--font-display);
-  font-size: 1.35rem;
+  font-size: 1.15rem;
   font-weight: 500;
   color: var(--canopy);
 }
 
 .activityCopy p {
-  margin: 0.5rem 0 0;
-  line-height: 1.6;
+  margin: 0.4rem 0 0;
+  font-size: 0.92rem;
+  line-height: 1.55;
   color: var(--ink-soft);
+}
+
+.pickWhen {
+  margin: 0.55rem 0 0 !important;
+  font-size: 0.82rem !important;
+  font-weight: 650;
+  color: var(--ink) !important;
 }
 
 .activityCopy a {
   display: inline-block;
-  margin-top: 0.75rem;
+  margin-top: 0.55rem;
+  font-size: 0.88rem;
   font-weight: 600;
   color: var(--canopy);
   text-decoration: underline;
   text-underline-offset: 0.16em;
 }
 
+.orNote {
+  margin: 1rem 0 0;
+  text-align: center;
+  font-size: 0.78rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(15, 26, 22, 0.55);
+}
+
 .accent {
   display: grid;
-  gap: 0.75rem;
-  margin: 2rem 0 0;
-  max-width: 280px;
+  gap: 0.55rem;
+  margin: 1.5rem 0 0;
+  max-width: 220px;
 }
 
 .accentMedia {
@@ -228,29 +286,30 @@
 
 .accent figcaption {
   margin: 0;
-  font-size: 0.85rem;
-  line-height: 1.45;
+  font-size: 0.78rem;
+  line-height: 1.4;
   color: rgba(15, 26, 22, 0.62);
 }
 
 .note {
-  margin: 1.75rem 0 0;
-  max-width: 38rem;
-  line-height: 1.6;
+  margin: 1.25rem 0 0;
+  max-width: 36rem;
+  font-size: 0.9rem;
+  line-height: 1.55;
   color: var(--ink-soft);
 }
 
 .actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-top: 1.35rem;
+  gap: 0.65rem;
+  margin-top: 1rem;
 }
 
 .crossLinks {
-  margin: 1.15rem 0 0;
-  font-size: 0.9rem;
-  line-height: 1.55;
+  margin: 0.95rem 0 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
   color: var(--ink-soft);
 }
 
@@ -265,11 +324,11 @@
 .secondary {
   display: inline-flex;
   align-items: center;
-  padding: 0.9rem 1.25rem;
+  padding: 0.8rem 1.1rem;
   border-radius: 999px;
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   transition:
     transform 160ms ease,
     background 160ms ease,
@@ -297,27 +356,18 @@
 }
 
 @media (min-width: 860px) {
+  .choicePanel {
+    padding: 1.4rem 1.35rem 1.5rem;
+  }
+
   .activities {
     grid-template-columns: 1fr 1fr;
-    gap: 1.75rem;
+    gap: 1.15rem;
     align-items: stretch;
-  }
-
-  .activity {
-    border-top: none;
-    padding-top: 0;
-  }
-
-  .activityFeatured {
-    padding: 1.15rem;
   }
 
   .media {
     aspect-ratio: 4 / 3;
-  }
-
-  .accent {
-    margin-top: 2.25rem;
   }
 }
 

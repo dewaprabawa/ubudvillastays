@@ -15,7 +15,7 @@ export function VillaOffer({ villa }: { villa: Villa }) {
       aria-labelledby="offer-title"
     >
       <Reveal className={styles.inner}>
-        <div className={styles.intro}>
+        <div className={styles.compact}>
           <div className={styles.badges}>
             <span className={styles.badgePopular}>{offer.badge}</span>
             <span className={styles.badgeSave}>{offer.savingsLabel}</span>
@@ -32,8 +32,7 @@ export function VillaOffer({ villa }: { villa: Villa }) {
               <span className={styles.per}>{offer.pricePer}</span>
             </p>
             <p className={styles.savingsNote}>
-              {offer.savingsPercent}% off the regular nightly rate — free
-              activity still included.
+              {offer.savingsPercent}% off · free activity included
             </p>
           </div>
           <h2 id="offer-title" className={styles.title}>
@@ -42,41 +41,61 @@ export function VillaOffer({ villa }: { villa: Villa }) {
           <p className={styles.lede}>{offer.lede}</p>
         </div>
 
-        <p className={styles.activityIntro}>{offer.activityIntro}</p>
+        <div className={styles.choicePanel} aria-labelledby="choice-title">
+          <div className={styles.choiceHeader}>
+            <p className={styles.choiceKicker}>Included free</p>
+            <h3 id="choice-title" className={styles.choiceTitle}>
+              {offer.activityIntro}
+            </h3>
+            <p className={styles.timing}>{offer.activityTiming}</p>
+          </div>
 
-        <div className={styles.activities}>
-          {offer.activities.map((activity) => (
-            <article
-              key={activity.title}
-              className={`${styles.activity} ${
-                activity.mostPicked ? styles.activityFeatured : ""
-              }`}
-            >
-              {activity.mostPicked ? (
-                <span className={styles.activityBadge}>Most picked</span>
-              ) : null}
-              <div className={styles.media}>
-                <Image
-                  src={activity.image}
-                  alt={activity.imageAlt}
-                  fill
-                  sizes="(max-width: 800px) 100vw, 40vw"
-                  className={styles.image}
-                />
-              </div>
-              <div className={styles.activityCopy}>
-                <h3>{activity.title}</h3>
-                <p>{activity.copy}</p>
-                <a
-                  href={activity.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  View activity details
-                </a>
-              </div>
-            </article>
-          ))}
+          <div className={styles.activities}>
+            {offer.activities.map((activity, index) => (
+              <article
+                key={activity.title}
+                className={`${styles.activity} ${
+                  activity.mostPicked ? styles.activityFeatured : ""
+                }`}
+              >
+                <div className={styles.choiceMeta}>
+                  <span className={styles.choiceTag}>
+                    Free choice {index + 1}
+                  </span>
+                  {activity.mostPicked ? (
+                    <span className={styles.activityBadge}>Most picked</span>
+                  ) : null}
+                </div>
+                <div className={styles.media}>
+                  <Image
+                    src={activity.image}
+                    alt={activity.imageAlt}
+                    fill
+                    sizes="(max-width: 800px) 100vw, 40vw"
+                    className={styles.image}
+                  />
+                </div>
+                <div className={styles.activityCopy}>
+                  <h3>{activity.title}</h3>
+                  <p>{activity.copy}</p>
+                  <p className={styles.pickWhen}>
+                    Pick anytime during your stay period
+                  </p>
+                  <a
+                    href={activity.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View activity details
+                  </a>
+                </div>
+              </article>
+            ))}
+          </div>
+
+          <p className={styles.orNote} aria-hidden="true">
+            Choose one · cycling or cooking
+          </p>
         </div>
 
         <figure className={styles.accent}>
@@ -85,7 +104,7 @@ export function VillaOffer({ villa }: { villa: Villa }) {
               src={offer.accent.src}
               alt={offer.accent.alt}
               fill
-              sizes="(max-width: 800px) 100vw, 320px"
+              sizes="(max-width: 800px) 100vw, 280px"
               className={styles.image}
             />
           </div>

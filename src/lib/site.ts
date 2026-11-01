@@ -28,6 +28,7 @@ export type VillaOffer = {
   headline: string;
   lede: string;
   activityIntro: string;
+  activityTiming: string;
   activities: VillaOfferActivity[];
   accent: {
     src: string;
@@ -194,14 +195,15 @@ export const villas: Villa[] = [
       badge: "Most picked",
       currency: "IDR",
       eyebrow: "Commercial stay · Tirta Tawar, Ubud",
-      headline: "Villa nights with a free Ubud experience included.",
-      lede: "Book The Hideaway at Rp 4.9 juta per night (15% off Rp 5.765.000) on Jl. Tirta Tawar — a holiday or longer investment-friendly stay with a private pool, and pick one complimentary activity from Sekar Bali Activity.",
-      activityIntro:
-        "Your stay includes one free activity (choose one for your party):",
+      headline: "Villa nights + one free Ubud activity.",
+      lede: "Private pool stay on Jl. Tirta Tawar at Rp 4.9 juta / night (15% off). Choose one complimentary Sekar Bali Activity during your stay.",
+      activityIntro: "Free activity choice — pick one for your party:",
+      activityTiming:
+        "You can choose during your stay period — tell us at booking or once you arrive, as long as we confirm the activity date while you are here.",
       activities: [
         {
           title: "Ubud rice field cycling + lunch",
-          copy: "Ride quiet paths through sawah landscapes, then enjoy lunch — classic Ubud outdoors without the logistics headache.",
+          copy: "Quiet sawah paths, then lunch — classic Ubud outdoors.",
           url: "https://www.sekarbaliactivity.com/tours/ubud-ricefield-cycling-tour",
           image: "/images/marketing/ubud-ricefield-cycling.jpg",
           imageAlt:
@@ -210,7 +212,7 @@ export const villas: Villa[] = [
         },
         {
           title: "Balinese cooking class (rice terrace)",
-          copy: "Cook local dishes with a rice-terrace backdrop — hands-on Bali flavor that turns a villa night into a memory.",
+          copy: "Hands-on local dishes with a rice-terrace backdrop.",
           url: "https://www.sekarbaliactivity.com/tours/balinese-cooking-class",
           image: "/images/marketing/cooking-class-ricefield.jpg",
           imageAlt:
@@ -224,7 +226,7 @@ export const villas: Villa[] = [
           "Rice-field mornings near Tirta Tawar — culture close to home.",
       },
       ctaNote:
-        "Message WhatsApp with your dates and which free activity you prefer. Availability confirmed for your travel window.",
+        "WhatsApp your dates — pick cycling or cooking now, or during your stay. We confirm the activity slot while you are here.",
     },
     airbnbUrl: "https://www.airbnb.com/rooms/1429000075230755234",
     heroImage: "/images/villas/the-hideaway/hero.jpg",
@@ -413,6 +415,6 @@ export function villaOfferWhatsApp(villa: Villa) {
   if (!villa.offer) return whatsappHref(villa.name);
   return whatsappHref(
     villa.name,
-    `Hi! I'm interested in The Hideaway Most picked offer — Rp 4.9 juta per night (15% off Rp 5.765.000) on Jl. Tirta Tawar, Ubud — including one free activity (rice field cycling + lunch OR Balinese cooking class). My dates are:`,
+    `Hi! I'm interested in The Hideaway Most picked offer — Rp 4.9 juta per night (15% off Rp 5.765.000) on Jl. Tirta Tawar, Ubud — including one free activity I can pick during my stay (rice field cycling + lunch OR Balinese cooking class). My dates are:`,
   );
 }

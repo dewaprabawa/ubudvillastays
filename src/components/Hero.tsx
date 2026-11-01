@@ -18,18 +18,49 @@ export function Hero({ villa, showBrand = true }: HeroProps) {
   const inquireHref = villa.offer
     ? villaOfferWhatsApp(villa)
     : whatsappHref(villa.name);
+  const collage = villa.heroCollage;
+  const [feature, ...thumbs] = collage ?? [];
 
   return (
     <section className={styles.hero} aria-label={`${villa.name} welcome`}>
       <div className={styles.media}>
-        <Image
-          src={villa.heroImage}
-          alt={`${villa.name} in ${siteConfig.location.city}`}
-          fill
-          priority
-          sizes="100vw"
-          className={styles.image}
-        />
+        {feature && thumbs.length ? (
+          <div className={styles.collage} aria-hidden="true">
+            <div className={styles.feature}>
+              <Image
+                src={feature.src}
+                alt=""
+                fill
+                priority
+                sizes="(max-width: 860px) 100vw, 58vw"
+                className={styles.image}
+              />
+            </div>
+            <div className={styles.thumbs}>
+              {thumbs.slice(0, 4).map((shot, index) => (
+                <div key={shot.src} className={styles.thumb}>
+                  <Image
+                    src={shot.src}
+                    alt=""
+                    fill
+                    priority={index < 2}
+                    sizes="(max-width: 860px) 50vw, 21vw"
+                    className={styles.image}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        ) : (
+          <Image
+            src={villa.heroImage}
+            alt={`${villa.name} in ${siteConfig.location.city}`}
+            fill
+            priority
+            sizes="100vw"
+            className={styles.image}
+          />
+        )}
         <div className={styles.shade} aria-hidden="true" />
       </div>
 

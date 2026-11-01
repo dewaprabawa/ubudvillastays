@@ -96,6 +96,8 @@ export type Villa = {
   story: [string, string];
   airbnbUrl: string;
   heroImage: string;
+  /** Optional Airbnb-style mosaic for the villa hero (feature + thumbs). */
+  heroCollage?: { src: string; alt: string }[];
   ogImage: string;
   amenityImage: string;
   amenityImageSecondary: string;
@@ -247,6 +249,28 @@ export const villas: Villa[] = [
     },
     airbnbUrl: "https://www.airbnb.com/rooms/1429000075230755234",
     heroImage: "/images/villas/the-hideaway/hero.jpg",
+    heroCollage: [
+      {
+        src: "/images/villas/the-hideaway/hero.jpg",
+        alt: "Private plunge pool courtyard at The Hideaway at dusk",
+      },
+      {
+        src: "/images/villas/the-hideaway/space-01.jpg",
+        alt: "Garden-facing wooden desk and workspace at The Hideaway",
+      },
+      {
+        src: "/images/villas/the-hideaway/space-02.jpg",
+        alt: "Outdoor rain shower with patterned tiles at The Hideaway",
+      },
+      {
+        src: "/images/villas/the-hideaway/space-03.jpg",
+        alt: "Patterned tiles meeting volcanic stone in the outdoor bath",
+      },
+      {
+        src: "/images/villas/the-hideaway/space-07.jpg",
+        alt: "Canopy bedroom with white netting at The Hideaway",
+      },
+    ],
     ogImage: "/images/villas/the-hideaway/og.jpg",
     amenityImage: "/images/villas/the-hideaway/space-05.jpg",
     amenityImageSecondary: "/images/villas/the-hideaway/space-08.jpg",

@@ -5,6 +5,32 @@ export type VillaSpace = {
   copy: string;
 };
 
+export type VillaOfferActivity = {
+  title: string;
+  copy: string;
+  url: string;
+  image: string;
+  imageAlt: string;
+};
+
+export type VillaOffer = {
+  priceLabel: string;
+  pricePer: string;
+  priceAmount: number;
+  currency: "IDR";
+  eyebrow: string;
+  headline: string;
+  lede: string;
+  activityIntro: string;
+  activities: VillaOfferActivity[];
+  accent: {
+    src: string;
+    alt: string;
+    caption: string;
+  };
+  ctaNote: string;
+};
+
 export type Villa = {
   slug: string;
   name: string;
@@ -34,6 +60,7 @@ export type Villa = {
   extras: string[];
   spaces: VillaSpace[];
   idealFor: string;
+  offer?: VillaOffer;
 };
 
 export const siteConfig = {
@@ -124,17 +151,54 @@ export const villas: Villa[] = [
     shortName: "Hideaway",
     eyebrow: "2 bedrooms · private courtyard",
     tagline:
-      "2BR private pool villa on Jl. Tirta Tawar — market, temples, and Monkey Forest nearby.",
+      "From Rp 4.9 juta / night on Jl. Tirta Tawar — plus one free Ubud activity.",
     description:
-      "Book The Hideaway — a 2-bedroom private pool villa on Jl. Tirta Tawar, Ubud, Bali. Five-minute walk to the local market, Kecak at nearby temples, Monkey Forest and waterfalls close by. Holiday stay with free extras. Inquire on WhatsApp.",
+      "Book The Hideaway from Rp 4.9 juta per night — a 2-bedroom private pool villa on Jl. Tirta Tawar, Ubud, Bali. Stay includes your pick of one free activity: Ubud rice field cycling with lunch or a Balinese cooking class. Market, Kecak, Monkey Forest nearby. Inquire on WhatsApp.",
     headline: "Quiet mornings by the pool.\nUbud’s culture just beyond the gate.",
     support:
-      "A modern-Bali 2-bedroom hideaway with a private pool, tropical garden, and a five-minute walk to the local market — temples, Monkey Forest, and waterfalls within easy reach.",
+      "From Rp 4.9 juta per night — a modern-Bali 2-bedroom hideaway with private pool, plus your choice of one free activity: rice field cycling with lunch or a Balinese cooking class.",
     storyTitle: "A private courtyard base for real Ubud days.",
     story: [
       "The Hideaway blends contemporary comfort with Balinese craft—stone walls, warm timber, and a still private pool framed by tropical planting. Stay for the experience: market mornings, temple evenings, forest walks — then return to your own courtyard.",
-      "You are close enough to walk to galleries, temples, and café streets, yet tucked away for real quiet. Daily housekeeping and many free extras keep the villa easy; breakfast, scooters, transfers, and tours can be arranged when you want them.",
+      "You are close enough to walk to galleries, temples, and café streets, yet tucked away for real quiet. Daily housekeeping and free extras keep the villa easy; breakfast, scooters, transfers, and tours can be arranged when you want them.",
     ],
+    offer: {
+      priceLabel: "Rp 4.9 juta",
+      pricePer: "per night",
+      priceAmount: 4900000,
+      currency: "IDR",
+      eyebrow: "Commercial stay · Tirta Tawar, Ubud",
+      headline: "Villa nights with a free Ubud experience included.",
+      lede: "Book The Hideaway from Rp 4.9 juta per night on Jl. Tirta Tawar — a holiday or longer investment-friendly stay with a private pool, and pick one complimentary activity from Sekar Bali Activity.",
+      activityIntro:
+        "Your stay includes one free activity (choose one for your party):",
+      activities: [
+        {
+          title: "Ubud rice field cycling + lunch",
+          copy: "Ride quiet paths through sawah landscapes, then enjoy lunch — classic Ubud outdoors without the logistics headache.",
+          url: "https://www.sekarbaliactivity.com/tours/ubud-ricefield-cycling-tour",
+          image: "/images/marketing/ubud-ricefield-cycling.jpg",
+          imageAlt:
+            "Guests cycling through green Ubud rice fields on a guided tour",
+        },
+        {
+          title: "Balinese cooking class (rice terrace)",
+          copy: "Cook local dishes with a rice-terrace backdrop — hands-on Bali flavor that turns a villa night into a memory.",
+          url: "https://www.sekarbaliactivity.com/tours/balinese-cooking-class",
+          image: "/images/marketing/cooking-class-ricefield.jpg",
+          imageAlt:
+            "Balinese cooking class set against rice terraces near Ubud",
+        },
+      ],
+      accent: {
+        src: "/images/marketing/canang-sari-ricefield.jpg",
+        alt: "Canang sari offering placed beside an Ubud rice field",
+        caption:
+          "Rice-field mornings near Tirta Tawar — culture close to home.",
+      },
+      ctaNote:
+        "Message WhatsApp with your dates and which free activity you prefer. Availability confirmed for your travel window.",
+    },
     airbnbUrl: "https://www.airbnb.com/rooms/1429000075230755234",
     heroImage: "/images/villas/the-hideaway/hero.jpg",
     ogImage: "/images/villas/the-hideaway/og.jpg",
@@ -296,4 +360,12 @@ export function whatsappHref(villaName?: string, message?: string) {
     message ??
     `Hi! I'm interested in staying at ${focus} (${siteConfig.name}) in Ubud.`;
   return `https://wa.me/${digits}?text=${encodeURIComponent(text)}`;
+}
+
+export function villaOfferWhatsApp(villa: Villa) {
+  if (!villa.offer) return whatsappHref(villa.name);
+  return whatsappHref(
+    villa.name,
+    `Hi! I'm interested in The Hideaway at Rp 4.9 juta per night on Jl. Tirta Tawar, Ubud — including one free activity (rice field cycling + lunch OR Balinese cooking class). My dates are:`,
+  );
 }

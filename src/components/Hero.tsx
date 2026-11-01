@@ -1,6 +1,11 @@
 import Image from "next/image";
 import { Logo } from "./Logo";
-import { type Villa, siteConfig, whatsappHref } from "@/lib/site";
+import {
+  type Villa,
+  siteConfig,
+  villaOfferWhatsApp,
+  whatsappHref,
+} from "@/lib/site";
 import styles from "./Hero.module.css";
 
 type HeroProps = {
@@ -10,6 +15,9 @@ type HeroProps = {
 
 export function Hero({ villa, showBrand = true }: HeroProps) {
   const lines = villa.headline.split("\n");
+  const inquireHref = villa.offer
+    ? villaOfferWhatsApp(villa)
+    : whatsappHref(villa.name);
 
   return (
     <section className={styles.hero} aria-label={`${villa.name} welcome`}>
@@ -42,17 +50,23 @@ export function Hero({ villa, showBrand = true }: HeroProps) {
         </h1>
         <p className={styles.support}>{villa.support}</p>
         <div className={styles.actions}>
-          <a className={styles.primary} href={whatsappHref(villa.name)}>
-            Inquire on WhatsApp
+          <a className={styles.primary} href={inquireHref}>
+            {villa.offer ? "WhatsApp this offer" : "Inquire on WhatsApp"}
           </a>
-          <a
-            className={styles.secondary}
-            href={villa.airbnbUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View on Airbnb
-          </a>
+          {villa.offer ? (
+            <a className={styles.secondary} href="#offer">
+              See price & free activity
+            </a>
+          ) : (
+            <a
+              className={styles.secondary}
+              href={villa.airbnbUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View on Airbnb
+            </a>
+          )}
         </div>
       </div>
     </section>

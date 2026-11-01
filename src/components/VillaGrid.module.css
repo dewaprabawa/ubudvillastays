@@ -100,6 +100,13 @@
   color: var(--canopy) !important;
 }
 
+.offer {
+  margin: 0.4rem 0 0 !important;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--ink) !important;
+}
+
 .cta {
   display: inline-block;
   margin-top: 0.9rem;

@@ -40,7 +40,15 @@ export function VillaGrid() {
                   Up to {villa.facts.guests} guests · {villa.facts.bedrooms} BR ·{" "}
                   {villa.facts.rating}★ ({villa.facts.reviews})
                 </p>
-                <span className={styles.cta}>View villa</span>
+                {villa.offer ? (
+                  <p className={styles.offer}>
+                    From {villa.offer.priceLabel} {villa.offer.pricePer} · free
+                    activity included
+                  </p>
+                ) : null}
+                <span className={styles.cta}>
+                  {villa.offer ? "View offer & villa" : "View villa"}
+                </span>
               </div>
             </Link>
           </Reveal>

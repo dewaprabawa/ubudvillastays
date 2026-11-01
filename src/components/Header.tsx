@@ -6,9 +6,14 @@ import styles from "./Header.module.css";
 type HeaderProps = {
   tone?: "light" | "dark";
   inquireVillaName?: string;
+  inquireHref?: string;
 };
 
-export function Header({ tone = "light", inquireVillaName }: HeaderProps) {
+export function Header({
+  tone = "light",
+  inquireVillaName,
+  inquireHref,
+}: HeaderProps) {
   return (
     <header className={`${styles.header} ${styles[tone]}`}>
       <div className={styles.inner}>
@@ -23,7 +28,10 @@ export function Header({ tone = "light", inquireVillaName }: HeaderProps) {
           <Link href="/villas/sawah-retreat">Sawah</Link>
           <Link href="/#location">Location</Link>
         </nav>
-        <a className={styles.cta} href={whatsappHref(inquireVillaName)}>
+        <a
+          className={styles.cta}
+          href={inquireHref ?? whatsappHref(inquireVillaName)}
+        >
           Inquire
         </a>
       </div>

@@ -16,13 +16,58 @@ const geo = {
 
 function lodgingSchema(villa?: Villa) {
   if (villa) {
+    const offer = villa.offer
+      ? {
+          "@type": "Offer" as const,
+          name: `${villa.name} nightly stay with one free Ubud activity`,
+          description: villa.description,
+          url: `${siteConfig.url}/villas/${villa.slug}#offer`,
+          price: villa.offer.priceAmount,
+          priceCurrency: villa.offer.currency,
+          priceSpecification: {
+            "@type": "UnitPriceSpecification",
+            price: villa.offer.priceAmount,
+            priceCurrency: villa.offer.currency,
+            unitText: "NIGHT",
+            referenceQuantity: {
+              "@type": "QuantitativeValue",
+              value: 1,
+              unitCode: "DAY",
+            },
+          },
+          availability: "https://schema.org/InStock",
+          category: "VacationRental",
+          eligibleRegion: {
+            "@type": "Place",
+            name: `${siteConfig.location.area}, ${siteConfig.location.city}, ${siteConfig.location.region}`,
+          },
+          includesObject: villa.offer.activities.map((activity) => ({
+            "@type": "TypeAndQuantityNode",
+            amountOfThisGood: 1,
+            typeOfGood: {
+              "@type": "Service",
+              name: activity.title,
+              description: activity.copy,
+              url: activity.url,
+            },
+          })),
+        }
+      : undefined;
+
     return {
       "@context": "https://schema.org",
       "@type": ["LodgingBusiness", "VacationRental"],
       name: `${villa.name} — ${siteConfig.name}`,
       description: villa.description,
       url: `${siteConfig.url}/villas/${villa.slug}`,
-      image: [`${siteConfig.url}${villa.ogImage}`],
+      image: [
+        `${siteConfig.url}${villa.ogImage}`,
+        ...(villa.offer
+          ? villa.offer.activities.map(
+              (activity) => `${siteConfig.url}${activity.image}`,
+            )
+          : []),
+      ],
       telephone: siteConfig.whatsappNumber,
       email: siteConfig.email,
       address: postalAddress,
@@ -45,7 +90,10 @@ function lodgingSchema(villa?: Villa) {
         bestRating: 5,
       },
       sameAs: [villa.airbnbUrl, siteConfig.location.mapsUrl],
-      priceRange: "$$",
+      priceRange: villa.offer
+        ? `${villa.offer.priceLabel} ${villa.offer.pricePer}`
+        : "$$",
+      ...(offer ? { makesOffer: offer, offers: offer } : {}),
     };
   }
 
@@ -68,6 +116,16 @@ function lodgingSchema(villa?: Villa) {
     },
     makesOffer: villas.map((item) => ({
       "@type": "Offer",
+      name: item.offer
+        ? `${item.name} from ${item.offer.priceLabel} ${item.offer.pricePer}`
+        : item.name,
+      url: `${siteConfig.url}/villas/${item.slug}`,
+      ...(item.offer
+        ? {
+            price: item.offer.priceAmount,
+            priceCurrency: item.offer.currency,
+          }
+        : {}),
       itemOffered: {
         "@type": ["LodgingBusiness", "VacationRental"],
         name: item.name,

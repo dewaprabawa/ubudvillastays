@@ -83,6 +83,18 @@ export type VillaPitch = {
   ctaNote: string;
 };
 
+export type VillaThingsGroup = {
+  title: string;
+  items: string[];
+};
+
+export type VillaThingsToKnow = {
+  eyebrow: string;
+  headline: string;
+  lede: string;
+  groups: VillaThingsGroup[];
+};
+
 export type Villa = {
   slug: string;
   name: string;
@@ -114,6 +126,7 @@ export type Villa = {
   extras: string[];
   spaces: VillaSpace[];
   gallery?: VillaGalleryImage[];
+  thingsToKnow?: VillaThingsToKnow;
   idealFor: string;
   offer?: VillaOffer;
   pitch?: VillaPitch;
@@ -646,6 +659,46 @@ export const villas: Villa[] = [
       "In-house massage",
       "Yoga / retreat setup support",
     ],
+    thingsToKnow: {
+      eyebrow: "Things to know",
+      headline: "House rules for a smooth Sawah stay.",
+      lede: "You’re staying in a private home on Jl. Tirta Tawar — treat it with care, and these details keep arrival and nights easy for everyone.",
+      groups: [
+        {
+          title: "Check-in & check-out",
+          items: [
+            "Check-in: 3:00 PM – 12:00 AM",
+            "Check-out: before 12:00 PM (noon)",
+            "Self check-in with lockbox",
+            "Fast checkout available",
+          ],
+        },
+        {
+          title: "House rules",
+          items: [
+            "Maximum 12 guests",
+            "No pets",
+            "Smoking allowed (including vapes and e-cigarettes)",
+            "Quiet hours: 11:00 PM – 7:00 AM",
+            "Commercial photography allowed",
+          ],
+        },
+        {
+          title: "Safety & property",
+          items: [
+            "Carbon monoxide alarm not reported on the listing",
+            "Smoke alarm not reported on the listing",
+          ],
+        },
+        {
+          title: "Cancellation",
+          items: [
+            "Cancellation details depend on your travel dates",
+            "Ask on WhatsApp or check Airbnb once you share dates",
+          ],
+        },
+      ],
+    },
     idealFor: "Large families, groups, and yoga retreats — six en-suite bedrooms",
     spaces: [
       {

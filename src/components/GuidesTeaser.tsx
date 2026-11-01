@@ -5,9 +5,9 @@ import styles from "./GuidesTeaser.module.css";
 
 export function GuidesTeaser() {
   const featuredSlugs = [
+    "yoga-retreat-villa-stay-in-ubud",
     "visiting-ubud-for-travelers",
-    "bali-belly-ubud-travelers",
-    "ubud-villa-scams-travelers-should-avoid",
+    "where-is-ubud",
   ];
   const featured = featuredSlugs
     .map((slug) => guides.find((guide) => guide.slug === slug))

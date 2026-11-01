@@ -182,9 +182,32 @@ export function GuideJsonLd({ guide }: { guide: Guide }) {
       }
     : null;
 
+  const howTo = guide.howTo
+    ? {
+        "@type": "HowTo",
+        "@id": `${url}#howto`,
+        name: guide.howTo.name,
+        description: guide.howTo.description,
+        totalTime: "PT20M",
+        step: guide.howTo.steps.map((step, index) => ({
+          "@type": "HowToStep",
+          position: index + 1,
+          name: step.name,
+          text: step.text,
+          url: `${url}#howto-step-${index + 1}`,
+        })),
+      }
+    : null;
+
   const graph = {
     "@context": "https://schema.org",
-    "@graph": [webpage, article, breadcrumb, ...(faq ? [faq] : [])],
+    "@graph": [
+      webpage,
+      article,
+      breadcrumb,
+      ...(faq ? [faq] : []),
+      ...(howTo ? [howTo] : []),
+    ],
   };
 
   return (

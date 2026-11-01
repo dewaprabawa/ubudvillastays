@@ -113,6 +113,20 @@ export function GuideArticle({ guide }: { guide: Guide }) {
           </section>
         ))}
 
+        {guide.howTo ? (
+          <section className={styles.section} aria-labelledby="howto-title">
+            <h2 id="howto-title">{guide.howTo.name}</h2>
+            <p>{guide.howTo.description}</p>
+            <ol>
+              {guide.howTo.steps.map((step, index) => (
+                <li key={step.name} id={`howto-step-${index + 1}`}>
+                  <strong>{step.name}.</strong> {step.text}
+                </li>
+              ))}
+            </ol>
+          </section>
+        ) : null}
+
         {guide.faqs?.length ? (
           <section className={styles.faq} aria-labelledby="faq-title">
             <h2 id="faq-title">FAQ</h2>

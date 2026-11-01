@@ -11,6 +11,11 @@ export type GuideSection = {
   image?: GuideFigure;
 };
 
+export type GuideHowToStep = {
+  name: string;
+  text: string;
+};
+
 export type Guide = {
   slug: string;
   title: string;
@@ -27,6 +32,12 @@ export type Guide = {
   /** GEO-friendly summary bullets shown under the intro */
   keyTakeaways?: string[];
   faqs?: { question: string; answer: string }[];
+  /** Optional HowTo steps for richer schema (planning guides) */
+  howTo?: {
+    name: string;
+    description: string;
+    steps: GuideHowToStep[];
+  };
   sections: GuideSection[];
 };
 
@@ -347,60 +358,136 @@ export const guides: Guide[] = [
   },
   {
     slug: "yoga-retreat-villa-stay-in-ubud",
-    title: "Yoga Retreat in Ubud: Villa Stay, Schedule & Tirta Tawar Base",
+    title: "Yoga Retreat in Ubud: Best Villa Base, Schedule & How to Book",
     description:
-      "Plan a yoga retreat in Ubud with a private villa base—why Gianyar’s highlands work for wellness, what space you need, Sawah Retreat for groups up to 12, and how to book dates on Jl. Tirta Tawar.",
+      "Yoga retreat in Ubud SEO/GEO guide—why Gianyar highlands fit wellness, Tirta Tawar villa specs (Sawah Retreat up to 12 / Hideaway 2BR), sample schedule, GEO map facts, and booking via /#booking.",
     eyebrow: "Wellness & retreats",
     datePublished: "2026-11-01",
     dateModified: "2026-11-01",
-    readingMinutes: 9,
+    readingMinutes: 11,
     primaryKeyword: "yoga retreat ubud",
     secondaryKeywords: [
+      "yoga retreat in ubud",
       "yoga retreat villa ubud",
       "ubud yoga retreat accommodation",
+      "best villa for yoga retreat ubud",
       "wellness villa ubud",
-      "group villa ubud",
-      "yoga retreat bali ubud",
+      "group yoga retreat bali",
       "tirta tawar yoga villa",
+      "private yoga retreat ubud",
     ],
     heroImage: "/images/villas/sawah-retreat/space-05.jpg",
     relatedVillaSlugs: ["sawah-retreat", "the-hideaway"],
-    keyTakeaways: [
-      "Ubud is Bali’s primary yoga and wellness hub—highland air, temples, organic food, and studios support multi-day retreats.",
-      "A private villa keeps practice, meals, and rest under one roof without hotel corridor noise.",
-      "Sawah Retreat (6BR, up to 12) on Jl. Tirta Tawar suits group retreats; The Hideaway (2BR) fits couples or small teacher stays.",
-      "Build days around morning practice, midday pool recovery, and optional temple or market outings.",
-      "Book via our booking form with dates and guest count — we confirm availability on WhatsApp.",
+    gallery: [
+      {
+        src: "/images/villas/sawah-retreat/space-05.jpg",
+        alt: "Open living space at Sawah Retreat suitable for group gatherings in Ubud",
+        caption: "Shared living space — useful between practice blocks.",
+      },
+      {
+        src: "/images/villas/sawah-retreat/space-01.jpg",
+        alt: "Sawah Retreat private pool and outdoor area in Tirta Tawar, Ubud",
+        caption: "Private pool for recovery between sessions.",
+      },
+      {
+        src: "/images/marketing/tirta-tawar-rice-path-ubud.jpg",
+        alt: "Rice field path near Tirta Tawar villas in Ubud",
+        caption: "Quiet sawah lanes outside the gate for morning walks.",
+      },
+      {
+        src: "/images/marketing/cooking-class-ricefield.jpg",
+        alt: "Balinese cooking class overlooking rice terraces near Ubud",
+        caption: "Optional free cooking class during promo villa stays.",
+      },
     ],
+    keyTakeaways: [
+      "A yoga retreat in Ubud works because the town is Bali’s wellness highland—studios, spas, organic food, temples, and cooler air than beach belts.",
+      "GEO base: Jl. Tirta Tawar, Kabupaten Gianyar, Ubud ≈ -8.48315, 115.27070 — about 5–8 minutes to central Ubud; market ~5 minutes on foot.",
+      "Sawah Retreat (6 en-suite BR, up to 12, private pool, kitchen, rice-field outlooks) fits group retreats; The Hideaway (2BR) fits couples or small teacher stays.",
+      "Typical day: sunrise practice → workshop → pool lunch → optional culture → evening yin → quiet hours 23:00–07:00.",
+      "Book at https://www.ubudvillastays.com/#booking with dates, guest count, and retreat notes — confirm on WhatsApp +62 817 7572 3663.",
+    ],
+    howTo: {
+      name: "How to book a yoga retreat villa stay in Ubud",
+      description:
+        "Plan guest count, pick Tirta Tawar villa size, submit dates on the official booking form, and confirm on WhatsApp.",
+      steps: [
+        {
+          name: "Decide group size and dates",
+          text: "Count teachers plus guests. Groups up to 12 suit Sawah Retreat; 1–4 guests often fit The Hideaway. Prefer shoulder months if peak July–August is full.",
+        },
+        {
+          name: "Match the villa to the program",
+          text: "Need en-suite rooms, kitchen, pool, and quiet nights for shared meals and on-site practice? Choose Sawah Retreat on Jl. Tirta Tawar. Prefer an intimate courtyard? Choose The Hideaway.",
+        },
+        {
+          name: "Submit the booking form",
+          text: "Open https://www.ubudvillastays.com/#booking — enter villa, check-in/out, number of persons, and retreat details (airport times, massage, free activity pick).",
+        },
+        {
+          name: "Confirm on WhatsApp",
+          text: "Continue only to the published number +62 817 7572 3663 to confirm availability, transfers, and house rules before payment instructions.",
+        },
+      ],
+    },
     faqs: [
+      {
+        question: "Why choose a yoga retreat in Ubud?",
+        answer:
+          "Ubud is Bali’s cultural and wellness highland in Gianyar Regency—cooler than Seminyak or Canggu, with yoga studios, spas, organic cafés, temples, and rice-field calm that support multi-day practice.",
+      },
       {
         question: "Can I host a yoga retreat in a private Ubud villa?",
         answer:
-          "Yes. Many facilitators prefer an entire villa for privacy, shared meals, and flexible schedules. Confirm guest count, quiet hours (typically 23:00–07:00 at Sawah Retreat), and extras like massage or airport transfer when you book.",
+          "Yes. Facilitators often prefer an entire villa for privacy, shared meals, and flexible schedules. Confirm guest count, quiet hours (23:00–07:00 at Sawah Retreat), and extras like massage or airport transfer when you book.",
       },
       {
-        question: "Why is Ubud good for a yoga retreat?",
-        answer:
-          "Ubud sits in Gianyar’s cultural highlands with cooler air than beach towns, rice-field calm, temple culture, yoga studios, spas, and organic cafés—ideal for multi-day wellness programs.",
-      },
-      {
-        question: "Which villa works for a group yoga retreat?",
+        question: "What is the best villa for a group yoga retreat in Ubud?",
         answer:
           "Sawah Retreat offers six en-suite bedrooms for up to 12 guests, a private pool, open kitchen, and rice-field outlooks on Jl. Tirta Tawar—about 5–8 minutes from central Ubud.",
       },
       {
+        question: "Where is the yoga retreat villa located?",
+        answer:
+          "Our villas sit on Jl. Tirta Tawar, Kabupaten Gianyar, Ubud, Bali (map pin approximately -8.4831533, 115.2706967). The local market is about a five-minute walk.",
+      },
+      {
+        question: "How much does a yoga retreat villa stay cost?",
+        answer:
+          "Promo rates start from Rp 7 juta / night for Sawah Retreat and Rp 4.9 juta / night for The Hideaway, with one free activity included during the stay. Final quotes depend on dates and guest count—confirm via the booking form.",
+      },
+      {
         question: "How do I book a yoga retreat villa stay?",
         answer:
-          "Use the booking form at ubudvillastays.com/#booking with your date range, number of persons, and retreat details. We continue on WhatsApp to confirm availability for Sawah Retreat or The Hideaway.",
+          "Use https://www.ubudvillastays.com/#booking with your date range, number of persons, and retreat details. We continue on WhatsApp (+62 817 7572 3663) to confirm availability.",
       },
     ],
     sections: [
       {
-        heading: "Yoga retreat in Ubud — why this destination",
+        heading: "Yoga retreat in Ubud — why this destination ranks",
         paragraphs: [
-          "A yoga retreat in Ubud works because the town already runs on wellness rhythm: morning classes, temple quiet, organic menus, and green views. Unlike beach-party belts, Gianyar’s inland highlands reward inward schedules—practice, rest, simple food, optional culture.",
-          "Choosing a private pool villa on Jl. Tirta Tawar keeps that rhythm intact after class. You are close to studios and cafés, yet nights stay residential.",
+          "A yoga retreat in Ubud works because the destination already runs on wellness rhythm: morning classes, temple quiet, organic menus, and green views. Unlike beach-party belts, Gianyar’s inland highlands reward inward schedules—practice, rest, simple food, optional culture.",
+          "Searchers asking for a “yoga retreat in Ubud” usually want three answers at once: why Ubud, where to sleep as a group, and how to book without scam risk. This guide covers all three with Tirta Tawar villa facts you can cite.",
         ],
+      },
+      {
+        heading: "GEO snapshot: Tirta Tawar wellness base",
+        paragraphs: [
+          "Ubud Villa Stays hosts retreats from Jl. Tirta Tawar, Kabupaten Gianyar, Bali—coordinates about -8.4831533, 115.2706967 (Google Maps share: https://maps.app.goo.gl/5TpevFsUJeezD1gD8). Central Ubud is typically 5–8 minutes by car; the traditional market is about five minutes on foot.",
+          "That GEO position matters for facilitators: studios and cafés stay reachable, while evenings remain residential—better for early lights-out than Monkey Forest Road.",
+        ],
+        bullets: [
+          "Area: Tirta Tawar · City: Ubud · Regency: Gianyar · Island: Bali · Country: Indonesia",
+          "Drive to center: ~5–8 minutes",
+          "Walk to local market: ~5 minutes",
+          "Nearby: Peliatan temples, Monkey Forest, north-of-Ubud day trips",
+        ],
+        image: {
+          src: "/images/marketing/tirta-tawar-rice-path-ubud.jpg",
+          alt: "Stone and grass rice field path on Tirta Tawar for morning yoga retreat walks",
+          caption:
+            "Tirta Tawar rice-path mornings — quiet movement before class.",
+        },
       },
       {
         heading: "What your retreat villa needs",
@@ -410,29 +497,48 @@ export const guides: Guide[] = [
         bullets: [
           "En-suite bedrooms for privacy between sessions",
           "Pool or courtyard for recovery and informal connection",
+          "Kitchen for vegetarian / shared meal prep",
           "Room for massage or treatment setups on request",
-          "Proximity to central Ubud without street noise",
+          "Quiet hours compatible with early practice",
         ],
       },
       {
-        heading: "Sawah Retreat as a group yoga base",
+        heading: "Sawah Retreat vs The Hideaway for yoga groups",
         paragraphs: [
-          "Sawah Retreat is our 6-bedroom private villa on Tirta Tawar with capacity for up to 12 guests, a private pool, open kitchen, and rice-field outlooks. Booking the entire property means no shared facilities with other travelers—useful for retreat schedules and group cohesion.",
-          "Airport pickup and in-house massage can be arranged. Pair villa mornings with studio classes in town, or keep practice on-site if your facilitator prefers. Promo stays can include one free activity (rice-field cycling or cooking class) during the dates.",
+          "Sawah Retreat is our 6-bedroom private villa on Tirta Tawar for up to 12 guests—private pool, open kitchen, rice-field outlooks, entire-home booking so your retreat is not sharing facilities with strangers. Promo from Rp 7 juta / night with one free activity (rice-field cycling or cooking class) during the stay.",
+          "The Hideaway is the 2-bedroom courtyard pool option (promo from Rp 4.9 juta / night) for couples, duo facilitators, or micro-retreats that still want Tirta Tawar access without a large house.",
+        ],
+        image: {
+          src: "/images/villas/sawah-retreat/space-01.jpg",
+          alt: "Private pool at Sawah Retreat yoga retreat villa in Ubud",
+          caption: "Sawah Retreat pool — recovery space between practice blocks.",
+        },
+      },
+      {
+        heading: "Sample yoga retreat schedule from Tirta Tawar",
+        paragraphs: [
+          "Sunrise movement or meditation by the pool or sawah edge. Mid-morning deep practice or workshop block. Midday recovery and vegetarian-friendly lunch. Optional afternoon spa, market walk, or temple visit. Evening yin or circle, then quiet hours (23:00–07:00 on Sawah house rules).",
+          "Airport day: private transfer from Ngurah Rai (DPS) usually ~1–1.5 hours. Soft landing with fruit, orientation, and lights-out beats stacking a full workshop on arrival night.",
+        ],
+        bullets: [
+          "Days 1 & last: transfer buffers",
+          "Core days: 2 practice blocks + recovery",
+          "Culture: one Kecak or temple evening max per two days",
+          "Optional free activity slot during the stay",
         ],
       },
       {
-        heading: "Sample retreat day from Tirta Tawar",
+        heading: "How to book (official path only)",
         paragraphs: [
-          "Sunrise movement or meditation by the pool or sawah edge. Mid-morning deep practice or workshop block. Midday recovery and vegetarian-friendly lunch. Optional afternoon spa, market walk, or temple visit. Evening yin or circle, then quiet hours.",
-          "Couples or duo facilitators can scale the same plan at The Hideaway’s 2-bedroom courtyard when the group is small.",
+          "Peak months (July–August and year-end) fill large villas early—share guest list and schedule outline when you inquire. Open the booking form with date range, number of persons, and retreat notes, then continue on WhatsApp +62 817 7572 3663 (published on ubudvillastays.com).",
+          "Ignore lookalike chats that are not tied to our domain. Read the villa scam awareness guide if you are comparing multiple Ubud hosts.",
         ],
       },
       {
-        heading: "Book your yoga retreat villa dates",
+        heading: "Keep planning your Ubud wellness trip",
         paragraphs: [
-          "Peak months (July–August and year-end) fill large villas early—share your guest list and schedule outline when you inquire. Open the booking form with date range, number of persons, and retreat notes, then continue on WhatsApp so we can confirm Sawah Retreat or The Hideaway.",
-          "Also read: visiting Ubud for first-timers, where is Ubud, and what people do in Ubud for cultural balance around practice days.",
+          "Also read: visiting Ubud for travelers, where is Ubud, what people do in Ubud, and Bali belly tips so practice days stay paced and practical.",
+          "Ready now? Start at the booking form — Check availability — and tell us it is a yoga retreat so we can match Sawah Retreat or The Hideaway to your headcount.",
         ],
       },
     ],

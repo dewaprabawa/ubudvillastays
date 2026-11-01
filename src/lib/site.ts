@@ -371,19 +371,49 @@ export const villas: Villa[] = [
       "Airport transfers",
       "Yoga / retreat setup support",
     ],
-    idealFor: "Large families, groups, and yoga retreats",
+    idealFor: "Large families, groups, and yoga retreats — six en-suite bedrooms",
     spaces: [
+      {
+        src: "/images/villas/sawah-retreat/room-01.jpg",
+        alt: "Sawah Retreat bedroom 1 with en-suite comfort",
+        title: "Bedroom 1",
+        copy: "A calm en-suite room for rest after pool time and Ubud days — air-conditioned privacy for couples or parents.",
+      },
+      {
+        src: "/images/villas/sawah-retreat/room-02.jpg",
+        alt: "Sawah Retreat bedroom 2 with soft natural light",
+        title: "Bedroom 2",
+        copy: "Another quiet en-suite bedroom so guests are not sharing corridors or bathrooms with strangers.",
+      },
+      {
+        src: "/images/villas/sawah-retreat/room-03.jpg",
+        alt: "Sawah Retreat bedroom 3 ready for group stays",
+        title: "Bedroom 3",
+        copy: "Part of the six-room layout that makes multi-generation and friend-group stays easy.",
+      },
+      {
+        src: "/images/villas/sawah-retreat/room-04.jpg",
+        alt: "Sawah Retreat bedroom 4 with en-suite bath",
+        title: "Bedroom 4",
+        copy: "En-suite comfort spread through the villa so everyone has a private corner to return to.",
+      },
+      {
+        src: "/images/villas/sawah-retreat/room-05.jpg",
+        alt: "Sawah Retreat bedroom 5 for retreat guests",
+        title: "Bedroom 5",
+        copy: "Ideal for retreat participants or extended family who need quiet nights near the rice fields.",
+      },
+      {
+        src: "/images/villas/sawah-retreat/room-06.jpg",
+        alt: "Sawah Retreat bedroom 6 completing the six-room villa",
+        title: "Bedroom 6",
+        copy: "Completes the 6BR private villa — up to 12 guests under one roof, your group only.",
+      },
       {
         src: "/images/villas/sawah-retreat/hero.jpg",
         alt: "Private pool framed by tropical planting and villa wings",
         title: "Pool at the heart",
         copy: "A private pool sits within the villa compound—swim, stretch, or simply watch the green beyond.",
-      },
-      {
-        src: "/images/villas/sawah-retreat/space-03.jpg",
-        alt: "Open living area overlooking rice fields",
-        title: "Rooms with field light",
-        copy: "Six bedrooms with en-suite baths spread across the property so everyone has a quiet corner to return to.",
       },
       {
         src: "/images/villas/sawah-retreat/space-02.jpg",

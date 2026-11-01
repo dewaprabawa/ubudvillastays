@@ -7,9 +7,13 @@ export function Spaces({ villa }: { villa: Villa }) {
   return (
     <section id="spaces" className={styles.section} aria-labelledby="spaces-title">
       <Reveal className={styles.intro}>
-        <p className={styles.kicker}>Spaces</p>
+        <p className={styles.kicker}>
+          {villa.slug === "sawah-retreat" ? "Rooms & spaces" : "Spaces"}
+        </p>
         <h2 id="spaces-title" className={styles.title}>
-          Inside {villa.shortName}.
+          {villa.slug === "sawah-retreat"
+            ? "Six bedrooms, one private villa."
+            : `Inside ${villa.shortName}.`}
         </h2>
         <p className={styles.lede}>{villa.idealFor}.</p>
       </Reveal>

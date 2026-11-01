@@ -4,6 +4,7 @@ import { siteConfig, villas } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
+
   return [
     {
       url: siteConfig.url,
@@ -15,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${siteConfig.url}/guides`,
       lastModified: now,
       changeFrequency: "weekly",
-      priority: 0.85,
+      priority: 0.9,
     },
     ...villas.map((villa) => ({
       url: `${siteConfig.url}/villas/${villa.slug}`,
@@ -27,7 +28,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${siteConfig.url}/guides/${guide.slug}`,
       lastModified: new Date(guide.dateModified),
       changeFrequency: "monthly" as const,
-      priority: 0.75,
+      priority:
+        guide.slug === "where-is-ubud" || guide.slug === "what-people-do-in-ubud"
+          ? 0.85
+          : 0.75,
+      images: [guide.heroImage.startsWith("http")
+        ? guide.heroImage
+        : `${siteConfig.url}${guide.heroImage}`],
     })),
   ];
 }

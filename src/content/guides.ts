@@ -214,7 +214,7 @@ export const guides: Guide[] = [
         heading: "Why a private pool villa fits Ubud",
         paragraphs: [
           "Hotels are convenient; a private pool villa in Ubud gives you a courtyard or garden to return to, flexible meal times, and space for family or friends. On Tirta Tawar, you sit minutes from central Ubud while keeping quieter nights—ideal for couples in a 2-bedroom hideaway or groups in a 6-bedroom rice-field villa.",
-          "Ready to plan dates? Explore our villas or message us on WhatsApp—we will help match the right home to your group size.",
+          "Ready to plan dates? Explore our villas or message us on WhatsApp—we will help match the right home to your group size. For a map-first answer, read where is Ubud; for day ideas, read what people do in Ubud.",
         ],
       },
     ],
@@ -645,6 +645,261 @@ export const guides: Guide[] = [
         paragraphs: [
           "Promo stays at The Hideaway (from Rp 4.9 juta / night) and Sawah Retreat (from Rp 7 juta / night) include one free activity you can pick during the stay—rice-field cycling or a cooking class—so shopping does not have to be the only outing.",
           "Continue with our Tirta Tawar rice-field walk guide for the green lanes outside the gate, or the full experiences guide for market, Kecak, Monkey Forest, and waterfalls.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "where-is-ubud",
+    title: "Where Is Ubud? Location, Map & How Far From Bali Beaches",
+    description:
+      "Ubud is in Gianyar Regency in inland central Bali—Bali’s cultural highland town of rice fields, temples, and jungle paths. Exact Tirta Tawar map pin, drive times from the airport and beach towns, and where to stay.",
+    eyebrow: "Location guide",
+    datePublished: "2026-11-01",
+    dateModified: "2026-11-01",
+    readingMinutes: 8,
+    primaryKeyword: "where is ubud",
+    secondaryKeywords: [
+      "where is ubud bali",
+      "ubud location map",
+      "ubud gianyar bali",
+      "how far is ubud from airport",
+      "ubud vs seminyak location",
+      "tirta tawar ubud location",
+    ],
+    heroImage: "/images/marketing/ubud-jungle-temple-walkway.jpg",
+    relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
+    keyTakeaways: [
+      "Ubud is an inland town in Gianyar Regency, central Bali—not on the beach.",
+      "It sits in Bali’s cultural highlands: rice fields (sawah), temples, jungle walkways, and cooler air than Seminyak or Canggu.",
+      "Ngurah Rai International Airport (DPS) is typically about 1–1.5 hours by car to Ubud, depending on traffic.",
+      "Jl. Tirta Tawar (our villa corridor) is about 5–8 minutes by car from central Ubud, map pin ≈ -8.48315, 115.27070.",
+      "Stay in Tirta Tawar for quiet villa nights with market, Kecak, Monkey Forest, and temple-jungle walks still close.",
+    ],
+    faqs: [
+      {
+        question: "Where is Ubud in Bali?",
+        answer:
+          "Ubud is in Gianyar Regency in inland central Bali, Indonesia—Bali’s cultural and wellness highland, surrounded by rice fields, river gorges, and jungle rather than beach clubs.",
+      },
+      {
+        question: "Is Ubud on the beach?",
+        answer:
+          "No. Ubud is inland. Guests usually combine a few nights in Ubud for culture and nature with beach time in the south (Seminyak, Canggu, Uluwatu) on the same trip.",
+      },
+      {
+        question: "How far is Ubud from Denpasar airport?",
+        answer:
+          "From Ngurah Rai International Airport (DPS) to Ubud is typically about 1–1.5 hours by private car or driver, longer at peak traffic. Plan a buffer if you have a same-day villa check-in.",
+      },
+      {
+        question: "Where is Tirta Tawar relative to Ubud center?",
+        answer:
+          "Jl. Tirta Tawar is a quieter residential corridor in Ubud, Kabupaten Gianyar—about 5–8 minutes by car from central Ubud, with the local market roughly a five-minute walk from our villas.",
+      },
+      {
+        question: "What are the GPS coordinates for Ubud Villa Stays?",
+        answer:
+          "Our map pin on Jl. Tirta Tawar is approximately -8.4831533, 115.2706967. Open https://maps.app.goo.gl/5TpevFsUJeezD1gD8 for the shared Google Maps link.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Where is Ubud? A clear geographic answer",
+        paragraphs: [
+          "Ubud is a town in Gianyar Regency (Kabupaten Gianyar) in the inland highlands of central Bali, Indonesia. It is Bali’s best-known cultural destination: temples, rice terraces, art villages, yoga, and forest paths—not a beach resort strip.",
+          "When travelers ask “where is Ubud?” they usually need three facts: it is inland (no beachfront), it is in Gianyar rather than Badung’s beach belt, and it is still an easy transfer from Denpasar’s airport for a multi-night stay.",
+        ],
+        image: {
+          src: "/images/marketing/ubud-jungle-temple-walkway.jpg",
+          alt: "Visitors walking a wooden boardwalk beside a Balinese stone temple and jungle canopy in Ubud",
+          caption:
+            "Temple stonework and jungle canopy on a wooden walkway — the inland Ubud landscape guests come for.",
+        },
+      },
+      {
+        heading: "Ubud on the Bali map",
+        paragraphs: [
+          "On a Bali map, Ubud sits north of Denpasar and the southern beach towns, in the island’s central-southern interior. Surrounding landscape includes working sawah (rice fields), river valleys, and dense tropical canopy—the same mix you see on temple boardwalks where mossy stone carvings meet hanging vines.",
+          "Administratively you will see “Ubud, Gianyar, Bali.” Neighborhood names inside greater Ubud—such as Tirta Tawar, Peliatan, Penestanan, and Monkey Forest Road—help you pick quiet villa nights versus busier café streets.",
+        ],
+        bullets: [
+          "Region: Gianyar Regency · Island: Bali · Country: Indonesia",
+          "Setting: inland cultural highlands (not beachfront)",
+          "Nearby character: rice fields, temples, jungle paths, art villages",
+          "South comparison: Seminyak / Canggu / Uluwatu are coastal Badung areas",
+        ],
+      },
+      {
+        heading: "How far is Ubud from the airport and beaches?",
+        paragraphs: [
+          "Ngurah Rai International Airport (DPS) to Ubud is commonly about 1–1.5 hours by car. Beach hubs like Seminyak or Canggu are a separate southern leg—often 1–1.5 hours from Ubud depending on traffic—so many itineraries split the trip: culture nights inland, then beach nights south (or the reverse).",
+          "Private transfers are the simplest arrival for villa guests. Share your flight and villa address (Jl. Tirta Tawar) on WhatsApp and we can help arrange a driver.",
+        ],
+        bullets: [
+          "Airport (DPS) → Ubud: ~1–1.5 hours typical",
+          "Ubud → Seminyak / Canggu: often ~1–1.5 hours in traffic",
+          "Best practice: buffer same-day check-in after long-haul flights",
+        ],
+      },
+      {
+        heading: "Where we are: Jl. Tirta Tawar, Ubud",
+        paragraphs: [
+          "Ubud Villa Stays operates The Hideaway (2BR) and Sawah Retreat (6BR) on Jl. Tirta Tawar, Kabupaten Gianyar, Bali. Exact map pin: -8.4831533, 115.2706967 (Google Maps: https://maps.app.goo.gl/5TpevFsUJeezD1gD8).",
+          "From here, central Ubud is about 5–8 minutes by car; the local traditional market is about a five-minute walk; Kecak temples, Monkey Forest, and jungle-temple walkways stay within easy half-day range—while villa nights remain quieter than Monkey Forest Road.",
+        ],
+        bullets: [
+          "Street: Jl. Tirta Tawar · Area: Tirta Tawar · City: Ubud",
+          "Drive to center: about 5–8 minutes",
+          "Walk to local market: about 5 minutes",
+          "Villas: The Hideaway · Sawah Retreat",
+        ],
+      },
+      {
+        heading: "Stay in Ubud once you know the map",
+        paragraphs: [
+          "Knowing where Ubud is only helps if your base matches the trip: inland culture, green mornings, and a private pool to return to. Book The Hideaway for a 2-bedroom courtyard stay (promo from Rp 4.9 juta / night) or Sawah Retreat for up to 12 guests with rice-field outlooks (promo from Rp 7 juta / night)—both with one free activity you can pick during the stay.",
+          "Next reads: what people do in Ubud, our Tirta Tawar rice-field walk, and Ubud experiences from Tirta Tawar.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "what-people-do-in-ubud",
+    title: "What People Do in Ubud: Temples, Jungle Walks, Markets & Villa Days",
+    description:
+      "What people actually do in Ubud—temple and jungle boardwalks, rice-field walks, Kecak, Monkey Forest, markets, yoga, and private pool villa time from Tirta Tawar.",
+    eyebrow: "Activities guide",
+    datePublished: "2026-11-01",
+    dateModified: "2026-11-01",
+    readingMinutes: 9,
+    primaryKeyword: "what to do in ubud",
+    secondaryKeywords: [
+      "what people do in ubud",
+      "things to do in ubud bali",
+      "ubud activities",
+      "ubud temple jungle walk",
+      "ubud cultural experiences",
+      "ubud villa activities",
+    ],
+    heroImage: "/images/marketing/ubud-jungle-temple-walkway.jpg",
+    relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
+    gallery: [
+      {
+        src: "/images/marketing/ubud-jungle-temple-walkway.jpg",
+        alt: "Tourists on a wooden walkway through jungle beside Balinese temple stonework in Ubud",
+        caption:
+          "Jungle boardwalk beside temple architecture — a classic Ubud outing.",
+      },
+      {
+        src: "/images/marketing/kecak-dance-ubud.jpg",
+        alt: "Kecak dance performance at a temple near Ubud, Bali",
+        caption: "Evening Kecak at a nearby temple.",
+      },
+      {
+        src: "/images/marketing/monkey-forest-ubud.jpg",
+        alt: "Macaques at Ubud Monkey Forest",
+        caption: "Monkey Forest — an easy half-day from Tirta Tawar.",
+      },
+      {
+        src: "/images/marketing/ubud-art-market.jpg",
+        alt: "Ubud traditional art market stalls under colorful umbrellas",
+        caption: "Market mornings under colorful umbrellas.",
+      },
+    ],
+    keyTakeaways: [
+      "People in Ubud mix culture (temples, Kecak, galleries) with nature (rice fields, jungle walkways, Monkey Forest, waterfalls).",
+      "Typical days: morning walk or market, midday villa pool, evening temple dance or café dinner.",
+      "Temple-and-jungle boardwalks—stone carvings under a tropical canopy—are a signature Ubud scene.",
+      "From Jl. Tirta Tawar you can do market, culture, and green walks without living on the busiest tourist street.",
+      "Villa guests often add one hosted activity (rice-field cycling or cooking class) during the stay.",
+    ],
+    faqs: [
+      {
+        question: "What do people do in Ubud?",
+        answer:
+          "Most visitors explore temples and jungle paths, walk rice fields, visit Monkey Forest, shop markets and boutiques, take yoga or spa sessions, watch Kecak dance, and reset at a private pool villa between outings.",
+      },
+      {
+        question: "What are the best things to do in Ubud for first-timers?",
+        answer:
+          "Start with a temple or sacred-site morning, a rice-field or jungle walk, Monkey Forest, the local market, and one evening Kecak. Leave space for café and villa pool time—Ubud rewards an unhurried pace.",
+      },
+      {
+        question: "Can I do Ubud activities without staying in the town center?",
+        answer:
+          "Yes. A Tirta Tawar villa keeps you 5–8 minutes from central Ubud with quieter nights. Market walks, Kecak, Monkey Forest, and temple-jungle paths remain easy half-day trips.",
+      },
+      {
+        question: "What free activities can villa guests add?",
+        answer:
+          "Promo stays at The Hideaway and Sawah Retreat include one free activity you pick during the stay: Ubud rice-field cycling with lunch, or a Balinese cooking class overlooking rice terraces.",
+      },
+    ],
+    sections: [
+      {
+        heading: "What people do in Ubud — the real rhythm",
+        paragraphs: [
+          "What people do in Ubud is less “beach club calendar” and more culture-plus-nature loops: temple mornings, jungle boardwalks beside mossy stone carvings, rice-field lanes, market runs, yoga or spa hours, and evenings of Kecak or long dinners—then a quiet private pool.",
+          "That rhythm is why Ubud suits villa stays. You need a calm place to land between humid walks and crowded sacred sites.",
+        ],
+        image: {
+          src: "/images/marketing/ubud-jungle-temple-walkway.jpg",
+          alt: "Group of visitors walking a wooden jungle boardwalk next to Balinese temple buildings in Ubud",
+          caption:
+            "Visitors on a wooden walkway through temple grounds and jungle — a core Ubud activity.",
+        },
+      },
+      {
+        heading: "Temples, stone craft, and jungle walkways",
+        paragraphs: [
+          "Ubud’s Hindu temples and sacred compounds sit inside living landscape: carved stone, shaded courtyards, and wooden walkways through thick canopy. Guests photograph dragon-like guardians, climb soft-lit paths, and move with small groups rather than a single beach promenade.",
+          "From Tirta Tawar, temple evenings and jungle-path mornings stay practical—short transfers, then home to The Hideaway courtyard or Sawah Retreat’s rice-field calm.",
+        ],
+        bullets: [
+          "Temple visits and offering etiquette (sarong when required)",
+          "Jungle boardwalks and shaded compound paths",
+          "Kecak and other temple performances at night",
+          "Nearby classics: Peliatan temples, Tirta Empul / Goa Gajah day trips",
+        ],
+      },
+      {
+        heading: "Rice fields, Monkey Forest, and outdoor half-days",
+        paragraphs: [
+          "Nature is not optional in Ubud—it is the backdrop. Guests walk flooded sawah lanes (including quiet Tirta Tawar paths), visit Ubud Monkey Forest, hike ridge or riverside trails, and day-trip to north-of-Ubud waterfalls when energy allows.",
+          "Pair green mornings with midday AC and pool time. Heat and humidity peak after lunch; villa downtime is part of the activity plan, not a gap in it.",
+        ],
+        image: {
+          src: "/images/marketing/monkey-forest-ubud.jpg",
+          alt: "Macaques at Ubud Monkey Forest",
+          caption: "Monkey Forest — popular half-day nature outing from a Tirta Tawar base.",
+        },
+      },
+      {
+        heading: "Markets, shopping, food, and wellness",
+        paragraphs: [
+          "Daily life activities include the traditional market (about five minutes on foot from our Tirta Tawar villas), boutique jewelry and craft streets, café hopping, cooking classes, yoga, and spas. Groups often split: some shop, some spa, all reconvene at the villa kitchen or pool.",
+          "For a hosted outing included with promo villa stays, pick rice-field cycling with lunch or a Balinese cooking class during your dates—tell us at booking or after arrival so we can confirm the slot while you are here.",
+        ],
+        bullets: [
+          "Local market mornings for produce and Bali rhythm",
+          "Boutique / jewelry streets and art-market browsing",
+          "Yoga, spa, and café culture",
+          "Optional free activity: cycling + lunch or cooking class",
+        ],
+      },
+      {
+        heading: "A simple day plan from Tirta Tawar",
+        paragraphs: [
+          "Morning: rice-path or market walk. Mid-morning: temple, Monkey Forest, or boutique loop. Midday: private pool and lunch at the villa. Late afternoon: spa or gallery. Evening: Kecak or a long dinner, then quiet nights away from the busiest strip.",
+          "Couples at The Hideaway keep the plan compact. Groups at Sawah Retreat add shared meals and optional driver blocks so twelve guests move without friction.",
+        ],
+      },
+      {
+        heading: "Book the villa that fits how you use Ubud",
+        paragraphs: [
+          "If your Ubud days are temple-jungle walks and market mornings, stay where the map works: Jl. Tirta Tawar. Promo rates start from Rp 4.9 juta / night at The Hideaway and Rp 7 juta / night at Sawah Retreat, each with one free activity included.",
+          "Also read: where is Ubud (location & map), shopping near Tirta Tawar, and the full experiences guide.",
         ],
       },
     ],

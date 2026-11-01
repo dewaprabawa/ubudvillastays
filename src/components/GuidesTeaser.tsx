@@ -5,9 +5,9 @@ import styles from "./GuidesTeaser.module.css";
 
 export function GuidesTeaser() {
   const featuredSlugs = [
+    "where-is-ubud",
+    "what-people-do-in-ubud",
     "ubud-experiences-from-tirta-tawar",
-    "tirta-tawar-rice-field-walk-ubud",
-    "shopping-near-tirta-tawar-ubud",
   ];
   const featured = featuredSlugs
     .map((slug) => guides.find((guide) => guide.slug === slug))

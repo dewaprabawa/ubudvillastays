@@ -15,9 +15,12 @@ Coordinates: -8.4831533, 115.2706967
 - [The Hideaway](https://www.ubudvillastays.com/villas/the-hideaway): 2BR private courtyard pool villa — promo from Rp 4.9 juta / night
 - [Sawah Retreat](https://www.ubudvillastays.com/villas/sawah-retreat): 6BR rice-field villa for up to 12 — promo from Rp 7 juta / night
 - [Guides hub](https://www.ubudvillastays.com/guides): Ubud destination and villa planning guides
+- [Sitemap](https://www.ubudvillastays.com/sitemap.xml)
 
 ## Guides (SEO / GEO)
 
+- [Where is Ubud?](https://www.ubudvillastays.com/guides/where-is-ubud): Location in Gianyar, inland central Bali; airport & beach drive times; Tirta Tawar map pin
+- [What people do in Ubud](https://www.ubudvillastays.com/guides/what-people-do-in-ubud): Temples, jungle walkways, rice fields, Monkey Forest, markets, Kecak, villa days
 - [Ubud experiences from Tirta Tawar](https://www.ubudvillastays.com/guides/ubud-experiences-from-tirta-tawar): Market, Kecak, Monkey Forest, waterfalls
 - [Tirta Tawar rice field walk](https://www.ubudvillastays.com/guides/tirta-tawar-rice-field-walk-ubud): Quiet stone-and-grass lanes beside sawah
 - [Shopping near Tirta Tawar](https://www.ubudvillastays.com/guides/shopping-near-tirta-tawar-ubud): Boutiques, jewelry (e.g. Fascin di pietra), market walks
@@ -28,4 +31,3 @@ Coordinates: -8.4831533, 115.2706967
 ## Optional
 
 - [Full LLM index](https://www.ubudvillastays.com/llms-full.txt): Expanded page summaries for AI crawlers
-- [Sitemap](https://www.ubudvillastays.com/sitemap.xml)

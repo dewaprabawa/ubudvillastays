@@ -12,6 +12,7 @@ import { Reviews } from "@/components/Reviews";
 import { SisterVillas } from "@/components/SisterVillas";
 import { Spaces } from "@/components/Spaces";
 import { Story } from "@/components/Story";
+import { VillaGallery } from "@/components/VillaGallery";
 import { VillaOffer } from "@/components/VillaOffer";
 import { VillaPitch } from "@/components/VillaPitch";
 import { getVilla, siteConfig, villaOfferWhatsApp, villas } from "@/lib/site";
@@ -114,6 +115,7 @@ export default async function VillaPage({ params }: PageProps) {
         <VillaPitch villa={villa} />
         <Story villa={villa} />
         <Spaces villa={villa} />
+        <VillaGallery villa={villa} />
         <Amenities villa={villa} />
         <Experience />
         <Location />

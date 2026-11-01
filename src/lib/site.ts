@@ -5,6 +5,15 @@ export type VillaSpace = {
   copy: string;
 };
 
+export type VillaGalleryImage = {
+  src: string;
+  alt: string;
+  caption?: string;
+  width: number;
+  height: number;
+  tall?: boolean;
+};
+
 export type VillaOfferActivity = {
   title: string;
   copy: string;
@@ -98,6 +107,7 @@ export type Villa = {
   amenities: string[];
   extras: string[];
   spaces: VillaSpace[];
+  gallery?: VillaGalleryImage[];
   idealFor: string;
   offer?: VillaOffer;
   pitch?: VillaPitch;
@@ -439,6 +449,260 @@ export const villas: Villa[] = [
         alt: "Garden and rice field outlook from the villa",
         title: "Sawah outlook",
         copy: "Park and garden views, with rice terraces close enough to set a calm rhythm for mornings and yoga.",
+      },
+    ],
+    gallery: [
+      {
+        src: "/images/villas/sawah-retreat/gallery/living-01.jpg",
+        alt: "Living room at Sawah Retreat, Tirta Tawar Ubud",
+        caption: "Living room",
+        width: 1600,
+        height: 1066,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/living-03.jpg",
+        alt: "Open living area with tropical light at Sawah Retreat",
+        caption: "Living room",
+        width: 1600,
+        height: 1100,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/living-05.jpg",
+        alt: "Lounge seating at Sawah Retreat",
+        caption: "Living room",
+        width: 1280,
+        height: 849,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/kitchen-01.jpg",
+        alt: "Fully equipped kitchen at Sawah Retreat",
+        caption: "Kitchen",
+        width: 1600,
+        height: 1066,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/kitchen-02.jpg",
+        alt: "Kitchen counter and cooking space at Sawah Retreat",
+        caption: "Kitchen",
+        width: 1600,
+        height: 1066,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/kitchen-04.jpg",
+        alt: "Kitchen details at Sawah Retreat",
+        caption: "Kitchen",
+        width: 1600,
+        height: 1200,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/dining-01.jpg",
+        alt: "Indoor dining table at Sawah Retreat",
+        caption: "Dining",
+        width: 1400,
+        height: 1047,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/dining-03.jpg",
+        alt: "Group dining space at Sawah Retreat",
+        caption: "Dining",
+        width: 1400,
+        height: 1050,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/dining-06.jpg",
+        alt: "Outdoor dining at Sawah Retreat",
+        caption: "Dining",
+        width: 900,
+        height: 1600,
+        tall: true,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/garden-01.jpg",
+        alt: "Garden and backyard at Sawah Retreat",
+        caption: "Garden",
+        width: 1400,
+        height: 932,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/garden-03.jpg",
+        alt: "Tropical garden path at Sawah Retreat",
+        caption: "Garden",
+        width: 960,
+        height: 1280,
+        tall: true,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/garden-05.jpg",
+        alt: "Lush backyard planting at Sawah Retreat",
+        caption: "Garden",
+        width: 1280,
+        height: 960,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/exterior-01.jpg",
+        alt: "Sawah Retreat villa exterior on Tirta Tawar",
+        caption: "Exterior",
+        width: 1400,
+        height: 1050,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/exterior-02.jpg",
+        alt: "Villa façade and entrance at Sawah Retreat",
+        caption: "Exterior",
+        width: 1057,
+        height: 1280,
+        tall: true,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/exterior-03.jpg",
+        alt: "Outside view of Sawah Retreat",
+        caption: "Exterior",
+        width: 787,
+        height: 1400,
+        tall: true,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/yoga-01.jpg",
+        alt: "Morning yoga session at Sawah Retreat",
+        caption: "Yoga",
+        width: 1200,
+        height: 1600,
+        tall: true,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/yoga-02.jpg",
+        alt: "Yoga retreat guests at Sawah Retreat",
+        caption: "Yoga",
+        width: 1050,
+        height: 1400,
+        tall: true,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/misc-01.jpg",
+        alt: "Balinese offering ritual before activity at Sawah Retreat",
+        caption: "Offering",
+        width: 1600,
+        height: 1066,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/bath1-01.jpg",
+        alt: "En-suite bathroom at Sawah Retreat",
+        caption: "Bathroom",
+        width: 1600,
+        height: 1066,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/bath3-02.jpg",
+        alt: "Outdoor shower and bath at Sawah Retreat",
+        caption: "Bathroom",
+        width: 1200,
+        height: 1600,
+        tall: true,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/bath5-02.jpg",
+        alt: "En-suite bath with tropical detail at Sawah Retreat",
+        caption: "Bathroom",
+        width: 1200,
+        height: 1600,
+        tall: true,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/bath6-01.jpg",
+        alt: "Private bathroom at Sawah Retreat",
+        caption: "Bathroom",
+        width: 1392,
+        height: 1600,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/bed1-02.jpg",
+        alt: "Bedroom 1 second view at Sawah Retreat",
+        caption: "Bedroom",
+        width: 1600,
+        height: 1200,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/bed2-02.jpg",
+        alt: "Bedroom 2 second view at Sawah Retreat",
+        caption: "Bedroom",
+        width: 1600,
+        height: 1200,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/bed3-02.jpg",
+        alt: "Bedroom 3 second view at Sawah Retreat",
+        caption: "Bedroom",
+        width: 1200,
+        height: 1600,
+        tall: true,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/bed4-02.jpg",
+        alt: "Bedroom 4 second view at Sawah Retreat",
+        caption: "Bedroom",
+        width: 1600,
+        height: 1200,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/bed5-05.jpg",
+        alt: "Bedroom 5 alternate angle at Sawah Retreat",
+        caption: "Bedroom",
+        width: 1253,
+        height: 1600,
+        tall: true,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/bed6-02.jpg",
+        alt: "Bedroom 6 second view at Sawah Retreat",
+        caption: "Bedroom",
+        width: 1600,
+        height: 1066,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/extra-02.jpg",
+        alt: "Additional villa space at Sawah Retreat",
+        caption: "More",
+        width: 1600,
+        height: 1066,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/extra-04.jpg",
+        alt: "Villa atmosphere at Sawah Retreat",
+        caption: "More",
+        width: 1017,
+        height: 1400,
+        tall: true,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/extra-07.jpg",
+        alt: "Poolside and outdoor living at Sawah Retreat",
+        caption: "More",
+        width: 960,
+        height: 1280,
+        tall: true,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/extra-10.jpg",
+        alt: "Sawah Retreat grounds and outlook",
+        caption: "More",
+        width: 1400,
+        height: 1050,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/extra-12.jpg",
+        alt: "Villa detail at Sawah Retreat",
+        caption: "More",
+        width: 787,
+        height: 1400,
+        tall: true,
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/extra-17.jpg",
+        alt: "Evening mood at Sawah Retreat",
+        caption: "More",
+        width: 719,
+        height: 1280,
+        tall: true,
       },
     ],
   },

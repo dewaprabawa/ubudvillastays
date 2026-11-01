@@ -151,10 +151,15 @@ export const siteConfig = {
     addressHint: "Jl. Tirta Tawar, Kabupaten Gianyar, Bali",
     streetAddress: "Jl. Tirta Tawar",
     placeName: "Jl. Tirta Tawar, Kabupaten Gianyar, Bali",
+    /** Same map pin for The Hideaway and Sawah Retreat */
+    sharedVillaNote:
+      "The Hideaway (2BR) and Sawah Retreat (6BR) share this Tirta Tawar location — one corridor, two private pool villas.",
     // Exact marker from Google Maps share link https://maps.app.goo.gl/5TpevFsUJeezD1gD8
     latitude: -8.4831533,
     longitude: 115.2706967,
     mapsUrl: "https://maps.app.goo.gl/5TpevFsUJeezD1gD8",
+    mapsEmbedUrl:
+      "https://www.google.com/maps?q=-8.4831533,115.2706967&z=16&output=embed",
     walkToCenter: "15–20 minutes on foot",
     driveToCenter: "about 5–8 minutes by car",
     walkToMarket: "about 5 minutes on foot",

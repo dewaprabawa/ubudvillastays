@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Reveal } from "./Reveal";
-import { siteConfig } from "@/lib/site";
+import { siteConfig, villas } from "@/lib/site";
 import styles from "./Location.module.css";
 
 export function Location() {
@@ -15,15 +15,38 @@ export function Location() {
       <Reveal className={styles.inner}>
         <p className={styles.kicker}>Location · Tirta Tawar</p>
         <h2 id="location-title" className={styles.title}>
-          Jl. Tirta Tawar, Ubud — culture close, nights quiet.
+          One address for both villas — Jl. Tirta Tawar, Ubud.
         </h2>
         <p className={styles.lede}>
-          Our private pool villas sit on {location.streetAddress} in{" "}
-          {location.city}, {location.region}. The local traditional market is{" "}
+          {location.sharedVillaNote} The local traditional market is{" "}
           {location.walkToMarket}. Central Ubud is {location.driveToCenter}, or{" "}
           {location.walkToCenter} when you prefer to wander. Kecak performances,
           Monkey Forest, and north-of-Ubud waterfalls stay within easy reach.
         </p>
+
+        <ul className={styles.villaList} aria-label="Villas at this location">
+          {villas.map((villa) => (
+            <li key={villa.slug}>
+              <Link href={`/villas/${villa.slug}`}>
+                {villa.name}
+                <span>
+                  {" "}
+                  · {villa.facts.bedrooms}BR · up to {villa.facts.guests} guests
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+
+        <div className={styles.mapFrame}>
+          <iframe
+            title={`Map of ${location.placeName} — The Hideaway and Sawah Retreat`}
+            src={location.mapsEmbedUrl}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            allowFullScreen
+          />
+        </div>
 
         <div className={styles.panels}>
           <div className={styles.panel}>
@@ -70,8 +93,9 @@ export function Location() {
         </div>
 
         <p className={styles.geo}>
-          Vacation rental villas at {location.placeName} · {location.city},{" "}
-          {location.region}, {location.country}
+          The Hideaway &amp; Sawah Retreat · {location.placeName} ·{" "}
+          {location.city}, {location.region}, {location.country} · GPS{" "}
+          {location.latitude}, {location.longitude}
         </p>
       </Reveal>
     </section>

@@ -36,10 +36,47 @@
 
 .lede {
   margin: 1.1rem 0 0;
-  max-width: 40rem;
+  max-width: 42rem;
   font-size: 1.05rem;
   line-height: 1.65;
   color: var(--ink-soft);
+}
+
+.villaList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem 1.1rem;
+  margin: 1.35rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.villaList a {
+  color: var(--canopy);
+  font-weight: 650;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.villaList span {
+  font-weight: 500;
+  color: var(--ink-soft);
+}
+
+.mapFrame {
+  margin-top: 1.75rem;
+  overflow: hidden;
+  border: 1px solid rgba(20, 38, 31, 0.12);
+  background: rgba(255, 255, 255, 0.55);
+  aspect-ratio: 16 / 9;
+  min-height: 240px;
+}
+
+.mapFrame iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 .panels {

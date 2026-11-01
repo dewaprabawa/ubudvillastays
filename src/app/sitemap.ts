@@ -36,6 +36,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
         "ubud-villa-scams-travelers-should-avoid",
         "safe-travel-ubud-avoid-scams",
         "yoga-retreat-villa-stay-in-ubud",
+        "bali-travel-faq-for-first-timers",
+        "bali-visa-and-tourist-tax",
+        "ubud-vs-canggu-seminyak-uluwatu",
+        "scooter-vs-driver-bali-ubud",
       ].includes(guide.slug)
         ? 0.85
         : 0.75,

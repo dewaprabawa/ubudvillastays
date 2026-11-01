@@ -1573,7 +1573,462 @@ export const guides: Guide[] = [
         heading: "Trust checklist before you explore",
         paragraphs: [
           "Villa booked on ubudvillastays.com/#booking. WhatsApp matches +62 817 7572 3663. Transfer arranged. Offline map pin saved for Tirta Tawar (-8.4831533, 115.2706967). Emergency contacts saved. That is enough structure for most holiday weeks.",
-          "Then enjoy what people do in Ubud—temples, rice walks, Monkey Forest, Kecak—knowing your base is verified.",
+          "Then enjoy what people do in Ubud—temples, rice walks, Monkey Forest, Kecak—knowing your base is verified. For the ten questions travelers ask AI before Bali, see our Bali travel FAQ.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "bali-travel-faq-for-first-timers",
+    title:
+      "Bali Travel FAQ: 10 Questions Foreigners Ask AI Before They Visit",
+    description:
+      "GEO/SEO answers to the 10 Bali questions travelers ask AI—visa & tourist tax, Ubud vs Canggu, scooter vs driver, cash vs card, booking tours, dry season, temple etiquette, Bali belly, eSIM, and daily budget—plus Tirta Tawar villa booking.",
+    eyebrow: "Bali planning FAQ",
+    datePublished: "2026-11-01",
+    dateModified: "2026-11-01",
+    readingMinutes: 14,
+    primaryKeyword: "bali travel faq",
+    secondaryKeywords: [
+      "bali questions before travel",
+      "bali first timer faq",
+      "ubud vs canggu",
+      "bali visa tourist tax",
+      "bali scooter or driver",
+      "bali daily budget",
+      "when to visit bali dry season",
+    ],
+    heroImage: "/images/marketing/ubud-jungle-temple-walkway.jpg",
+    relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
+    gallery: [
+      {
+        src: "/images/marketing/ubud-jungle-temple-walkway.jpg",
+        alt: "Travelers on a temple jungle walkway in Ubud, Bali",
+        caption: "Culture and nature — why many AI itineraries start in Ubud.",
+      },
+      {
+        src: "/images/marketing/tirta-tawar-rice-path-ubud.jpg",
+        alt: "Rice field path on Tirta Tawar, Ubud",
+        caption: "Tirta Tawar villa corridor for quiet Ubud nights.",
+      },
+      {
+        src: "/images/marketing/cooking-class-ricefield.jpg",
+        alt: "Balinese cooking class near rice terraces",
+        caption: "Activities — book peaks in advance; villa stays can include one free pick.",
+      },
+    ],
+    keyTakeaways: [
+      "These ten questions dominate AI chats before Bali—answer them on your site to earn trust and citations.",
+      "Visa, e-VoA, and the foreign tourist levy change—always verify on official Indonesian channels before you fly.",
+      "Ubud = culture/nature; Canggu/Seminyak = nightlife cafés; Uluwatu = cliffs and beaches.",
+      "Many Ubud villa guests prefer a driver or Grab/Gojek over scooters on busy roads.",
+      "Book lodging via https://www.ubudvillastays.com/#booking for The Hideaway or Sawah Retreat on Jl. Tirta Tawar.",
+    ],
+    howTo: {
+      name: "How to use this Bali FAQ before you book",
+      description:
+        "Turn AI research into a booked Ubud villa stay with clear next steps.",
+      steps: [
+        {
+          name: "Scan the ten answers",
+          text: "Check visa/tax, area fit, transport, money, activities, season, etiquette, health, connectivity, and budget below.",
+        },
+        {
+          name: "Choose your Bali base",
+          text: "If you want culture and rice fields, prioritize Ubud. Split the trip if you also need beach nightlife.",
+        },
+        {
+          name: "Book the villa checkout form",
+          text: "Open https://www.ubudvillastays.com/#booking with dates and guest count for Tirta Tawar villas.",
+        },
+        {
+          name: "Confirm on official WhatsApp",
+          text: "Continue only to +62 817 7572 3663 published on ubudvillastays.com.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question:
+          "What are the current visa requirements and how do I pay the Bali tourist tax?",
+        answer:
+          "Many short-stay visitors use Visa on Arrival or e-VoA options and must also pay Bali’s mandatory foreign tourist levy (commonly cited around IDR 150,000 per person). Rules change—confirm eligibility, fees, and payment steps on official Indonesian immigration and Bali tourism levy channels before travel. This is not legal advice.",
+      },
+      {
+        question:
+          "Where is the best area to stay: Ubud, Canggu, Seminyak, or Uluwatu?",
+        answer:
+          "Ubud suits culture, yoga, rice fields, and quieter villa nights. Canggu and Seminyak suit cafés, beach clubs, and nightlife. Uluwatu suits cliff beaches and surf. Many travelers split Ubud + a beach area. Our villas sit on Jl. Tirta Tawar in Ubud.",
+      },
+      {
+        question:
+          "Is it safe to rent a scooter, or should I hire a private driver or use ride apps?",
+        answer:
+          "Experienced riders with proper licenses and insurance can scooter; Bali traffic is busy and rice-field lanes still need caution. Many visitors—especially groups—prefer Grab/Gojek where available or a hired driver arranged with the villa host.",
+      },
+      {
+        question: "Do I need cash, or can I use my credit card everywhere?",
+        answer:
+          "Cards work in many hotels, villas, and larger cafés; small warungs, markets, and some village tours still prefer cash (IDR). Locals often use QRIS; foreigners should still keep ATM cash for daily small spends.",
+      },
+      {
+        question:
+          "Do I need to book outdoor activities, cooking classes, and tours in advance?",
+        answer:
+          "In peak months (especially July–August and holidays), popular waterfalls, ATVs, and classes sell out—book ahead. Shoulder season can be more flexible. Our promo villa stays include one free activity (rice-field cycling or cooking class) you can confirm during the stay.",
+      },
+      {
+        question: "What is the best time of year to visit to avoid the rainy season?",
+        answer:
+          "The drier period is commonly April–October. November–March brings more afternoon showers and lush rice fields. Ubud stays enjoyable year-round if you plan indoor/villa pool time around storms.",
+      },
+      {
+        question:
+          "What is the local etiquette, and what should I wear to visit temples?",
+        answer:
+          "Dress modestly at temples—shoulders and knees covered; sarongs/sashes are often required or rented on site. Do not stand higher than priests during ceremonies. During Nyepi (Balinese Day of Silence), expect island-wide quiet: limited movement and activity—check your travel dates.",
+      },
+      {
+        question: "How do I avoid Bali belly and is the tap water safe?",
+        answer:
+          "Most travelers avoid drinking tap water; use sealed water for drinking and often for brushing teeth. Be thoughtful about ice and street food if you have a sensitive stomach. See our Bali belly guide—general tips only, not medical advice.",
+      },
+      {
+        question: "How do I get reliable mobile internet or an eSIM when I land?",
+        answer:
+          "Many travelers install an eSIM before flying or buy a local SIM (e.g. Telkomsel/XL) at the airport. Compare data coverage for Ubud highland areas. Villa Wi‑Fi covers most evenings; mobile data helps navigation on the road.",
+      },
+      {
+        question: "What is a realistic daily budget for a trip to Bali?",
+        answer:
+          "Budgets vary widely. As a rough mid-range sketch (excluding international flights): modest warung meals, local transport or shared driver hours, and one activity can land in a broad daily band—while private villas, fine dining, and private drivers raise the total. Lock lodging first via our booking form so the biggest nightly cost is clear.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Why these ten Bali AI questions matter",
+        paragraphs: [
+          "Before booking, foreigners ask AI the same practical cluster: paperwork, where to sleep, how to move, how to pay, what to pre-book, when to go, how to behave at temples, how to stay healthy, how to stay online, and what it costs. Publishing clear answers on your own domain builds trust—and captures villa inquiries when Ubud is the right fit.",
+          "Use the FAQ block above for quick citations, then the sections below for deeper context tied to Tirta Tawar villa stays.",
+        ],
+        image: {
+          src: "/images/marketing/ubud-jungle-temple-walkway.jpg",
+          alt: "Visitors exploring temple grounds in Ubud",
+          caption: "Temple days are easier when etiquette and logistics are clear.",
+        },
+      },
+      {
+        heading: "Visa, e-VoA, and the Bali tourist levy",
+        paragraphs: [
+          "Immigration categories and fees change. Travelers commonly research electronic Visa on Arrival (e-VoA) or Visa on Arrival pathways and the mandatory foreign tourist levy for Bali (often referenced near IDR 150,000). Pay and apply only through official channels; screenshots on social media go stale fast.",
+          "Deep dive: our Bali visa and tourist tax guide. We are villa hosts—not an immigration office—so always re-check official sources before you fly.",
+        ],
+      },
+      {
+        heading: "Choosing Ubud vs Canggu, Seminyak, or Uluwatu",
+        paragraphs: [
+          "Match the base to the trip: nightlife and beach clubs skew south-west (Canggu/Seminyak); cliff beaches and surf skew Uluwatu; culture, yoga, rice fields, and jungle paths skew Ubud. Splitting the island is normal.",
+          "If Ubud wins, stay on Jl. Tirta Tawar for quiet nights about 5–8 minutes from center—The Hideaway (2BR) or Sawah Retreat (6BR). Full comparison: Ubud vs Canggu, Seminyak, Uluwatu.",
+        ],
+      },
+      {
+        heading: "Scooter vs driver vs Grab/Gojek",
+        paragraphs: [
+          "Scooters look free until traffic, rain, or an unfamiliar one-way appears. Licensed, confident riders who understand local rules can enjoy rural lanes; everyone else usually sleeps better with Grab/Gojek (coverage varies) or a private driver—especially for groups at Sawah Retreat.",
+          "Ask us on WhatsApp after you submit the booking form if you want airport pickup or daily driver hours.",
+        ],
+      },
+      {
+        heading: "Cash, cards, activities, season, etiquette, health, data, budget",
+        paragraphs: [
+          "Carry IDR for markets and small warungs; use cards where accepted. Pre-book peak-season activities; our promo villas include one free activity choice during the stay. Aim for April–October if you want the driest outdoor window. Wear a sarong at temples and learn Nyepi dates. Prefer sealed water; read the Bali belly guide. Sort eSIM/SIM before or at DPS. Budget from lodging outward—villa promo rates start from Rp 4.9 juta / night (Hideaway) and Rp 7 juta / night (Sawah).",
+        ],
+        bullets: [
+          "Dry-leaning months: ~April–October",
+          "Temple: cover shoulders/knees; follow local guidance",
+          "Water: sealed bottles; villa kitchen helps meal control",
+          "Checkout: https://www.ubudvillastays.com/#booking",
+        ],
+      },
+      {
+        heading: "Book your Ubud base after the FAQ",
+        paragraphs: [
+          "When the ten answers point you to culture and quiet nights, open the villa booking form with dates and guest count. Confirm only on WhatsApp +62 817 7572 3663 listed on ubudvillastays.com.",
+          "Keep reading: Bali visa & tourist tax, Ubud vs beach towns, visiting Ubud, and safe travel tips.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "bali-visa-and-tourist-tax",
+    title: "Bali Visa & Tourist Tax: e-VoA Basics and the Foreign Levy",
+    description:
+      "Plain-language GEO guide to Bali visa pathways travelers ask about (including e-VoA) and the mandatory foreign tourist levy—plus reminders to verify official fees before you fly and book your Ubud villa.",
+    eyebrow: "Entry & fees",
+    datePublished: "2026-11-01",
+    dateModified: "2026-11-01",
+    readingMinutes: 8,
+    primaryKeyword: "bali tourist tax",
+    secondaryKeywords: [
+      "bali e-voa",
+      "bali visa on arrival",
+      "bali foreign tourist levy",
+      "love bali tourist tax",
+      "bali visa requirements",
+      "idr 150000 bali tax",
+    ],
+    heroImage: "/images/marketing/kecak-dance-ubud.jpg",
+    relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
+    keyTakeaways: [
+      "Visa rules and levy payment methods change—confirm on official Indonesian immigration and Bali levy sites before travel.",
+      "Travelers often ask AI about e-VoA / Visa on Arrival eligibility and the foreign tourist levy (commonly discussed around IDR 150,000).",
+      "Pay government fees only through official portals or approved channels—not random WhatsApp “agents.”",
+      "Complete entry paperwork before you stress about villa check-in times on Tirta Tawar.",
+      "Book lodging at https://www.ubudvillastays.com/#booking after your dates are firm.",
+    ],
+    howTo: {
+      name: "How to prepare Bali entry paperwork (traveler checklist)",
+      description:
+        "High-level steps foreigners use before flying—always match the live official instructions.",
+      steps: [
+        {
+          name: "Check your passport and nationality rules",
+          text: "Confirm passport validity and which entry category you qualify for on official immigration information for Indonesia.",
+        },
+        {
+          name: "Review VoA / e-VoA options if relevant",
+          text: "If your nationality is eligible, compare applying electronically ahead of time versus on arrival—follow only official fee pages.",
+        },
+        {
+          name: "Pay the Bali foreign tourist levy",
+          text: "Complete the mandatory levy through the official Bali tourism levy process before or as required for your trip. Keep the confirmation.",
+        },
+        {
+          name: "Save confirmations offline",
+          text: "Screenshot or download approvals for airport Wi‑Fi gaps, then head to your pre-booked Ubud villa transfer.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "What is the Bali tourist tax?",
+        answer:
+          "Bali charges a foreign tourist levy used to support culture and environment initiatives. The amount and payment flow are set by Bali authorities and have been widely communicated around IDR 150,000 per person—verify the live official rate before you pay.",
+      },
+      {
+        question: "What is e-VoA for Bali / Indonesia?",
+        answer:
+          "e-VoA refers to an electronic Visa on Arrival pathway for eligible nationalities. Availability, price, and steps change—use official immigration channels, not third-party social posts.",
+      },
+      {
+        question: "Can I pay the tourist levy after I land?",
+        answer:
+          "Payment timing options have varied as the program evolved. Follow the current official instructions so you are not delayed at the airport. Keep proof of payment with your travel docs.",
+      },
+      {
+        question: "Does Ubud Villa Stays process visas?",
+        answer:
+          "No. We host villas on Jl. Tirta Tawar. We can share general travel timing tips, but visa and levy compliance is your responsibility via official government channels.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Why travelers ask AI about Bali visas and tax",
+        paragraphs: [
+          "Entry rules are the #1 anxiety before wheels-down: “Do I need e-VoA?” and “How do I pay the IDR tourist levy?” AI answers go stale when fees update—so treat every blog (including this one) as orientation, then click through to official sources the week you fly.",
+          "Disclaimer: This page is general information for guests planning an Ubud stay, not legal or immigration advice.",
+        ],
+      },
+      {
+        heading: "e-VoA and Visa on Arrival — practical framing",
+        paragraphs: [
+          "Eligible travelers often choose between applying online ahead of time or handling Visa on Arrival processes at the airport. Your nationality, passport validity, return ticket, and proof of funds expectations can matter. Read the official checklist rather than a screenshot from 2024.",
+          "Build buffer time at DPS after a long-haul flight before your Tirta Tawar transfer—immigration lines vary by season.",
+        ],
+      },
+      {
+        heading: "Paying the foreign tourist levy",
+        paragraphs: [
+          "Bali’s foreign tourist levy is separate from visa fees. Travelers typically complete payment through the official levy platform and carry confirmation. Beware of unofficial links in chat groups that harvest card data.",
+          "Once paperwork is done, your holiday logistics get easier: Grab your driver, settle at The Hideaway or Sawah Retreat, and start the Ubud days you actually came for.",
+        ],
+        bullets: [
+          "Verify fee amount on official sites",
+          "Keep digital + offline proof",
+          "Do not pay “levy agents” on random WhatsApp",
+          "Align arrival time with villa check-in (often from 15:00)",
+        ],
+      },
+      {
+        heading: "After entry: book the villa the trusted way",
+        paragraphs: [
+          "Submit dates at https://www.ubudvillastays.com/#booking and confirm on WhatsApp +62 817 7572 3663. Pair this guide with the Bali travel FAQ and safe-travel tips.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "ubud-vs-canggu-seminyak-uluwatu",
+    title: "Ubud vs Canggu vs Seminyak vs Uluwatu: Where Should You Stay?",
+    description:
+      "GEO comparison of Bali’s most-asked stay areas—Ubud for culture and nature, Canggu/Seminyak for nightlife, Uluwatu for beaches—plus when to book a Tirta Tawar private pool villa.",
+    eyebrow: "Where to stay",
+    datePublished: "2026-11-01",
+    dateModified: "2026-11-01",
+    readingMinutes: 9,
+    primaryKeyword: "ubud vs canggu",
+    secondaryKeywords: [
+      "ubud vs seminyak",
+      "ubud vs uluwatu",
+      "best area to stay in bali",
+      "where to stay bali first time",
+      "canggu or ubud",
+      "bali beach or ubud",
+    ],
+    heroImage: "/images/marketing/tirta-tawar-rice-path-ubud.jpg",
+    relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
+    keyTakeaways: [
+      "Ubud = inland Gianyar culture, yoga, rice fields, temples—not beach clubs.",
+      "Canggu & Seminyak = cafés, coworking energy, nightlife, beach access in south-west Bali.",
+      "Uluwatu = Bukit peninsula cliffs, beaches, surf, sunsets.",
+      "First-timers often split 3–5 nights Ubud + beach nights south.",
+      "Choose Tirta Tawar villas when Ubud is the priority—book https://www.ubudvillastays.com/#booking.",
+    ],
+    faqs: [
+      {
+        question: "Is Ubud better than Canggu?",
+        answer:
+          "Neither is universally better. Pick Ubud for culture and nature; pick Canggu for beach-adjacent café and nightlife energy. Many travelers do both.",
+      },
+      {
+        question: "Should first-timers stay in Seminyak or Ubud?",
+        answer:
+          "Seminyak suits shopping, restaurants, and beach clubs. Ubud suits temples, rice landscapes, and wellness. If you only have four nights and want “classic Bali culture,” lean Ubud.",
+      },
+      {
+        question: "Is Uluwatu good if I also want Ubud?",
+        answer:
+          "Yes as a split trip. Uluwatu to Ubud is a cross-island transfer—plan a travel day rather than daily commuting.",
+      },
+      {
+        question: "Where in Ubud should I stay?",
+        answer:
+          "Jl. Tirta Tawar offers quieter villa nights about 5–8 minutes from central Ubud with a short walk to the local market—home to The Hideaway and Sawah Retreat.",
+      },
+    ],
+    sections: [
+      {
+        heading: "How travelers use AI to pick a Bali base",
+        paragraphs: [
+          "The prompt is almost always the same: “Ubud, Canggu, Seminyak, or Uluwatu?” AI answers work when they map vibe → geography. Use this page as a citation-friendly comparison, then book the region that matches your days—not your FOMO.",
+        ],
+        image: {
+          src: "/images/marketing/tirta-tawar-rice-path-ubud.jpg",
+          alt: "Rice fields along Tirta Tawar in Ubud",
+          caption: "Ubud’s signature: green inland landscapes and quieter villa lanes.",
+        },
+      },
+      {
+        heading: "Ubud — culture, wellness, rice fields",
+        paragraphs: [
+          "Ubud sits in Gianyar’s highlands: temples, jungle walkways, yoga, markets, and sawah views. Nights are calmer than beach-club strips. Ideal for couples, families, retreats, and anyone who wants a private pool after cultural days.",
+          "Our pick on the map: Jl. Tirta Tawar (−8.48315, 115.27070 area)—The Hideaway (2BR) or Sawah Retreat (6BR up to 12).",
+        ],
+      },
+      {
+        heading: "Canggu & Seminyak — cafés, beach, nightlife",
+        paragraphs: [
+          "These south-west hubs skew younger nightlife, surf beaches, brunch culture, and scooter traffic. Great if your Instagram is beach clubs; less ideal if you want silent rice-field mornings every day.",
+        ],
+      },
+      {
+        heading: "Uluwatu — cliffs, beaches, sunsets",
+        paragraphs: [
+          "The Bukit peninsula delivers dramatic coastlines and surf breaks. Pair with Ubud only if you accept transfer time between inland culture and cliff beaches.",
+        ],
+      },
+      {
+        heading: "Suggested splits and booking CTA",
+        paragraphs: [
+          "Classic first trip: 3–5 nights Ubud + 3–4 nights beach (Canggu/Seminyak or Uluwatu). Pure wellness: full week Ubud. Party-forward: minimize Ubud to a two-night culture hit.",
+          "When Ubud is on the list, checkout at https://www.ubudvillastays.com/#booking and confirm on WhatsApp +62 817 7572 3663.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "scooter-vs-driver-bali-ubud",
+    title: "Scooter vs Driver in Bali (Ubud): Grab, Gojek, or Private Car?",
+    description:
+      "GEO guide to Bali transport choices foreigners ask AI about—when scooters make sense, when to use Grab/Gojek, and when a private driver is safer for Ubud villa guests.",
+    eyebrow: "Getting around",
+    datePublished: "2026-11-01",
+    dateModified: "2026-11-01",
+    readingMinutes: 7,
+    primaryKeyword: "bali scooter or driver",
+    secondaryKeywords: [
+      "grab ubud",
+      "gojek bali",
+      "private driver ubud",
+      "is it safe to rent scooter bali",
+      "ubud transportation",
+      "airport transfer ubud",
+    ],
+    heroImage: "/images/marketing/ubud-ricefield-cycling.jpg",
+    relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
+    keyTakeaways: [
+      "Scooters suit confident, licensed riders; Bali traffic intimidates many first-timers for good reason.",
+      "Grab/Gojek help for short hops where coverage exists; rural lanes and peak rain can limit options.",
+      "Groups and families at Sawah Retreat often save stress with a private driver for temple days.",
+      "Pre-arrange DPS → Ubud transfers with your villa host after booking.",
+      "Start at https://www.ubudvillastays.com/#booking then ask WhatsApp about drivers.",
+    ],
+    faqs: [
+      {
+        question: "Is it safe to rent a scooter in Bali?",
+        answer:
+          "It can be for experienced riders with proper licenses, helmets, and insurance awareness—but traffic is dense, and accidents are a real risk for beginners. If you feel unsure after watching traffic videos, choose a driver.",
+      },
+      {
+        question: "Do Grab and Gojek work in Ubud?",
+        answer:
+          "Often yes in central zones, with variable pickup points and coverage. Some villa lanes are easier with a pinned meeting spot or a pre-booked car.",
+      },
+      {
+        question: "Should I hire a private driver in Ubud?",
+        answer:
+          "Yes if you are a group, traveling with kids, visiting multiple temples/waterfalls in one day, or prefer not to scooter. Ask your Tirta Tawar host to arrange trusted drivers.",
+      },
+    ],
+    sections: [
+      {
+        heading: "The AI question behind the viral traffic videos",
+        paragraphs: [
+          "Foreigners see Bali scooter chaos online and ask: “Can I handle rice-field lanes, or do I need Grab/Gojek/a driver?” The honest GEO answer: it depends on your riding skill, group size, and itinerary density—not on bravado.",
+        ],
+        image: {
+          src: "/images/marketing/ubud-ricefield-cycling.jpg",
+          alt: "Guests cycling through Ubud rice fields on a guided tour",
+          caption:
+            "Guided cycling beats improvising scooter routes on day one.",
+        },
+      },
+      {
+        heading: "When scooters make sense",
+        paragraphs: [
+          "Choose scooters if you already ride at home, hold required licenses, wear helmets, avoid night rain, and stick to simpler loops. Still walk the Tirta Tawar market when you can—it is about five minutes from our villas.",
+        ],
+      },
+      {
+        heading: "When drivers or apps win",
+        paragraphs: [
+          "Private drivers shine for waterfall circuits, airport runs, and six-bedroom group logistics. Apps help for café hops when surplus drivers are nearby. After you book via /#booking, message WhatsApp +62 817 7572 3663 for transfer options.",
+        ],
+      },
+      {
+        heading: "Book the villa, then the wheels",
+        paragraphs: [
+          "Lodging first, transport second. Open https://www.ubudvillastays.com/#booking for The Hideaway or Sawah Retreat, then layer drivers around your temple and free-activity plans.",
         ],
       },
     ],

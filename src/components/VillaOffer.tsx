@@ -66,43 +66,42 @@ export function VillaOffer({ villa }: { villa: Villa }) {
           </div>
 
           <div className={styles.activities}>
-            {offer.activities.map((activity, index) => (
-              <article
+            {offer.activities.map((activity) => (
+              <a
                 key={activity.title}
                 className={`${styles.activity} ${
                   activity.mostPicked ? styles.activityFeatured : ""
                 }`}
+                href={activity.url}
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <div className={styles.choiceMeta}>
-                  <span className={styles.choiceTag}>
-                    Free choice {index + 1}
-                  </span>
-                  {activity.mostPicked ? (
-                    <span className={styles.activityBadge}>Most picked</span>
-                  ) : null}
-                </div>
                 <div className={styles.media}>
                   <Image
                     src={activity.image}
                     alt={activity.imageAlt}
                     fill
-                    sizes="(max-width: 800px) 100vw, 40vw"
+                    sizes="96px"
                     className={styles.image}
                   />
                 </div>
                 <div className={styles.activityCopy}>
+                  <div className={styles.choiceMeta}>
+                    {activity.mostPicked ? (
+                      <span className={styles.activityBadge}>Most picked</span>
+                    ) : (
+                      <span className={styles.choiceTag}>Free extra</span>
+                    )}
+                  </div>
                   <h3>{activity.title}</h3>
-                  <p>{activity.copy}</p>
-                  <p className={styles.pickWhen}>
-                    Pick anytime during your stay period
-                  </p>
+                  <span className={styles.detailsHint}>View details</span>
                 </div>
-              </article>
+              </a>
             ))}
           </div>
 
-          <p className={styles.orNote} aria-hidden="true">
-            Choose one · cycling or cooking
+          <p className={styles.orNote}>
+            Tap for details · pick one during your stay
           </p>
         </div>
 

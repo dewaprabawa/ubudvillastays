@@ -146,19 +146,19 @@
 }
 
 .choicePanel {
-  margin-top: 1.75rem;
-  padding: 1.25rem 1rem 1.35rem;
-  border: 1px solid rgba(20, 38, 31, 0.14);
-  background: rgba(255, 255, 255, 0.55);
+  margin-top: 1.5rem;
+  padding: 1rem 0.9rem 1.1rem;
+  border: 1px solid rgba(20, 38, 31, 0.12);
+  background: rgba(255, 255, 255, 0.45);
 }
 
 .choiceHeader {
   max-width: 40rem;
-  margin-bottom: 1.15rem;
+  margin-bottom: 0.85rem;
 }
 
 .choiceKicker {
-  margin: 0 0 0.4rem;
+  margin: 0 0 0.3rem;
   font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -169,42 +169,56 @@
 .choiceTitle {
   margin: 0;
   font-family: var(--font-display);
-  font-size: clamp(1.2rem, 2.5vw, 1.55rem);
+  font-size: clamp(1.05rem, 2.2vw, 1.25rem);
   font-weight: 500;
   color: var(--ink);
 }
 
 .timing {
-  margin: 0.55rem 0 0;
-  font-size: 0.92rem;
-  line-height: 1.55;
+  margin: 0.4rem 0 0;
+  font-size: 0.84rem;
+  line-height: 1.5;
   color: var(--ink-soft);
 }
 
 .activities {
   display: grid;
-  gap: 1rem;
+  gap: 0.55rem;
 }
 
 .activity {
   position: relative;
   display: grid;
-  gap: 0.75rem;
-  padding: 0.85rem;
-  border: 1px solid rgba(20, 38, 31, 0.12);
-  background: rgba(245, 247, 244, 0.65);
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 0.7rem;
+  align-items: center;
+  padding: 0.45rem;
+  border: 1px solid rgba(20, 38, 31, 0.1);
+  background: rgba(245, 247, 244, 0.72);
+  text-decoration: none;
+  color: inherit;
+  transition:
+    border-color 160ms ease,
+    background 160ms ease,
+    transform 160ms ease;
+}
+
+.activity:hover {
+  border-color: rgba(20, 38, 31, 0.28);
+  background: #fff;
+  transform: translateY(-1px);
 }
 
 .activityFeatured {
-  border-color: rgba(20, 38, 31, 0.28);
+  border-color: rgba(20, 38, 31, 0.22);
   background: #fff;
-  box-shadow: 0 10px 28px rgba(15, 26, 22, 0.06);
 }
 
 .choiceMeta {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
+  gap: 0.35rem;
+  margin-bottom: 0.2rem;
 }
 
 .choiceTag {
@@ -219,9 +233,11 @@
 
 .media {
   position: relative;
-  aspect-ratio: 16 / 10;
+  width: 72px;
+  height: 72px;
   overflow: hidden;
   background: rgba(20, 38, 31, 0.06);
+  flex-shrink: 0;
 }
 
 .image {
@@ -231,33 +247,34 @@
 .activityCopy h3 {
   margin: 0;
   font-family: var(--font-display);
-  font-size: 1.15rem;
+  font-size: 0.98rem;
   font-weight: 500;
+  line-height: 1.25;
   color: var(--canopy);
 }
 
-.activityCopy p {
-  margin: 0.4rem 0 0;
-  font-size: 0.92rem;
-  line-height: 1.55;
-  color: var(--ink-soft);
+.detailsHint {
+  display: inline-block;
+  margin-top: 0.28rem;
+  font-size: 0.72rem;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(15, 26, 22, 0.55);
 }
 
-.pickWhen {
-  margin: 0.55rem 0 0 !important;
-  font-size: 0.82rem !important;
-  font-weight: 650;
-  color: var(--ink) !important;
+.activity:hover .detailsHint {
+  color: var(--lagoon);
 }
 
 .orNote {
-  margin: 1rem 0 0;
+  margin: 0.7rem 0 0;
   text-align: center;
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   font-weight: 650;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: rgba(15, 26, 22, 0.55);
+  color: rgba(15, 26, 22, 0.5);
 }
 
 .accent {
@@ -345,25 +362,26 @@
   transform: translateY(-1px);
 }
 
-@media (min-width: 860px) {
+@media (min-width: 700px) {
   .choicePanel {
-    padding: 1.4rem 1.35rem 1.5rem;
+    padding: 1.1rem 1.15rem 1.2rem;
   }
 
   .activities {
     grid-template-columns: 1fr 1fr;
-    gap: 1.15rem;
-    align-items: stretch;
+    gap: 0.65rem;
   }
 
   .media {
-    aspect-ratio: 4 / 3;
+    width: 80px;
+    height: 80px;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .primary:hover,
-  .secondary:hover {
+  .secondary:hover,
+  .activity:hover {
     transform: none;
   }
 }

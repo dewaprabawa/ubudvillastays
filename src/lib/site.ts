@@ -573,6 +573,28 @@ export const villas: Villa[] = [
     },
     airbnbUrl: "https://www.airbnb.com/rooms/23112175",
     heroImage: "/images/villas/sawah-retreat/hero.jpg",
+    heroCollage: [
+      {
+        src: "/images/villas/sawah-retreat/gallery/garden-01.jpg",
+        alt: "Private pool courtyard at Sawah Retreat at dusk",
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/living-01.jpg",
+        alt: "Living room with turquoise seating at Sawah Retreat",
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/kitchen-01.jpg",
+        alt: "Live-edge dining table and kitchen at Sawah Retreat",
+      },
+      {
+        src: "/images/villas/sawah-retreat/room-01.jpg",
+        alt: "Canopy bedroom at Sawah Retreat",
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/exterior-01.jpg",
+        alt: "Villa exterior and grounds at Sawah Retreat",
+      },
+    ],
     ogImage: "/images/villas/sawah-retreat/og.jpg",
     amenityImage: "/images/villas/sawah-retreat/space-02.jpg",
     amenityImageSecondary: "/images/villas/sawah-retreat/space-04.jpg",

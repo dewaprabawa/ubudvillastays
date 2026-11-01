@@ -83,9 +83,15 @@ export type VillaPitch = {
   ctaNote: string;
 };
 
+export type VillaThingsItem = {
+  label: string;
+  detail?: string;
+};
+
 export type VillaThingsGroup = {
   title: string;
-  items: string[];
+  intro?: string;
+  items: VillaThingsItem[];
 };
 
 export type VillaThingsToKnow = {
@@ -667,34 +673,49 @@ export const villas: Villa[] = [
         {
           title: "Check-in & check-out",
           items: [
-            "Check-in: 3:00 PM – 12:00 AM",
-            "Check-out: before 12:00 PM (noon)",
-            "Self check-in with lockbox",
-            "Fast checkout available",
+            { label: "Check-in: 3:00 PM – 12:00 AM" },
+            { label: "Check-out: before 12:00 PM (noon)" },
+            { label: "Self check-in with lockbox" },
+            { label: "Fast checkout available" },
           ],
         },
         {
           title: "House rules",
           items: [
-            "Maximum 12 guests",
-            "No pets",
-            "Smoking allowed (including vapes and e-cigarettes)",
-            "Quiet hours: 11:00 PM – 7:00 AM",
-            "Commercial photography allowed",
+            { label: "Maximum 12 guests" },
+            { label: "No pets" },
+            {
+              label: "Smoking allowed (including vapes and e-cigarettes)",
+            },
+            { label: "Quiet hours: 11:00 PM – 7:00 AM" },
+            { label: "Commercial photography allowed" },
           ],
         },
         {
           title: "Safety & property",
+          intro:
+            "Avoid surprises by reviewing these safety details for the property.",
           items: [
-            "Carbon monoxide alarm not reported on the listing",
-            "Smoke alarm not reported on the listing",
+            {
+              label: "Carbon monoxide alarm not reported",
+              detail:
+                "The host has not reported a carbon monoxide alarm on this property. We recommend bringing a portable detector for your trip.",
+            },
+            {
+              label: "Smoke alarm not reported",
+              detail:
+                "The host has not reported a smoke alarm on this property. We recommend bringing a portable detector for your trip.",
+            },
           ],
         },
         {
           title: "Cancellation",
           items: [
-            "Cancellation details depend on your travel dates",
-            "Ask on WhatsApp or check Airbnb once you share dates",
+            { label: "Cancellation details depend on your travel dates" },
+            {
+              label:
+                "Ask on WhatsApp or check Airbnb once you share dates",
+            },
           ],
         },
       ],

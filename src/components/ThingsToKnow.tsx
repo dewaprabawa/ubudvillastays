@@ -24,9 +24,17 @@ export function ThingsToKnow({ villa }: { villa: Villa }) {
         {block.groups.map((group) => (
           <Reveal key={group.title} className={styles.group} as="article">
             <h3 className={styles.groupTitle}>{group.title}</h3>
+            {group.intro ? (
+              <p className={styles.groupIntro}>{group.intro}</p>
+            ) : null}
             <ul className={styles.list}>
               {group.items.map((item) => (
-                <li key={item}>{item}</li>
+                <li key={item.label}>
+                  <p className={styles.itemLabel}>{item.label}</p>
+                  {item.detail ? (
+                    <p className={styles.itemDetail}>{item.detail}</p>
+                  ) : null}
+                </li>
               ))}
             </ul>
           </Reveal>

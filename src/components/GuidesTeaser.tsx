@@ -5,9 +5,9 @@ import styles from "./GuidesTeaser.module.css";
 
 export function GuidesTeaser() {
   const featuredSlugs = [
-    "yoga-retreat-villa-stay-in-ubud",
+    "ubud-villa-scams-travelers-should-avoid",
+    "safe-travel-ubud-avoid-scams",
     "visiting-ubud-for-travelers",
-    "where-is-ubud",
   ];
   const featured = featuredSlugs
     .map((slug) => guides.find((guide) => guide.slug === slug))
@@ -19,8 +19,8 @@ export function GuidesTeaser() {
         <p className={styles.kicker}>Guides</p>
         <h2 id="guides-title">Plan the stay — and the days around it</h2>
         <p className={styles.lede}>
-          Traveler guides for visiting Ubud—planning, health tips, yoga
-          retreats, and Tirta Tawar villa stays with easy WhatsApp booking.
+          Traveler guides for visiting Ubud—trust & scam awareness, planning,
+          and Tirta Tawar villa stays with official booking checkout.
         </p>
         <p className={styles.deal}>
           <Link href="/villas/the-hideaway#offer">

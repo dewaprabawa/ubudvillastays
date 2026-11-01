@@ -34,6 +34,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         "visiting-ubud-for-travelers",
         "bali-belly-ubud-travelers",
         "ubud-villa-scams-travelers-should-avoid",
+        "safe-travel-ubud-avoid-scams",
         "yoga-retreat-villa-stay-in-ubud",
       ].includes(guide.slug)
         ? 0.85

@@ -41,6 +41,7 @@ export function BookButton({
 
     const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
+    document.body.dataset.bookingOpen = "true";
     closeRef.current?.focus();
 
     function onKeyDown(event: KeyboardEvent) {
@@ -50,6 +51,7 @@ export function BookButton({
     window.addEventListener("keydown", onKeyDown);
     return () => {
       document.body.style.overflow = previousOverflow;
+      delete document.body.dataset.bookingOpen;
       window.removeEventListener("keydown", onKeyDown);
     };
   }, [open]);

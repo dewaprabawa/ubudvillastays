@@ -1,8 +1,9 @@
 "use client";
 
-import { useMemo, useState, type FormEvent } from "react";
+import { useId, useMemo, useState, type FormEvent } from "react";
 import {
   bookingWhatsApp,
+  formatBookingDate,
   getVilla,
   villas,
   type Villa,
@@ -35,12 +36,22 @@ function addDaysIso(isoDate: string, days: number) {
   return `${y}-${m}-${d}`;
 }
 
+function nightsBetween(checkIn: string, checkOut: string) {
+  if (!checkIn || !checkOut || checkOut <= checkIn) return 0;
+  const [y1, m1, d1] = checkIn.split("-").map(Number);
+  const [y2, m2, d2] = checkOut.split("-").map(Number);
+  const start = Date.UTC(y1, m1 - 1, d1);
+  const end = Date.UTC(y2, m2 - 1, d2);
+  return Math.round((end - start) / 86_400_000);
+}
+
 export function BookingForm({
   villa,
   defaultVillaSlug,
   variant = "inline",
   onSubmitted,
 }: BookingFormProps) {
+  const uid = useId();
   const initialSlug = villa?.slug ?? defaultVillaSlug ?? villas[0]?.slug ?? "";
   const [villaSlug, setVillaSlug] = useState(initialSlug);
   const [checkIn, setCheckIn] = useState("");
@@ -57,6 +68,7 @@ export function BookingForm({
   const maxGuests = selected?.facts.guests ?? 12;
   const minCheckIn = todayIso();
   const minCheckOut = checkIn ? addDaysIso(checkIn, 1) : addDaysIso(minCheckIn, 1);
+  const nights = nightsBetween(checkIn, checkOut);
 
   function handleCheckInChange(value: string) {
     setCheckIn(value);
@@ -74,7 +86,7 @@ export function BookingForm({
       return;
     }
     if (!checkIn || !checkOut) {
-      setError("Please add check-in and check-out dates.");
+      setError("Please select your date range.");
       return;
     }
     if (checkOut <= checkIn) {
@@ -82,7 +94,7 @@ export function BookingForm({
       return;
     }
     if (guests < 1 || guests > maxGuests) {
-      setError(`Guests must be between 1 and ${maxGuests}.`);
+      setError(`Number of persons must be between 1 and ${maxGuests}.`);
       return;
     }
 
@@ -107,111 +119,140 @@ export function BookingForm({
       onSubmit={handleSubmit}
       noValidate
     >
-      <div className={styles.grid}>
+      <div className={styles.groups}>
         {!villa ? (
-          <div className={styles.field}>
-            <label htmlFor="booking-villa">Villa</label>
-            <select
-              id="booking-villa"
-              name="villa"
-              value={villaSlug}
-              onChange={(event) => {
-                const next = event.target.value;
-                setVillaSlug(next);
-                const nextVilla = getVilla(next);
-                if (nextVilla && guests > nextVilla.facts.guests) {
-                  setGuests(nextVilla.facts.guests);
-                }
-              }}
-              required
-            >
-              {villas.map((item) => (
-                <option key={item.slug} value={item.slug}>
-                  {item.name} · up to {item.facts.guests} guests
-                </option>
-              ))}
-            </select>
-          </div>
+          <fieldset className={styles.group}>
+            <legend className={styles.groupTitle}>Villa</legend>
+            <p className={styles.groupHint}>Which home should we check?</p>
+            <div className={styles.field}>
+              <label htmlFor={`${uid}-villa`}>Select villa</label>
+              <select
+                id={`${uid}-villa`}
+                name="villa"
+                value={villaSlug}
+                onChange={(event) => {
+                  const next = event.target.value;
+                  setVillaSlug(next);
+                  const nextVilla = getVilla(next);
+                  if (nextVilla && guests > nextVilla.facts.guests) {
+                    setGuests(nextVilla.facts.guests);
+                  }
+                }}
+                required
+              >
+                {villas.map((item) => (
+                  <option key={item.slug} value={item.slug}>
+                    {item.name} · up to {item.facts.guests} guests
+                  </option>
+                ))}
+              </select>
+            </div>
+          </fieldset>
         ) : (
-          <p className={styles.hint}>
-            Checking {villa.name} · up to {villa.facts.guests} guests
+          <p className={styles.villaChip}>
+            Booking {villa.name} · up to {villa.facts.guests} guests
           </p>
         )}
 
-        <div className={`${styles.grid} ${styles.gridTwo}`}>
-          <div className={styles.field}>
-            <label htmlFor="booking-checkin">Check-in</label>
-            <input
-              id="booking-checkin"
-              name="checkIn"
-              type="date"
-              min={minCheckIn}
-              value={checkIn}
-              onChange={(event) => handleCheckInChange(event.target.value)}
-              required
-            />
+        <fieldset className={styles.group}>
+          <legend className={styles.groupTitle}>Date range</legend>
+          <p className={styles.groupHint}>
+            Choose check-in and check-out for your stay.
+          </p>
+          <div className={`${styles.grid} ${styles.gridTwo}`}>
+            <div className={styles.field}>
+              <label htmlFor={`${uid}-checkin`}>Check-in</label>
+              <input
+                id={`${uid}-checkin`}
+                name="checkIn"
+                type="date"
+                min={minCheckIn}
+                value={checkIn}
+                onChange={(event) => handleCheckInChange(event.target.value)}
+                required
+              />
+            </div>
+            <div className={styles.field}>
+              <label htmlFor={`${uid}-checkout`}>Check-out</label>
+              <input
+                id={`${uid}-checkout`}
+                name="checkOut"
+                type="date"
+                min={minCheckOut}
+                value={checkOut}
+                onChange={(event) => setCheckOut(event.target.value)}
+                required
+              />
+            </div>
           </div>
-          <div className={styles.field}>
-            <label htmlFor="booking-checkout">Check-out</label>
-            <input
-              id="booking-checkout"
-              name="checkOut"
-              type="date"
-              min={minCheckOut}
-              value={checkOut}
-              onChange={(event) => setCheckOut(event.target.value)}
-              required
-            />
-          </div>
-        </div>
+          {nights > 0 ? (
+            <p className={styles.summary}>
+              {formatBookingDate(checkIn)} → {formatBookingDate(checkOut)} ·{" "}
+              {nights} night{nights === 1 ? "" : "s"}
+            </p>
+          ) : null}
+        </fieldset>
 
-        <div className={`${styles.grid} ${styles.gridTwo}`}>
-          <div className={styles.field}>
-            <label htmlFor="booking-guests">Guests</label>
-            <input
-              id="booking-guests"
-              name="guests"
-              type="number"
-              min={1}
-              max={maxGuests}
-              value={guests}
-              onChange={(event) => setGuests(Number(event.target.value) || 1)}
-              required
-            />
+        <fieldset className={styles.group}>
+          <legend className={styles.groupTitle}>Number of persons</legend>
+          <p className={styles.groupHint}>
+            How many guests will stay (max {maxGuests})?
+          </p>
+          <div className={`${styles.grid} ${styles.gridTwo}`}>
+            <div className={styles.field}>
+              <label htmlFor={`${uid}-guests`}>Guests</label>
+              <input
+                id={`${uid}-guests`}
+                name="guests"
+                type="number"
+                min={1}
+                max={maxGuests}
+                value={guests}
+                onChange={(event) => setGuests(Number(event.target.value) || 1)}
+                required
+              />
+            </div>
+            <div className={styles.field}>
+              <label htmlFor={`${uid}-name`}>Your name</label>
+              <input
+                id={`${uid}-name`}
+                name="name"
+                type="text"
+                autoComplete="name"
+                placeholder="Optional"
+                value={name}
+                onChange={(event) => setName(event.target.value)}
+              />
+            </div>
           </div>
-          <div className={styles.field}>
-            <label htmlFor="booking-name">Your name</label>
-            <input
-              id="booking-name"
-              name="name"
-              type="text"
-              autoComplete="name"
-              placeholder="Optional"
-              value={name}
-              onChange={(event) => setName(event.target.value)}
-            />
-          </div>
-        </div>
+        </fieldset>
 
-        <div className={styles.field}>
-          <label htmlFor="booking-notes">Notes</label>
-          <textarea
-            id="booking-notes"
-            name="notes"
-            placeholder="Trip purpose, free activity pick, arrival time…"
-            value={notes}
-            onChange={(event) => setNotes(event.target.value)}
-          />
-        </div>
+        <fieldset className={styles.group}>
+          <legend className={styles.groupTitle}>Any details</legend>
+          <p className={styles.groupHint}>
+            Arrival time, free activity pick, special requests — optional.
+          </p>
+          <div className={styles.field}>
+            <label htmlFor={`${uid}-notes`}>Details</label>
+            <textarea
+              id={`${uid}-notes`}
+              name="notes"
+              placeholder="Tell us anything we should know…"
+              value={notes}
+              onChange={(event) => setNotes(event.target.value)}
+            />
+          </div>
+        </fieldset>
       </div>
 
       {error ? <p className={styles.error}>{error}</p> : null}
 
       <button className={styles.submit} type="submit">
-        Continue on WhatsApp
+        Check availability on WhatsApp
       </button>
       <p className={styles.footnote}>
-        Opens WhatsApp with your dates so we can confirm availability.
+        Continues in WhatsApp with your date range, guest count, and details so
+        we can confirm the villa is free.
       </p>
     </form>
   );

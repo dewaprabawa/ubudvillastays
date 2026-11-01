@@ -119,8 +119,8 @@ export function VillaOffer({ villa }: { villa: Villa }) {
             className={styles.primary}
             label="Check availability"
           />
-          <a className={styles.secondary} href="#reserve">
-            More booking options
+          <a className={styles.secondary} href="#booking">
+            Booking form
           </a>
         </div>
         <p className={styles.crossLinks}>

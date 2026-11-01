@@ -10,28 +10,41 @@ type ReserveProps = {
 
 export function Reserve({ villa }: ReserveProps) {
   const title = villa
-    ? `Reserve ${villa.name}`
-    : "Tell us your dates. We’ll match the villa.";
+    ? `Book ${villa.name}`
+    : "Book your Ubud villa stay";
   const airbnb = villa?.airbnbUrl;
   const offerLine = villa?.offer
-    ? ` From ${villa.offer.priceLabel} ${villa.offer.pricePer}, with one free activity included.`
+    ? ` Promo from ${villa.offer.priceLabel} ${villa.offer.pricePer}, with one free activity included.`
     : "";
 
   return (
-    <section id="reserve" className={styles.section} aria-labelledby="reserve-title">
+    <section
+      id="booking"
+      className={styles.section}
+      aria-labelledby="booking-title"
+    >
+      {/* Keep #reserve working for older links */}
+      <span id="reserve" className={styles.anchor} aria-hidden="true" />
       <Reveal className={styles.inner}>
-        <p className={styles.kicker}>Reserve · Tirta Tawar, Ubud</p>
-        <h2 id="reserve-title" className={styles.title}>
+        <p className={styles.kicker}>Booking · Tirta Tawar, Ubud</p>
+        <h2 id="booking-title" className={styles.title}>
           {title}
         </h2>
         <p className={styles.lede}>
-          Fill in your dates and guest count
-          {villa ? ` for ${villa.name}` : ", and which villa you prefer"}—
-          then continue on WhatsApp so we can check availability.
-          {offerLine} You can also email{" "}
+          Select your date range, number of persons, and any details
+          {villa ? ` for ${villa.name}` : " — then choose which villa"}. We
+          continue on WhatsApp to check availability.
+          {offerLine} Prefer email? Write{" "}
           <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
-          {airbnb ? " or continue to Airbnb for live calendar holds" : ""}.
+          {airbnb ? ", or hold dates on Airbnb" : ""}.
         </p>
+
+        <div className={styles.steps} aria-hidden="true">
+          <span>1. Date range</span>
+          <span>2. Persons</span>
+          <span>3. Details</span>
+          <span>4. WhatsApp</span>
+        </div>
 
         <BookingForm villa={villa} variant="inline" />
 
@@ -43,7 +56,7 @@ export function Reserve({ villa }: ReserveProps) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Book via Airbnb
+              Or book via Airbnb
             </a>
           ) : (
             <Link className={styles.secondary} href="/#villas">

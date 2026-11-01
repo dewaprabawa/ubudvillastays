@@ -77,8 +77,8 @@ export function BookButton({
                     Check availability
                   </h2>
                   <p className={styles.lede}>
-                    Add your dates — we continue on WhatsApp to confirm the
-                    villa is free.
+                    Date range, number of persons, and any details — then
+                    continue on WhatsApp.
                   </p>
                 </div>
                 <button

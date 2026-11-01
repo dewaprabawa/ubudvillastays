@@ -29,7 +29,7 @@ export function Footer() {
             </Link>
           ))}
           <Link href="/#location">Location</Link>
-          <Link href="/#reserve">Reserve</Link>
+          <Link href="/#booking">Book</Link>
           <a href={whatsappHref()}>WhatsApp</a>
           <a href={`mailto:${siteConfig.email}`}>Email</a>
         </nav>

@@ -5,9 +5,9 @@ import styles from "./GuidesTeaser.module.css";
 
 export function GuidesTeaser() {
   const featuredSlugs = [
-    "bali-travel-faq-for-first-timers",
-    "ubud-vs-canggu-seminyak-uluwatu",
-    "bali-visa-and-tourist-tax",
+    "ubud-3-day-itinerary-tirta-tawar",
+    "romantic-ubud-villa-getaway",
+    "family-holiday-ubud-villa",
   ];
   const featured = featuredSlugs
     .map((slug) => guides.find((guide) => guide.slug === slug))
@@ -19,8 +19,8 @@ export function GuidesTeaser() {
         <p className={styles.kicker}>Guides</p>
         <h2 id="guides-title">Plan the stay — and the days around it</h2>
         <p className={styles.lede}>
-          Bali FAQs travelers ask AI—visa & tax, where to stay, transport—and
-          Tirta Tawar villa booking checkout.
+          Impression guides for itineraries, couples, families, Kecak nights,
+          and villa mornings—plus Tirta Tawar booking checkout.
         </p>
         <p className={styles.deal}>
           <Link href="/villas/the-hideaway#offer">

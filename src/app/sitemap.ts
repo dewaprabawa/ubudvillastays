@@ -40,6 +40,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
         "bali-visa-and-tourist-tax",
         "ubud-vs-canggu-seminyak-uluwatu",
         "scooter-vs-driver-bali-ubud",
+        "ubud-3-day-itinerary-tirta-tawar",
+        "kecak-dance-ubud-evening-guide",
+        "romantic-ubud-villa-getaway",
+        "family-holiday-ubud-villa",
+        "ubud-private-pool-villa-mornings",
       ].includes(guide.slug)
         ? 0.85
         : 0.75,

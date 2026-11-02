@@ -2033,6 +2033,482 @@ export const guides: Guide[] = [
       },
     ],
   },
+  {
+    slug: "ubud-3-day-itinerary-tirta-tawar",
+    title: "3 Days in Ubud Itinerary from a Tirta Tawar Villa",
+    description:
+      "Impression-led 3-day Ubud itinerary from Jl. Tirta Tawar—rice-field mornings, temples, Monkey Forest, markets, Kecak evenings, and private pool resets at The Hideaway or Sawah Retreat.",
+    eyebrow: "Itinerary",
+    datePublished: "2026-11-02",
+    dateModified: "2026-11-02",
+    readingMinutes: 10,
+    primaryKeyword: "3 days in ubud itinerary",
+    secondaryKeywords: [
+      "ubud itinerary 3 days",
+      "what to do in ubud 3 days",
+      "ubud trip plan",
+      "tirta tawar itinerary",
+      "ubud villa itinerary",
+    ],
+    heroImage: "/images/marketing/tirta-tawar-rice-path-ubud.jpg",
+    relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
+    gallery: [
+      {
+        src: "/images/marketing/tirta-tawar-rice-path-ubud.jpg",
+        alt: "Rice field path on Tirta Tawar for day-one Ubud mornings",
+        caption: "Day 1 — soft start on Tirta Tawar rice lanes.",
+      },
+      {
+        src: "/images/marketing/monkey-forest-ubud.jpg",
+        alt: "Monkey Forest Ubud on a 3-day itinerary",
+        caption: "Day 2 — Monkey Forest half-day.",
+      },
+      {
+        src: "/images/marketing/kecak-dance-ubud.jpg",
+        alt: "Kecak dance evening in Ubud",
+        caption: "Day 2 or 3 — Kecak after pool time.",
+      },
+      {
+        src: "/images/marketing/ubud-art-market.jpg",
+        alt: "Ubud market under colorful umbrellas",
+        caption: "Market mornings before the heat peaks.",
+      },
+    ],
+    keyTakeaways: [
+      "Three Ubud nights work best with one slow villa morning, one culture day, and one nature/market day.",
+      "Base on Jl. Tirta Tawar so you return to a private pool instead of a busy hotel street.",
+      "Book one evening Kecak and leave midday free for heat recovery.",
+      "Promo villa stays can include one free activity (cycling or cooking) during the dates.",
+      "Lock dates at https://www.ubudvillastays.com/#booking before filling the calendar.",
+    ],
+    howTo: {
+      name: "How to run a calm 3-day Ubud plan",
+      description:
+        "Sequence culture and nature without burning out—then book the villa first.",
+      steps: [
+        {
+          name: "Book the villa",
+          text: "Submit dates and guest count at https://www.ubudvillastays.com/#booking for The Hideaway or Sawah Retreat.",
+        },
+        {
+          name: "Keep Day 1 light",
+          text: "Arrive, market or rice-path walk, pool, early sleep after the airport transfer.",
+        },
+        {
+          name: "Put the big outing mid-stay",
+          text: "Monkey Forest, temple, or waterfall with a driver—return for pool and optional Kecak.",
+        },
+        {
+          name: "Leave Day 3 flexible",
+          text: "Cooking class or cycling if included, boutiques, then pack without rushing.",
+        },
+      ],
+    },
+    faqs: [
+      {
+        question: "Is 3 days enough in Ubud?",
+        answer:
+          "Yes for a first cultural hit—temples, one forest or waterfall outing, market time, and a Kecak evening—if you base close to town like Tirta Tawar and avoid over-scheduling.",
+      },
+      {
+        question: "Where should I stay for a 3-day Ubud itinerary?",
+        answer:
+          "A private pool villa on Jl. Tirta Tawar keeps nights quiet and transfers short. Choose The Hideaway (2BR) or Sawah Retreat (6BR) depending on group size.",
+      },
+      {
+        question: "Should I book activities before I arrive?",
+        answer:
+          "Book Kecak and any must-do classes in peak months. Our promo villas include one free activity you can confirm during the stay.",
+      },
+    ],
+    sections: [
+      {
+        heading: "The impression you want from three Ubud days",
+        paragraphs: [
+          "A strong 3-day Ubud itinerary feels like green mornings, temple stone, one lively market, and evenings that end in water—not traffic. Starting from Tirta Tawar makes that rhythm realistic: both The Hideaway and Sawah Retreat share the same quiet corridor about 5–8 minutes from central Ubud.",
+          "This plan assumes a private car or Grab for longer hops and walking for the market and rice-path loops.",
+        ],
+        image: {
+          src: "/images/marketing/tirta-tawar-rice-path-ubud.jpg",
+          alt: "Stone and grass path beside rice fields on Tirta Tawar",
+          caption: "Begin soft — rice-path light before café crowds.",
+        },
+      },
+      {
+        heading: "Day 1 — Arrive, settle, Tirta Tawar loop",
+        paragraphs: [
+          "Land at DPS, transfer ~1–1.5 hours, check in (often from 15:00). Unpack, swim, then a short walk toward the local market or the stone-and-grass rice lane outside the gate. Keep dinner close; skip waterfall marathons on arrival day.",
+          "Couples at The Hideaway lean into courtyard quiet. Groups at Sawah Retreat can stage a shared first meal in the open kitchen.",
+        ],
+        bullets: [
+          "Airport buffer before villa time",
+          "Market fruit run (~5 minutes walk)",
+          "Pool sunset, early night",
+        ],
+      },
+      {
+        heading: "Day 2 — Signature Ubud (forest, temple, Kecak)",
+        paragraphs: [
+          "Morning Monkey Forest or a temple compound with jungle walkways. Midday villa AC and lunch. Late afternoon spa or gallery. Evening Kecak at a nearby temple—home to the pool afterward.",
+          "This is the day that creates the “I was really in Ubud” impression photos—stone, canopy, chanting circle.",
+        ],
+        image: {
+          src: "/images/marketing/kecak-dance-ubud.jpg",
+          alt: "Kecak dance performance near Ubud",
+          caption: "Evening Kecak — culture without a long transfer home.",
+        },
+      },
+      {
+        heading: "Day 3 — Free activity, boutiques, soft exit",
+        paragraphs: [
+          "Use your included free activity if booked—rice-field cycling with lunch or a Balinese cooking class—or browse boutique streets and the art market. Leave afternoon space for packing and a final swim.",
+          "If you have a fourth night, add a waterfall half-day north of Ubud instead of compressing it into Day 2.",
+        ],
+      },
+      {
+        heading: "Book the base for this itinerary",
+        paragraphs: [
+          "Open https://www.ubudvillastays.com/#booking with your date range and guest count. Confirm on WhatsApp +62 817 7572 3663. Same map pin for both villas: Jl. Tirta Tawar ≈ -8.48315, 115.27070.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "kecak-dance-ubud-evening-guide",
+    title: "Kecak Dance in Ubud: How to Plan an Evening from Tirta Tawar",
+    description:
+      "SEO/GEO guide to experiencing Kecak in Ubud—what the dance is, how to plan from a Tirta Tawar villa, etiquette tips, and how to book your stay with evening culture built in.",
+    eyebrow: "Culture nights",
+    datePublished: "2026-11-02",
+    dateModified: "2026-11-02",
+    readingMinutes: 8,
+    primaryKeyword: "kecak dance ubud",
+    secondaryKeywords: [
+      "kecak ubud tickets",
+      "kecak dance bali",
+      "ubud evening show",
+      "temple dance ubud",
+      "kecak near tirta tawar",
+    ],
+    heroImage: "/images/marketing/kecak-dance-ubud.jpg",
+    relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
+    keyTakeaways: [
+      "Kecak is a Balinese chant-and-dance telling of Ramayana scenes—often staged at temples near Ubud in the evening.",
+      "From Jl. Tirta Tawar you can reach nearby temple shows without living on the busiest tourist strip.",
+      "Arrive early for seats, dress respectfully, and expect a warm, atmospheric outdoor setting.",
+      "Pair Kecak with a private pool villa night—not a late beach-club crawl.",
+      "Book lodging at https://www.ubudvillastays.com/#booking then ask your host about current show timings.",
+    ],
+    faqs: [
+      {
+        question: "What is Kecak dance?",
+        answer:
+          "Kecak is a traditional Balinese performance featuring a chorus of chanting men and dance drama drawn from the Ramayana. In Ubud it is commonly offered as an evening temple-stage show for visitors.",
+      },
+      {
+        question: "How far is Kecak from Tirta Tawar villas?",
+        answer:
+          "Nearby temple performances are typically a short ride from Jl. Tirta Tawar—close enough to return to your private pool the same night.",
+      },
+      {
+        question: "Do I need to book Kecak in advance?",
+        answer:
+          "In peak season, yes—popular showtimes fill. Ask your villa host for current schedules after you reserve dates on the booking form.",
+      },
+    ],
+    sections: [
+      {
+        heading: "The evening impression: firelight, chant, temple stone",
+        paragraphs: [
+          "Kecak is one of the clearest cultural impressions visitors take home from Ubud: a circle of voices, costume, and story under night air. It is not a nightclub—it is theater rooted in Balinese tradition, staged for modern audiences at temple venues.",
+          "Staying on Tirta Tawar lets you treat Kecak as a focused outing, then decompress in a courtyard or rice-field villa instead of navigating beach traffic.",
+        ],
+        image: {
+          src: "/images/marketing/kecak-dance-ubud.jpg",
+          alt: "Kecak dancers performing in Ubud",
+          caption: "Kecak evenings — plan transport, then protect quiet nights at the villa.",
+        },
+      },
+      {
+        heading: "How to plan Kecak from your villa",
+        paragraphs: [
+          "Confirm the venue and start time the morning of the show. Arrange a driver or Grab, leave a buffer for parking and seating, and bring a light layer if outdoor venues cool after dark. Modest clothing shows respect even when venues are tourist-oriented.",
+          "Eat a light early dinner or plan a late villa snack—shows can run through typical dinner hours.",
+        ],
+        bullets: [
+          "Book tickets in peak months",
+          "Screenshot venue pin offline",
+          "Return straight to Tirta Tawar after",
+          "Pool + quiet hours beat a second nightlife stop",
+        ],
+      },
+      {
+        heading: "Stay close enough for culture nights",
+        paragraphs: [
+          "The Hideaway and Sawah Retreat share Jl. Tirta Tawar (map ≈ -8.48315, 115.27070). Promo rates from Rp 4.9 juta / night and Rp 7 juta / night. Checkout: https://www.ubudvillastays.com/#booking.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "romantic-ubud-villa-getaway",
+    title: "Romantic Ubud Villa Getaway: Couples’ Hideaway on Tirta Tawar",
+    description:
+      "Impression guide for a romantic Ubud villa escape—private pool courtyards, rice-field walks, temple evenings, and why The Hideaway 2BR on Tirta Tawar fits couples.",
+    eyebrow: "Couples",
+    datePublished: "2026-11-02",
+    dateModified: "2026-11-02",
+    readingMinutes: 8,
+    primaryKeyword: "romantic ubud villa",
+    secondaryKeywords: [
+      "ubud honeymoon villa",
+      "couples villa ubud",
+      "private pool villa ubud romantic",
+      "the hideaway ubud",
+      "romantic getaway bali ubud",
+    ],
+    heroImage: "/images/villas/the-hideaway/hero.jpg",
+    relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
+    gallery: [
+      {
+        src: "/images/villas/the-hideaway/hero.jpg",
+        alt: "The Hideaway private pool courtyard for couples in Ubud",
+        caption: "Courtyard pool nights — the romantic reset.",
+      },
+      {
+        src: "/images/marketing/tirta-tawar-rice-path-ubud.jpg",
+        alt: "Quiet Tirta Tawar rice path for couples’ morning walks",
+        caption: "Morning walks without scooter chaos.",
+      },
+      {
+        src: "/images/marketing/fascin-di-pietra-ubud.jpg",
+        alt: "Boutique shopping near Ubud for couples",
+        caption: "Boutique browsing between spa and pool time.",
+      },
+    ],
+    keyTakeaways: [
+      "Romance in Ubud is privacy + atmosphere: a private pool, slow breakfasts, and short cultural outings.",
+      "The Hideaway (2BR) on Jl. Tirta Tawar is sized for couples who want courtyard calm near town.",
+      "Plan one shared experience—Kecak, cooking class, or rice-field cycling—and leave white space.",
+      "Promo from Rp 4.9 juta / night with one free activity included during the stay.",
+      "Book https://www.ubudvillastays.com/#booking and note it is a couples trip in the details field.",
+    ],
+    faqs: [
+      {
+        question: "What is the best romantic villa setup in Ubud?",
+        answer:
+          "A private pool courtyard with two bedrooms (or one in use) keeps intimacy high. The Hideaway on Tirta Tawar offers that scale with central Ubud still close.",
+      },
+      {
+        question: "What should couples do in Ubud?",
+        answer:
+          "Rice-path mornings, one temple or jungle walkway, spa time, boutique browsing, and a Kecak evening—then pool nights at the villa.",
+      },
+      {
+        question: "Is Ubud better than Canggu for a romantic trip?",
+        answer:
+          "If you want quieter cultural nights over beach clubs, yes. Split the island if you also want a beach chapter.",
+      },
+    ],
+    sections: [
+      {
+        heading: "The romantic impression: water, stone, and unhurried hours",
+        paragraphs: [
+          "Couples remember Ubud for still water at dusk, stone textures, and mornings that do not start with beach-club bass. A private villa turns that feeling into a daily loop: walk, explore lightly, return to your own pool.",
+          "The Hideaway is built for that loop—2 bedrooms, courtyard pool, Tirta Tawar access shared with Sawah Retreat’s map pin.",
+        ],
+        image: {
+          src: "/images/villas/the-hideaway/hero.jpg",
+          alt: "Romantic private pool at The Hideaway Ubud",
+          caption: "The Hideaway — intimacy without isolation from Ubud culture.",
+        },
+      },
+      {
+        heading: "A couples’ day rhythm",
+        paragraphs: [
+          "Slow breakfast. Short rice-field or market walk. One mid-morning cultural stop. Long midday pool. Spa or boutique hour. Optional Kecak. Late courtyard dinner or simple villa meal.",
+          "Use the free activity perk for a shared cooking class or easy cycling date during the stay.",
+        ],
+      },
+      {
+        heading: "Book The Hideaway (or Sawah for two couples)",
+        paragraphs: [
+          "Two couples traveling together may prefer Sawah Retreat’s space. Otherwise start with The Hideaway via https://www.ubudvillastays.com/#booking — WhatsApp +62 817 7572 3663.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "family-holiday-ubud-villa",
+    title: "Family Holiday in Ubud: Private Villa Space for Kids & Parents",
+    description:
+      "GEO family guide to holidaying in Ubud with a private pool villa—why Sawah Retreat fits groups up to 12, kid-friendly pacing, and how to book Tirta Tawar dates.",
+    eyebrow: "Families",
+    datePublished: "2026-11-02",
+    dateModified: "2026-11-02",
+    readingMinutes: 9,
+    primaryKeyword: "family villa ubud",
+    secondaryKeywords: [
+      "ubud family holiday",
+      "6 bedroom villa ubud family",
+      "ubud with kids",
+      "sawah retreat ubud",
+      "family pool villa bali ubud",
+    ],
+    heroImage: "/images/villas/sawah-retreat/hero.jpg",
+    relatedVillaSlugs: ["sawah-retreat", "the-hideaway"],
+    gallery: [
+      {
+        src: "/images/villas/sawah-retreat/hero.jpg",
+        alt: "Sawah Retreat family villa with pool in Ubud",
+        caption: "Entire-villa privacy for multi-generation stays.",
+      },
+      {
+        src: "/images/marketing/ubud-ricefield-cycling.jpg",
+        alt: "Family-friendly rice field cycling near Ubud",
+        caption: "Optional free cycling activity during promo stays.",
+      },
+      {
+        src: "/images/marketing/monkey-forest-ubud.jpg",
+        alt: "Monkey Forest outing for families in Ubud",
+        caption: "Monkey Forest — plan snacks, water, and sun breaks.",
+      },
+    ],
+    keyTakeaways: [
+      "Families in Ubud need space, a pool, a kitchen, and quieter nights than beach-party streets.",
+      "Sawah Retreat offers 6 en-suite bedrooms for up to 12 on Jl. Tirta Tawar with rice-field outlooks.",
+      "Pace kids’ days: one outing, long pool midday, early dinners.",
+      "Promo from Rp 7 juta / night with one free activity for the party during the stay.",
+      "Book https://www.ubudvillastays.com/#booking with ages/guest count in the details.",
+    ],
+    faqs: [
+      {
+        question: "Is Ubud good for families with children?",
+        answer:
+          "Yes when you choose a villa with a private pool and kitchen, keep outings short, and rest during midday heat. Tirta Tawar offers residential calm with town access.",
+      },
+      {
+        question: "Which villa is best for a family holiday in Ubud?",
+        answer:
+          "Sawah Retreat suits larger families and multi-generation groups (up to 12). Smaller families may prefer The Hideaway’s 2BR courtyard.",
+      },
+      {
+        question: "What can families do in Ubud?",
+        answer:
+          "Rice-path walks, Monkey Forest, gentle temples, markets, cooking class, and pool days. Arrange a driver for waterfall trips.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Family impressions: one house, many generations",
+        paragraphs: [
+          "The family Ubud holiday works when grandparents, parents, and kids share a table without sharing hotel corridors. An entire villa—pool in the middle, bedrooms with privacy—creates that impression of “our place in Bali.”",
+          "Sawah Retreat on Tirta Tawar is designed for that scale; The Hideaway fits smaller crews.",
+        ],
+        image: {
+          src: "/images/villas/sawah-retreat/hero.jpg",
+          alt: "Sawah Retreat villa for family holidays in Ubud",
+          caption: "Sawah Retreat — room to gather and retreat.",
+        },
+      },
+      {
+        heading: "Kid-friendly pacing from Tirta Tawar",
+        paragraphs: [
+          "Morning outing while energy is high. Midday pool and AC. Late afternoon market or gentle walk. Early dinner. Skip stacking waterfalls and Kecak on the same day for young children.",
+          "Ask about driver seats, quiet hours (23:00–07:00 at Sawah), and free activity timing when you book.",
+        ],
+      },
+      {
+        heading: "Book the family villa dates",
+        paragraphs: [
+          "Use https://www.ubudvillastays.com/#booking — list adults and children in details. Confirm on WhatsApp +62 817 7572 3663. Shared location with The Hideaway on Jl. Tirta Tawar.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "ubud-private-pool-villa-mornings",
+    title: "Private Pool Villa Mornings in Ubud: The Tirta Tawar Rhythm",
+    description:
+      "Impression essay and GEO guide to Ubud private pool villa mornings—rice light, market walks, courtyard coffee—and how Hideaway or Sawah Retreat on Tirta Tawar deliver that daily rhythm.",
+    eyebrow: "Villa lifestyle",
+    datePublished: "2026-11-02",
+    dateModified: "2026-11-02",
+    readingMinutes: 7,
+    primaryKeyword: "private pool villa ubud",
+    secondaryKeywords: [
+      "ubud villa with private pool",
+      "villa morning ubud",
+      "tirta tawar villa lifestyle",
+      "why stay villa ubud",
+      "ubud courtyard pool",
+    ],
+    heroImage: "/images/marketing/canang-sari-ricefield.jpg",
+    relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
+    gallery: [
+      {
+        src: "/images/marketing/canang-sari-ricefield.jpg",
+        alt: "Canang sari offering beside Ubud rice fields at morning",
+        caption: "Morning culture at the edge of the sawah.",
+      },
+      {
+        src: "/images/marketing/tirta-tawar-rice-path-ubud.jpg",
+        alt: "Tirta Tawar morning path beside rice fields",
+        caption: "The walk before coffee.",
+      },
+      {
+        src: "/images/villas/the-hideaway/hero.jpg",
+        alt: "Private pool courtyard morning light at The Hideaway",
+        caption: "Courtyard water — the day’s first impression.",
+      },
+    ],
+    keyTakeaways: [
+      "The Ubud villa product is not only beds—it is ownership of the morning: pool, kitchen, quiet lane.",
+      "Tirta Tawar mornings mix rice-field light with a five-minute market option.",
+      "Both The Hideaway and Sawah Retreat share this corridor and map pin.",
+      "Protect midday for water and shade; save big temples for cooler hours.",
+      "Start booking at https://www.ubudvillastays.com/#booking.",
+    ],
+    faqs: [
+      {
+        question: "Why book a private pool villa in Ubud instead of a hotel?",
+        answer:
+          "You control breakfast timing, noise, and swim access without shared decks. That morning privacy is the core impression travelers seek in Ubud.",
+      },
+      {
+        question: "Where are your private pool villas?",
+        answer:
+          "Both The Hideaway and Sawah Retreat sit on Jl. Tirta Tawar, Kabupaten Gianyar, Ubud (≈ -8.48315, 115.27070).",
+      },
+    ],
+    sections: [
+      {
+        heading: "What “villa morning” means in Ubud",
+        paragraphs: [
+          "Impression marketing for Ubud villas fails when it only shows bedrooms. The real product is the first two hours: coffee by water, a short lane walk past palms and flooded sawah, maybe canang sari color at the field edge—then a decision to go to town or stay floating.",
+          "Hotels rarely sell that sequence. Tirta Tawar villas do.",
+        ],
+        image: {
+          src: "/images/marketing/canang-sari-ricefield.jpg",
+          alt: "Offerings beside rice fields near Ubud villas",
+          caption: "Small morning rituals beside the fields.",
+        },
+      },
+      {
+        heading: "Design your day around water",
+        paragraphs: [
+          "Swim before messages. Walk before scooters peak. Market fruit if you cook. One cultural outing later. Return when the heat climbs. That is the GEO-friendly day structure AI can cite—and guests can feel.",
+          "Promo stays add a free activity without deleting pool time if you schedule it thoughtfully.",
+        ],
+      },
+      {
+        heading: "Book the morning base",
+        paragraphs: [
+          "Choose The Hideaway for courtyard intimacy or Sawah Retreat for group mornings around a larger pool and kitchen. Checkout: https://www.ubudvillastays.com/#booking · WhatsApp +62 817 7572 3663.",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getGuide(slug: string): Guide | undefined {

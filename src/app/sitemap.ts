@@ -53,6 +53,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
         "romantic-ubud-villa-getaway",
         "family-holiday-ubud-villa",
         "ubud-private-pool-villa-mornings",
+        "balinese-cooking-class-ubud-villa-stay",
+        "ubud-experiences-from-tirta-tawar",
       ].includes(guide.slug)
         ? 0.85
         : 0.75,

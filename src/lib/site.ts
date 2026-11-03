@@ -48,20 +48,21 @@ export type VillaOffer = {
 
 const freeStayActivities: VillaOfferActivity[] = [
   {
+    title: "Balinese cooking class (rice terrace)",
+    copy: "The standout free extra: cook Balinese dishes with a local host overlooking rice terraces — market ingredients, hands-on steps, and a shared meal at the end. Included with your villa stay (pick one activity).",
+    url: "https://www.sekarbaliactivity.com/tours/balinese-cooking-class",
+    image: "/images/marketing/cooking-class-plates.jpg",
+    imageAlt:
+      "Guests holding finished Balinese dishes after a rice-terrace cooking class near Ubud",
+    mostPicked: true,
+  },
+  {
     title: "Ubud rice field cycling + lunch",
-    copy: "A guided bike ride through quiet rice-field paths around Ubud, with lunch included. Easy pace — good for couples and small families who want green views without a long day trip.",
+    copy: "Or choose a guided bike ride through quiet rice-field paths around Ubud, with lunch included. Easy pace — good for couples and small families who want green views without a long day trip.",
     url: "https://www.sekarbaliactivity.com/tours/ubud-ricefield-cycling-tour",
     image: "/images/marketing/ubud-ricefield-cycling.jpg",
     imageAlt:
       "Guests cycling through green Ubud rice fields on a guided tour",
-    mostPicked: true,
-  },
-  {
-    title: "Balinese cooking class (rice terrace)",
-    copy: "Learn to cook Balinese dishes with a local host overlooking rice terraces — market-style ingredients, hands-on steps, and a shared meal at the end.",
-    url: "https://www.sekarbaliactivity.com/tours/balinese-cooking-class",
-    image: "/images/marketing/cooking-class-ricefield.jpg",
-    imageAlt: "Balinese cooking class set against rice terraces near Ubud",
   },
 ];
 
@@ -174,46 +175,46 @@ export const siteConfig = {
   },
   experience: {
     title: "More than a bed in Ubud.",
-    lede: "From Jl. Tirta Tawar you wake to a private pool — then step into markets, temple dance, forest paths, and waterfalls. Holiday stays and longer investment-friendly accommodation, with many free extras included.",
+    lede: "The best Ubud stay is not just the villa — it is the days around it. From Jl. Tirta Tawar you wake to a private pool, then cook Balinese food on a rice terrace (free with your stay), cycle the fields, shop the market, and catch temple evenings.",
     gallery: [
       {
-        src: "/images/marketing/ubud-art-market.jpg",
-        alt: "Ubud traditional art market stalls under colorful umbrellas",
-        caption: "Local market — about a five-minute walk",
+        src: "/images/marketing/cooking-class-plates.jpg",
+        alt: "Guests with finished dishes from a Balinese cooking class near Ubud rice terraces",
+        caption: "Free cooking class on the rice terrace",
         width: 1800,
-        height: 1200,
+        height: 1207,
       },
       {
-        src: "/images/marketing/kecak-dance-ubud.jpg",
-        alt: "Kecak dance performance at a temple near Ubud, Bali",
-        caption: "Kecak at a nearby temple",
+        src: "/images/marketing/ubud-local-market-produce.jpg",
+        alt: "Fresh produce and market ingredients for a Balinese cooking class in Ubud",
+        caption: "Market ingredients before class",
         width: 1800,
-        height: 1570,
+        height: 1207,
       },
       {
-        src: "/images/marketing/monkey-forest-ubud.jpg",
-        alt: "Macaques at Ubud Monkey Forest",
-        caption: "Monkey Forest within easy reach",
-        width: 1800,
-        height: 1200,
+        src: "/images/marketing/cooking-class-nasi-campur.jpg",
+        alt: "Plated Balinese nasi campur meal from a rice-terrace cooking class near Ubud",
+        caption: "Shared meal after cooking",
+        width: 1350,
+        height: 1800,
       },
     ],
     points: [
       {
+        title: "Free rice-terrace cooking class",
+        copy: "Every promo villa stay includes one free activity — the standout pick is a Balinese cooking class overlooking rice terraces, with market-style ingredients and a shared meal. Or choose free rice-field cycling with lunch.",
+      },
+      {
         title: "Traditional market nearby",
-        copy: "Reach the local traditional market in about five minutes on foot — fresh produce, daily Bali rhythm, no tourist scramble required.",
+        copy: "Reach the local traditional market in about five minutes on foot — fresh produce, daily Bali rhythm, and the same ingredient culture you meet in class.",
       },
       {
-        title: "Kecak at the nearest temple",
-        copy: "Evening Kecak and temple ceremonies sit close to home. Culture is part of the neighborhood, not a long transfer away.",
+        title: "Kecak, forest & waterfalls",
+        copy: "Evening Kecak at nearby temples, Monkey Forest, and north-of-Ubud waterfalls sit close to Tirta Tawar — culture and nature without giving up quiet villa nights.",
       },
       {
-        title: "Monkey Forest & waterfalls",
-        copy: "Ubud Monkey Forest, Campuhan walks, and north-of-Ubud waterfalls are an easy base from Tirta Tawar — nature without giving up town access.",
-      },
-      {
-        title: "Holiday or investment stay",
-        copy: "Book a short escape or a longer stay. Both villas are built for comfortable living — private pools, kitchens, Wi‑Fi — with many free extras that hotels charge for.",
+        title: "Holiday or longer stay",
+        copy: "Book a short escape or a longer stay. Both villas are built for living — private pools, kitchens, Wi‑Fi — with free extras hotels usually charge for.",
       },
     ],
   },
@@ -251,14 +252,14 @@ export const villas: Villa[] = [
       badge: "Most picked",
       currency: "IDR",
       eyebrow: "Promo stay · Tirta Tawar, Ubud",
-      headline: "Villa nights + one free Ubud activity.",
-      lede: "Promo rate Rp 4.9 juta / night on Jl. Tirta Tawar (15% off the regular Rp 5.765.000). Choose one complimentary Sekar Bali Activity during your stay.",
-      activityIntro: "Free activity choice — pick one for your party:",
+      headline: "Villa nights + a free rice-terrace cooking class.",
+      lede: "Promo rate Rp 4.9 juta / night on Jl. Tirta Tawar (15% off the regular Rp 5.765.000). Your stay includes one free activity — Balinese cooking class on the rice terrace (standout) or rice-field cycling with lunch.",
+      activityIntro: "Included free — pick one for your party:",
       activityTiming:
-        "You can choose during your stay period — tell us at booking or once you arrive, as long as we confirm the activity date while you are here.",
+        "Choose at booking or during your stay — we confirm the cooking class or cycling date while you are here.",
       activities: freeStayActivities,
       ctaNote:
-        "WhatsApp your dates — pick cycling or cooking now, or during your stay. We confirm the activity slot while you are here.",
+        "WhatsApp your dates — name free cooking class or free cycling now, or decide after arrival. We confirm the slot while you are here.",
     },
     airbnbUrl: "https://www.airbnb.com/rooms/1429000075230755234",
     heroImage: "/images/villas/the-hideaway/hero.jpg",
@@ -569,14 +570,14 @@ export const villas: Villa[] = [
       badge: "Group stay",
       currency: "IDR",
       eyebrow: "Promo stay · Tirta Tawar, Ubud",
-      headline: "Group villa nights + one free Ubud activity.",
-      lede: "Promo rate Rp 7 juta / night on Jl. Tirta Tawar (15% off the regular Rp 8.235.000) — for families, friend groups, and retreats. Choose one complimentary Sekar Bali Activity during your stay.",
-      activityIntro: "Free activity choice — pick one for your party:",
+      headline: "Group villa nights + a free rice-terrace cooking class.",
+      lede: "Promo rate Rp 7 juta / night on Jl. Tirta Tawar (15% off the regular Rp 8.235.000) — for families, friend groups, and retreats. Your stay includes one free activity — Balinese cooking class on the rice terrace (standout) or rice-field cycling with lunch.",
+      activityIntro: "Included free — pick one for your party:",
       activityTiming:
-        "You can choose during your stay period — tell us at booking or once you arrive, as long as we confirm the activity date while you are here.",
+        "Choose at booking or during your stay — we confirm the cooking class or cycling date while you are here.",
       activities: freeStayActivities,
       ctaNote:
-        "WhatsApp your dates and guest count — pick cycling or cooking now, or during your stay. We confirm the activity slot while you are here.",
+        "WhatsApp your dates and guest count — name free cooking class or free cycling now, or decide after arrival. We confirm the slot while you are here.",
     },
     airbnbUrl: "https://www.airbnb.com/rooms/23112175",
     heroImage: "/images/villas/sawah-retreat/hero.jpg",

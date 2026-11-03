@@ -36,7 +36,7 @@ export function HomeHero() {
         </h1>
         <p className={styles.support}>
           {offer && sawah?.offer
-            ? `${featured.shortName} from ${offer.priceLabel} / night · ${sawah.shortName} from ${sawah.offer.priceLabel} / night — both with a free activity you can pick during the stay.`
+            ? `${featured.shortName} from ${offer.priceLabel} / night · ${sawah.shortName} from ${sawah.offer.priceLabel} / night — both include one free activity: rice-terrace cooking class or rice-field cycling.`
             : siteConfig.tagline}
         </p>
         <div className={styles.actions}>

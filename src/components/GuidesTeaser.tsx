@@ -5,9 +5,9 @@ import styles from "./GuidesTeaser.module.css";
 
 export function GuidesTeaser() {
   const featuredSlugs = [
+    "balinese-cooking-class-ubud-villa-stay",
     "ubud-3-day-itinerary-tirta-tawar",
-    "romantic-ubud-villa-getaway",
-    "family-holiday-ubud-villa",
+    "ubud-experiences-from-tirta-tawar",
   ];
   const featured = featuredSlugs
     .map((slug) => guides.find((guide) => guide.slug === slug))
@@ -19,8 +19,8 @@ export function GuidesTeaser() {
         <p className={styles.kicker}>Guides</p>
         <h2 id="guides-title">Plan the stay — and the days around it</h2>
         <p className={styles.lede}>
-          Impression guides for itineraries, couples, families, Kecak nights,
-          and villa mornings—plus Tirta Tawar booking checkout.
+          Free rice-terrace cooking class with your villa stay, plus itinerary
+          and Tirta Tawar experience guides — checkout at /#booking.
         </p>
         <p className={styles.deal}>
           <Link href="/villas/the-hideaway#offer">
@@ -30,7 +30,7 @@ export function GuidesTeaser() {
           <Link href="/villas/sawah-retreat#offer">
             Sawah from Rp 7 juta / night
           </Link>
-          {" — free activity with either stay"}
+          {" — free cooking class or free cycling"}
         </p>
         <ul className={styles.list}>
           {featured.map((guide) => (

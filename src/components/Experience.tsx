@@ -7,7 +7,7 @@ import styles from "./Experience.module.css";
 
 export function Experience() {
   const { experience, location } = siteConfig;
-  const [market, kecak, forest] = experience.gallery;
+  const [feature, second, third] = experience.gallery;
 
   return (
     <section
@@ -32,7 +32,8 @@ export function Experience() {
           </ul>
           <p className={styles.geo}>
             Private pool villas on {location.streetAddress}, {location.city},{" "}
-            {location.region} — holiday and longer stays with room to live.
+            {location.region} — holiday and longer stays with a free cooking
+            class or free cycling included.
           </p>
           <div className={styles.actions}>
             <BookButton
@@ -51,6 +52,10 @@ export function Experience() {
               </span>
             ))}
             {" · "}
+            <Link href="/guides/balinese-cooking-class-ubud-villa-stay">
+              Cooking class guide
+            </Link>
+            {" · "}
             <Link href="/guides/ubud-experiences-from-tirta-tawar">
               Experience guide
             </Link>
@@ -60,36 +65,36 @@ export function Experience() {
         <div className={styles.gallery} aria-label="Ubud experiences nearby">
           <figure className={`${styles.shot} ${styles.feature}`}>
             <Image
-              src={kecak.src}
-              alt={kecak.alt}
-              width={kecak.width}
-              height={kecak.height}
+              src={feature.src}
+              alt={feature.alt}
+              width={feature.width}
+              height={feature.height}
               sizes="(max-width: 900px) 100vw, 48vw"
               className={styles.image}
             />
-            <figcaption>{kecak.caption}</figcaption>
+            <figcaption>{feature.caption}</figcaption>
           </figure>
           <figure className={styles.shot}>
             <Image
-              src={market.src}
-              alt={market.alt}
-              width={market.width}
-              height={market.height}
+              src={second.src}
+              alt={second.alt}
+              width={second.width}
+              height={second.height}
               sizes="(max-width: 900px) 100vw, 24vw"
               className={styles.image}
             />
-            <figcaption>{market.caption}</figcaption>
+            <figcaption>{second.caption}</figcaption>
           </figure>
           <figure className={styles.shot}>
             <Image
-              src={forest.src}
-              alt={forest.alt}
-              width={forest.width}
-              height={forest.height}
+              src={third.src}
+              alt={third.alt}
+              width={third.width}
+              height={third.height}
               sizes="(max-width: 900px) 100vw, 24vw"
               className={styles.image}
             />
-            <figcaption>{forest.caption}</figcaption>
+            <figcaption>{third.caption}</figcaption>
           </figure>
         </div>
       </Reveal>

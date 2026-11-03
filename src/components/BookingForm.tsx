@@ -147,11 +147,43 @@ export function BookingForm({
                 ))}
               </select>
             </div>
+            <div className={styles.extras} aria-label="Free extras with your stay">
+              <p className={styles.extrasTitle}>
+                Stay includes one free activity — choose during booking or stay
+              </p>
+              <ul className={styles.extrasList}>
+                <li>
+                  <strong>Free cooking class</strong>
+                  <span>Balinese class on the rice terrace</span>
+                </li>
+                <li>
+                  <strong>Free cycling</strong>
+                  <span>Ubud rice-field ride + lunch</span>
+                </li>
+              </ul>
+            </div>
           </fieldset>
         ) : (
-          <p className={styles.villaChip}>
-            Booking {villa.name} · up to {villa.facts.guests} guests
-          </p>
+          <div className={styles.villaLocked}>
+            <p className={styles.villaChip}>
+              Booking {villa.name} · up to {villa.facts.guests} guests
+            </p>
+            <div className={styles.extras} aria-label="Free extras with your stay">
+              <p className={styles.extrasTitle}>
+                Stay includes one free activity — choose during booking or stay
+              </p>
+              <ul className={styles.extrasList}>
+                <li>
+                  <strong>Free cooking class</strong>
+                  <span>Balinese class on the rice terrace</span>
+                </li>
+                <li>
+                  <strong>Free cycling</strong>
+                  <span>Ubud rice-field ride + lunch</span>
+                </li>
+              </ul>
+            </div>
+          </div>
         )}
 
         <fieldset className={styles.group}>
@@ -230,14 +262,15 @@ export function BookingForm({
         <fieldset className={styles.group}>
           <legend className={styles.groupTitle}>Any details</legend>
           <p className={styles.groupHint}>
-            Arrival time, free activity pick, special requests — optional.
+            Prefer free cooking class or free cycling? Arrival time and other
+            requests — optional.
           </p>
           <div className={styles.field}>
             <label htmlFor={`${uid}-notes`}>Details</label>
             <textarea
               id={`${uid}-notes`}
               name="notes"
-              placeholder="Tell us anything we should know…"
+              placeholder="Free cooking class / free cycling · arrival time · anything else…"
               value={notes}
               onChange={(event) => setNotes(event.target.value)}
             />

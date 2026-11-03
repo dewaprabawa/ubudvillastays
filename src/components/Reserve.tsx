@@ -13,8 +13,8 @@ export function Reserve({ villa }: ReserveProps) {
     ? `Book ${villa.name}`
     : "Book your Ubud villa stay";
   const offerLine = villa?.offer
-    ? ` Promo from ${villa.offer.priceLabel} ${villa.offer.pricePer}, with one free activity included.`
-    : "";
+    ? ` Promo from ${villa.offer.priceLabel} ${villa.offer.pricePer} — stay includes one free activity (cooking class on the rice terrace or rice-field cycling).`
+    : " Both villas include one free activity: Balinese cooking class on the rice terrace or Ubud rice-field cycling with lunch.";
 
   return (
     <section

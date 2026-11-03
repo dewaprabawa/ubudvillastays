@@ -227,7 +227,7 @@ export const villas: Villa[] = [
     shortName: "Hideaway",
     eyebrow: "2 bedrooms · private courtyard",
     tagline:
-      "Promo from Rp 4.9 juta / night on Jl. Tirta Tawar — plus one free Ubud activity.",
+      "Promo from Rp 4.9 juta / night on Jl. Tirta Tawar — free cooking class or free cycling.",
     description:
       "Book The Hideaway at the promo rate from Rp 4.9 juta per night (15% off regular Rp 5.765.000) — a 2-bedroom private pool villa on Jl. Tirta Tawar, Ubud, Bali. Stay includes your pick of one free activity: Ubud rice field cycling with lunch or a Balinese cooking class. Market, Kecak, Monkey Forest nearby. Inquire on WhatsApp.",
     headline: "Quiet mornings by the pool.\nUbud’s culture just beyond the gate.",
@@ -545,7 +545,7 @@ export const villas: Villa[] = [
     shortName: "Sawah",
     eyebrow: "6 bedrooms · rice field views",
     tagline:
-      "Promo from Rp 7 juta / night on Jl. Tirta Tawar — groups, retreats, plus free activity choice.",
+      "Promo from Rp 7 juta / night on Jl. Tirta Tawar — groups, retreats, free cooking class or cycling.",
     description:
       "Book Sawah Retreat at the promo rate from Rp 7 juta per night (15% off regular Rp 8.235.000) — a 6-bedroom private pool villa with rice field views on Jl. Tirta Tawar, Ubud, Bali. Entire home for up to 12 guests, with your pick of one free activity (rice field cycling + lunch or Balinese cooking class) during the stay. Inquire on WhatsApp.",
     headline: "Rice fields at the edge of the pool.\nRoom for everyone to gather.",

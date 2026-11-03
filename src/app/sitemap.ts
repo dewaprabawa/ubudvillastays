@@ -24,6 +24,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly" as const,
       priority: 0.9,
     })),
+    ...villas
+      .filter((villa) => (villa.gallery?.length ?? 0) > 0)
+      .map((villa) => ({
+        url: `${siteConfig.url}/villas/${villa.slug}/gallery`,
+        lastModified: now,
+        changeFrequency: "monthly" as const,
+        priority: 0.8,
+      })),
     ...guides.map((guide) => ({
       url: `${siteConfig.url}/guides/${guide.slug}`,
       lastModified: new Date(guide.dateModified),

@@ -1,0 +1,159 @@
+.section {
+  padding: clamp(5.5rem, 12vh, 7rem) 0 clamp(3.5rem, 8vw, 5.5rem);
+  background:
+    linear-gradient(180deg, rgba(228, 235, 230, 0.55) 0%, transparent 22%),
+    var(--limestone);
+}
+
+.intro {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 clamp(1.25rem, 4vw, 3rem) clamp(1.75rem, 4vw, 2.75rem);
+}
+
+.kicker {
+  margin: 0 0 0.85rem;
+  font-size: 0.78rem;
+  font-weight: 650;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--lagoon);
+}
+
+.title {
+  margin: 0;
+  max-width: 18ch;
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4.4vw, 3.1rem);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+.lede {
+  margin: 1rem 0 0;
+  max-width: 36rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+.backRow {
+  margin: 1.35rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.back,
+.book {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.75rem 1.05rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.back {
+  border: 1px solid rgba(20, 38, 31, 0.18);
+  color: var(--ink);
+  background: transparent;
+}
+
+.book {
+  background: var(--ink);
+  color: var(--limestone);
+}
+
+.back:hover,
+.book:hover {
+  background: var(--canopy);
+  color: var(--limestone);
+  border-color: transparent;
+}
+
+.grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 clamp(1.25rem, 4vw, 3rem);
+  columns: 1;
+  column-gap: 0.85rem;
+}
+
+.item {
+  break-inside: avoid;
+  margin: 0 0 0.85rem;
+}
+
+.figure {
+  margin: 0;
+}
+
+.media {
+  position: relative;
+  overflow: hidden;
+  background: var(--mist);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.caption {
+  margin: 0.45rem 0 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.footerCta {
+  max-width: 1100px;
+  margin: clamp(2rem, 5vw, 3rem) auto 0;
+  padding: 0 clamp(1.25rem, 4vw, 3rem);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  align-items: center;
+}
+
+.bookWide {
+  display: inline-flex;
+  padding: 0.9rem 1.25rem;
+  background: var(--ink);
+  color: var(--limestone);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.bookWide:hover {
+  background: var(--canopy);
+}
+
+.backQuiet {
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+
+@media (min-width: 700px) {
+  .grid {
+    columns: 2;
+    column-gap: 1rem;
+  }
+
+  .item {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .grid {
+    columns: 3;
+    column-gap: 1.1rem;
+  }
+}

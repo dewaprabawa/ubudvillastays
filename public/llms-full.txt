@@ -21,12 +21,15 @@ Booking: https://www.ubudvillastays.com/#booking (date range → WhatsApp availa
 URL: https://www.ubudvillastays.com/villas/the-hideaway
 Facts: 4 guests · 2 BR · 2 baths · private pool · Tirta Tawar
 Offer anchor: https://www.ubudvillastays.com/villas/the-hideaway#offer
-Photo tour: https://www.ubudvillastays.com/villas/the-hideaway#gallery
+Photo tour preview: https://www.ubudvillastays.com/villas/the-hideaway#gallery
+Full photo tour: https://www.ubudvillastays.com/villas/the-hideaway/gallery
 
 ### Sawah Retreat
 URL: https://www.ubudvillastays.com/villas/sawah-retreat
 Facts: 12 guests · 6 BR · 6 baths · private pool · rice fields · Tirta Tawar
 Offer: https://www.ubudvillastays.com/villas/sawah-retreat#offer
+Photo tour preview: https://www.ubudvillastays.com/villas/sawah-retreat#gallery
+Full photo tour: https://www.ubudvillastays.com/villas/sawah-retreat/gallery
 Things to know: https://www.ubudvillastays.com/villas/sawah-retreat#things-to-know
 House rules highlight: check-in 15:00–00:00, checkout before 12:00, lockbox self check-in, max 12, no pets, smoking allowed, quiet hours 23:00–07:00; CO/smoke alarms not reported on listing.
 

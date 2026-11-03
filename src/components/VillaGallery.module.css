@@ -1,5 +1,5 @@
 .section {
-  padding: clamp(3.5rem, 8vw, 6rem) 0;
+  padding: clamp(3rem, 7vw, 5rem) 0;
   background:
     linear-gradient(180deg, rgba(228, 235, 230, 0.55) 0%, transparent 28%),
     var(--limestone);
@@ -8,7 +8,7 @@
 .intro {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 clamp(1.25rem, 4vw, 3rem) clamp(1.75rem, 4vw, 2.75rem);
+  padding: 0 clamp(1.25rem, 4vw, 3rem) clamp(1.25rem, 3vw, 1.75rem);
 }
 
 .kicker {
@@ -39,63 +39,159 @@
   color: var(--ink-soft);
 }
 
-.grid {
-  max-width: 1200px;
+.mosaicWrap {
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 clamp(1.25rem, 4vw, 3rem);
-  columns: 1;
-  column-gap: 0.85rem;
 }
 
-.item {
-  break-inside: avoid;
-  margin: 0 0 0.85rem;
+.mosaic {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr 1fr;
+  grid-template-rows: minmax(9.5rem, 18vh) minmax(9.5rem, 18vh);
+  gap: 0.4rem;
+  overflow: hidden;
+  background: rgba(20, 38, 31, 0.08);
+  max-height: min(42vh, 26rem);
 }
 
-.figure {
-  margin: 0;
-}
-
-.media {
+.tile {
   position: relative;
+  display: block;
   overflow: hidden;
   background: var(--mist);
+  min-height: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+.heroTile {
+  grid-row: 1 / span 2;
+  grid-column: 1;
 }
 
 .image {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
   display: block;
   transition: transform 900ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.item:hover .image {
-  transform: scale(1.025);
+.tile:hover .image,
+.tile:focus-visible .image {
+  transform: scale(1.035);
 }
 
-.caption {
-  margin: 0.45rem 0 0;
-  font-size: 0.78rem;
-  letter-spacing: 0.04em;
+.tileCaption {
+  position: absolute;
+  left: 0.75rem;
+  bottom: 0.7rem;
+  padding: 0.28rem 0.5rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--ink-soft);
+  color: var(--limestone);
+  background: rgba(15, 26, 22, 0.55);
 }
 
-@media (min-width: 700px) {
-  .grid {
-    columns: 2;
-    column-gap: 1rem;
-  }
-
-  .item {
-    margin-bottom: 1rem;
-  }
+.moreOverlay {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  gap: 0.15rem;
+  background: rgba(15, 26, 22, 0.52);
+  color: var(--limestone);
+  text-align: center;
 }
 
-@media (min-width: 1100px) {
-  .grid {
-    columns: 3;
-    column-gap: 1.1rem;
+.moreCount {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.moreLabel {
+  font-size: 0.72rem;
+  font-weight: 650;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.actions {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.moreButton {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.65rem;
+  padding: 0.85rem 1.2rem;
+  background: var(--ink);
+  color: var(--limestone);
+  text-decoration: none;
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: background 200ms ease, transform 200ms ease;
+}
+
+.moreButton:hover,
+.moreButton:focus-visible {
+  background: var(--canopy);
+}
+
+.moreMeta {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  opacity: 0.72;
+}
+
+@media (max-width: 699px) {
+  .mosaic {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(10rem, 22vh) minmax(7.5rem, 16vh) minmax(
+        7.5rem,
+        16vh
+      );
+    max-height: none;
+  }
+
+  .heroTile {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+
+  .tile:nth-child(2) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .tile:nth-child(3) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .tile:nth-child(4) {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .tile:nth-child(5) {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  .tile:nth-child(6) {
+    display: none;
   }
 }
 
@@ -104,7 +200,8 @@
     transition: none;
   }
 
-  .item:hover .image {
+  .tile:hover .image,
+  .tile:focus-visible .image {
     transform: none;
   }
 }

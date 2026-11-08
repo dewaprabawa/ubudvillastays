@@ -150,7 +150,7 @@ export const guides: Guide[] = [
         heading: "Holiday stays, longer stays, and free extras",
         paragraphs: [
           "Whether you book a short holiday or a longer investment-friendly stay, both villas are set up for living: private pools, kitchens, fast Wi‑Fi, parking, and free extras hotels usually charge for. The standout included activity is a Balinese cooking class on the rice terrace — or choose free rice-field cycling with lunch.",
-          "The Hideaway currently offers from Rp 4.9 juta per night, and Sawah Retreat from Rp 7 juta per night for groups — both with your pick of one free activity during the stay on Jl. Tirta Tawar. Full detail: Balinese cooking class + villa stay guide.",
+          "The Hideaway currently offers from Rp 3.9 juta per night, and Sawah Retreat from Rp 6 juta per night for groups — both with your pick of one free activity during the stay on Jl. Tirta Tawar. Full detail: Balinese cooking class + villa stay guide.",
           "Use the villa checkout booking form at https://www.ubudvillastays.com/#booking with your dates and guest count — we confirm availability on WhatsApp for either villa offer.",
         ],
       },
@@ -455,7 +455,7 @@ export const guides: Guide[] = [
       {
         question: "How much does a yoga retreat villa stay cost?",
         answer:
-          "Promo rates start from Rp 7 juta / night for Sawah Retreat and Rp 4.9 juta / night for The Hideaway, with one free activity included during the stay. Final quotes depend on dates and guest count—confirm via the booking form.",
+          "Promo rates start from Rp 6 juta / night for Sawah Retreat and Rp 3.9 juta / night for The Hideaway, with one free activity included during the stay. Final quotes depend on dates and guest count—confirm via the booking form.",
       },
       {
         question: "How do I book a yoga retreat villa stay?",
@@ -506,8 +506,8 @@ export const guides: Guide[] = [
       {
         heading: "Sawah Retreat vs The Hideaway for yoga groups",
         paragraphs: [
-          "Sawah Retreat is our 6-bedroom private villa on Tirta Tawar for up to 12 guests—private pool, open kitchen, rice-field outlooks, entire-home booking so your retreat is not sharing facilities with strangers. Promo from Rp 7 juta / night with one free activity (rice-field cycling or cooking class) during the stay.",
-          "The Hideaway is the 2-bedroom courtyard pool option (promo from Rp 4.9 juta / night) for couples, duo facilitators, or micro-retreats that still want Tirta Tawar access without a large house.",
+          "Sawah Retreat is our 6-bedroom private villa on Tirta Tawar for up to 12 guests—private pool, open kitchen, rice-field outlooks, entire-home booking so your retreat is not sharing facilities with strangers. Promo from Rp 6 juta / night with one free activity (rice-field cycling or cooking class) during the stay.",
+          "The Hideaway is the 2-bedroom courtyard pool option (promo from Rp 3.9 juta / night) for couples, duo facilitators, or micro-retreats that still want Tirta Tawar access without a large house.",
         ],
         image: {
           src: "/images/villas/sawah-retreat/space-01.jpg",
@@ -784,7 +784,7 @@ export const guides: Guide[] = [
       {
         heading: "Stay, then wander",
         paragraphs: [
-          "Promo stays at The Hideaway (from Rp 4.9 juta / night) and Sawah Retreat (from Rp 7 juta / night) include one free activity you can pick during the stay—rice-field cycling or a cooking class—so shopping does not have to be the only outing.",
+          "Promo stays at The Hideaway (from Rp 3.9 juta / night) and Sawah Retreat (from Rp 6 juta / night) include one free activity you can pick during the stay—rice-field cycling or a cooking class—so shopping does not have to be the only outing.",
           "Checkout: https://www.ubudvillastays.com/#booking — then continue with the Tirta Tawar rice-field walk or experiences guide for market, Kecak, Monkey Forest, and waterfalls.",
         ],
       },
@@ -899,7 +899,7 @@ export const guides: Guide[] = [
       {
         heading: "Stay in Ubud once you know the map",
         paragraphs: [
-          "Knowing where Ubud is only helps if your base matches the trip: inland culture, green mornings, and a private pool to return to. Book The Hideaway for a 2-bedroom courtyard stay (promo from Rp 4.9 juta / night) or Sawah Retreat for up to 12 guests with rice-field outlooks (promo from Rp 7 juta / night)—both with one free activity you can pick during the stay.",
+          "Knowing where Ubud is only helps if your base matches the trip: inland culture, green mornings, and a private pool to return to. Book The Hideaway for a 2-bedroom courtyard stay (promo from Rp 3.9 juta / night) or Sawah Retreat for up to 12 guests with rice-field outlooks (promo from Rp 6 juta / night)—both with one free activity you can pick during the stay.",
           "Next: open the booking form with your dates, then read visiting Ubud for travelers, what people do in Ubud, and the Tirta Tawar rice-field walk.",
         ],
       },
@@ -1039,7 +1039,7 @@ export const guides: Guide[] = [
       {
         heading: "Book the villa that fits how you use Ubud",
         paragraphs: [
-          "If your Ubud days are temple-jungle walks and market mornings, stay where the map works: Jl. Tirta Tawar. Promo rates start from Rp 4.9 juta / night at The Hideaway and Rp 7 juta / night at Sawah Retreat, each with one free activity included.",
+          "If your Ubud days are temple-jungle walks and market mornings, stay where the map works: Jl. Tirta Tawar. Promo rates start from Rp 3.9 juta / night at The Hideaway and Rp 6 juta / night at Sawah Retreat, each with one free activity included.",
           "Ready to lock dates? Use the booking form (date range, guests, details) then continue on WhatsApp. Also read: where is Ubud, visiting Ubud for travelers, and Bali belly tips before you fly.",
         ],
       },
@@ -1742,7 +1742,7 @@ export const guides: Guide[] = [
       {
         heading: "Cash, cards, activities, season, etiquette, health, data, budget",
         paragraphs: [
-          "Carry IDR for markets and small warungs; use cards where accepted. Pre-book peak-season activities; our promo villas include one free activity choice during the stay. Aim for April–October if you want the driest outdoor window. Wear a sarong at temples and learn Nyepi dates. Prefer sealed water; read the Bali belly guide. Sort eSIM/SIM before or at DPS. Budget from lodging outward—villa promo rates start from Rp 4.9 juta / night (Hideaway) and Rp 7 juta / night (Sawah).",
+          "Carry IDR for markets and small warungs; use cards where accepted. Pre-book peak-season activities; our promo villas include one free activity choice during the stay. Aim for April–October if you want the driest outdoor window. Wear a sarong at temples and learn Nyepi dates. Prefer sealed water; read the Bali belly guide. Sort eSIM/SIM before or at DPS. Budget from lodging outward—villa promo rates start from Rp 3.9 juta / night (Hideaway) and Rp 6 juta / night (Sawah).",
         ],
         bullets: [
           "Dry-leaning months: ~April–October",
@@ -2246,7 +2246,7 @@ export const guides: Guide[] = [
       {
         heading: "Stay close enough for culture nights",
         paragraphs: [
-          "The Hideaway and Sawah Retreat share Jl. Tirta Tawar (map ≈ -8.48315, 115.27070). Promo rates from Rp 4.9 juta / night and Rp 7 juta / night. Checkout: https://www.ubudvillastays.com/#booking.",
+          "The Hideaway and Sawah Retreat share Jl. Tirta Tawar (map ≈ -8.48315, 115.27070). Promo rates from Rp 3.9 juta / night and Rp 6 juta / night. Checkout: https://www.ubudvillastays.com/#booking.",
         ],
       },
     ],
@@ -2291,7 +2291,7 @@ export const guides: Guide[] = [
       "Romance in Ubud is privacy + atmosphere: a private pool, slow breakfasts, and short cultural outings.",
       "The Hideaway (2BR) on Jl. Tirta Tawar is sized for couples who want courtyard calm near town.",
       "Plan one shared experience—Kecak, cooking class, or rice-field cycling—and leave white space.",
-      "Promo from Rp 4.9 juta / night with one free activity included during the stay.",
+      "Promo from Rp 3.9 juta / night with one free activity included during the stay.",
       "Book https://www.ubudvillastays.com/#booking and note it is a couples trip in the details field.",
     ],
     faqs: [
@@ -2379,7 +2379,7 @@ export const guides: Guide[] = [
       "Families in Ubud need space, a pool, a kitchen, and quieter nights than beach-party streets.",
       "Sawah Retreat offers 6 en-suite bedrooms for up to 12 on Jl. Tirta Tawar with rice-field outlooks.",
       "Pace kids’ days: one outing, long pool midday, early dinners.",
-      "Promo from Rp 7 juta / night with one free activity for the party during the stay.",
+      "Promo from Rp 6 juta / night with one free activity for the party during the stay.",
       "Book https://www.ubudvillastays.com/#booking with ages/guest count in the details.",
     ],
     faqs: [
@@ -2640,7 +2640,7 @@ export const guides: Guide[] = [
       {
         heading: "Pair it with a Tirta Tawar villa base",
         paragraphs: [
-          "The Hideaway (2 bedrooms, private courtyard pool) suits couples and small families — promo from Rp 4.9 juta / night. Sawah Retreat (6 bedrooms, up to 12) suits groups and retreats — promo from Rp 7 juta / night. Both sit on the same Tirta Tawar corridor in Kabupaten Gianyar, Ubud.",
+          "The Hideaway (2 bedrooms, private courtyard pool) suits couples and small families — promo from Rp 3.9 juta / night. Sawah Retreat (6 bedrooms, up to 12) suits groups and retreats — promo from Rp 6 juta / night. Both sit on the same Tirta Tawar corridor in Kabupaten Gianyar, Ubud.",
           "After class, return to the pool and kitchen. That loop — learn local food, then live in a private home — is the GEO story for Tirta Tawar.",
         ],
         image: {

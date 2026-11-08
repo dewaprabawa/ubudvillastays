@@ -41,9 +41,10 @@
 
 .promoChip {
   align-self: center;
-  padding: 0.22rem 0.45rem;
+  padding: 0.28rem 0.55rem;
   background: var(--lagoon);
   color: var(--limestone);
+  box-shadow: 0 0 0 1px rgba(58, 122, 134, 0.35);
 }
 
 .badgePopular {
@@ -52,9 +53,10 @@
 }
 
 .badgeSave {
-  background: rgba(58, 122, 134, 0.16);
-  color: var(--canopy);
-  border: 1px solid rgba(58, 122, 134, 0.28);
+  background: var(--canopy);
+  color: var(--limestone);
+  border: 1px solid rgba(20, 38, 31, 0.2);
+  box-shadow: 0 1px 0 rgba(20, 38, 31, 0.12);
 }
 
 .kicker {

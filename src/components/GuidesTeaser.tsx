@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Reveal } from "./Reveal";
 import { guides } from "@/content/guides";
+import { getVilla } from "@/lib/site";
 import styles from "./GuidesTeaser.module.css";
 
 export function GuidesTeaser() {
@@ -12,6 +13,8 @@ export function GuidesTeaser() {
   const featured = featuredSlugs
     .map((slug) => guides.find((guide) => guide.slug === slug))
     .filter(Boolean) as typeof guides;
+  const hideaway = getVilla("the-hideaway");
+  const sawah = getVilla("sawah-retreat");
 
   return (
     <section id="guides" className={styles.section} aria-labelledby="guides-title">
@@ -24,11 +27,11 @@ export function GuidesTeaser() {
         </p>
         <p className={styles.deal}>
           <Link href="/villas/the-hideaway#offer">
-            Hideaway from Rp 4.9 juta / night
+            Hideaway from {hideaway?.offer?.priceLabel ?? "Rp 3.9 juta"} / night
           </Link>
           {" · "}
           <Link href="/villas/sawah-retreat#offer">
-            Sawah from Rp 7 juta / night
+            Sawah from {sawah?.offer?.priceLabel ?? "Rp 6 juta"} / night
           </Link>
           {" — free cooking class or free cycling"}
         </p>

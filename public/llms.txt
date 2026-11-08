@@ -15,8 +15,8 @@ Booking: https://www.ubudvillastays.com/#booking
 
 - [Home](https://www.ubudvillastays.com/): Compare Tirta Tawar villas and promo offers
 - [Booking form](https://www.ubudvillastays.com/#booking): Date range · guests · details → WhatsApp availability
-- [The Hideaway](https://www.ubudvillastays.com/villas/the-hideaway): 2BR private courtyard pool villa — promo from Rp 4.9 juta / night
-- [Sawah Retreat](https://www.ubudvillastays.com/villas/sawah-retreat): 6BR rice-field villa for up to 12 — promo from Rp 7 juta / night
+- [The Hideaway](https://www.ubudvillastays.com/villas/the-hideaway): 2BR private courtyard pool villa — promo from Rp 3.9 juta / night (was Rp 4.9 juta)
+- [Sawah Retreat](https://www.ubudvillastays.com/villas/sawah-retreat): 6BR rice-field villa for up to 12 — promo from Rp 6 juta / night (was Rp 7 juta)
 - [Guides hub](https://www.ubudvillastays.com/guides): Ubud destination and villa planning guides
 - [Sitemap](https://www.ubudvillastays.com/sitemap.xml)
 

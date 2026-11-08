@@ -227,33 +227,33 @@ export const villas: Villa[] = [
     shortName: "Hideaway",
     eyebrow: "2 bedrooms · private courtyard",
     tagline:
-      "Promo from Rp 4.9 juta / night on Jl. Tirta Tawar — free cooking class or free cycling.",
+      "Promo from Rp 3.9 juta / night on Jl. Tirta Tawar — free cooking class or free cycling.",
     description:
-      "Book The Hideaway at the promo rate from Rp 4.9 juta per night (15% off regular Rp 5.765.000) — a 2-bedroom private pool villa on Jl. Tirta Tawar, Ubud, Bali. Stay includes your pick of one free activity: Ubud rice field cycling with lunch or a Balinese cooking class. Market, Kecak, Monkey Forest nearby. Inquire on WhatsApp.",
+      "Book The Hideaway at the promo rate from Rp 3.9 juta per night (was Rp 4.9 juta — save Rp 1 juta) — a 2-bedroom private pool villa on Jl. Tirta Tawar, Ubud, Bali. Stay includes your pick of one free activity: Ubud rice field cycling with lunch or a Balinese cooking class. Market, Kecak, Monkey Forest nearby. Inquire on WhatsApp.",
     headline: "Quiet mornings by the pool.\nUbud’s culture just beyond the gate.",
     support:
-      "Promo from Rp 4.9 juta per night — a modern-Bali 2-bedroom hideaway with private pool, plus your choice of one free activity: rice field cycling with lunch or a Balinese cooking class.",
+      "Promo from Rp 3.9 juta per night — a modern-Bali 2-bedroom hideaway with private pool, plus your choice of one free activity: rice field cycling with lunch or a Balinese cooking class.",
     storyTitle: "A private courtyard base for real Ubud days.",
     story: [
       "The Hideaway blends contemporary comfort with Balinese craft—stone walls, warm timber, and a still private pool framed by tropical planting. Stay for the experience: market mornings, temple evenings, forest walks — then return to your own courtyard.",
       "You are close enough to walk to galleries, temples, and café streets, yet tucked away for real quiet. Daily housekeeping and free extras keep the villa easy; breakfast, scooters, transfers, and tours can be arranged when you want them.",
     ],
     offer: {
-      priceLabel: "Rp 4.9 juta",
+      priceLabel: "Rp 3.9 juta",
       pricePer: "per night",
-      priceAmount: 4900000,
-      // Promo vs regular: Rp 5.765.000 → Rp 4.900.000 (15% off)
-      priceWasLabel: "Rp 5.765.000",
-      priceWasAmount: 5765000,
-      savingsPercent: 15,
-      savingsLabel: "Save 15%",
+      priceAmount: 3900000,
+      // Promo cut: was Rp 4.9 juta → now Rp 3.9 juta (Save Rp 1jt)
+      priceWasLabel: "Rp 4.9 juta",
+      priceWasAmount: 4900000,
+      savingsPercent: 20,
+      savingsLabel: "Save Rp 1jt",
       promoLabel: "Promo",
-      priceRiseNote: "Promo rate now — book before the regular rate rises.",
+      priceRiseNote: "Limited promo — Rp 1jt off the previous rate. Book before it ends.",
       badge: "Most picked",
       currency: "IDR",
       eyebrow: "Promo stay · Tirta Tawar, Ubud",
       headline: "Villa nights + a free rice-terrace cooking class.",
-      lede: "Promo rate Rp 4.9 juta / night on Jl. Tirta Tawar (15% off the regular Rp 5.765.000). Your stay includes one free activity — Balinese cooking class on the rice terrace (standout) or rice-field cycling with lunch.",
+      lede: "Promo rate Rp 3.9 juta / night on Jl. Tirta Tawar (was Rp 4.9 juta — save Rp 1 juta). Your stay includes one free activity — Balinese cooking class on the rice terrace (standout) or rice-field cycling with lunch.",
       activityIntro: "Included free — pick one for your party:",
       activityTiming:
         "Choose at booking or during your stay — we confirm the cooking class or cycling date while you are here.",
@@ -545,33 +545,33 @@ export const villas: Villa[] = [
     shortName: "Sawah",
     eyebrow: "6 bedrooms · rice field views",
     tagline:
-      "Promo from Rp 7 juta / night on Jl. Tirta Tawar — groups, retreats, free cooking class or cycling.",
+      "Promo from Rp 6 juta / night on Jl. Tirta Tawar — groups, retreats, free cooking class or cycling.",
     description:
-      "Book Sawah Retreat at the promo rate from Rp 7 juta per night (15% off regular Rp 8.235.000) — a 6-bedroom private pool villa with rice field views on Jl. Tirta Tawar, Ubud, Bali. Entire home for up to 12 guests, with your pick of one free activity (rice field cycling + lunch or Balinese cooking class) during the stay. Inquire on WhatsApp.",
+      "Book Sawah Retreat at the promo rate from Rp 6 juta per night (was Rp 7 juta — save Rp 1 juta) — a 6-bedroom private pool villa with rice field views on Jl. Tirta Tawar, Ubud, Bali. Entire home for up to 12 guests, with your pick of one free activity (rice field cycling + lunch or Balinese cooking class) during the stay. Inquire on WhatsApp.",
     headline: "Rice fields at the edge of the pool.\nRoom for everyone to gather.",
     support:
-      "Promo from Rp 7 juta per night — entire-villa privacy for up to 12 guests on Jl. Tirta Tawar, with rice-field views and one free activity you can choose during your stay.",
+      "Promo from Rp 6 juta per night — entire-villa privacy for up to 12 guests on Jl. Tirta Tawar, with rice-field views and one free activity you can choose during your stay.",
     storyTitle: "Space to gather — culture and green outside the gate.",
     story: [
       "Sawah Retreat is the larger sibling on Tirta Tawar: an entire villa held just for your group, with rice field views and a private pool at the center of daily life. It suits multi-generation families, friend getaways, yoga retreats, and longer holiday or investment-friendly stays that need privacy and room to breathe.",
       "Each bedroom has its own bathroom and air conditioning. The open kitchen invites shared meals; many free extras and staff help keep logistics light. Airport pickup, in-house massage, scooters, and breakfast are easy to arrange when you want them.",
     ],
     offer: {
-      priceLabel: "Rp 7 juta",
+      priceLabel: "Rp 6 juta",
       pricePer: "per night",
-      priceAmount: 7000000,
-      // Promo vs regular: Rp 8.235.000 → Rp 7.000.000 (15% off)
-      priceWasLabel: "Rp 8.235.000",
-      priceWasAmount: 8235000,
-      savingsPercent: 15,
-      savingsLabel: "Save 15%",
+      priceAmount: 6000000,
+      // Promo cut: was Rp 7 juta → now Rp 6 juta (Save Rp 1jt)
+      priceWasLabel: "Rp 7 juta",
+      priceWasAmount: 7000000,
+      savingsPercent: 14,
+      savingsLabel: "Save Rp 1jt",
       promoLabel: "Promo",
-      priceRiseNote: "Promo rate now — book before the regular rate rises.",
+      priceRiseNote: "Limited promo — Rp 1jt off the previous rate. Book before it ends.",
       badge: "Group stay",
       currency: "IDR",
       eyebrow: "Promo stay · Tirta Tawar, Ubud",
       headline: "Group villa nights + a free rice-terrace cooking class.",
-      lede: "Promo rate Rp 7 juta / night on Jl. Tirta Tawar (15% off the regular Rp 8.235.000) — for families, friend groups, and retreats. Your stay includes one free activity — Balinese cooking class on the rice terrace (standout) or rice-field cycling with lunch.",
+      lede: "Promo rate Rp 6 juta / night on Jl. Tirta Tawar (was Rp 7 juta — save Rp 1 juta) — for families, friend groups, and retreats. Your stay includes one free activity — Balinese cooking class on the rice terrace (standout) or rice-field cycling with lunch.",
       activityIntro: "Included free — pick one for your party:",
       activityTiming:
         "Choose at booking or during your stay — we confirm the cooking class or cycling date while you are here.",
@@ -1051,8 +1051,8 @@ export function villaOfferWhatsApp(villa: Villa) {
   const offer = villa.offer;
   if (!offer) return whatsappHref(villa.name);
   const savings =
-    offer.savingsPercent && offer.priceWasLabel
-      ? ` (${offer.savingsPercent}% off regular ${offer.priceWasLabel})`
+    offer.savingsLabel && offer.priceWasLabel
+      ? ` (${offer.savingsLabel} — was ${offer.priceWasLabel})`
       : "";
   const badge = offer.badge ? `${offer.badge} ` : "";
   const promo = offer.promoLabel ? `${offer.promoLabel} ` : "";
@@ -1092,7 +1092,11 @@ export function bookingWhatsApp(inquiry: BookingInquiry) {
   const villaName = villa?.name ?? "one of your villas";
   const offer = villa?.offer;
   const rateLine = offer
-    ? `Looking at your ${offer.promoLabel ? `${offer.promoLabel.toLowerCase()} ` : ""}rate ${offer.priceLabel} ${offer.pricePer}.`
+    ? `Looking at your ${offer.promoLabel ? `${offer.promoLabel.toLowerCase()} ` : ""}rate ${offer.priceLabel} ${offer.pricePer}${
+        offer.savingsLabel && offer.priceWasLabel
+          ? ` (${offer.savingsLabel} — was ${offer.priceWasLabel})`
+          : ""
+      }.`
     : null;
 
   const lines = [

@@ -49,7 +49,9 @@ export function HomeHero() {
             className={styles.secondary}
             href={sawah?.offer ? "/villas/sawah-retreat#offer" : "/#villas"}
           >
-            {sawah?.offer ? "Sawah from Rp 7 juta" : "Explore the villas"}
+            {sawah?.offer
+              ? `Sawah from ${sawah.offer.priceLabel}`
+              : "Explore the villas"}
           </Link>
         </div>
       </div>

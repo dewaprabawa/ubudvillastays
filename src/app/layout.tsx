@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: `${siteConfig.name} · Private pool villas in Tirta Tawar, Ubud`,
     description:
-      "The Hideaway from Rp 4.9 juta / night and Sawah Retreat from Rp 7 juta / night — both with a free Ubud activity on Jl. Tirta Tawar, Bali.",
+      "The Hideaway from Rp 3.9 juta / night and Sawah Retreat from Rp 6 juta / night — both with a free Ubud activity on Jl. Tirta Tawar, Bali.",
     images: [
       {
         url: "/images/villas/the-hideaway/og.jpg",
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${siteConfig.name} · Tirta Tawar Ubud villas`,
     description:
-      "Hideaway from Rp 4.9 juta / night · Sawah from Rp 7 juta / night — free activity with either stay.",
+      "Hideaway from Rp 3.9 juta / night · Sawah from Rp 6 juta / night — free activity with either stay.",
     images: ["/images/villas/the-hideaway/og.jpg"],
   },
   robots: {

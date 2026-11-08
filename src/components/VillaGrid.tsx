@@ -57,17 +57,20 @@ export function VillaGrid() {
                       </span>
                     ) : null}{" "}
                     {villa.offer.promoLabel ? (
-                      <span className={styles.offerBadge}>
+                      <span className={styles.offerBadgePromo}>
                         {villa.offer.promoLabel}
+                      </span>
+                    ) : null}{" "}
+                    {villa.offer.savingsLabel ? (
+                      <span className={styles.offerBadgeSave}>
+                        {villa.offer.savingsLabel}
                       </span>
                     ) : null}{" "}
                     {villa.offer.priceWasLabel ? (
                       <s className={styles.was}>{villa.offer.priceWasLabel}</s>
                     ) : null}{" "}
                     {villa.offer.priceLabel} {villa.offer.pricePer}
-                    {villa.offer.savingsLabel
-                      ? ` · ${villa.offer.savingsLabel}`
-                      : " · free activity"}
+                    {villa.offer.savingsLabel ? "" : " · free activity"}
                   </p>
                 ) : villa.pitch ? (
                   <p className={styles.offer}>

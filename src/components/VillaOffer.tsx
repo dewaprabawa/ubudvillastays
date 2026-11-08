@@ -36,7 +36,7 @@ export function VillaOffer({ villa }: { villa: Villa }) {
           <div className={styles.priceBlock}>
             {hasSavings ? (
               <p className={styles.was}>
-                <span className={styles.wasLabel}>Regular</span>
+                <span className={styles.wasLabel}>Was</span>
                 <s>{offer.priceWasLabel}</s>
                 <span className={styles.wasPer}>/ night</span>
               </p>
@@ -50,7 +50,7 @@ export function VillaOffer({ villa }: { villa: Villa }) {
             </p>
             <p className={styles.savingsNote}>
               {hasSavings
-                ? `${offer.savingsPercent}% off · free activity included`
+                ? `${offer.savingsLabel} · free activity included`
                 : "Free activity choice included"}
             </p>
             {offer.priceRiseNote ? (

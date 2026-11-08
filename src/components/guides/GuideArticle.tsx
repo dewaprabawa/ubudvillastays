@@ -191,7 +191,7 @@ export function GuideArticle({ guide }: { guide: Guide }) {
               Hideaway offer
             </Link>
             <Link className={styles.secondary} href="/villas/sawah-retreat#offer">
-              Sawah from Rp 7 juta
+              Sawah from {getVilla("sawah-retreat")?.offer?.priceLabel ?? "Rp 6 juta"}
             </Link>
           </div>
         </section>

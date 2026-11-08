@@ -1,0 +1,1706 @@
+{
+  "version": 1,
+  "skills": {
+    "aeo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "10047021a335f01a6778ae6d9c2b2544c699aca357a61d5f2fbd331d57c6cce1",
+      "wellKnownDigest": "sha256:fd9e6f07185eab73ff7ff699b21a88528faba039f32d92903d685e4f75e3b96b"
+    },
+    "aeo-audit": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "54acb04a339164354c98b72ec604680845ffbe7a2fdb99132b6dcf370f131e46",
+      "wellKnownDigest": "sha256:4dbfe61e287b41cfbb66ddcf85758b15fe588233f979a4fbe76ff67d5175864b"
+    },
+    "aeo-geo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "b656be0658ddafe833e2adc2754907624bf8cc0b343a270ff5f9231eaf4a58b8",
+      "wellKnownDigest": "sha256:9d5bc133f7138c61ebe30659da296d1aea40ad00f504bbed1725af8f74cb8ab3"
+    },
+    "aeo-geo-optimizer": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "fa05c17b2d7a6aae6b92d1b27338e53a5be067258ca67814636ef049335551b4",
+      "wellKnownDigest": "sha256:ba1f832c254692dd414f053a75cabebc1a73e07cc3a5c832ddce5d61a32bc4f1"
+    },
+    "aeo-optimization": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "2bb092d5d0b310bfe8b09f4e540bc7c95fdd713d03d3b60e4af8cbae0accdc30",
+      "wellKnownDigest": "sha256:5a2132d22ee4a0c90fec10192b320008ef20364f68a713814f235d4f67fe14ea"
+    },
+    "aeo-optimizer": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "b727d3715752c5790291dacf42b433106dd87a9c67153ea2993c155eb9d4cc6e",
+      "wellKnownDigest": "sha256:547163bcb0763a1a7a46593a72258244f89f1e2fb5cd1bc0c8c1b0d9d65401bd"
+    },
+    "ai-overview-monitor": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "086dd072b558490d5a812c7693bbb54435bbbe33c408eb9850b82418b833c93b",
+      "wellKnownDigest": "sha256:5a0a5adfcd6f9c2a386c6e5805f1863e16f5209a89c9761e89f8e6a0fe7bd675"
+    },
+    "ai-prompt-research": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "320944841095e09bfef026c035668ae5da08d155bf0802eb19bd63b5626e43c4",
+      "wellKnownDigest": "sha256:17f028fd53a74d9f872466c72b089295af11b5f786331cf3d7c199e1108adcb3"
+    },
+    "ai-search-optimizer": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "559f2fa405fcb650ca08aa2b915bb22e4bba200c6997e4d850c0001fb3785ae6",
+      "wellKnownDigest": "sha256:ec9c23226e376eb728ea23646b367582f8d66f6613c0d9017141d50f57886f9c"
+    },
+    "ai-seo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "c55f45e5100e0ed83feaa89add9a765c010bd8adbfdf4c33865c014fccdd3618",
+      "wellKnownDigest": "sha256:343c32646d38480436a1ed17a3ae9dc7e1c3389d8dc1f9fd62b26ddc428bef92"
+    },
+    "ai-visibility-audit": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "9d71e6aca34398fcb19f7440798553b17c8dc4aa270b4acb9040525e4656a6e4",
+      "wellKnownDigest": "sha256:36bae0bf11014a6151fe4b9788db5f86a91ee3d861d6035308a23bb986c163d5"
+    },
+    "ai-visibility-quick-score": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "148e9e44d81bc71ea91d8dcfd09d89aa13637c9adfd4c758d8bff5289c61fe25",
+      "wellKnownDigest": "sha256:7659d3b617e7ca3077d04c435582192b54a833ef5f0ff8c8ac7eadffaa6792ec"
+    },
+    "algo-seo-technical": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "d4f575b895685e64817dddb323b1068128dfde0e5409b89aa98abe6c1269706e",
+      "wellKnownDigest": "sha256:9432a48ec6d8cb37cd27b867d628143f3bf0362d4a8f452afb811388550eef5f"
+    },
+    "amazon-backend-keywords": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "de43435908319aa3fe156d106d4f169d642743d1428e9d90bb0aeb9d1215550f",
+      "wellKnownDigest": "sha256:2f0d02ac076c017a29eb3983798cd57d207dbe81f9f485de07a9971acf2dc68d"
+    },
+    "amazon-keyword-tracker": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "784faa17e35a5a7ef725984b4aad11d55b2c28caf52fbf2bd6312313d7e4b31a",
+      "wellKnownDigest": "sha256:7e5aead6ce58b19e496af8d146910b5963069c58ed4bb48928be77991e6a1bde"
+    },
+    "amazon-negative-keywords": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "a3dfcb45099d603c76a1a5505ee37a25f54407fe91bab300881ad61b963b5fb6",
+      "wellKnownDigest": "sha256:32e18c39f6ad4d35d511a8d7a0419c6e7cfd11df9831d2123ae664f23420def6"
+    },
+    "amazon-rank-tracker": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "4af6a50bb1dc43a171bf7945851b4d29070dcda193c124f87806e91808a2b57f",
+      "wellKnownDigest": "sha256:73ba816c698a375be2856053c65deda8fcdac78348de753652d9ae29521fc03d"
+    },
+    "answer-engine-sov": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "47f6e586d62ab8b7fec002fa4c4d52dad79d7b59b7e3c804b272687c18812ddb",
+      "wellKnownDigest": "sha256:1e4b3ad7ad73b33cabb3d54b63b44937caec1938ec8bf2735fc602c828396531"
+    },
+    "anycap-ai-tool-seo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "584104a4acf976a502546069b228931940d45dc3af3408234b0d1f4ecaba67b5",
+      "wellKnownDigest": "sha256:2ee38e36e7a25574bf0ea396926e5a0b7fc88da1e5cf385d6b8a9cfb5295ec7c"
+    },
+    "app-icon-optimization": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "cbd6d2c1ad5708dc4c00fe542dad3dcc575cc66ceb82b3ead411d6ac20173a1a",
+      "wellKnownDigest": "sha256:c40d933fe5ab29376bf699b7830f914ab3f58ba250915eba1a298aebdadc7474"
+    },
+    "app-listing-optimizer": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "b2958ec7cc1f47b817f35e76b8a2448fd8636dbc130c61b5db456e3b0f2d4bce",
+      "wellKnownDigest": "sha256:7540ff38c6d0ba3d62bebb824d6552896c713d18f9f66d3db62c84bf832f52e4"
+    },
+    "app-store-aso": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "33b6b27a24b1666f4fa5f5e01385869e654de2823e70295ea238e96a0380d83f",
+      "wellKnownDigest": "sha256:703a11299ca28aa648cdb76bc42d2898cdfda44fbc8ed3b3f3db6b37c48da442"
+    },
+    "aso": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "424a07a770f9fee268028ec2864cbe0b2008d0220b62541ab5e5be41b70dff09",
+      "wellKnownDigest": "sha256:1440fc0d6bea1afe0bd0c1d3cf26126547a14470e4d6ded8df7097d65b3be908"
+    },
+    "aso-audit": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "3d2eb475a58f5913bb78802491f6845f713da3bbf1d5581e2a2c54f0ae540941",
+      "wellKnownDigest": "sha256:907997223a8df93ff68a262eaa87b61467ed5fd884e666f6f1bbacd6f79dccfd"
+    },
+    "aso-keyword-field-optimizer": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "134388db156bc35e84c4ff3132f2935024b3446c53f11d1d26c5b05deee41767",
+      "wellKnownDigest": "sha256:4b0cc5a8b758f0e684a26fef3b8001ab7f061d5c4aa1e23f5000c78515be5c37"
+    },
+    "audit": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "e757322d30da1ed1592dfb0c0ca5e5ce0d6644de422c8b17e46a7cc8c6763265",
+      "wellKnownDigest": "sha256:17bd8c67a4df5c2767f672176de99a63737dfeb8b760ad36edc9df171c9b97fe"
+    },
+    "audit-remediation-prioritizer": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "9fca1ce5a8688d1a12663bd46bd2748e7f8fef360abeee811eed48ab558a4f0b",
+      "wellKnownDigest": "sha256:465b66190bc52fb9dad9d8185008fbd419043d00e6c582b7dd4e91871245e329"
+    },
+    "audit-speed": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "34b80b1c6182d43537f4fd186b5a9cb2052bc503b893c104bbe1ee5167a7f3f1",
+      "wellKnownDigest": "sha256:f8102a2b5c341d7e2fb730a3ac9a7df544ef84b1ef1ebfb37ec65e300a1a082a"
+    },
+    "audit-website-aeo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "13c4f7ee8fa7a46869c90aafaa70337ba0ae2e25d98c6c034b42aa5f95fca5ed",
+      "wellKnownDigest": "sha256:fd2c9bc22e37055893c666fd84bcbfb6053052c794784a98df58e3916a5d3692"
+    },
+    "awesome-seo-audit": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "ff5523e8833e69210267656938eef5dbeaf886b8576b6b22d287d864a74e8e12",
+      "wellKnownDigest": "sha256:17f3f70701091b756f6a3984996d17a7ca208a29966bbcd00e2da93ea5f421d9"
+    },
+    "backlink-analysis": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "f9ad2c7814e9cbc025eb4e978185d8b61deecf639c1c69c2a43889a27135d2fa",
+      "wellKnownDigest": "sha256:d1ccb58e8cf1eba207cf1cff5cead0b88301f789e1937cc567e7b87821706228"
+    },
+    "backlink-audit": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "35a5e106f0e42816dd29631671bbdbcc8a305e71035a3196140a9938f0c569ea",
+      "wellKnownDigest": "sha256:d4a8418d716ec40740b3aadf3a5d904add2e738ce0eee3b854e6fbb2cb4c2ecb"
+    },
+    "bbq-multilingual-seo-check": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "14c27e72bdb1637c89e8f5d4e3e7299987b9ee4e08971ec79aaac1fc1f25b547",
+      "wellKnownDigest": "sha256:e80699a3b247306cbaa6611e8f695fedb0d3c4d1eac5d6c583675265a31fef96"
+    },
+    "bencium-aeo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "278f502b88de2a65ccd499c1eca243da818c03fb707e7bf4f5f8c8b0f47ca1f0",
+      "wellKnownDigest": "sha256:ece6f69bfe8b4bfa5493901e9f21c3d08f684c55140ba63cddf4cbe23e072abb"
+    },
+    "bigquery-log-analyzer": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "e2b89bc66d646589906d416919a2fd095a457738c71d2f3f23dc905bdbc53ed2",
+      "wellKnownDigest": "sha256:c41aed9a726be7669bc82a01623616dcecd4ab9cbbe613f2162a1b60c58dc73a"
+    },
+    "bitrix-seo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "e25f89ac66266b7ca54d8ea479fa6e4ca0f57fa9a0f559589fd542374dbcc108",
+      "wellKnownDigest": "sha256:7572b1784d0022414bb67c22b6cd9045ddbd3474c81e7e5e051c8d6596e64078"
+    },
+    "blog": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "cf0a960d21b87fb30a68661ec62a29aaed593d88e81ada327c7beeaf9c4e5c81",
+      "wellKnownDigest": "sha256:e6708218a615883fe20ed744c91a632901ed3bcca30715668a2a289dedba2c12"
+    },
+    "blog-schema": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "4ad5b75954e11b2d02e7b1269ffa492047af330bcc881725320a7d5bf7da974b",
+      "wellKnownDigest": "sha256:32ad2c76bba9824dcb3cfdb79d81cc528a7c290e3345f0934b3c3df84561087d"
+    },
+    "brief": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "4d2115358a956b37de7a232917fbdf7bc03ad64b6d25a927c8cf1604322b69fb",
+      "wellKnownDigest": "sha256:701923905a586a0aec358dd43fa4bd44edca0497685237b872e04e9562ee32fe"
+    },
+    "build-backlinks": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "3a950df44274dfbe3e71e6f63e33fe543184cb456634b325d9b1a43c846eea6d",
+      "wellKnownDigest": "sha256:a32560da9ff95d199578ac8840dd3a2371ae479bdec2c93b5093cf89d5bb83a2"
+    },
+    "canonical-tag": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "d734f38d67c98bcc0d32701080f9831bcf0263cedd584befcc8f4ee74440a441",
+      "wellKnownDigest": "sha256:696988c61199960899ebe4aa17c727906a099ee547770441731326b6374d8802"
+    },
+    "cashclaw-seo-auditor": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "19c8ad650bb2691a5b9c09bde2836417f80d7fa573a734c1c10623e0888bbb09",
+      "wellKnownDigest": "sha256:8e6e68ae89be31d2affda04faf4a4bc204f8649877db7c5f7f8dfe591bbfd11a"
+    },
+    "category-positioning": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "043a2e8ada2e3f8fa6bc872111de32686219e9d083d7f64384112a5ddff84aac",
+      "wellKnownDigest": "sha256:4592ec2fff83f12aa06a95192f6e2a0fcec03e5939faf3bd9a8113ad28a0db43"
+    },
+    "comparison-page-builder": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "29ee0476832721a3ebb8ef6f792190a6cfc2bdc6f857bea3a0cff097b50897ff",
+      "wellKnownDigest": "sha256:106cabe289443805a1df2b6f8e9ab3dfeed3db1da4e01f45913bddcdef0ccdea"
+    },
+    "competitive-landscape": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "ee1ad9ac02a39579f0386d7610fd80ae1eaa3d47ee94105257f3f97e3812e853",
+      "wellKnownDigest": "sha256:9138f23ee62a8d8f0c1b734b3a56ff68233e99294ef9367d9ad2dba1c9a0749f"
+    },
+    "competitor-analysis": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "15190ab8b86e750d7d8a06176be2f67c56da25dc475db856f95a70333c9e9814",
+      "wellKnownDigest": "sha256:048237244e0ca9eb29b2ec84c4469ba82fb7d1fd4cb4d42917e4b70eb99bc613"
+    },
+    "competitor-content-monitor": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "191588113ca7a4b560dee308d146f6e6be90d77ab4f4f66a757355a8cd344762",
+      "wellKnownDigest": "sha256:612a0f1d4d8a572c236e3075b5374df911ab3b88f25fb32293cec86cfce4b8ec"
+    },
+    "competitor-tracking": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "63064b2caabfd053c04d6281227dcf7ec29ee43ea1118233815f19d5963b382f",
+      "wellKnownDigest": "sha256:4f2ac677a24ad070dfb967f86bd172f5dadbd2507b0a9059e6948889d823a5c3"
+    },
+    "content-brief": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "34ff771c9ddb61ce500d120fdacc00265aaa869369a650b36410c26c930876e5",
+      "wellKnownDigest": "sha256:9210a876af47a2ebc1661e4a0d71c2a9051eee19f8cc987225c71a06ede94217"
+    },
+    "content-brief-authoring": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "66d59ac9e80fded863fdaf4e2d3ad3f63a0563f02978c30c9b77f028b4e2afb0",
+      "wellKnownDigest": "sha256:1e89482faf97d474b1478769975a6d374b02fab0768cd19bda7af94cc0c31e43"
+    },
+    "content-brief-writer": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "18471b8e3a3ed167873d8635795ff6d56175b77f8886994fe13bd85ef1e52f96",
+      "wellKnownDigest": "sha256:676841f77618269e33d87feb044ab92138f1626fba87ea2031766d801b20816e"
+    },
+    "content-decay-lite": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "80d448d8adc85b3bc8106dc6163edd499df6cff113494c04bf0d2e9b9853e7b6",
+      "wellKnownDigest": "sha256:325bc0be4a212a7b6c546fec6677423817953849b7cb96201531efc4376fdbe9"
+    },
+    "content-decay-predictor": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "ab2f6ac28372a7efa392b7cc9deee47ab2c57b250c6eb2739f90a4167e6640a0",
+      "wellKnownDigest": "sha256:0666113458bebb5da189c8b264241ef58aceb90bb2ed703798a1ea426819e541"
+    },
+    "content-freshness-auditor": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "626f5d79a86fe4ae0316b1d9bcadf34ac1d77f37bef7e504230eba58a74b1472",
+      "wellKnownDigest": "sha256:86204a6049251797a7bd7dfc41b12e40c2f25102c12c35bda54ad704e63b0e0a"
+    },
+    "content-gap-matrix": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "30a24676f13bfcc4301ab150bb8e52f4f6b2743ae18742d8eff851952be80372",
+      "wellKnownDigest": "sha256:1c298ee10709cfbc0aafcd6329c11d64f6d32e2a4e6c171e1c70aefc00d990b8"
+    },
+    "core-web-vitals": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "601b2cbb920fb0ea9814a3f11232d7883e1eb0923865218502ab1d73e9fc5172",
+      "wellKnownDigest": "sha256:66081bf64af4f57558522fdb6e7807c3caf666e14d196ccb429f8c1071522dd4"
+    },
+    "core-web-vitals-tuner": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "f392c7201f740a1facf8e270aebeeee0e06132195b86998ce7e4f3f210534d1e",
+      "wellKnownDigest": "sha256:b80899bc4eba8f221438c8385136601dc3dccbdf8df9779a99d56d35c6888fb2"
+    },
+    "crux-vitals-monitor": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "cfbe263a4526b65128046bf1da610d8b140218073cc2ba2b317ff4530d37cb34",
+      "wellKnownDigest": "sha256:7721cdf18d34be168044922b61572135463ef3919937b98e5e0e8402a026ecc5"
+    },
+    "decodo-serp-rank-tracking": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "93099d9f0326e9093a26632fd5988541f4779781c2e61a3db1517e5908c50ce5",
+      "wellKnownDigest": "sha256:6ab37d3bf6e388aac6b3eb056f338098a8a255793d1817e0325fc9e4717ff2a6"
+    },
+    "developer-keyword-research": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "d72ea93806bfe601bf7685974687fad0f194ccb0d6578e57396ebfde803c738f",
+      "wellKnownDigest": "sha256:24250a0a8e36584dcfc75c4ee65ffe51aee148ec5ae9d3310a746a9bc334fa64"
+    },
+    "diagnose-seo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "a5324d0bed906cbb876dc7ca61063d1eb0883e9bb446ab76b6a0044becec14d4",
+      "wellKnownDigest": "sha256:da64c46278f36f77d4cfbac7cc6128485d59507c8d3f6461f016d76ae60995b2"
+    },
+    "docs-seo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "a46fc3708fce099bf7be7d66554f5ab8b27210f2897065037e3c3ff4906b5d60",
+      "wellKnownDigest": "sha256:815698cf8b86bd076c6545115bdca3c8048699dac2e6fe597a2df4482aa33bd3"
+    },
+    "ecommerce-keyword-research": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "8f41116650cf0920e96dc757936da5943b1895bd4a0926750b9e048a3f13ab02",
+      "wellKnownDigest": "sha256:2c7a0fc0a71214d92090786c900f2c3d072b72a3b7b6bed69c3db011c910ce13"
+    },
+    "ecommerce-seo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "252be2351da727df4a9210deedf9a84ab54eb13760faf5cb75e21510b7c400ac",
+      "wellKnownDigest": "sha256:695c70fe73d88a63a4caf325cb4811b0630bc1461668683923310fc13089b576"
+    },
+    "entity-gap-analyzer": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "4d808573e6bac034529241720db8ed49a7cedb6da5fb49d67ae1a97d57e89596",
+      "wellKnownDigest": "sha256:9ca397e7794beb1b9925fd236d5acf3a52322d257c5fa3341f609ec3537479e9"
+    },
+    "entity-seo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "040bbc5adfa21d3ae984df3f70c6ecff6aaf18f321a956a10612fb5e652bd5cd",
+      "wellKnownDigest": "sha256:784cdcd5e5254ab074ba348bbb3211b0b818ba103249f604beed282003839ca3"
+    },
+    "etsy-keyword-research": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "2c6c09d668d099e86657b80b28343ec0aa3256a076e2002ed92e1b13c806627d",
+      "wellKnownDigest": "sha256:0beaa11594870034025fb3568ba3e1941168697d424e0d4c7d26002ba0ee6a57"
+    },
+    "etsy-seo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "2b4985444e12216fd8c37c39965f47243481a479de0e9a3e6291fbb34ff7c3f1",
+      "wellKnownDigest": "sha256:0b2c9bdf51d6674b208b1237eedef8d1e60ce1aed8d5e289238fe517fc7a5949"
+    },
+    "find-keywords": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "57ee45205794397994320374741794bf8863419ec92e549fa56279ef871b8e53",
+      "wellKnownDigest": "sha256:b6416e188c0186a7b2a345c209bc2e5b3b1cb91a5a80076e0657c7df4374289e"
+    },
+    "firecrawl-seo-audit": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "7f92cbfb40ce92d00fa3ca1352c303183b216d2cbdfc3bd9ddcaf83da89b392e",
+      "wellKnownDigest": "sha256:6d63f47166836081730be75bfda91c274ea5f1216218c185f1f9131fd1d90f5a"
+    },
+    "fix-linking": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "0e80b2dcabba57bc2d93534d4e47046134d75606683a6c0dc48c836ce1b74c63",
+      "wellKnownDigest": "sha256:57fe004c09ca8f3a647e73ccd276722bc66651ae23f8d2b28ee593d5c7746576"
+    },
+    "full-site-seo-auditor": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "f78dc647449445bea3486b1ccdf29ba773e99fb2a65599250d6880d21feb6c49",
+      "wellKnownDigest": "sha256:feb88af448775c0e423bdc5ac9852c84211ce6ed260deabc75fa1ce03f9414a6"
+    },
+    "ga4-attribution-modeler": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "0196a64fbffb92845e464ecd730ce03d5c81d4aefec9509aea3c71d3ae9bca45",
+      "wellKnownDigest": "sha256:e666015be06464f1c4cd56e93c728be693b7468a1dcb6403c84f004235c8197f"
+    },
+    "gbp-suspension-monitor": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "2826f9038a3aa3682f840f0607331a30c39ff9b2e863719e429fef512050ecab",
+      "wellKnownDigest": "sha256:29d9036811a36111d33e66cdc289bea37ee15b4e089b161cf98e91d6f483f437"
+    },
+    "generative-engine-optimization": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "276d926a73ad5d35f04073df1ff443e2b5fcd7553abe1af6c7a82c9253046020",
+      "wellKnownDigest": "sha256:2ec798a15761f7125ce5b057f385b580b667b945900f1a5b22271433f593cf3f"
+    },
+    "geo-audit": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "58b48daf1393f78a75e9507c221b35279ec9fd932a9349aa00f535ec6406d9fb",
+      "wellKnownDigest": "sha256:7cc197e07bac496521731233d0c35119ea9a75220f47f1a25d312cc8cf59f378"
+    },
+    "geo-brand-mention-tracker": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "f2557665c19900c92fd053409bb05115fa78fb305b6e74693f61ad523eb78bc3",
+      "wellKnownDigest": "sha256:de00f491f02b5a6a7f797a88efe35d6be08f6a6fec3e3bf0b83490dabb62793f"
+    },
+    "geo-brand-mentions": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "315afe44113947117d43085142e2de2f6dc5a01b5172adb12013045a1c1d60d1",
+      "wellKnownDigest": "sha256:6a5d55c3e43e148a262944c33640ad81d99e91b63ac46a9980bda153d69754e8"
+    },
+    "geo-citability": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "376a4a0914ccffacb0c18453da72a1cec4c7599c1a7111d2383926c964672076",
+      "wellKnownDigest": "sha256:e6b5edd38469e27ca286101d05e98a4931ea7dbaf45fb8248876ff7f9809172f"
+    },
+    "geo-compare": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "060b9bd33be88e564a91921dd65feab50c8d38b3638cd1d4d8eddb5d652b7b63",
+      "wellKnownDigest": "sha256:c0793908bfb2350ff9bbabd188c8a264ed60f55525c6b8cdfad24b33d8001682"
+    },
+    "geo-content": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "de19dbe946a80f2fb9e0be71200ed54bf1d8bb1e954f9be6369d03f80db69fc5",
+      "wellKnownDigest": "sha256:63d754bbdac1bf086a372379cccb041eb328c94cbb3d82bf2904bc1ee38f867f"
+    },
+    "geo-content-optimizer": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "fd98692f8c5801d6de404586ff87a62a1f24a38a307ecff318c2ceadd7946fd2",
+      "wellKnownDigest": "sha256:65de251bb29791694d7735ef79011aeca7fc8b0523af4899898d8a3a56d8a469"
+    },
+    "geo-crawlers": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "420b92291aa3bbc885939fa36e91e21a878cbb8bc257c6e3308a3277db11c014",
+      "wellKnownDigest": "sha256:f0c760841fdd6d358c045ff6c79e39aebb4273c9881859b9e66231e8e1d9b49b"
+    },
+    "geo-fundamentals": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "15bdbf449428e1ec39122b09c009fe535b71f795ce6638dcca5beeb659a1e30f",
+      "wellKnownDigest": "sha256:990037e5d9235880bc2fe925af16e455e68a428db84fd4a075519ef5e7d13efc"
+    },
+    "geo-llmstxt": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "65395ae15cea6236e9800f60f5fc7a5083451d825f4640d457750c7480b38871",
+      "wellKnownDigest": "sha256:de12c9cc28b01d0853a7a9f298285ae218b91b0847ae70c782ced01180fcc078"
+    },
+    "geo-platform-optimizer": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "6fb24c54eefc174257dea23a7eae0f19d20dc1d6503ca1068e3a35bc2fe38ae3",
+      "wellKnownDigest": "sha256:78220f7756e1eace330eed8f226dea4e34f986e913c4d498d585845654e60a8f"
+    },
+    "geo-proposal": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "a855688f1c163f8a997bb3539c72201816d5a6483e5ba618fe3e8c0816bc3802",
+      "wellKnownDigest": "sha256:1e28ba46765cabffea4e4386fa2c602f4069e1267769cf9373f49543d49a43f7"
+    },
+    "geo-report": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "07d3c49ec61400344fbecebb61cb3f5eae572b005c2a733620fc25de34b9683e",
+      "wellKnownDigest": "sha256:6c1c89648117a111d8802580ffe255727a4c0d7e5226b3c53cb568b4c282df28"
+    },
+    "geo-schema": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "468e5a9f1d02d47562c0ed871474cb4da8cf82a86aac9b73e0ed3072a438a986",
+      "wellKnownDigest": "sha256:b7dc0a602cce8441dd70ecbc2a15bc586c1b96897baf72c04615daa177260c17"
+    },
+    "geo-seo-claude": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "16ac633e88916b4190368c85c3363c8d6d4b3a2249e67b52ea633bdc0f00fa6f",
+      "wellKnownDigest": "sha256:f96406ea01ef34c633db50856f990049526e50be6575446068c812e4c1bf7a44"
+    },
+    "geo-technical": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "f6f3b9644575545e94b3933052c4d87cb7183fd96a84b003c4d5be259178a79d",
+      "wellKnownDigest": "sha256:b39152dc4c99157e8baab6d723f634ec77b9a210eaee679c8efc86e9ebd14b08"
+    },
+    "google-search-console": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "211104a946051497f2726df67d8ada3317542e47b720521c14dbc287aea29fc1",
+      "wellKnownDigest": "sha256:0649408558f273cd32148cc4f46a2a745531b50f30867f47a052ac536d359ba7"
+    },
+    "gr-backlinks": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "15d142bb6516943dcf445201f375a1f46508fac4f26f6e84c170952f96262837",
+      "wellKnownDigest": "sha256:de5f8975638d5c2a928973e51c698ecd53bc9de66f4b7360144196545a6416f2"
+    },
+    "gsc": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "0015d41be2f80282f032b1e656b500c951efddfd1e92253a43947c616270d8e1",
+      "wellKnownDigest": "sha256:fad951cc6d5a067c00540e18cfeb73a3ece64c6f47f632307fe9336a9b923cfb"
+    },
+    "gsc-bulk-export-manager": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "f1c419c1881fe4f5d013aeb7e3b0b75cad5386962761942a0bf7888d2ed699ad",
+      "wellKnownDigest": "sha256:c4d38a5bab521a54508f9321477dd6b00c1059ec066cd88f28538168817b1b75"
+    },
+    "gsc-ctr-anomaly-detector": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "a7807023d9548a8530acd48f7effff19c0a42b6ea7fca8ced256be954a0ad597",
+      "wellKnownDigest": "sha256:fa3c5188b139bae04255d2244e114fc0e82c808f8cc550e585d51530d1f3fb76"
+    },
+    "heading-structure-auditor": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "c7b5474a7b0c6599fdaed06d95f83049f472762bbec29d5cb5bb4ee6a6f0ad8d",
+      "wellKnownDigest": "sha256:8fe05fd9805046d6cb455c880072899db01e563a798a3edcfe252171e90ac282"
+    },
+    "hreflang-check": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "d34144ae908950921feb5df1c2b0acdb8b36e976e0fb58705d8681f3f349aaef",
+      "wellKnownDigest": "sha256:32deeaaf856bbdf3dec764ac3b6580ce9a091e814a365b9b0131faef7bee06b8"
+    },
+    "hreflang-network-validator": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "f287aa3120dfc3a3016b7f6cd685725255c00a328b4636841ea9e115d0a25359",
+      "wellKnownDigest": "sha256:f2b19fe4def1a9a6e5511c08cebf88cc1e2cd3f548e78fb48b630f6416a6fc7f"
+    },
+    "html-seo-review": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "b9f30e4c1cd830c67115ac2ff34aaca8dcfb9da8d416a33d46a448e41ca4fd99",
+      "wellKnownDigest": "sha256:4cf900128d3fd518b1fe10d18ce3f6791c015bc3f029412611a126e9f47e1511"
+    },
+    "image-seo-auditor": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "3e322c13c4115e7053433b61e47344672ccd9c0cd39b544c5e6dc302cb6a6ed4",
+      "wellKnownDigest": "sha256:b5c8ae2345948b7dde34f5a45430776f242fd2650158bcfe970e2a1453e0fe22"
+    },
+    "in-app-events": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "ecba95962ddc4055e364174ffdc0e68f6408fdf8d918bf12399d60752c399c7d",
+      "wellKnownDigest": "sha256:9d4d5a51a24a999ff06bf809228ca82299455726838cf9521ddd567933d4800b"
+    },
+    "inbound-anchor-risk-analyzer": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "a3d3f033bc991393dd7a5b51350090de9f73570bb67a1474edbc7243825a3cd9",
+      "wellKnownDigest": "sha256:8745f494834b0d60977afdaa9d16b82bb42a348d7c9c8ffc448a2502749e87b6"
+    },
+    "index-bloat-pruning-auditor": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "b121814c58604da1abd55e2d6e947a1cc9896d3e389fcef802e871d0486ada6a",
+      "wellKnownDigest": "sha256:2e4a2ef4550bb5dcd4991260ff269b9d9adc1248d0d843421eb7d07247c8988d"
+    },
+    "internal-anchor-auditor": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "48824a96e09807c4a0944db9483c2981cc3ee2f8aa55b62ef4cca6f872b9e174",
+      "wellKnownDigest": "sha256:87f45026383106762f5229e1b568564d0f3eca35e22cce6b0569b6bfd46d0cdf"
+    },
+    "internal-link-audit": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "47725fab32c9a9ff443dbd361f823ff3a529e835758e84185e8fa39ba454410a",
+      "wellKnownDigest": "sha256:a74b5218492975a59612c0eab6d162d86db74dd29acddc8ae8afd0055b62411d"
+    },
+    "internal-link-optimizer": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "6a752599897aee64d5664f6561a9ef0c3329a3973bfa490fce7ddb6ddc4cb375",
+      "wellKnownDigest": "sha256:1d6429e1c1dc78468962f9125deab3c9acb6d885e69d32850d68826775a56b90"
+    },
+    "internal-linking": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "8b0f22288ae6f8014250a44ae1571a4bb6d12928b4446de461201a37f4f135ac",
+      "wellKnownDigest": "sha256:429242ce2e847dda0bc9fea9b2640d488ce55b1df419a8e7c566c4aea603cb73"
+    },
+    "keyword-clustering": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "391da5c7f6ef803b0e2241224f426766e5e298e15479c72d0c3432ca83b4716c",
+      "wellKnownDigest": "sha256:103cf5f714e395392bdc18badc45dfdbd3653e44d6b0685b7befe4a82090f19d"
+    },
+    "keyword-deep-dive": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "71474f90073fef56235ad2edf973d5b7a64c3e4c362eb90b316dd8b091d0257f",
+      "wellKnownDigest": "sha256:fb3c08b1c6426b764e5e85169e375e233838a8c220aae927a410cbf34abf3a80"
+    },
+    "keyword-list-builder": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "9c6122dfb1193e636d282e070ccf84197de7060ad068551194d63983849c5ec8",
+      "wellKnownDigest": "sha256:6a04431717eb07d4aebd456a869a576c22bf567174dd082a4629476e5d29a095"
+    },
+    "keyword-opportunities": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "8edb868a1060f1a371126cda192768da8fec7c5d3b8bfe41442840922bfd6807",
+      "wellKnownDigest": "sha256:c3f2df2b6347ed4a587cb9ed35dc5709df5ca651976f89412e71ca261a523b25"
+    },
+    "keyword-research": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "c98ea6cfd7419869daddec8d44285d2333992e066feff2308f38ee6fa451805c",
+      "wellKnownDigest": "sha256:d4973d428f94bf335c8ffb567223e8d2014b0be545a78bd3361bfb1fc82a887b"
+    },
+    "keyword-research-and-clustering": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "bbaad6d1cbd964355ead3146f10e571624e689e02be1b6c054f52663048c6327",
+      "wellKnownDigest": "sha256:e5999bf7eae05942332472cfed6f2773a1897fbc891f66cd989bfec9dc1e511a"
+    },
+    "keywords": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "7cf3fbe9bad0336f51814c915f9aa912e1a1e31167455dcb3b6338982a1d7123",
+      "wellKnownDigest": "sha256:4784df285c6b1cc2830d6b227cafad484c5789a36b073a957d946065d89377a9"
+    },
+    "link-building-campaign-planner": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "ed6a48bc5f29c481c4db098f771b2cb5984feec4754b2ce165968ef35846e519",
+      "wellKnownDigest": "sha256:80ce23ff5bc960093742bcd394e3fb02e3395042def0d9087a4212409e80791a"
+    },
+    "link-prospect-qualifier": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "1a0ead4075d914caac380845ddd0073617b59e8823923a754e57309ffb711b35",
+      "wellKnownDigest": "sha256:7cd4d53e1a5f0cf420da37ce9554acdb470074b2f7f89d8903aa130ba066fb19"
+    },
+    "link-reclamation-finder": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "11b71d767fbb2b37c50f345b22e8b4172702285f62f38d14a0623d31ade26929",
+      "wellKnownDigest": "sha256:4b731ef5d7eba379d0451612f5981c397fc8ba87ddb48e70a812930a897bc4a2"
+    },
+    "local-grid-rank-tracker": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "8a6c41bc53c5d23991d278770a784faf56437a738653cad7115865f6983235b8",
+      "wellKnownDigest": "sha256:08e29e87955a23957b35773799e5d870f91c81d6aa12eae27514bccc9c15fdff"
+    },
+    "local-landing-page-auditor": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "6dc8d07ce8d81fafdd2b50df251762f42f787dc631f266d37a9fe3415487bdbd",
+      "wellKnownDigest": "sha256:156c028bbcea9a942a65a18dbf68afdefcec1a2472dd502455c40ee8332bac03"
+    },
+    "local-schema": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "9c856508847c6b4d872eb82f331b9ef960d9dde25d88e2849e87601970d71a2c",
+      "wellKnownDigest": "sha256:b802ff01c01149631aed390ff20c8ed1279c52a6bc62e53e29e07a66ea0b63a1"
+    },
+    "local-seo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "66d44a317fb42a513e651dbeb69f068e2b7b354d29c54a18ae9d8bb38f54ff56",
+      "wellKnownDigest": "sha256:e619f978d18824f77c86f0c8c342b886ad32ec0d4df0604bf0744d6f568bcce0"
+    },
+    "local-seo-audit": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "706bd7bec00b04d658fb074c3bb923da01b464ceea6062ce27ef2584c9a9b021",
+      "wellKnownDigest": "sha256:7bef19e332ff9aacca7a24fbd8911250d909460f890cbf7a4cee5b6c126ad5b5"
+    },
+    "local-seo-google-business-profile": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "c1f424cadd93431fcbf7b074defefc094a302ab917d8d1d74c6c691d1e46e06a",
+      "wellKnownDigest": "sha256:89aac226aaa99985190660bd2f198e073be4318957bd24211914b4b3583cc3f8"
+    },
+    "local-seo-manager": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "b3f2fcded76e0b0b6364cd5b9950d08cad31453c6541fad5baeb3d8721231050",
+      "wellKnownDigest": "sha256:668f62b854e9cd5f993c2dff9bec63727cea0ed3cc320a161e56b784d5f174bc"
+    },
+    "local-seo-optimizer": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "7e2841aa8944b9d2413989f714bcd9d83244cbc24c992cd21551ad81db9c729c",
+      "wellKnownDigest": "sha256:463a6d7f246a63d80ba21f9cba9454cefb0a8679b709ec039bf3960237f74b7e"
+    },
+    "local-sponsorship-link-building": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "74b2b39c790423e5ca31b2f1176c315aed01467b7ddcea2f32b724d9d126e47c",
+      "wellKnownDigest": "sha256:df82daaaeecfd8008b80c8194e4969795ae4daeaa537be67a7d8b3894548532f"
+    },
+    "localization": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "279d66d00f89289182335e62a3bb780058c9daf0944c1584676501df66aeb2a5",
+      "wellKnownDigest": "sha256:31db527619d95895c4a5f5440d7e35f5014ebe3801ec10566ff102fd74b31899"
+    },
+    "market-movers": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "a80f5778b19cce22278923e653dd7f69b2463f25de46c0ccb2926e72b5ceb638",
+      "wellKnownDigest": "sha256:af98ebf0cb40c8b247c2baa7be6d80fcabef5af762d15e77a49821a92107a029"
+    },
+    "market-pulse": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "2a118a484a70877347bc1f28699ac8451ee64d6e148b41b7c234147557cef47f",
+      "wellKnownDigest": "sha256:940728433254583ab47d9d2bcc034c2278ad8dc3437634d0531fd6ed3c8a50eb"
+    },
+    "metadata-optimization": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "16ad5203b36914d9b19b46f67c394931c9c2eb82fa45c3d3d0f46c1c994c80fd",
+      "wellKnownDigest": "sha256:ff6a41e06d2f04c46606efa7d8611728cc33f8b304843e963930753eee575e9c"
+    },
+    "nextjs-seo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "5466cd9e13067423900c38336b57c9161bbea7b2cdd72567a4fc8b24078baacf",
+      "wellKnownDigest": "sha256:87cd39cfbc0217a7ae0ad6012b6ed8d69eb871cd0d38c415105539c366a718c9"
+    },
+    "nextjs-seo-indexing": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "5a5fa93657c5dc1ed782ad2d09536bee8cde67589d10291fb0f0370d10f8ff08",
+      "wellKnownDigest": "sha256:9c4c5d400d15d6ae84d1a670af43dc1df7a0cb11eca005957a5808ae1c65950b"
+    },
+    "nextjs-seo-optimizer": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "c887a7094cf53841994cb089734191afed88293d2225058ca1321b4c25b42d2e",
+      "wellKnownDigest": "sha256:3b78776f976fa40c41db0b203568058fbd3b2347e2dec77758854a882e433d5c"
+    },
+    "off-page-seo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "76f6343730948886bd18ba1366f5b1288ae63fb7851aed75087c29b0c2adbfd0",
+      "wellKnownDigest": "sha256:b8dbb74aac7c9a86ab489dbf8e6f1579693adc4e6efb2d93bebe7514006f1edc"
+    },
+    "on-page-seo-checker": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "aebb80b6acd15c62e092ed956ab3ed4bfd72d8efddaa14461e6c6428ec1d2bcb",
+      "wellKnownDigest": "sha256:0eb55060769de01087a23969e4e5284b6e7bfed860f7984e46cba03cb76aade4"
+    },
+    "on-page-seo-fixer": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "653fadefee3f692acc5a9312056b3d63a78714053e6603f7441a2f9a9dc275f1",
+      "wellKnownDigest": "sha256:7e62a410e491ba0ae0e12fab1d66a410ce52ac00fe392e4fd351bf229ea4d310"
+    },
+    "optimize-for-ai": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "07c29b3de08b25d6261b1bfc18c31b8995cfe2e2141d6f2df365cfbbd002093c",
+      "wellKnownDigest": "sha256:b8f4a57542b5f78b7e2420b9fa54ca7bb510944b18b92c738ae0c4495997adbf"
+    },
+    "organic-sov-tracker": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "79d85d136f7f959eb454cdadf3f28422334a15db5c5d6bb853ab74adfa790710",
+      "wellKnownDigest": "sha256:0e89ac815cce04a465e99c7763109abfd0fac5743ed4db48c603b7b01960cedb"
+    },
+    "orphan-pages-internal-linking-opportunities": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "15d1f1471200f83bc399c373ecca1565fbdb1007640ffaad7a1d61dcc0082cb0",
+      "wellKnownDigest": "sha256:9db2ddce5066e24f0d7baa72e8f1d0e41ae080f7a0a132f5bc72c15f633626d0"
+    },
+    "page-seo-analysis": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "81392db91087d6625803e2ebf75e60c8f3702e517da44374d1bf822099214d46",
+      "wellKnownDigest": "sha256:be50470ad54bb0f40bcc14ab1d1ebbd7430852694a07b5349d899d1c7e6197a0"
+    },
+    "parasite-seo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "c8ee8782f4464fd4655a776126a5f360745208b1944457f0096ded94cbefab96",
+      "wellKnownDigest": "sha256:2db6d42ab4ab81c2be86da7f11e8ec8157757b776b1363f28d95c707d9a5eaaf"
+    },
+    "paw-mkt-seo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "f6cc6e6dcfe31234c1284c348967d97a1996ca2625ad102b53a2935f3529dd2c",
+      "wellKnownDigest": "sha256:2f80b0fde9585b2d694226db2d53edd93ffa104fa7bc9d16c95e633c8d8a9910"
+    },
+    "product-page-seo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "829536339baf64288c70a846d3b3ff81d4980466c75bb1b6de1d330a1aee54a6",
+      "wellKnownDigest": "sha256:84c1a1835a4838ca86008dae6acbc18829c33f5f8fc306db4535cbde5f39dc0b"
+    },
+    "programmatic-seo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "ed160b6c3692ff1d78c4cf2683d79d8960f5b99f479fce507b91ba712061a530",
+      "wellKnownDigest": "sha256:35975828511ff287d2acfd9c4a228bc9172753fa5248fd74bc37be9c1332a8a1"
+    },
+    "programmatic-seo-spy": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "38a7d92f962705e97d9cb75fcb4137c66d7c78ffd0f93db0ae3fe8a01ea8d8fd",
+      "wellKnownDigest": "sha256:21061443b91a80181931a1e1e3ff1996028aa12c97623065714536720b6d08e2"
+    },
+    "qiaomu-seo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "d25c0378dacdca085892801f5c07846630042d244ae0f19b55fe036c2382f197",
+      "wellKnownDigest": "sha256:af28ca749f909414d5cf44a40a299225176ff1fa3db75784566ea9c99ddf7979"
+    },
+    "query-fanout-expander": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "758abefe5d0ee613ae2faaea81a3f7d2973991b77d77753b37e4ef6ee344cc4d",
+      "wellKnownDigest": "sha256:4b01a3ae70ef56b05e514553db3235f25cfc171f7b552ecfa5e4958fb9bf5537"
+    },
+    "rank-local": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "9cbad5f0d74de7648513999cd8bfb7f48045f99024c71d6b88e6d28e1e9f1742",
+      "wellKnownDigest": "sha256:71ed01907303d87cc31cc1af9aa5e7f5ed643d630a5498eb9d3fac11f31883b8"
+    },
+    "rank-monitor": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "bdd148cf554f4ac3bdd44abd62e54d9eb87e4444b2df2d091fcc35c95eecf05c",
+      "wellKnownDigest": "sha256:411440d2895ea6784f88179fd0be3dbb9dc719814b2505e3da235271db9835e6"
+    },
+    "rank-tracker": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "26c96012fe4a7a76f05272d74d928c78a02664c61c4c4546ac7e4caf5a404bf1",
+      "wellKnownDigest": "sha256:dfebbc2d3fba706dc19828044410357a4892d982c7ffa986b3d5b74639782e38"
+    },
+    "rank-tracking": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "14d4a2f7bdc1727bb50855dc242de2af6a060f59c671cd04544ed88ec69cdd00",
+      "wellKnownDigest": "sha256:da742b96d7b054ba036c8e392de1a7b8065714f520366d3694e8fb39d807cc7b"
+    },
+    "robots-txt": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "1c4d69d3bef34f27b21f74612d17c377ed20e072a2837b2c2b4e696c8652fd8f",
+      "wellKnownDigest": "sha256:06ade22de023dc686b08cf7776d0df5781ecca227dfe0dfd5d0b495df85ed0c4"
+    },
+    "roier-seo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "88fe678939c4839cd33eb60bf49c68ec248d40ca2ab8da5f4bec6a866386d82f",
+      "wellKnownDigest": "sha256:f752b81812426d5f010e835e10870dcbf01e6c40b9bbd2cb41a319eb2c330e91"
+    },
+    "schema": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "6809d198493d08931ea1c35ab40d2fca27c6ae63a07a4bc183b75df51243a374",
+      "wellKnownDigest": "sha256:81e51d24d77082229771dbe41705bb61c5f3a041433d8bde5e9958ca1a6a5249"
+    },
+    "schema-markup": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "8a9e249aeddfc16cc3d3d2a207558d9b9de9c5bbc4a8555face9ea363eca3920",
+      "wellKnownDigest": "sha256:5491d4e520bd1746c714d430abc7472bbc3017e38b2eb4ef76f63020591c597b"
+    },
+    "seasonal-aso": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "9b3a8d8e23e9964ee0d9e91aa6fc8da5c97b29262169f44ed17335121f656a27",
+      "wellKnownDigest": "sha256:569b350ee4bb4916a912ea2d32af8f2d7ca151b7f2e7a61075ffceb01b446b26"
+    },
+    "self-media-content-brief": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "e9765292da2b310f5ca07f3ba212a29de2bc5001c4bdf8fffe82a37a02b39bd9",
+      "wellKnownDigest": "sha256:5d9fb53f6f00a058bb68ead837b8fc55ed3a2c80dacc57be69bb53ce2c330df3"
+    },
+    "seo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "01a735ac18ceb15536ac40b11a5712b3ab8f78ebe94748b3ebc3afc7f58a6f2f",
+      "wellKnownDigest": "sha256:91d13889114b527678eb1c45fbcd078b58c8a1a8560dbe17be464b8c087c2113"
+    },
+    "seo-aeo-amplifier": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "6802e914d3a07f46ace185fd2856aa0939d568bf8c6fc68c9fb6f7327457c19a",
+      "wellKnownDigest": "sha256:ac7ce02898e19077d0d4e81f6090426b778f0c451ed760d76e45cdcb537b38d3"
+    },
+    "seo-aeo-audit": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "56caca669dcdfc3dc5ff3d292afac44d10e9d1c859ad88b0ec88c8d7965707bc",
+      "wellKnownDigest": "sha256:f9c05023b52e611438da492eaddd09246612fe713e6b7ad509d3297730f5ff86"
+    },
+    "seo-aeo-best-practices": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "edb99db85683ff99678fcb1bebc3a5653c3ea927eea9ee2534f19be86c7b8b81",
+      "wellKnownDigest": "sha256:edf060a91ba2937b0d6cfa87286068191eb611fb683a79eabec4cc6d59276d3d"
+    },
+    "seo-aeo-blog-writer": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "cd9f714ca039a62a5fefc2fdc28fc64d6d5ef8752d7f9c7bab389ca9c89bebc9",
+      "wellKnownDigest": "sha256:be3c44fb0343ac60ecf9ff04bcafa353cf71c00fac2203f2486cf2d4f6d3cfa2"
+    },
+    "seo-aeo-content-quality-auditor": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "9c54ecb5a3d5832071178d527ee04ef095793a3cff1177b7c356655f989a660f",
+      "wellKnownDigest": "sha256:afff79f81245d0f710b48b439b715248456a311233d353824c99c96fe94e2480"
+    },
+    "seo-aeo-geo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "5297f9e6bfe89e071362a0fec59158b4143976b3c081f0565707e73e5c7cf308",
+      "wellKnownDigest": "sha256:dab3d3e8e468d9c7562bb80e5f1480e1fa753a0539641227018be9fd651ce45e"
+    },
+    "seo-aeo-internal-linking": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "55674add6a12d7d8a57976cedb1def16bc1713db58da7d48d872dee69a76e081",
+      "wellKnownDigest": "sha256:7fc23303568d881cc54aa5b0ecfc305ce759fe9676784dbfbb958e449212d4bb"
+    },
+    "seo-aeo-landing-page-writer": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "af51df3bcbb27cae3a972c00c66e54bb60b7bf57e0e3b94dac32fd02269da772",
+      "wellKnownDigest": "sha256:e29ed7c7b2036b0a2015490955d5cb79ec172ea6ffcfc1edd7550f2559d950ae"
+    },
+    "seo-aeo-meta-description-generator": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "574ca137a0341557801eb641d6f04ad75b325f4a166f895080fda2594779a42e",
+      "wellKnownDigest": "sha256:e34e15f84c698453f4c106f247613b33849568883a4e8958d1aac45babf4408c"
+    },
+    "seo-analytics-auditor": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "3980f614d1f97c7da3f568bb2046cf8936752f46f4c0c3d6eedc34cb3cda00d5",
+      "wellKnownDigest": "sha256:4ed9821fd7099e9ca5151cdd0fb84f353ae01a3727f02193ec3daa30397b7863"
+    },
+    "seo-and-aeo-strategy": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "0de7dc50ae2c617b0770522e4484ca2b81904e55d1ac104caa3504316a4195cf",
+      "wellKnownDigest": "sha256:3d5c410c34c27fd156d574cacb89fa2f9142ffa13bb3ab07cb2d61bb69754ab2"
+    },
+    "seo-api": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "7d71b970e9a044750e0a5cfc00706bf4ce5ced84bc3c9ba7d048065ccc53c1e0",
+      "wellKnownDigest": "sha256:37b80f498c389e14b9dc4d641b9ac93499871bf538ba0769f48ef88b1fd00054"
+    },
+    "seo-audit": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "9a94c66cb3098b03037f072b6f561cca75410c6d8611e50646baf9e8a5dabe8f",
+      "wellKnownDigest": "sha256:2444413f360c08637cbcd73aadf7ffc044c2d6d38d0a40bef4a769fc0b68e391"
+    },
+    "seo-audit-full": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "df240ea40386b68c00dd2154a578613cf41aed20526a13154e6317f98646cc29",
+      "wellKnownDigest": "sha256:62506c9e5207f01a871235b65957920b15c707180c113aa2a9e8e01d2db05da4"
+    },
+    "seo-auditing": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "219dd504e2795d44f71d618b4ae180b94100860df9179b61a22c292adedf8ddd",
+      "wellKnownDigest": "sha256:1e22ba8c8dbbcf36e389f76a4ee1d27e64ab6bbbeb6803f6c34e760f1e3a191d"
+    },
+    "seo-backlink-audit": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "ab41bb25a215c0f52f4e9fa6dfee0928c16e4886a2146ac97bc5c4e50cbf9177",
+      "wellKnownDigest": "sha256:c61832f1a88be7cf027f47de8f5f86398a188d2de339c30529d721a1525dfc0c"
+    },
+    "seo-backlinks": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "f2ce66e08ce695ac77b90f0f4eae9508c159964ec81e2a3258ad1b44e83c164b",
+      "wellKnownDigest": "sha256:922592731c70ef9c8bd5162d41549998c66dee7411af45cf787a421d146cc37b"
+    },
+    "seo-best-practices": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "bf7237c16ec77d2e6880e89619603500ab4287b1f6e7748a9361bd9eb7d96966",
+      "wellKnownDigest": "sha256:0f68b8390813543e44daadcf269ebecd6256f9c75196402a4e913f337b12827d"
+    },
+    "seo-cluster": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "67ad482da69503ff0fa2561b08564f7cacf9c6d82839683eef7c52b01e894719",
+      "wellKnownDigest": "sha256:38b754a41a82e3addc30d24a6dce34586b6ffa069cab878454f9fcfd33100c55"
+    },
+    "seo-coach": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "a13c8a4be02c61665888c093d94768c39d9438aa0d84fc1b36f55b3e7ff3058f",
+      "wellKnownDigest": "sha256:08e276ec7e2409548ecaf1edfb9e1e2af285e6f6ecd1e209c81277d3df43fc44"
+    },
+    "seo-competitor": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "98e470a3eaa484d7764813b14d1d1d4bef62eb94d7b3d7ea7f0e4ea05936625b",
+      "wellKnownDigest": "sha256:5c6d48c4fbe32adf88f4b8680b3c6229c0ef78e87741d173e32ef9a73e7da311"
+    },
+    "seo-competitor-pages": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "8a314e3af7bbda78fc688c10cfe0e318f3d3f71ec913f0a5238f675739f9fcf8",
+      "wellKnownDigest": "sha256:c362585c6a9a6f333dac56fbf0505ba32f6da1a1945e9967f96e2ac42a920df2"
+    },
+    "seo-content": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "70114ae0ee581234dd3f975edd8f27e60e83215099b6b1cda86878cadd6b345d",
+      "wellKnownDigest": "sha256:b167c03c9cde9b973aee4930b4eb6b7dc14b0f994b9a75d265a3864852d9f323"
+    },
+    "seo-content-auditor": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "6ce85d3698d53479d5873b00937f83fe3ddb7082ce73ab19787d2ea985546643",
+      "wellKnownDigest": "sha256:e2caa9ce55b2a3256218d5f2c9628b52577983a03da835786b4232196c343a52"
+    },
+    "seo-content-brief": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "f10e7aa67ad7c25fbf6f84bcc075fac0761c91e339ba16ceba9fb720c6aa18dd",
+      "wellKnownDigest": "sha256:4490e96b65d205f475f60f6c964dcb003c9b7db5d49150e0e0ba76d8722dc05c"
+    },
+    "seo-core-web-vitals": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "6a0464d156ce0d6b03a8337ed629145dba91a2a3a877c0c9f70036a863eaff30",
+      "wellKnownDigest": "sha256:d2880156b13cf2b512432f98f6d579815d5e031efffbd27d7a371862d84376c8"
+    },
+    "seo-crawlability": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "84e50c67fb3ee56dc5e19700cc6f9f1cd5c59e3beaf461ca12ba8cbd30a1e785",
+      "wellKnownDigest": "sha256:974f8a964801e09885f72176f71a347dc7756d7e452c00cab8e46f58b7161816"
+    },
+    "seo-dataforseo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "829a79eabe307994c6dc197a85fecd51e80b17e325c68b4468a9d8d3a38809fa",
+      "wellKnownDigest": "sha256:5cdc74084c8baa4c89890cd315da63c147c1972e1275382031de12132a2e59fb"
+    },
+    "seo-drift": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "0c21cf8c560ba2c135dadb386b94cf6af70a6ee173bdaf320305072eec12b237",
+      "wellKnownDigest": "sha256:396069d41f61028ad353d32c3056ec22869474a910315fc041f6bc1f545c27f3"
+    },
+    "seo-ecommerce": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "38393e32adc1abf8a48c6424c41e7c0abd59a4c49fc49123b6e7b162a749233f",
+      "wellKnownDigest": "sha256:2ab2cdec09be5d58d64f679eebbaa9cdd46fd9dcd1eb2d88af432ba1acb123ff"
+    },
+    "seo-entity-linking": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "53fad39fed7f80bbaa8dd82661d198bf1459f9a89dbf00c590fc05f0e82883b0",
+      "wellKnownDigest": "sha256:45809c7a2fdd206f887f345fe7bbcafbab0d46a4b67cb59696df6c8a8e96ee30"
+    },
+    "seo-flow": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "dac0f0228aa4df240425e163e850d2325e5f5f99f5c0e23bf5fe1fa860e546ca",
+      "wellKnownDigest": "sha256:099c39f5af52ed8dc628a0f7679b6494b55433af229ea3a9fec20cf25a663ebd"
+    },
+    "seo-fundamentals": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "b124619d5f049ea81d6e0e1e39e1f1235fb26b4c64ee775894f907f97406a4f0",
+      "wellKnownDigest": "sha256:32c5f782699d55041abc229301dbb17f404b28b9c8db5b45ec885503a870c931"
+    },
+    "seo-geo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "56f90ba46b36563bb5461feb8462aed9283e74dfc4cdac2a98c42c4bc86a95be",
+      "wellKnownDigest": "sha256:7f19dd54ca26f60ea51ba1cf20d3d36323f0b5296d289680f305d4269acfca9a"
+    },
+    "seo-geo-audit": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "25aa57ead5cd1c78e51dd581e8d8c813cd81a3482db4571f857584f57ecbfe0f",
+      "wellKnownDigest": "sha256:296bb14d7299519e8fdd4de941b90f8bc6967aeb2048e3de9a84b3f7c7e406a8"
+    },
+    "seo-google": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "0970407baaca439eb2b1e55f8f47bd28066ae25c146fadfdff8c3c7059c66987",
+      "wellKnownDigest": "sha256:6859d9a478926ccee08da60e20207e8adf0de531c1a45b622a31531cd2a9f0e8"
+    },
+    "seo-hreflang": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "b707c20c8131c01bb405e20e496ba2f470d98fe84b8102e72572aa693eb0d5b3",
+      "wellKnownDigest": "sha256:f189fec337f144431699cb8d84b140bfd90c8f9dd84d6916fdff5d57b941777b"
+    },
+    "seo-internal-linking": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "564faffb553f405e453c21a6bacfe727492311576fc449acc21f36b1470f0c4f",
+      "wellKnownDigest": "sha256:0ec10929fd9a8219214019ef5c0756140349553faeffdce03e83427ca037f85e"
+    },
+    "seo-international": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "c91e0b96474dfa8502c5200074265fa922f19b6ce24adbb235d308021d8b0576",
+      "wellKnownDigest": "sha256:2f1a391e1074893cae03b3bc004f30c618e97612fdc7371ab2e9c95f0a34dbe8"
+    },
+    "seo-keyword-cluster-builder": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "51372d7962e6231fb329e86ae3724d297d0ad4fc9e87ecc3558e8276ac763a3e",
+      "wellKnownDigest": "sha256:eefdf0cb0e55581fbc10a905578c10641bba5252b345817d67d64484a1264f20"
+    },
+    "seo-keyword-strategist": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "2e32526bc2adcda28787cc2030cff39a3ad048e689729ab6d1b8a087416f8a9f",
+      "wellKnownDigest": "sha256:6eea9320b0b3606067cef951294565c7d0f696f80df50b8fd25233d0bcc43da8"
+    },
+    "seo-link-building": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "11caa473bd51ac5d098af484e6bb360e3972febdc1d096f955a56b2d1d225e3d",
+      "wellKnownDigest": "sha256:55cb833ca5892327fec696ad75fc5f7ef3f46063432b958675f9f8e24a232c4e"
+    },
+    "seo-local": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "7d27fad97e056bee4929536354c56ca9e0b929684722d04781938376ea78a485",
+      "wellKnownDigest": "sha256:4ae42edd46dc43c66c42dc671ab486061449b01c7d853686f7673d8d1fc2031b"
+    },
+    "seo-local-business": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "e2d87ec3bcb51e252fa0923dc8274193c18163f297d335fd62b1ca239df88015",
+      "wellKnownDigest": "sha256:0c4e773bd0b990a650aef3f563e5832fdb3dd70bb554df2a56d72f007bfcc835"
+    },
+    "seo-maps": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "9c5dca5e4aaeffc09c42a169de272eef996c6d3f1ae341ed936f4890e99ed3a6",
+      "wellKnownDigest": "sha256:80a791d479105cbb4b83d6ae080c3aefa7f196917c3dd20015d7ac7e2e74a971"
+    },
+    "seo-mastery-jp": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "17bf747d8a5424b54cfa18cdbdfc21407aa313621d77f135781c06b2b82c625b",
+      "wellKnownDigest": "sha256:c9c664b1bd58bc204092ecc355e5a8f2eeeaf4f7a4d268ba8a173cc11eae3206"
+    },
+    "seo-meta-onpage": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "be65647f2d1992693be6c60a2e1fd85184bb27cd3393d5221d88fca44f183416",
+      "wellKnownDigest": "sha256:4bdb7f2cf84da6dac143c6ab1a04358434cea8e5fbff16d99efc055303b66191"
+    },
+    "seo-monitoring": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "06d88fde003b494cf820c43b034d05656668ea46283565220c7256a4b72ec3da",
+      "wellKnownDigest": "sha256:f73dda668f1abef913a0a0d99b15c9ef2816023d605ce7739d6dd49ad757152b"
+    },
+    "seo-off-page-backlinks": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "19bf1ca71999dba49dc0ebca6f2fd202a532eb9dfde9eb53180ab5c32b1f1219",
+      "wellKnownDigest": "sha256:5b4b401967053a0a5cfc0d282428fe21db479d9f3a28aafc168faaed9b459b61"
+    },
+    "seo-offpage": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "ef3fbedba0fddce3b52d1d8778b12f41a589d50fcb0a03a108c5d34f81efba44",
+      "wellKnownDigest": "sha256:8e82f27f498b87844e0fe36df27d75103ada17ccedcbc47daea10268e3bdda29"
+    },
+    "seo-onpage": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "3827c2a680b11ab9c803bc05a012c08c6ee120b75533d4e5596dd5d955d1ec02",
+      "wellKnownDigest": "sha256:da3ff5798d93938e1527883add8c3a340a3f15a14e20538c8f46f6b5998574b7"
+    },
+    "seo-optimizer": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "3369143281e3ca22f15fe7989b08c64ac3468197c2ea73ab6ca7f47e28940cb8",
+      "wellKnownDigest": "sha256:88007e130c7fcfd58d25bf3eefb8176259f07a92690c8407ed9e4148d97c094f"
+    },
+    "seo-page": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "ebffb5cb17889018a894cd5e2f20ced801bdbb48714f752661a13b98b9b63ded",
+      "wellKnownDigest": "sha256:c53ea55814f5b385e8379b54caadaff1f16a0e3f69485f8e7789276f85391e5b"
+    },
+    "seo-plan": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "3156031fc513c7109c038548d9e08dec2f119a2b913d33a84a165af628c3ea3b",
+      "wellKnownDigest": "sha256:456cdb5f967872f872be32572282bbed8052b71097a66f70b7107ae6b851bc40"
+    },
+    "seo-programmatic": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "fb17f1ca722df7e2d9101e26ae530203018dab08531eb7d02f5b0a0e49598a9d",
+      "wellKnownDigest": "sha256:655516bcdc742566668900e4df513b83af56c4c17c715d45f52a1359cc8e3ad6"
+    },
+    "seo-rank-tracking": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "45131f7df621efb61e09d0cae13d8ec18662ca0652864d0f9fa91247795dae34",
+      "wellKnownDigest": "sha256:e22ba4eb8f6679acfd98db1eceadd939f1fca855ec7a0288f61853a2076593cb"
+    },
+    "seo-schema": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "e2e58a7490daae4c55798934bce56b7ae31db2b556579e0a1744eef4dbc9ef83",
+      "wellKnownDigest": "sha256:8137d12b4f5aad3f5df4c3e16507f8650cd1c0ff3fd998b6be67d513e61e3719"
+    },
+    "seo-sitemap": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "9646c51fb5fcfd4ec6029e699ad9b32e8ef15fda13326d74a38bc81e43902425",
+      "wellKnownDigest": "sha256:82ea937aece6c793e94cc7b715a9c6e713d44f2b68a49330fe90f82383285ce3"
+    },
+    "seo-sitemaps": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "57dcd1870f5cb12b7ad582d3ad32890ecaa579289c5be81820e989a1dd2e7499",
+      "wellKnownDigest": "sha256:9e0cc8c6672bf4a597bccc229586f2619d331e08cbd65c974d7e3781003f5b2e"
+    },
+    "seo-snippet-hunter": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "f3d142f78bb23fdbebdeb1085d0d13e8ad7c63e7353adb2cf6e7722902dc188c",
+      "wellKnownDigest": "sha256:a6dd5634fac32e5373ea1c7e054106a8260e07209dae4f1a20f2843c473e4f1a"
+    },
+    "seo-strategy": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "5dfe442973bd68fb3cb10739573f12ef2fe498c925a2483ea073b8b935069d47",
+      "wellKnownDigest": "sha256:6d8417be9c9c91627498ef2d120e3a9651f0e4c872f00d0ee9f4adcb24b39d09"
+    },
+    "seo-structure-architect": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "86aef6410b57b5190f0393d678ff371343f7abd61002d5f0294db986a10d2b54",
+      "wellKnownDigest": "sha256:6f7f0d01ef2aae922bde52c30e27a59e76a7835dcf193c37f3646f562f4de843"
+    },
+    "seo-subdomain": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "68aa58b41fa2355b29492d59823c611edc18c1becafcce0ac6f02a8283f02187",
+      "wellKnownDigest": "sha256:fb20d46ba8ef44e198ef8b705e96d69997d835d9bb2715e0afe70c87dd3ec154"
+    },
+    "seo-sxo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "b8758496121ea00eda00db9f636ff100cb67c0f496f62508f2b0c099da577d9d",
+      "wellKnownDigest": "sha256:bafad6381bfd6592340a1c635757bb7a31cb8b4d6d173bf72b3d41a16367aff9"
+    },
+    "seo-technical": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "32003e6eb15f4d10e40a2b46d5a26ece7112cfaa77086fa2dd5936d2a6c7b0f4",
+      "wellKnownDigest": "sha256:52b591511274158c11b40cdcbaaea3ef7fc36eb7caf740f46dfefed25ed290d9"
+    },
+    "seo-technical-audit": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "8511162e35cd8873cda817fae4640bb8e90852223e2ac2f74b1f43579a626fc0",
+      "wellKnownDigest": "sha256:1c537b0e43cc9425bc726738890e89d18730f7945fe392b8f4ad6a771c19b24f"
+    },
+    "seo-unlighthouse": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "188792e83f4335c35cb578fcde8f1bc57f8afad84ea40857589f05835d237795",
+      "wellKnownDigest": "sha256:4bbb73814d874cc074f354ff2a32d7a1b4067c83c6533576498d65e46b310ebc"
+    },
+    "seo-visibility-expert": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "58be493b55dbfe049dc17ba0af6de0908cc453a473701563c44dae66a0770448",
+      "wellKnownDigest": "sha256:4c8af9c17316122abb6688ba0b555d4450749d0372cacddf1860b018a73f8ba8"
+    },
+    "serp-competitor-mapper": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "9ae657ea3f7b4b54e0fe3fdf90fcd6484e3a9a777651813a5269b76c42a63ed1",
+      "wellKnownDigest": "sha256:3a1c88119b19ccf377c45ecfc1ba38f285c6794f7755a4676b0046f727e24c98"
+    },
+    "serp-features": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "c5647a4844e5317204293915ddef6a11d2f607ab5fac400539de67fc25c429b4",
+      "wellKnownDigest": "sha256:dcba2ed6624a0ced588e9e5db3dc84de8a7391442782a5347c91a370405ce0d4"
+    },
+    "serp-markup-builder": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "dc67463a64cefa8ac19c91004f3393e2e45a3ba252ec74c142cf340cbd2ebaba",
+      "wellKnownDigest": "sha256:912f902bfb63eb969f6b62abb13fce9294d4d32f93ab5d0247d7d304fb82cfbd"
+    },
+    "site-crawlability": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "c1dba7a6bb12965e6e5e0d070254ddaba4346ad0781c03a5e87eea6f63342beb",
+      "wellKnownDigest": "sha256:6e67429445b88a2f6b6c87d5f886ea01baecb502e79c1147d2556dbf8869406b"
+    },
+    "sitemap-audit": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "1c1094638fd3aafa013b170bc5195f81e7da768cbe19a54e7b98c035ee1eb32b",
+      "wellKnownDigest": "sha256:cb4cd9dfac3283dde9ef4e205d8a568bc7b7bc3d22cdb23860679389bb68c33b"
+    },
+    "structured-data": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "c943470299a8e1bcd964486f821456a6b1b88b89fe3f057d757bf32ec84a792a",
+      "wellKnownDigest": "sha256:63d99359588251d570e09c4b1781013dfb484cb471c9b02353917a671ace8e5b"
+    },
+    "target-serp": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "3d63fcc3329d7a596c4bbff201fdca83cdbb8c09df08af9fac0217c14926720c",
+      "wellKnownDigest": "sha256:8b1d3950562673a3aba783cca5d16a53404173d7f83c8c09c7a693913886d410"
+    },
+    "technical-seo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "816a33121686e784deabf48299a7ccd24dd65062c25901d09871d778c34b4250",
+      "wellKnownDigest": "sha256:246a870f86323c5981b375f10a66ce77148988ccff53dfa586c9debc8f3fdd51"
+    },
+    "technical-seo-audit": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "0c96bdaca7c93f99e6b05079e8d3d4887a0aa9982cb86fa4b4852eabfada25bb",
+      "wellKnownDigest": "sha256:af30f9f9ca8381e8aa502577dcce2dbccf8ab95fe3656e5a5d0e80c2f73cd2f3"
+    },
+    "tool-programmatic-seo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "7b2880a8078efd9e46bd68c841ba801e60e37d3e236691d83d098264dfed261e",
+      "wellKnownDigest": "sha256:442a050aa3fef0c98417af8bfe18a7669c124a424664efb9f2a74917f743f027"
+    },
+    "tool-schema-markup": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "edb9b434c786400e1503200371f5c6c6997bdf823d764b0c0cc472562ccc6bf4",
+      "wellKnownDigest": "sha256:28805b983052a07c115b77455273362c10c50c7c918a6b0f8a7939c689024abc"
+    },
+    "ultimate-seo-geo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "65e11b96d1bf101f505aa3d1a18b858cbfda5576b9c2a6e6ee6f6ecba226b843",
+      "wellKnownDigest": "sha256:2d93c382c4864589b859ffdcd8bd45fa6f5f1b19b576d9fe821b4fe0cdbf5e6b"
+    },
+    "webperf-core-web-vitals": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "934a79b66f5fd44d29d8c247f464585e35613693686c05aeb7337dca71f92ca4",
+      "wellKnownDigest": "sha256:680d3eb5f70d510c5189f644c0edc42560f89069e465a7ba469c54b16997186c"
+    },
+    "xml-sitemap": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "8b5c810edbd66943cc0deca83cac08f68c90ce9b7855cd0f72eb3cd9535ce713",
+      "wellKnownDigest": "sha256:f80b26c096c2493c2e041daebdb67fbea9f0b02ee3428bea88481853f5f50e5c"
+    },
+    "youtube-seo": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "386bfa9f8b3e94230e51f2cdad4685ff661946cc554a18325a8857ce2f9d01ac",
+      "wellKnownDigest": "sha256:21c0a9e1e10a40ee803114020f35a9870e4bb74136f9ac126b92f4a066c64e1e"
+    },
+    "zero-click-risk-scorer": {
+      "source": "seoskills.sh",
+      "sourceUrl": "https://seoskills.sh",
+      "sourceType": "well-known",
+      "computedHash": "2c03ebc19c9e35a123e08f3312a79a6ec247547d5a344a8b4ad4157cf06b13ac",
+      "wellKnownDigest": "sha256:17cc4dabfe5bd1d1d48c389d938a382ce63b1e1c25425b21720983a57fe08703"
+    }
+  }
+}

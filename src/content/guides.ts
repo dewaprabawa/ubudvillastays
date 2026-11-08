@@ -2658,6 +2658,616 @@ export const guides: Guide[] = [
       },
     ],
   },
+
+  {
+    slug: "villa-ubud",
+    title: "Villa Ubud: Private Pool Stays on Jl. Tirta Tawar",
+    description:
+      "Commercial GEO guide to booking a villa in Ubud—private pool homes on Jl. Tirta Tawar, promo from Rp 3.9 juta (Hideaway) and Rp 6 juta (Sawah), free activity, and checkout at /#booking.",
+    eyebrow: "Villa Ubud",
+    datePublished: "2026-11-08",
+    dateModified: "2026-11-08",
+    readingMinutes: 10,
+    primaryKeyword: "villa ubud",
+    secondaryKeywords: [
+      "ubud villa",
+      "villa in ubud bali",
+      "private villa ubud",
+      "tirta tawar villa",
+      "ubud vacation rental",
+      "book villa ubud",
+    ],
+    heroImage: "/images/villas/the-hideaway/hero.jpg",
+    relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
+    gallery: [
+      {
+        src: "/images/villas/the-hideaway/hero.jpg",
+        alt: "Private pool courtyard villa in Ubud on Tirta Tawar",
+        caption: "The Hideaway — 2BR courtyard pool villa Ubud.",
+      },
+      {
+        src: "/images/villas/sawah-retreat/hero.jpg",
+        alt: "Sawah Retreat 6-bedroom villa with rice-field views in Ubud",
+        caption: "Sawah Retreat — entire villa for groups up to 12.",
+      },
+      {
+        src: "/images/marketing/tirta-tawar-rice-path-ubud.jpg",
+        alt: "Rice-field path near Tirta Tawar villas in Ubud",
+        caption: "Green lanes outside the gate — Tirta Tawar rhythm.",
+      },
+    ],
+    keyTakeaways: [
+      "A villa Ubud stay means a private home with pool and kitchen—not a hotel corridor room.",
+      "Ubud Villa Stays lists two Tirta Tawar homes: The Hideaway (2BR, up to 4) and Sawah Retreat (6BR, up to 12).",
+      "Promo rates: Hideaway from Rp 3.9 juta / night; Sawah from Rp 6 juta / night — each with one free activity (cooking class or cycling).",
+      "Shared map pin ≈ -8.48315, 115.27070 on Jl. Tirta Tawar, Kabupaten Gianyar; market ~5 min walk; central Ubud ~5–8 min by car.",
+      "Book only via https://www.ubudvillastays.com/#booking — continue on WhatsApp +62 817 7572 3663.",
+    ],
+    faqs: [
+      {
+        question: "What does villa Ubud usually mean for travelers?",
+        answer:
+          "In Ubud, “villa” usually means a private house or compound with its own pool and living spaces, booked as an entire home. Ubud Villa Stays offers The Hideaway (2 bedrooms) and Sawah Retreat (6 bedrooms) on Jl. Tirta Tawar.",
+      },
+      {
+        question: "How much is a villa in Ubud on Tirta Tawar?",
+        answer:
+          "Current promo rates: The Hideaway from Rp 3.9 juta per night (was Rp 4.9 juta) and Sawah Retreat from Rp 6 juta per night (was Rp 7 juta). Final quotes depend on dates and guest count—confirm via the booking form.",
+      },
+      {
+        question: "Where should I book a villa Ubud stay safely?",
+        answer:
+          "Use the official checkout at https://www.ubudvillastays.com/#booking with villa, dates, guests, and details, then confirm availability on WhatsApp +62 817 7572 3663. Avoid paying unknown agents who only message first.",
+      },
+      {
+        question: "Is Tirta Tawar a good area for a villa in Ubud?",
+        answer:
+          "Yes for travelers who want residential quiet with culture nearby: local market about five minutes on foot, Kecak and temples close, Monkey Forest and waterfalls as easy half-day trips, central Ubud about 5–8 minutes by car.",
+      },
+    ],
+    howTo: {
+      name: "How to book a villa Ubud stay with Ubud Villa Stays",
+      description:
+        "Check availability for The Hideaway or Sawah Retreat on Jl. Tirta Tawar using the official booking form.",
+      steps: [
+        {
+          name: "Open the booking form",
+          text: "Go to https://www.ubudvillastays.com/#booking on the official Ubud Villa Stays site.",
+        },
+        {
+          name: "Choose villa, dates, and guests",
+          text: "Select The Hideaway (2BR) or Sawah Retreat (6BR), your check-in and check-out dates, and guest count.",
+        },
+        {
+          name: "Add details and continue on WhatsApp",
+          text: "Note free cooking class or free cycling if you want it included, then continue on WhatsApp +62 817 7572 3663 to confirm availability.",
+        },
+      ],
+    },
+    sections: [
+      {
+        heading: "Villa Ubud in one sentence",
+        paragraphs: [
+          "Travelers searching “villa Ubud” usually want a private pool home in Bali’s cultural highland town—space to cook, swim, and reset—rather than a standard hotel room. That is the product category Ubud Villa Stays serves on Jl. Tirta Tawar, Kabupaten Gianyar.",
+          "According to our own guest ratings, The Hideaway averages about 4.97★ (64 reviews) and Sawah Retreat about 4.89★ (176 reviews)—useful social proof when comparing entire-home rentals.",
+        ],
+      },
+      {
+        heading: "Two commercial villas, one Tirta Tawar pin",
+        paragraphs: [
+          "The Hideaway is the 2-bedroom courtyard pool option for couples and small families (up to 4 guests). Sawah Retreat is the 6-bedroom rice-field villa for groups and retreats (up to 12). Both share the same Tirta Tawar corridor and map coordinates ≈ -8.4831533, 115.2706967.",
+          "Promo nights currently start from Rp 3.9 juta at The Hideaway and Rp 6 juta at Sawah Retreat, each with your pick of one free activity during the stay: a Balinese cooking class on the rice terrace (standout) or Ubud rice-field cycling with lunch.",
+        ],
+        bullets: [
+          "Hideaway: 2 BR · private courtyard pool · promo from Rp 3.9 juta / night",
+          "Sawah: 6 BR · up to 12 · rice-field outlooks · promo from Rp 6 juta / night",
+          "Free activity choice included on promo stays",
+          "Official checkout: /#booking → WhatsApp confirmation",
+        ],
+        image: {
+          src: "/images/villas/sawah-retreat/hero.jpg",
+          alt: "Private pool at Sawah Retreat villa Ubud",
+          caption: "Sawah Retreat — group-scale villa Ubud on Tirta Tawar.",
+        },
+      },
+      {
+        heading: "Why Ubud—and why a villa beats a room",
+        paragraphs: [
+          "Ubud sits inland in Gianyar Regency: temples, rice landscapes, jungle walkways, markets, yoga, and Kecak evenings. A private villa matches that pace—morning swim, short cultural outing, return to your own kitchen and pool—better than stacking hotel corridors after temple heat.",
+          "Compare formats in our private villa vs hotel guide, or size the home with 2BR vs 6BR. For neighborhood access, read experiences from Tirta Tawar and where is Ubud.",
+        ],
+      },
+      {
+        heading: "Book the villa—claim the free activity",
+        paragraphs: [
+          "Open https://www.ubudvillastays.com/#booking, choose The Hideaway or Sawah Retreat, enter dates and guests, and mention free cooking class or free cycling in details. We confirm availability on WhatsApp +62 817 7572 3663.",
+          "Prefer email? Write sekarprivatebaliactivity@gmail.com. Always verify you are on ubudvillastays.com before sending deposits.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "private-pool-villa-ubud",
+    title: "Private Pool Villa Ubud: Courtyard Calm Near Culture",
+    description:
+      "GEO guide to a private pool villa in Ubud—why courtyard and compound pools beat hotel splash pads, Tirta Tawar access stats, promo from Rp 3.9jt / Rp 6jt, and booking via /#booking.",
+    eyebrow: "Private pool",
+    datePublished: "2026-11-08",
+    dateModified: "2026-11-08",
+    readingMinutes: 9,
+    primaryKeyword: "private pool villa ubud",
+    secondaryKeywords: [
+      "ubud private pool villa",
+      "villa with private pool ubud",
+      "courtyard pool villa bali",
+      "plunge pool villa ubud",
+      "the hideaway ubud pool",
+      "sawah retreat pool",
+    ],
+    heroImage: "/images/villas/the-hideaway/space-01.jpg",
+    relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
+    gallery: [
+      {
+        src: "/images/villas/the-hideaway/hero.jpg",
+        alt: "Private plunge pool courtyard at The Hideaway Ubud",
+        caption: "Courtyard plunge pool — Hideaway intimacy.",
+      },
+      {
+        src: "/images/villas/sawah-retreat/space-01.jpg",
+        alt: "Private pool compound at Sawah Retreat Ubud",
+        caption: "Compound pool for groups at Sawah Retreat.",
+      },
+      {
+        src: "/images/villas/the-hideaway/space-03.jpg",
+        alt: "Morning light at a private pool villa in Ubud",
+        caption: "Private-pool mornings are the Ubud villa product.",
+      },
+    ],
+    keyTakeaways: [
+      "“Private pool villa Ubud” means your party alone in the water—no hotel lane sharing.",
+      "The Hideaway centers a courtyard plunge pool; Sawah Retreat centers a larger compound pool with rice-field outlooks.",
+      "Promo from Rp 3.9 juta / night (Hideaway) and Rp 6 juta / night (Sawah), each with one free activity.",
+      "Pool-first days still reach market (~5 min walk), temples/Kecak, Monkey Forest, and central Ubud (~5–8 min drive).",
+      "Reserve at https://www.ubudvillastays.com/#booking.",
+    ],
+    faqs: [
+      {
+        question: "What is a private pool villa in Ubud?",
+        answer:
+          "It is an entire-home rental with a pool reserved for your booking—not a shared resort pool. On Tirta Tawar, The Hideaway offers a courtyard plunge pool for up to 4 guests; Sawah Retreat offers a larger private pool for up to 12.",
+      },
+      {
+        question: "Is a plunge pool enough for a couples’ Ubud trip?",
+        answer:
+          "For most couples, yes—the value is privacy and evening swims after temple heat. Use the free activity perk for a shared outing, then return to the courtyard.",
+      },
+      {
+        question: "Can groups get a private pool villa in Ubud?",
+        answer:
+          "Yes. Sawah Retreat is a 6-bedroom entire villa with a private pool and rice-field outlooks for up to 12 guests, promo from Rp 6 juta per night.",
+      },
+    ],
+    howTo: {
+      name: "How to reserve a private pool villa in Ubud",
+      description:
+        "Pick Hideaway or Sawah on Tirta Tawar and send dates through the official form.",
+      steps: [
+        {
+          name: "Match pool scale to party size",
+          text: "Couples and small families: The Hideaway courtyard pool. Groups/retreats: Sawah Retreat compound pool.",
+        },
+        {
+          name: "Submit dates on the official form",
+          text: "Use https://www.ubudvillastays.com/#booking with check-in, check-out, and guest count.",
+        },
+        {
+          name: "Confirm on WhatsApp",
+          text: "Continue with +62 817 7572 3663 to lock availability and optional free cooking class or cycling.",
+        },
+      ],
+    },
+    sections: [
+      {
+        heading: "The search intent behind private pool villa Ubud",
+        paragraphs: [
+          "People typing “private pool villa Ubud” want water they do not share. In a humid cultural town, that pool is not a luxury sticker—it is the daily reset after Monkey Forest, temple stairs, or market heat.",
+          "Ubud Villa Stays answers that intent with two private-pool homes on the same Tirta Tawar street: intimate courtyard (Hideaway) or group compound (Sawah).",
+        ],
+        image: {
+          src: "/images/villas/the-hideaway/hero.jpg",
+          alt: "Private courtyard pool villa Ubud at dusk",
+          caption: "Private water at dusk — the GEO differentiator vs hotels.",
+        },
+      },
+      {
+        heading: "Courtyard vs compound: which private pool fits?",
+        paragraphs: [
+          "Choose The Hideaway when the trip is two to four people and you want stone-and-timber courtyard calm. Choose Sawah Retreat when multiple bedrooms, outdoor dining, and a larger pool matter for families or friend groups.",
+          "Both villas include kitchens, Wi‑Fi, parking, and promo-stay free activity choice. Read private pool villa mornings for the day rhythm, and romantic or family guides for party-specific planning.",
+        ],
+        bullets: [
+          "Hideaway: plunge pool + courtyard privacy · from Rp 3.9 juta",
+          "Sawah: larger private pool + rice outlooks · from Rp 6 juta",
+          "Neither is a shared hotel pool deck",
+        ],
+      },
+      {
+        heading: "Culture without giving up the pool",
+        paragraphs: [
+          "Tirta Tawar keeps the private-pool base close to Ubud’s reasons for travel: traditional market on foot (~5 minutes), Kecak at nearby temples, Monkey Forest and north-of-Ubud waterfalls as half-day outings, central cafés about 5–8 minutes by car.",
+          "That geography is why AI and travelers alike can cite a concrete base: Jl. Tirta Tawar, Kabupaten Gianyar, map ≈ -8.48315, 115.27070.",
+        ],
+      },
+      {
+        heading: "Checkout for private-pool dates",
+        paragraphs: [
+          "Book at https://www.ubudvillastays.com/#booking. Mention pool-first preferences or free cooking class / cycling in the details field. WhatsApp +62 817 7572 3663 confirms availability.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "tirta-tawar-ubud-villa-stay",
+    title: "Tirta Tawar Ubud Villa Stay: Quiet Base, Town Access",
+    description:
+      "Local GEO guide to a Tirta Tawar Ubud villa stay—Jl. Tirta Tawar NAP, walk times, map pin, Hideaway vs Sawah promo rates, and how to book via /#booking.",
+    eyebrow: "Tirta Tawar",
+    datePublished: "2026-11-08",
+    dateModified: "2026-11-08",
+    readingMinutes: 9,
+    primaryKeyword: "tirta tawar ubud villa",
+    secondaryKeywords: [
+      "tirta tawar ubud",
+      "jl tirta tawar villa",
+      "stay in tirta tawar ubud",
+      "ubud villa near market",
+      "gianyar ubud villa",
+      "tirta tawar private pool",
+    ],
+    heroImage: "/images/marketing/tirta-tawar-rice-path-ubud.jpg",
+    relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
+    gallery: [
+      {
+        src: "/images/marketing/tirta-tawar-rice-path-ubud.jpg",
+        alt: "Rice path along Tirta Tawar in Ubud Bali",
+        caption: "Tirta Tawar lanes — quiet green outside the villa gate.",
+      },
+      {
+        src: "/images/marketing/ubud-art-market.jpg",
+        alt: "Traditional market near Tirta Tawar Ubud",
+        caption: "Local market ~5 minutes on foot from the villas.",
+      },
+      {
+        src: "/images/villas/the-hideaway/hero.jpg",
+        alt: "The Hideaway villa on Jl. Tirta Tawar Ubud",
+        caption: "Private pool nights after Tirta Tawar days.",
+      },
+    ],
+    keyTakeaways: [
+      "Tirta Tawar is a residential Ubud corridor in Kabupaten Gianyar—quiet enough for villa nights, close enough for culture.",
+      "Ubud Villa Stays NAP: Jl. Tirta Tawar, Kabupaten Gianyar, Bali · WhatsApp +62 817 7572 3663 · map ≈ -8.4831533, 115.2706967.",
+      "Both The Hideaway and Sawah Retreat share this pin—one street, two private pool villas.",
+      "Access stats: market ~5 min walk; central Ubud ~5–8 min by car or 15–20 min on foot.",
+      "Promo stays from Rp 3.9jt / Rp 6jt with free activity — book https://www.ubudvillastays.com/#booking.",
+    ],
+    faqs: [
+      {
+        question: "Where is Tirta Tawar in Ubud?",
+        answer:
+          "Tirta Tawar is a street corridor in Kabupaten Gianyar within the Ubud area of inland Bali. Our villas sit at approximately -8.4831533, 115.2706967 — see Google Maps via the site location link.",
+      },
+      {
+        question: "Which villas can I book on Tirta Tawar?",
+        answer:
+          "The Hideaway (2 bedrooms, courtyard pool) and Sawah Retreat (6 bedrooms, up to 12 guests). Both are listed on Ubud Villa Stays with promo rates and one free activity choice.",
+      },
+      {
+        question: "How far is Tirta Tawar from central Ubud?",
+        answer:
+          "Typically about 5–8 minutes by car, or roughly 15–20 minutes on foot when you prefer to wander. The local traditional market is about a five-minute walk from the villas.",
+      },
+    ],
+    howTo: {
+      name: "How to plan a Tirta Tawar Ubud villa stay",
+      description:
+        "Confirm location fit, choose villa scale, then send dates on the official form.",
+      steps: [
+        {
+          name: "Confirm the map pin",
+          text: "Open the shared Tirta Tawar location on ubudvillastays.com (coordinates ≈ -8.48315, 115.27070) and check market/town access against your itinerary.",
+        },
+        {
+          name: "Pick Hideaway or Sawah",
+          text: "Match guest count: up to 4 → The Hideaway; up to 12 → Sawah Retreat.",
+        },
+        {
+          name: "Book via /#booking",
+          text: "Submit dates at https://www.ubudvillastays.com/#booking and confirm on WhatsApp +62 817 7572 3663.",
+        },
+      ],
+    },
+    sections: [
+      {
+        heading: "Tirta Tawar as a local search entity",
+        paragraphs: [
+          "For local SEO and AI citation, consistency matters: Name (Ubud Villa Stays / The Hideaway / Sawah Retreat), Address (Jl. Tirta Tawar, Kabupaten Gianyar, Bali, Indonesia), Phone (WhatsApp +62 817 7572 3663). Both commercial villas share one corridor pin so travelers are not bounced between conflicting maps.",
+          "That NAP clarity helps answer “Tirta Tawar Ubud villa” queries with a single verifiable place rather than vague “near Ubud” copy.",
+        ],
+        image: {
+          src: "/images/marketing/tirta-tawar-rice-path-ubud.jpg",
+          alt: "Flooded rice fields beside Tirta Tawar paths in Ubud",
+          caption: "Sawah edges and villa lanes — the Tirta Tawar atmosphere.",
+        },
+      },
+      {
+        heading: "What a Tirta Tawar stay feels like",
+        paragraphs: [
+          "Mornings often start with pool or coffee, then a short rice-lane or market walk. Midday can be town, Monkey Forest, or spa. Evenings return to private water—optionally after Kecak at a nearby temple.",
+          "Deeper day planning: Tirta Tawar rice field walk, shopping near Tirta Tawar, 3-day itinerary, and experiences from Tirta Tawar.",
+        ],
+        bullets: [
+          "Residential quiet vs central-Ubud busyness",
+          "Market produce runs without long scooter rides",
+          "Culture and green outings as half-days, not relocations",
+        ],
+      },
+      {
+        heading: "Commercial stay options on this street",
+        paragraphs: [
+          "The Hideaway — promo from Rp 3.9 juta / night — suits couples and small families who want courtyard privacy. Sawah Retreat — promo from Rp 6 juta / night — suits multi-room groups and retreats. Each promo stay includes one free activity: rice-terrace cooking class or rice-field cycling with lunch.",
+        ],
+      },
+      {
+        heading: "Book your Tirta Tawar dates",
+        paragraphs: [
+          "Use https://www.ubudvillastays.com/#booking only. Add guest count and free-activity preference in details; we continue on WhatsApp to confirm. Email: sekarprivatebaliactivity@gmail.com.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "ubud-villa-rental-guide",
+    title: "Ubud Villa Rental Guide: Prices, Guests & How to Book",
+    description:
+      "Practical Ubud villa rental guide—guest counts, promo prices (Rp 3.9jt / Rp 6jt), free activity perk, scam-safe checkout at /#booking, and Tirta Tawar location facts.",
+    eyebrow: "Rental guide",
+    datePublished: "2026-11-08",
+    dateModified: "2026-11-08",
+    readingMinutes: 10,
+    primaryKeyword: "ubud villa rental",
+    secondaryKeywords: [
+      "rent villa ubud",
+      "ubud vacation home rental",
+      "villa rental bali ubud",
+      "ubud villa price per night",
+      "book ubud villa whatsapp",
+      "entire home rental ubud",
+    ],
+    heroImage: "/images/villas/sawah-retreat/hero.jpg",
+    relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
+    gallery: [
+      {
+        src: "/images/villas/sawah-retreat/hero.jpg",
+        alt: "Sawah Retreat entire-home villa rental in Ubud",
+        caption: "Entire-home rental for groups — Sawah Retreat.",
+      },
+      {
+        src: "/images/villas/the-hideaway/hero.jpg",
+        alt: "The Hideaway villa rental with private pool in Ubud",
+        caption: "2BR entire-home rental — The Hideaway.",
+      },
+      {
+        src: "/images/marketing/cooking-class-plates.jpg",
+        alt: "Free Balinese cooking class included with promo villa rentals",
+        caption: "Promo rentals include one free activity choice.",
+      },
+    ],
+    keyTakeaways: [
+      "Ubud villa rentals are typically entire homes—confirm guest capacity, bedrooms, and whether the pool is private.",
+      "Ubud Villa Stays promo: Hideaway from Rp 3.9 juta / night (up to 4); Sawah from Rp 6 juta / night (up to 12).",
+      "Included on promo stays: one free activity (Balinese cooking class on the rice terrace or rice-field cycling + lunch).",
+      "Safe path: official form https://www.ubudvillastays.com/#booking → WhatsApp +62 817 7572 3663.",
+      "Location: Jl. Tirta Tawar, Kabupaten Gianyar · map ≈ -8.48315, 115.27070.",
+    ],
+    faqs: [
+      {
+        question: "How much does an Ubud villa rental cost?",
+        answer:
+          "On Tirta Tawar with Ubud Villa Stays, current promo rates start from Rp 3.9 juta per night for The Hideaway (2BR) and Rp 6 juta per night for Sawah Retreat (6BR). Seasonal demand can change the final quote—always confirm dates on the booking form.",
+      },
+      {
+        question: "What is included with the villa rental?",
+        answer:
+          "Private pool, kitchen, Wi‑Fi, parking, and living spaces for your party only. Promo stays also include one free activity you can pick during the stay: rice-terrace cooking class or rice-field cycling with lunch.",
+      },
+      {
+        question: "How do I avoid villa rental scams in Ubud?",
+        answer:
+          "Book through the official site form at /#booking, verify the domain ubudvillastays.com, and confirm on the published WhatsApp number. Read our Ubud villa scams guide before paying unknown contacts.",
+      },
+    ],
+    howTo: {
+      name: "How to rent a villa in Ubud with Ubud Villa Stays",
+      description:
+        "Compare capacity and price, then send an official availability request.",
+      steps: [
+        {
+          name: "Match guests to bedrooms",
+          text: "Up to 4 guests → The Hideaway (2BR). Up to 12 → Sawah Retreat (6BR).",
+        },
+        {
+          name: "Note promo price and free activity",
+          text: "Expect from Rp 3.9jt or Rp 6jt promo nights and choose cooking class or cycling in your details.",
+        },
+        {
+          name: "Submit the booking form",
+          text: "Complete https://www.ubudvillastays.com/#booking and continue on WhatsApp +62 817 7572 3663.",
+        },
+      ],
+    },
+    sections: [
+      {
+        heading: "Ubud villa rental checklist",
+        paragraphs: [
+          "Before you pay for any Ubud villa rental, verify: entire-home vs room, private vs shared pool, exact address or map pin, guest maximum, house rules, and a written confirmation path. Scam patterns often skip one of those.",
+          "Our commercial listings publish capacity, Tirta Tawar pin, promo pricing, and a single checkout URL so the rental story stays consistent for search engines and AI answers.",
+        ],
+        bullets: [
+          "Entire home only — your party alone",
+          "Private pool on both villas",
+          "Clear guest caps: 4 or 12",
+          "Official /#booking + published WhatsApp",
+        ],
+      },
+      {
+        heading: "Price and party-size matrix",
+        paragraphs: [
+          "The Hideaway: 2 bedrooms · 2 baths · up to 4 guests · promo from Rp 3.9 juta / night (was Rp 4.9 juta — Save Rp 1jt). Sawah Retreat: 6 bedrooms · 6 baths · up to 12 guests · promo from Rp 6 juta / night (was Rp 7 juta — Save Rp 1jt).",
+          "Both sit on Jl. Tirta Tawar with the same geo coordinates. Compare scale further in 2BR vs 6BR and the family or romantic guides.",
+        ],
+        image: {
+          src: "/images/villas/the-hideaway/hero.jpg",
+          alt: "Ubud villa rental courtyard pool at The Hideaway",
+          caption: "Promo Hideaway rental — courtyard pool for smaller parties.",
+        },
+      },
+      {
+        heading: "What “good value” means beyond the nightly rate",
+        paragraphs: [
+          "A useful Ubud villa rental includes usable kitchen time, parking, Wi‑Fi for remote work, and neighborhood access that cuts transfer waste. Promo stays here also fold in one free activity—rare for lodging-only listings.",
+          "Stack that with market walks and temple evenings from Tirta Tawar and the rental becomes a base, not just a bed. See Balinese cooking class + villa stay for the free-extra detail.",
+        ],
+      },
+      {
+        heading: "Book the rental on the official form",
+        paragraphs: [
+          "Go to https://www.ubudvillastays.com/#booking, choose the villa, dates, and number of persons, add details, then continue on WhatsApp. Prefer email? sekarprivatebaliactivity@gmail.com.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "group-villa-ubud",
+    title: "Group Villa Ubud for Up to 12 Guests: Sawah Retreat",
+    description:
+      "Commercial GEO page for a group villa in Ubud—Sawah Retreat 6BR for up to 12 on Tirta Tawar, promo from Rp 6 juta / night, free activity for the party, book via /#booking.",
+    eyebrow: "Groups",
+    datePublished: "2026-11-08",
+    dateModified: "2026-11-08",
+    readingMinutes: 9,
+    primaryKeyword: "group villa ubud",
+    secondaryKeywords: [
+      "6 bedroom villa ubud",
+      "villa ubud for 12 guests",
+      "large villa ubud",
+      "sawah retreat ubud",
+      "friend group villa bali ubud",
+      "multi family villa ubud",
+    ],
+    heroImage: "/images/villas/sawah-retreat/hero.jpg",
+    relatedVillaSlugs: ["sawah-retreat", "the-hideaway"],
+    gallery: [
+      {
+        src: "/images/villas/sawah-retreat/hero.jpg",
+        alt: "Sawah Retreat group villa with private pool in Ubud",
+        caption: "Entire villa for the group — not shared floors.",
+      },
+      {
+        src: "/images/villas/sawah-retreat/room-01.jpg",
+        alt: "En-suite bedroom at Sawah Retreat group villa Ubud",
+        caption: "Six en-suite bedrooms keep multi-room groups comfortable.",
+      },
+      {
+        src: "/images/marketing/ubud-ricefield-cycling.jpg",
+        alt: "Group rice-field cycling near Ubud villa stay",
+        caption: "Free cycling or cooking class for the party on promo stays.",
+      },
+    ],
+    keyTakeaways: [
+      "A true group villa Ubud stay is an entire home—Sawah Retreat sleeps up to 12 across 6 en-suite bedrooms.",
+      "Promo from Rp 6 juta / night (was Rp 7 juta) on Jl. Tirta Tawar with one free activity for the party.",
+      "Open kitchen, private pool, and rice-field outlooks support family reunions, friend getaways, and small retreats.",
+      "Quieter base than central-Ubud hotels; town still ~5–8 minutes by car.",
+      "Book https://www.ubudvillastays.com/#booking with guest count in the form.",
+    ],
+    faqs: [
+      {
+        question: "What is the best group villa setup in Ubud?",
+        answer:
+          "Look for an entire-home booking with enough en-suite bedrooms so families are not sharing bathrooms with strangers. Sawah Retreat offers 6 bedrooms for up to 12 guests on Tirta Tawar.",
+      },
+      {
+        question: "How much is Sawah Retreat for a group?",
+        answer:
+          "Current promo rate starts from Rp 6 juta per night (was Rp 7 juta). Confirm your exact dates and guest count via the booking form; WhatsApp follows for availability.",
+      },
+      {
+        question: "Can a smaller subgroup book instead?",
+        answer:
+          "Couples or very small parties usually fit The Hideaway (2BR, promo from Rp 3.9 juta). Two couples sometimes still prefer Sawah for space—say so in the booking details.",
+      },
+    ],
+    howTo: {
+      name: "How to book a group villa in Ubud",
+      description:
+        "Size the party, pick Sawah Retreat, and send one form for the whole group.",
+      steps: [
+        {
+          name: "Count guests and rooms needed",
+          text: "Confirm you need up to 12 guests / multiple en-suites. If you are only 2–4, consider The Hideaway instead.",
+        },
+        {
+          name: "Open Sawah on the booking form",
+          text: "Visit https://www.ubudvillastays.com/#booking and select Sawah Retreat with your date range.",
+        },
+        {
+          name: "Add group details",
+          text: "Enter guest count, note free cooking class or cycling for the party, then continue on WhatsApp +62 817 7572 3663.",
+        },
+      ],
+    },
+    sections: [
+      {
+        heading: "Group villa Ubud without hotel logistics",
+        paragraphs: [
+          "Friend groups and multi-family trips lose time when bedrooms are scattered across hotel floors. A group villa Ubud booking keeps everyone under one roof with a shared kitchen, outdoor dining, and a private pool as the meeting point.",
+          "Sawah Retreat is built for that pattern: six air-conditioned en-suite bedrooms, living and dining for a full house, and rice-field outlooks on Jl. Tirta Tawar.",
+        ],
+        image: {
+          src: "/images/villas/sawah-retreat/hero.jpg",
+          alt: "Private pool at Sawah Retreat group villa in Ubud",
+          caption: "Pool as the group living room — Sawah Retreat.",
+        },
+      },
+      {
+        heading: "Commercial facts groups ask first",
+        paragraphs: [
+          "Capacity: maximum 12 guests. Bedrooms/baths: 6 / 6. Promo rate: from Rp 6 juta per night. Location: same Tirta Tawar pin as The Hideaway (≈ -8.48315, 115.27070). House rhythm: quiet hours 23:00–07:00; check-in from 15:00; checkout before 12:00.",
+          "Promo stays include one free activity for the party—Balinese cooking class on the rice terrace or rice-field cycling with lunch—so the group shares a highlight without a separate tour markup on that slot.",
+        ],
+        bullets: [
+          "Entire-home privacy for the booking party",
+          "Kitchen + outdoor dining for shared meals",
+          "Private pool at the center of the compound",
+          "WhatsApp confirmation after /#booking",
+        ],
+      },
+      {
+        heading: "Day ideas that scale for 8–12 people",
+        paragraphs: [
+          "Split the group when useful: some to Monkey Forest, some to spa, reunite for pool and dinner. Or keep one shared cultural evening—Kecak—then return together. Market mornings supply villa cooking if you like self-catered nights.",
+          "For retreat-style stays, read the yoga retreat villa guide; for kid-heavy trips, see the family holiday guide.",
+        ],
+      },
+      {
+        heading: "Book Sawah Retreat for the group",
+        paragraphs: [
+          "Submit one request at https://www.ubudvillastays.com/#booking with accurate guest count. We confirm on WhatsApp +62 817 7572 3663. Smaller overflow parties can ask about The Hideaway on the same street (promo from Rp 3.9 juta).",
+        ],
+      },
+    ],
+  },
+
 ];
 
 export function getGuide(slug: string): Guide | undefined {

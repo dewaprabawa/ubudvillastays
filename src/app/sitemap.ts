@@ -37,6 +37,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(guide.dateModified),
       changeFrequency: "monthly" as const,
       priority: [
+        "villa-ubud",
+        "private-pool-villa-ubud",
+        "tirta-tawar-ubud-villa-stay",
+        "ubud-villa-rental-guide",
+        "group-villa-ubud",
         "where-is-ubud",
         "what-people-do-in-ubud",
         "visiting-ubud-for-travelers",

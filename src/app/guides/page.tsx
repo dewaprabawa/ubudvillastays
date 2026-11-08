@@ -11,12 +11,19 @@ import styles from "./page.module.css";
 export const metadata: Metadata = {
   title: "Ubud Travel & Villa Guides",
   description:
-    "Editorial guides to Ubud, Bali—Tirta Tawar rice-field walks, shopping and boutiques, experiences, where to stay, and villa planning—with private pool villa recommendations on Jl. Tirta Tawar.",
+    "Villa Ubud guides for Tirta Tawar—private pool villa stays, rentals from Rp 3.9jt / Rp 6jt, group homes up to 12, experiences, and booking via /#booking.",
+  keywords: [
+    "villa ubud",
+    "private pool villa ubud",
+    "tirta tawar ubud villa",
+    "ubud villa rental",
+    "group villa ubud",
+  ],
   alternates: { canonical: "/guides" },
   openGraph: {
     title: `Ubud Guides · ${siteConfig.name}`,
     description:
-      "Why Ubud is a top Bali destination, best villa areas, and how to book the right private pool home.",
+      "Commercial GEO guides to villa Ubud stays on Jl. Tirta Tawar—prices, private pools, and how to book.",
     url: `${siteConfig.url}/guides`,
   },
 };
@@ -30,8 +37,9 @@ export default function GuidesIndexPage() {
           <p className={styles.kicker}>Guides</p>
           <h1>Ubud destination & villa guides</h1>
           <p>
-            Practical, GEO-aware reading for travelers researching Ubud villa
-            rentals, neighborhoods, and wellness stays in Bali.
+            Practical GEO reading for villa Ubud searches—private pool homes on
+            Jl. Tirta Tawar, rental prices, group stays, and neighborhood
+            planning. Checkout at /#booking.
           </p>
         </Reveal>
 

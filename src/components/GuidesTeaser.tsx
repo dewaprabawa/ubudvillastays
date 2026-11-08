@@ -6,9 +6,11 @@ import styles from "./GuidesTeaser.module.css";
 
 export function GuidesTeaser() {
   const featuredSlugs = [
-    "balinese-cooking-class-ubud-villa-stay",
-    "ubud-3-day-itinerary-tirta-tawar",
-    "ubud-experiences-from-tirta-tawar",
+    "villa-ubud",
+    "private-pool-villa-ubud",
+    "tirta-tawar-ubud-villa-stay",
+    "ubud-villa-rental-guide",
+    "group-villa-ubud",
   ];
   const featured = featuredSlugs
     .map((slug) => guides.find((guide) => guide.slug === slug))
@@ -22,8 +24,8 @@ export function GuidesTeaser() {
         <p className={styles.kicker}>Guides</p>
         <h2 id="guides-title">Plan the stay — and the days around it</h2>
         <p className={styles.lede}>
-          Free rice-terrace cooking class with your villa stay, plus itinerary
-          and Tirta Tawar experience guides — checkout at /#booking.
+          Villa Ubud and Tirta Tawar stay guides — private pool homes, rental
+          prices, and group stays — checkout at /#booking.
         </p>
         <p className={styles.deal}>
           <Link href="/villas/the-hideaway#offer">

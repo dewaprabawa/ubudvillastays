@@ -34,9 +34,12 @@ export function HomeHero() {
           <br />
           Real Ubud days.
         </h1>
+        <h2 className={styles.answer}>
+          Private pool villas in Tirta Tawar, Ubud
+        </h2>
         <p className={styles.support}>
           {offer && sawah?.offer
-            ? `${featured.shortName} from ${offer.priceLabel} / night · ${sawah.shortName} from ${sawah.offer.priceLabel} / night — both include one free activity: rice-terrace cooking class or rice-field cycling.`
+            ? `The Hideaway is a ${featured.facts.bedrooms}-bedroom courtyard villa for up to ${featured.facts.guests} guests, from ${offer.priceLabel} / night. Sawah Retreat is a ${sawah.facts.bedrooms}-bedroom rice-field villa for up to ${sawah.facts.guests} guests, from ${sawah.offer.priceLabel} / night. Each promo stay includes one free activity: a rice-terrace cooking class or rice-field cycling with lunch.`
             : siteConfig.tagline}
         </p>
         <div className={styles.actions}>

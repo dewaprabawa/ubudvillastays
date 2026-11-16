@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { type Guide } from "@/content/guides";
+import { getRelatedGuides } from "@/content/related-guides";
 import { BookButton } from "@/components/BookButton";
 import {
   bookingCtaCopy,
@@ -12,10 +13,25 @@ import {
 } from "@/lib/site";
 import styles from "./GuideArticle.module.css";
 
+function formatGuideDate(iso: string): string {
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso);
+  if (!match) return iso;
+  const date = new Date(
+    Date.UTC(Number(match[1]), Number(match[2]) - 1, Number(match[3])),
+  );
+  return new Intl.DateTimeFormat("en-GB", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    timeZone: "UTC",
+  }).format(date);
+}
+
 export function GuideArticle({ guide }: { guide: Guide }) {
   const related = guide.relatedVillaSlugs
     .map((slug) => getVilla(slug))
     .filter(Boolean);
+  const relatedGuides = getRelatedGuides(guide.slug);
 
   const faqs = [...(guide.faqs ?? [])];
   if (!faqs.some((item) => /book/i.test(item.question))) {
@@ -43,8 +59,13 @@ export function GuideArticle({ guide }: { guide: Guide }) {
           <p className={styles.eyebrow}>{guide.eyebrow}</p>
           <h1>{guide.title}</h1>
           <p className={styles.meta}>
-            {guide.readingMinutes} min read · Updated {guide.dateModified} ·{" "}
-            {siteConfig.location.city}, {siteConfig.location.region}
+            By {siteConfig.name}, host on {siteConfig.location.streetAddress}
+            {" · "}
+            <time dateTime={guide.dateModified}>
+              Updated {formatGuideDate(guide.dateModified)}
+            </time>
+            {" · "}
+            {guide.readingMinutes} min read
           </p>
         </div>
       </header>
@@ -195,6 +216,22 @@ export function GuideArticle({ guide }: { guide: Guide }) {
             </Link>
           </div>
         </section>
+
+        {relatedGuides.length ? (
+          <nav className={styles.guideLinks} aria-labelledby="related-guides">
+            <h2 id="related-guides">Related guides</h2>
+            <ul>
+              {relatedGuides.map((item) => (
+                <li key={item.slug}>
+                  <Link href={`/guides/${item.slug}`}>
+                    <span>{item.eyebrow}</span>
+                    {item.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        ) : null}
       </div>
 
       {related.length ? (

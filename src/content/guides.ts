@@ -551,13 +551,13 @@ export const guides: Guide[] = [
       "Decide between a 2BR private courtyard villa and a 6BR rice-field villa in Ubud—guest count, budget feel, and trip style compared.",
     eyebrow: "Villa comparison",
     datePublished: "2026-11-01",
-    dateModified: "2026-11-01",
+    dateModified: "2026-11-16",
     readingMinutes: 5,
-    primaryKeyword: "2 bedroom villa ubud",
+    primaryKeyword: "2 bedroom vs 6 bedroom villa ubud",
     secondaryKeywords: [
-      "6 bedroom villa ubud",
+      "ubud villa size comparison",
       "family villa ubud",
-      "ubud villa rental",
+      "how many bedrooms villa ubud",
     ],
     heroImage: "/images/villas/sawah-retreat/space-02.jpg",
     relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
@@ -2346,15 +2346,14 @@ export const guides: Guide[] = [
       "GEO family guide to holidaying in Ubud with a private pool villa—why Sawah Retreat fits groups up to 12, kid-friendly pacing, and how to book Tirta Tawar dates.",
     eyebrow: "Families",
     datePublished: "2026-11-02",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-16",
     readingMinutes: 9,
-    primaryKeyword: "family villa ubud",
+    primaryKeyword: "family holiday ubud",
     secondaryKeywords: [
-      "ubud family holiday",
-      "6 bedroom villa ubud family",
       "ubud with kids",
-      "sawah retreat ubud",
-      "family pool villa bali ubud",
+      "ubud family holiday",
+      "sawah retreat family stay",
+      "kids villa holiday ubud",
     ],
     heroImage: "/images/villas/sawah-retreat/hero.jpg",
     relatedVillaSlugs: ["sawah-retreat", "the-hideaway"],
@@ -2429,20 +2428,20 @@ export const guides: Guide[] = [
   },
   {
     slug: "ubud-private-pool-villa-mornings",
-    title: "Private Pool Villa Mornings in Ubud: The Tirta Tawar Rhythm",
+    title: "Ubud Villa Morning Routine in Tirta Tawar",
     description:
-      "Impression essay and GEO guide to Ubud private pool villa mornings—rice light, market walks, courtyard coffee—and how Hideaway or Sawah Retreat on Tirta Tawar deliver that daily rhythm.",
+      "A morning routine for a Tirta Tawar villa stay—rice-field light, a short market walk, and courtyard coffee—at The Hideaway or Sawah Retreat in Ubud.",
     eyebrow: "Villa lifestyle",
     datePublished: "2026-11-02",
-    dateModified: "2026-11-02",
+    dateModified: "2026-11-16",
     readingMinutes: 7,
-    primaryKeyword: "private pool villa ubud",
+    primaryKeyword: "ubud villa morning routine",
     secondaryKeywords: [
-      "ubud villa with private pool",
+      "tirta tawar morning",
       "villa morning ubud",
-      "tirta tawar villa lifestyle",
-      "why stay villa ubud",
-      "ubud courtyard pool",
+      "rice field morning walk ubud",
+      "courtyard coffee ubud villa",
+      "ubud villa day rhythm",
     ],
     heroImage: "/images/marketing/canang-sari-ricefield.jpg",
     relatedVillaSlugs: ["the-hideaway", "sawah-retreat"],
@@ -2472,9 +2471,9 @@ export const guides: Guide[] = [
     ],
     faqs: [
       {
-        question: "Why book a private pool villa in Ubud instead of a hotel?",
+        question: "What does a villa morning in Tirta Tawar look like?",
         answer:
-          "You control breakfast timing, noise, and swim access without shared decks. That morning privacy is the core impression travelers seek in Ubud.",
+          "Coffee by the pool, a short walk past rice fields, and an optional five-minute market stop before the day heats up. The Hideaway and Sawah Retreat both sit on this lane.",
       },
       {
         question: "Where are your private pool villas?",
@@ -3263,6 +3262,100 @@ export const guides: Guide[] = [
         heading: "Book Sawah Retreat for the group",
         paragraphs: [
           "Submit one request at https://www.ubudvillastays.com/#booking with accurate guest count. We confirm on WhatsApp +62 817 7572 3663. Smaller overflow parties can ask about The Hideaway on the same street (promo from Rp 3.9 juta).",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "long-stay-villa-ubud",
+    title: "Long Stay Villa in Ubud: 28+ Nights at Sawah Retreat",
+    description:
+      "Sawah Retreat on Jl. Tirta Tawar welcomes Ubud villa stays of 28 nights or more — 6 bedrooms, a private pool, a full kitchen, and a workspace. Promo nightly rate from Rp 6 juta; confirm a long block on WhatsApp.",
+    eyebrow: "Long stays",
+    datePublished: "2026-11-16",
+    dateModified: "2026-11-16",
+    readingMinutes: 8,
+    primaryKeyword: "long stay villa ubud",
+    secondaryKeywords: [
+      "monthly villa ubud",
+      "ubud villa 28 nights",
+      "sawah retreat long stay",
+      "extended stay villa bali ubud",
+      "work from villa ubud",
+    ],
+    heroImage: "/images/villas/sawah-retreat/hero.jpg",
+    relatedVillaSlugs: ["sawah-retreat"],
+    gallery: [
+      {
+        src: "/images/villas/sawah-retreat/hero.jpg",
+        alt: "Sawah Retreat private pool villa for a long stay in Ubud",
+        caption: "The same pool and rice-field edge, for a month instead of a weekend.",
+      },
+      {
+        src: "/images/villas/sawah-retreat/gallery/kitchen-01.jpg",
+        alt: "Kitchen and dining at Sawah Retreat, Ubud",
+        caption: "A full kitchen for weeks of meals at home.",
+      },
+      {
+        src: "/images/marketing/tirta-tawar-rice-path-ubud.jpg",
+        alt: "Rice-field path beside Tirta Tawar villas in Ubud",
+        caption: "The lane you can walk every morning.",
+      },
+    ],
+    keyTakeaways: [
+      "Sawah Retreat on Jl. Tirta Tawar welcomes stays of 28 nights or longer.",
+      "The villa is an entire 6-bedroom house for up to 12 guests, with a private pool, full kitchen, and a desk for work.",
+      "The published promo rate is Rp 6 juta per night (was Rp 7 juta). A long block is confirmed on WhatsApp — there is no separate monthly price on this page.",
+      "Check-in is 3:00 PM–12:00 AM, checkout is before noon, and quiet hours are 11:00 PM–7:00 AM.",
+      "Book the dates at https://www.ubudvillastays.com/#booking and say the stay is 28 nights or more.",
+    ],
+    faqs: [
+      {
+        question: "Do you offer a long-stay villa in Ubud?",
+        answer:
+          "Yes. Sawah Retreat, the 6-bedroom villa on Jl. Tirta Tawar, welcomes stays of 28 nights or more. The Hideaway is the 2-bedroom sibling on the same lane for shorter visits.",
+      },
+      {
+        question: "What is the monthly rate for Sawah Retreat?",
+        answer:
+          "The published promo rate is Rp 6 juta per night (previously Rp 7 juta). We do not publish a separate monthly figure. Share your dates on WhatsApp and we confirm availability and the total for that block.",
+      },
+      {
+        question: "Can I work from the villa?",
+        answer:
+          "Sawah Retreat has fast Wi-Fi and a dedicated workspace with a desk and chair, plus a full kitchen so you are not eating out for every meal.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Who a month in Ubud is for",
+        paragraphs: [
+          "A long stay villa in Ubud suits remote workers, families between trips, and groups who want the same private pool house for several weeks. Sawah Retreat is that house: six en-suite bedrooms, up to 12 guests, and rice fields at the edge of the property on Jl. Tirta Tawar.",
+          "Shorter couple stays still fit The Hideaway, the 2-bedroom courtyard villa on the same street. The 28-night welcome is listed on Sawah Retreat.",
+        ],
+        image: {
+          src: "/images/villas/sawah-retreat/gallery/living-01.jpg",
+          alt: "Living room at Sawah Retreat for an extended Ubud stay",
+          caption: "Living space you can actually use for weeks.",
+        },
+      },
+      {
+        heading: "What stays the same after the first week",
+        paragraphs: [
+          "The promo nightly rate on the villa page is Rp 6 juta per night, down from Rp 7 juta. Promo stays include one free activity for the party — a Balinese cooking class on a rice terrace, or rice-field cycling with lunch. Breakfast is provided. Self check-in uses a lockbox.",
+          "House rules do not change with the length of the stay: maximum 12 guests, no pets, smoking allowed, quiet hours 11:00 PM–7:00 AM. Check-in is 3:00 PM–12:00 AM and checkout is before 12:00 PM.",
+        ],
+        bullets: [
+          "Full kitchen, outdoor dining, and a charcoal BBQ",
+          "Fast Wi-Fi and a desk workspace",
+          "Free on-property parking",
+          "Market about a 5-minute walk; central Ubud about 5–8 minutes by car",
+        ],
+      },
+      {
+        heading: "How to book 28 nights or more",
+        paragraphs: [
+          "Open https://www.ubudvillastays.com/#booking, choose Sawah Retreat, and enter the full date range plus guest count. In the details, write that this is a long stay of 28 nights or more. We confirm availability on WhatsApp +62 817 7572 3663. Cancellation terms depend on the dates, so ask once the dates are in the form.",
         ],
       },
     ],

@@ -10,6 +10,8 @@ Research basis: public Keyword Planner clustering studies (Bali tourism), SERP p
 | ubud villa rental | Commercial | P0 | `/`, `/villas/*` |
 | private pool villa ubud | Commercial | P0 | `/`, `/villas/the-hideaway`, `/villas/sawah-retreat` |
 | 2 bedroom villa ubud | Commercial | P0 | `/villas/the-hideaway` |
+| 2 bedroom vs 6 bedroom villa ubud | Commercial research | P1 | `/guides/2br-vs-6br-villa-ubud` |
+| long stay villa ubud | Commercial | P1 | `/guides/long-stay-villa-ubud` |
 | 6 bedroom villa ubud | Commercial | P0 | `/villas/sawah-retreat` |
 | family villa ubud | Commercial | P1 | `/villas/sawah-retreat` |
 | yoga retreat villa ubud | Commercial | P1 | `/villas/sawah-retreat`, guide |
@@ -25,6 +27,8 @@ Research basis: public Keyword Planner clustering studies (Bali tourism), SERP p
 | best area to stay in ubud | Commercial research | P0 | `/guides/best-area-to-stay-in-ubud-for-a-villa` |
 | ubud vs canggu / seminyak (where to stay) | Comparison | P1 | why-ubud + best-area guides |
 | private villa vs hotel ubud | Commercial | P1 | `/guides/private-villa-vs-hotel-in-ubud` |
+| ubud villa morning routine | Informational | P2 | `/guides/ubud-private-pool-villa-mornings` |
+| family holiday ubud | Informational | P1 | `/guides/family-holiday-ubud-villa` |
 | yoga retreat ubud villa | Mixed | P1 | `/guides/yoga-retreat-villa-stay-in-ubud` |
 | things to do in ubud | Informational | P1 | why-ubud guide (supporting) |
 | ubud rice terraces stay | GEO / commercial | P1 | sawah villa + best-area guide |
@@ -41,6 +45,7 @@ Research basis: public Keyword Planner clustering studies (Bali tourism), SERP p
 2. **The Hideaway** — *2 bedroom villa Ubud*, couple/small family
 3. **Sawah Retreat** — *6 bedroom villa Ubud*, *yoga retreat villa*, rice field views
 4. **Guides** — destination authority + internal links into WhatsApp / villa CTAs
+5. **Long stay** — `/guides/long-stay-villa-ubud` for 28+ nights at Sawah Retreat. Nightly promo stays Rp 6 juta; no separate monthly rate.
 
 ## GEO checklist
 - [x] Place / LodgingBusiness / VacationRental JSON-LD

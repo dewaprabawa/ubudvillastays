@@ -50,7 +50,11 @@ export default function GuidesIndexPage() {
                 <div className={styles.media}>
                   <Image
                     src={guide.heroImage}
-                    alt=""
+                    alt={
+                      /ubud/i.test(guide.title)
+                        ? `${guide.title} — Tirta Tawar, Bali`
+                        : `${guide.title} — Ubud, Tirta Tawar`
+                    }
                     fill
                     sizes="(max-width: 800px) 100vw, 33vw"
                     className={styles.image}

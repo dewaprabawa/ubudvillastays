@@ -11,6 +11,7 @@ export function GuidesTeaser() {
     "tirta-tawar-ubud-villa-stay",
     "ubud-villa-rental-guide",
     "group-villa-ubud",
+    "long-stay-villa-ubud",
   ];
   const featured = featuredSlugs
     .map((slug) => guides.find((guide) => guide.slug === slug))
